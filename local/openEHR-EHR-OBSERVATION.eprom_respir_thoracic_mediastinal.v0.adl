@@ -1,0 +1,272 @@
+archetype (adl_version=1.4; uid=118757a1-3675-4d7f-9c2d-f7b9da7008fd)
+	openEHR-EHR-OBSERVATION.eprom_respir_thoracic_mediastinal.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-07">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"c7ea2a3b5095d67e3633b6d99f4ac299">
+		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROM_Respir_Thoracic_Mediastinal
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Cough
+										value matches {
+											0|[local::at0005],
+											1|[local::at0049],
+											2|[local::at0050],
+											3|[local::at0051]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Bronchopulmonary_haemorrhage
+										value matches {
+											0|[local::at0010],
+											1|[local::at0052],
+											2|[local::at0053],
+											3|[local::at0054],
+											4|[local::at0055]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Palpitations
+										value matches {
+											0|[local::at0015],
+											1|[local::at0016],
+											2|[local::at0048]
+										}
+									}
+									ELEMENT[at0017] occurrences matches {0..1} matches {    -- Chest_pain_cardiac
+										value matches {
+											0|[local::at0018],
+											1|[local::at0019],
+											2|[local::at0020],
+											3|[local::at0021]
+										}
+									}
+									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Dyspnea
+										value matches {
+											0|[local::at0023],
+											1|[local::at0024],
+											2|[local::at0025],
+											3|[local::at0026],
+											4|[local::at0056]
+										}
+									}
+									ELEMENT[at0027] occurrences matches {0..1} matches {    -- Neck_pain
+										value matches {
+											0|[local::at0028],
+											1|[local::at0029],
+											2|[local::at0030],
+											3|[local::at0031]
+										}
+									}
+									ELEMENT[at0032] occurrences matches {0..1} matches {    -- Sore_throat
+										value matches {
+											0|[local::at0033],
+											1|[local::at0034],
+											2|[local::at0035],
+											3|[local::at0036]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROM_Respir_Thoracic_Mediastinal">
+					description = <"EPROM_Respir_Thoracic_Mediastinal">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Cough">
+					description = <"Do you have a cough? ">
+				>
+				["at0005"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Bronchopulmonary_haemorrhage">
+					description = <"Do you cough up blood?">
+				>
+				["at0010"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Palpitations">
+					description = <"Have you had new palpitations (the sensation of feeling your heart beating)? Or if you already have palpitations have they got worse recently?
+">
+				>
+				["at0015"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Yes but I have not required medical help">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Chest_pain_cardiac">
+					description = <"Do you have any pain in your chest? ">
+				>
+				["at0018"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Yes but it is mild">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Yes, I have pain even at rest and/or it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Dyspnea">
+					description = <"Do you feel short of breath?">
+				>
+				["at0023"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Yes and I become short of breath with moderate effort">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Yes and I become short of breath with minimal effort; this limits me from doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Yes and I am short of breath at rest; this limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Neck_pain">
+					description = <"Do you have any pain in your neck?">
+				>
+				["at0028"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Yes but it is mild pain in my neck">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Yes, it is moderate and this limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Yes and it is severe and /or makes it difficult to care for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Sore_throat">
+					description = <"Do you have a sore throat?">
+				>
+				["at0033"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Yes and I have mild pain">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)  and/or makes it difficult to swallow">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Yes and I have required medical help">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Yes but I have not required medical help">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping) and/or I have required medical help">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Yes but I have not required medical help">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Yes and I have required medical help">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Yes and I had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Yes and I had to be admitted to hospital and required an emergency procedure or operation">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+			>
+		>
+	>
