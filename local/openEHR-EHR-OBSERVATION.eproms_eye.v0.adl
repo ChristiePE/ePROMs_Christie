@@ -1,0 +1,133 @@
+archetype (adl_version=1.4; uid=7136ba9b-08ba-47cb-adb0-e1ceac490006)
+	openEHR-EHR-OBSERVATION.eproms_eye.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-07">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"a5e3ec699855886fb53d7429d91f9921">
+		["build_uid"] = <"84f1367c-e903-3fac-b37e-996c43f7e127">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROMS_Eye
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..1} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Blurred_vision
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Dry_eye
+										value matches {
+											0|[local::at0010],
+											1|[local::at0011],
+											2|[local::at0012],
+											3|[local::at0013]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0014] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROMS_Eye">
+					description = <"EPROMS_Eye">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Blurred_vision">
+					description = <" Do you have blurred vision?">
+				>
+				["at0005"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Dry_eye">
+					description = <"Do you have dry eyes?">
+				>
+				["at0010"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Yes but it does not affect my eyesight">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Yes and it affects my eyesight">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Yes and it significantly affects my eyesight and / or it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+	>
