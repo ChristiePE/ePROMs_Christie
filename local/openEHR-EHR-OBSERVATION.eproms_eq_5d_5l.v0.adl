@@ -1,0 +1,395 @@
+archetype (adl_version=1.4; uid=634331c1-77fd-4704-8c74-66c37d3a4d44)
+	openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-02-01">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"e0837169b87fb0cda2566a7509096571">
+		["build_uid"] = <"c1b15a4a-4419-314b-a2d8-29e039979b9b">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROMS_EQ_5D_5L
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0009] occurrences matches {0..1} matches {    -- Mobility
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Mobility
+												value matches {
+													1|[local::at0005],
+													2|[local::at0006],
+													3|[local::at0007],
+													4|[local::at0008],
+													5|[local::at0058]
+												}
+											}
+											ELEMENT[at0010] occurrences matches {0..1} matches {    -- Mobility_new_worse
+												value matches {
+													0|[local::at0011],
+													0|[local::at0012]
+												}
+											}
+										}
+									}
+									CLUSTER[at0013] occurrences matches {0..1} matches {    -- Self_care
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0014] occurrences matches {0..1} matches {    -- Self_care
+												value matches {
+													1|[local::at0016],
+													2|[local::at0017],
+													3|[local::at0018],
+													4|[local::at0019],
+													5|[local::at0020]
+												}
+											}
+											ELEMENT[at0015] occurrences matches {0..1} matches {    -- Self_care_new_worse
+												value matches {
+													0|[local::at0021],
+													0|[local::at0022]
+												}
+											}
+										}
+									}
+									CLUSTER[at0023] occurrences matches {0..1} matches {    -- Usual_activities
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0025] occurrences matches {0..1} matches {    -- Usual_activities
+												value matches {
+													1|[local::at0026],
+													2|[local::at0027],
+													3|[local::at0028],
+													4|[local::at0029],
+													5|[local::at0030]
+												}
+											}
+											ELEMENT[at0031] occurrences matches {0..1} matches {    -- Usual_activities_new_worse
+												value matches {
+													0|[local::at0032],
+													0|[local::at0033]
+												}
+											}
+										}
+									}
+									CLUSTER[at0034] occurrences matches {0..1} matches {    -- Pain_discomfort
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0035] occurrences matches {0..1} matches {    -- Pain_discomfort
+												value matches {
+													1|[local::at0036],
+													2|[local::at0037],
+													3|[local::at0038],
+													4|[local::at0039],
+													5|[local::at0040]
+												}
+											}
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Pain_discomfort_new_worse
+												value matches {
+													0|[local::at0042],
+													0|[local::at0043]
+												}
+											}
+										}
+									}
+									CLUSTER[at0045] occurrences matches {0..1} matches {    -- Anxiety_depression
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0046] occurrences matches {0..1} matches {    -- Anxiety_depression
+												value matches {
+													1|[local::at0047],
+													2|[local::at0048],
+													3|[local::at0049],
+													4|[local::at0050],
+													5|[local::at0051]
+												}
+											}
+											ELEMENT[at0052] occurrences matches {0..1} matches {    -- Anxiety_depression_new_worse
+												value matches {
+													0|[local::at0053],
+													0|[local::at0054]
+												}
+											}
+										}
+									}
+									ELEMENT[at0057] occurrences matches {0..1} matches {    -- Overall_health
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..100|}
+											}
+										}
+									}
+									ELEMENT[at0059] occurrences matches {0..1} matches {    -- Health_state
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0061] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROMS_EQ_5D_5L">
+					description = <"Eproms_EQ5D">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0009"] = <
+					text = <"Mobility">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Mobility">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"I have no problems in walking about">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"I have slight problems in walking about">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"I have moderate problems in walking about">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"I have severe problems in walking about">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"I am unable to walk about">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Mobility_new_worse">
+					description = <"Is this new or has it got worse in the last week?">
+				>
+				["at0011"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Self_care">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Self_care">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"I have no problems washing or dressing myself">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"I have slight problems washing or dressing myself">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"I have moderate problems washing or dressing myself">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"I have severe problems washing or dressing myself">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"I am unable to wash or dress myself">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Self_care_new_worse">
+					description = <"Is this new or has it got worse in the last week?">
+				>
+				["at0021"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Usual_activities">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Usual_activities">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"I have no problems doing my usual activities">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"I have slight problems doing my usual activities">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"I have moderate problems doing my usual activities">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"I have severe problems doing my usual activities">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"I am unable to do my usual activities">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Usual_activities_new_worse">
+					description = <"Is this new or has it got worse in the last week?
+">
+				>
+				["at0032"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Pain_discomfort">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Pain_discomfort">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"I have no pain or discomfort">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"I have slight pain or discomfort">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"I have moderate pain or discomfort">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"I have severe pain or discomfort">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"I am in extreme pain or discomfort">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Pain_discomfort_new_worse">
+					description = <"Is this new or has it got worse in the last week?">
+				>
+				["at0042"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Anxiety_depression">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Anxiety_depression">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"I am not anxious or depressed">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"I am slightly anxious or depressed">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"I am moderately anxious or depressed">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"I am severely anxious or depressed">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"I am extremely anxious or depressed">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Anxiety_depression_new_worse">
+					description = <"Is this new or has it got worse in the last week?">
+				>
+				["at0053"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Overall_health">
+					description = <"We would like to know how good or bad your health is TODAY. The scale is numbered from 0 to 100. 100 means the best health you can imagine. 0 means the worst health you can imagine. Please enter a number in the box (below) to indicate how your health is TODAY">
+					comment = <"Add visual analogue scale
+">
+				>
+				["at0059"] = <
+					text = <"Health_state">
+					description = <"A unique health state is defined by combining one level from each of the five dimensions. Each state is referred to by a 5-digit code. For example, working clockwise from the top of the diagram, state 12345 indicates no problems with mobility, slight problems with washing or dressing, moderate problems with doing usual activities, severe pain or discomfort and extreme anxiety or depression, while state 11111 indicates no problems on any of the five dimensions.">
+				>
+				["at0061"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+	>
