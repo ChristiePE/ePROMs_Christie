@@ -1,0 +1,767 @@
+archetype (adl_version=1.4; uid=e188812a-70d4-491a-bfbb-f5c5cc36f01f)
+	openEHR-EHR-OBSERVATION.eprom_nervous_system.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-07">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"5b9e7972cde6a3ee86fe9eff38146101">
+		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROM_Nervous_System
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0134] occurrences matches {0..1} matches {    -- Peripheral_sensory_neuropathy
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Peripheral_sensory_neuropathy_arm_leg_hand_feet
+												value matches {
+													0|[local::at0006],
+													1|[local::at0102],
+													2|[local::at0103],
+													3|[local::at0104],
+													4|[local::at0105]
+												}
+											}
+											ELEMENT[at0140] occurrences matches {0..*} matches {    -- Peripheral_sensory_neuropathy_area
+												value matches {
+													0|[local::at0167],
+													0|[local::at0142],
+													0|[local::at0143],
+													0|[local::at0144],
+													0|[local::at0145],
+													0|[local::at0146],
+													0|[local::at0141]
+												}
+											}
+											ELEMENT[at0135] occurrences matches {0..1} matches {    -- Peripheral_sensory_neuropathy_side
+												value matches {
+													0|[local::at0136],
+													0|[local::at0137],
+													0|[local::at0138],
+													0|[local::at0139]
+												}
+											}
+											ELEMENT[at0151] occurrences matches {0..1} matches {    -- Peripheral_sensory_neuropathy_affect
+												value matches {
+													1|[local::at0152],
+													2|[local::at0153],
+													3|[local::at0154],
+													4|[local::at0155]
+												}
+											}
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Memory_impairment
+										value matches {
+											0|[local::at0011],
+											1|[local::at0106],
+											2|[local::at0107],
+											3|[local::at0108]
+										}
+									}
+									ELEMENT[at0015] occurrences matches {0..1} matches {    -- Seizure
+										value matches {
+											0|[local::at0016],
+											1|[local::at0098],
+											2|[local::at0099],
+											3|[local::at0100],
+											4|[local::at0101]
+										}
+									}
+									CLUSTER[at0020] occurrences matches {0..1} matches {    -- Dysphasia
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0021] occurrences matches {0..1} matches {    -- Dysphasia
+												value matches {
+													0|[local::at0022],
+													1|[local::at0110],
+													2|[local::at0111],
+													3|[local::at0112]
+												}
+											}
+											ELEMENT[at0026] occurrences matches {0..1} matches {    -- Dysphasia_affect
+												value matches {
+													0|[local::at0027],
+													1|[local::at0028],
+													2|[local::at0029],
+													3|[local::at0092]
+												}
+											}
+										}
+									}
+									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Dysgeusia
+										value matches {
+											0|[local::at0031],
+											1|[local::at0113],
+											2|[local::at0114]
+										}
+									}
+									CLUSTER[at0034] occurrences matches {0..1} matches {    -- Muscle_weakness_lower_limb_weakness_upper_limb
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0035] occurrences matches {0..*} matches {    -- Muscle_weakness_lower_limb_muscle_weakness_upper_limb_area
+												value matches {
+													0|[local::at0036],
+													0|[local::at0037],
+													0|[local::at0038],
+													0|[local::at0039],
+													0|[local::at0043]
+												}
+											}
+											ELEMENT[at0093] occurrences matches {0..1} matches {    -- Muscle_weakness_side
+												value matches {
+													0|[local::at0094],
+													0|[local::at0095],
+													0|[local::at0096]
+												}
+											}
+											ELEMENT[at0044] occurrences matches {0..1} matches {    -- Muscle_weakness_affect
+												value matches {
+													1|[local::at0115],
+													2|[local::at0116],
+													3|[local::at0117]
+												}
+											}
+										}
+									}
+									ELEMENT[at0048] occurrences matches {0..1} matches {    -- Muscle_weakness_arms_legs_hands_feet
+										value matches {
+											0|[local::at0049],
+											1|[local::at0118],
+											2|[local::at0119],
+											3|[local::at0120]
+										}
+									}
+									ELEMENT[at0053] occurrences matches {0..1} matches {    -- Ataxia
+										value matches {
+											0|[local::at0054],
+											1|[local::at0121],
+											2|[local::at0122],
+											3|[local::at0123]
+										}
+									}
+									ELEMENT[at0058] occurrences matches {0..1} matches {    -- Dysphagia
+										value matches {
+											0|[local::at0059],
+											1|[local::at0124],
+											2|[local::at0125],
+											3|[local::at0126],
+											4|[local::at0127]
+										}
+									}
+									ELEMENT[at0063] occurrences matches {0..1} matches {    -- Dizziness
+										value matches {
+											0|[local::at0064],
+											1|[local::at0128],
+											2|[local::at0129],
+											3|[local::at0130]
+										}
+									}
+									ELEMENT[at0068] occurrences matches {0..1} matches {    -- Headaches
+										value matches {
+											0|[local::at0069],
+											1|[local::at0131],
+											2|[local::at0132],
+											3|[local::at0133]
+										}
+									}
+									CLUSTER[at0073] occurrences matches {0..1} matches {    -- Pain
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0074] occurrences matches {0..*} matches {    -- Pain_area
+												value matches {
+													0|[local::at0075],
+													0|[local::at0076],
+													0|[local::at0077],
+													0|[local::at0078],
+													0|[local::at0079],
+													0|[local::at0080],
+													0|[local::at0081],
+													0|[local::at0082],
+													0|[local::at0083],
+													0|[local::at0084],
+													0|[local::at0156],
+													0|[local::at0157],
+													0|[local::at0158],
+													0|[local::at0166],
+													0|[local::at0085]
+												}
+											}
+											ELEMENT[at0147] occurrences matches {0..1} matches {    -- Pain_side
+												value matches {
+													0|[local::at0148],
+													0|[local::at0149],
+													0|[local::at0150]
+												}
+											}
+											ELEMENT[at0086] occurrences matches {0..1} matches {    -- Pain_affect
+												value matches {
+													1|[local::at0087],
+													2|[local::at0088],
+													3|[local::at0089]
+												}
+											}
+										}
+									}
+									ELEMENT[at0161] occurrences matches {0..1} matches {    -- Scar_pain
+										value matches {
+											0|[local::at0162],
+											1|[local::at0163],
+											2|[local::at0164],
+											3|[local::at0165]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0004] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROM_Nervous_System">
+					description = <"EPROM_Nervous_System">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0005"] = <
+					text = <"Peripheral_sensory_neuropathy_arm_leg_hand_feet">
+					description = <"Do you have any numbness, pins and needles or tingling in your arms/legs/hands or feet? 
+
+
+
+">
+				>
+				["at0006"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Memory_impairment">
+					description = <"Do you have any problems with your memory? ">
+				>
+				["at0011"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Seizure">
+					description = <"Since your last review, have you had any fits or seizures? ">
+				>
+				["at0016"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Dysphasia">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Dysphasia">
+					description = <"Have you noticed any changes in your speech?">
+				>
+				["at0022"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Dysphasia_affect">
+					description = <"Affect to be shown at the same time as dysphasia
+">
+				>
+				["at0027"] = <
+					text = <"I am still understood by all">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"My friends or family find it hard to understand me">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Other people find it hard to understand me">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Dysgeusia">
+					description = <"Has your sense of taste changed?">
+				>
+				["at0031"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Muscle_weakness_lower_limb_weakness_upper_limb">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Muscle_weakness_lower_limb_muscle_weakness_upper_limb_area">
+					description = <"Please select if you have any weakness in any of the following areas? (select all that apply)">
+				>
+				["at0036"] = <
+					text = <"Arm(s)">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Leg(s)">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Hand(s)">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Feet">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"I do not have any weakness in any of the above areas">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Muscle_weakness_affect">
+					description = <"How does the weakness affect you?">
+				>
+				["at0048"] = <
+					text = <"Muscle_weakness_arms_legs_hands_feet">
+					description = <"Do you have any weakness in your arms/legs/hands or feet?">
+				>
+				["at0049"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Ataxia">
+					description = <"Are you unsteady on your feet?">
+				>
+				["at0054"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Dysphagia">
+					description = <"Do you have difficulty swallowing?">
+				>
+				["at0059"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Dizziness">
+					description = <"Do you have new dizziness?">
+				>
+				["at0064"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Headaches">
+					description = <"Have you noticed new headaches or are you getting headaches more often?">
+				>
+				["at0069"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Pain">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Pain_area">
+					description = <"Please select if you have any pain in any of the following areas (select all that apply):">
+				>
+				["at0075"] = <
+					text = <"Head">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Eye(s)">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Ear(s)">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Mouth">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Throat">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Neck">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Back">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Abdomen (stomach)">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Hand(s)">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Foot or feet">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"I do not have any pain in any of the above areas">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Pain_affect">
+					description = <"How does the pain affect you?">
+				>
+				["at0087"] = <
+					text = <"I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"I cannot be understood">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"Muscle_weakness_side">
+					description = <"Which side is weak?">
+				>
+				["at0094"] = <
+					text = <"Left">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Right">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Both">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Yes, I have had one fit or seizure but did not lose consciousness during the episode">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Yes, I have had one fit or seizure and lost consciousness during the episode">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Yes and I have had more than one fit or seizure despite medical help">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0110"] = <
+					text = <"Yes, I have mild slurred speech or difficulty speaking, but it doesn't affect my ability to communicate">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"Yes, I have moderate slurred speech or difficulty speaking which affects my ability to communicate spontaneously">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"Yes, I have severe slurred speech or difficulty speaking which affects my ability to communicate">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"Yes, my taste has changed but I am eating what I would normally">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Yes, my taste has changed and I have had to change what I eat and/or use supplement drinks">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"It limits me from doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"It limits me caring for myself (for example wash or dress)">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0120"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0121"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)  and/or I require a wheelchair/mobility scooter">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Yes but I am still able to eat my normal diet">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"Yes and I have had to change my diet to easier-to-eat foods">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"Yes and I have to use a feeding tube and/or had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"Yes and I had to be admitted to hospital and required an emergency procedure or operation">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"Peripheral_sensory_neuropathy">
+					description = <"">
+				>
+				["at0135"] = <
+					text = <"Peripheral_sensory_neuropathy_side">
+					description = <"Which side?">
+				>
+				["at0136"] = <
+					text = <"Right">
+					description = <"">
+				>
+				["at0137"] = <
+					text = <"Left">
+					description = <"">
+				>
+				["at0138"] = <
+					text = <"Both">
+					description = <"">
+				>
+				["at0139"] = <
+					text = <"Centre">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"Peripheral_sensory_neuropathy_area">
+					description = <"Please select if you have any numbness, pins and needles or tingling in any of the following areas (select all that apply):">
+				>
+				["at0141"] = <
+					text = <"I do not have any numbness, pins and needles or tingling in any of the above areas">
+					description = <"">
+				>
+				["at0142"] = <
+					text = <"Arm(s)">
+					description = <"">
+				>
+				["at0143"] = <
+					text = <"Hand(s)">
+					description = <"">
+				>
+				["at0144"] = <
+					text = <"Foot or feet">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"Face">
+					description = <"">
+				>
+				["at0146"] = <
+					text = <"Trunk">
+					description = <"">
+				>
+				["at0147"] = <
+					text = <"Pain_side">
+					description = <"Which side is painful?">
+				>
+				["at0148"] = <
+					text = <"Right">
+					description = <"">
+				>
+				["at0149"] = <
+					text = <"Left">
+					description = <"">
+				>
+				["at0150"] = <
+					text = <"Both">
+					description = <"">
+				>
+				["at0151"] = <
+					text = <"Peripheral_sensory_neuropathy_affect">
+					description = <"How does it affect you?">
+				>
+				["at0152"] = <
+					text = <"I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0153"] = <
+					text = <"It limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0154"] = <
+					text = <"It limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0155"] = <
+					text = <"I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0156"] = <
+					text = <"Face">
+					description = <"">
+				>
+				["at0157"] = <
+					text = <"Jaw">
+					description = <"">
+				>
+				["at0158"] = <
+					text = <"Sinuses">
+					description = <"">
+				>
+				["at0161"] = <
+					text = <"Scar_pain">
+					description = <"Have you had any pain or sensitivity in the area of your scar?">
+				>
+				["at0162"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0163"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0164"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0165"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0166"] = <
+					text = <"Chest">
+					description = <"">
+				>
+				["at0167"] = <
+					text = <"Leg(s)">
+					description = <"">
+				>
+			>
+		>
+	>
