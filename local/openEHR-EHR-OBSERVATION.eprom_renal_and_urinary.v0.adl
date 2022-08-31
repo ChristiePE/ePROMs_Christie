@@ -1,0 +1,335 @@
+archetype (adl_version=1.4; uid=d9d10dca-82fe-4aeb-9189-4c9b066758f6)
+	openEHR-EHR-OBSERVATION.eprom_renal_and_urinary.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-13">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"86637d816dcef6e8b454ef7d9cd1e477">
+		["build_uid"] = <"0b7e0252-a762-31a8-a215-20dcfcccf363">
+	>
+
+definition
+	OBSERVATION[at0000] occurrences matches {0..1} matches {    -- EPROM_Renal_and_Urinary
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Haematuria
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008],
+											4|[local::at0049]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Nocturia
+										value matches {
+											0|[local::at0010],
+											1|[local::at0011],
+											2|[local::at0012],
+											3|[local::at0013]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Urinary_frequency
+										value matches {
+											0|[local::at0015],
+											1|[local::at0016],
+											2|[local::at0017]
+										}
+									}
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Urinary_incontinence
+										value matches {
+											0|[local::at0020],
+											1|[local::at0021],
+											2|[local::at0022],
+											3|[local::at0023]
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Urinary_urgency
+										value matches {
+											0|[local::at0025],
+											1|[local::at0026],
+											2|[local::at0027]
+										}
+									}
+									ELEMENT[at0029] occurrences matches {0..1} matches {    -- Incomplete_bladder_emptying
+										value matches {
+											0|[local::at0030],
+											1|[local::at0031],
+											2|[local::at0032],
+											3|[local::at0033]
+										}
+									}
+									ELEMENT[at0034] occurrences matches {0..1} matches {    -- Weaker_urinary_stream
+										value matches {
+											0|[local::at0035],
+											1|[local::at0036]
+										}
+									}
+									ELEMENT[at0037] occurrences matches {0..1} matches {    -- Urine_discoloration
+										value matches {
+											1|[local::at0041],
+											1|[local::at0042],
+											1|[local::at0043],
+											2|[local::at0044],
+											2|[local::at0045],
+											2|[local::at0046],
+											3|[local::at0047],
+											3|[local::at0048]
+										}
+									}
+									ELEMENT[at0038] occurrences matches {0..1} matches {    -- Dysuria
+										value matches {
+											0|[local::at0039],
+											1|[local::at0040]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0018] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROM_Renal_and_Urinary">
+					description = <"EPROM_Renal_and_Urinary">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Haematuria">
+					description = <"Do you have any blood in the urine?">
+					comment = <"Haematuria - A disorder characterised by laboratory test results that indicate blood in the urine">
+				>
+				["at0005"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Yes but I have not required medical help">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Yes and I have required medical help">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Yes and I had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Yes and I had to be admitted to hospital to have an emergency procedure since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Nocturia">
+					description = <"Do you get up to pass urine during the night? ">
+					comment = <"not included in CTCAE">
+				>
+				["at0010"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Yes, I pass urine once a night">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Yes, I pass urine 2-3 times per night">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Yes, I pass urine 4 or more times per night">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Urinary_frequency">
+					description = <"Do you pass urine more often than normal?">
+					comment = <"Urinary frequency - A disorder characterised by urination at short intervals">
+				>
+				["at0015"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Yes and I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping) and/or I have required medical help">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0019"] = <
+					text = <"Urinary_incontinence">
+					description = <"Have you had any urinary incontinence (for example have you had any accidents)?
+">
+					comment = <"Urinary incontinence -  A disorder characterised by inability to control the flow of urine from the baldder">
+				>
+				["at0020"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Yes but I do not need to use pads and am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Yes and I need to use pads and/or it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)  and/or because of this I have required a procedure.">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Urinary_urgency">
+					description = <"When you need to pass urine, do you feel the urge to go straight away?">
+					comment = <"Urinary urgency - A disorder characterised by a sudden compelling urge to urinate">
+				>
+				["at0025"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Yes but I have not required medical help and I'm still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Yes and I have required medical help and/or it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Incomplete_bladder_emptying">
+					description = <"Do you have difficulties passing urine (e.g., straining, slow urine stream or incomplete bladder emptying)?">
+					comment = <"not included in CTCAE">
+				>
+				["at0030"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Yes, I have mild difficulties and no treatment has been required">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes, I have moderate difficulties and/or have required medications to try and help">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes, I have severe difficulties and/or have required an operation to try and help">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Weaker_urinary_stream">
+					description = <"Is your urine stream weaker than normal?">
+					comment = <"not included in CTCAE">
+				>
+				["at0035"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Urine_discoloration">
+					description = <"Please select the number that best matches the colour of your urine in the last 24 hours:">
+					comment = <"Urine discoloration - a disorder characterised by a change in the colour of the urine
+Urine colour chart to be added at form level">
+				>
+				["at0041"] = <
+					text = <"1">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"2">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"3">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"4">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"5">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"6">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"7">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"8">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Dysuria">
+					description = <"Do you have pain when passing urine?">
+					comment = <"not included in CTCAE">
+				>
+				["at0039"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Yes">
+					description = <"">
+				>
+			>
+		>
+	>
