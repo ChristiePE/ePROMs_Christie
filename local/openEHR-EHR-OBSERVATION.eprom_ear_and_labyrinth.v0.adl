@@ -1,0 +1,154 @@
+archetype (adl_version=1.4; uid=1c8aa3bf-a308-4649-b8d6-f2f8ed29ce86)
+	openEHR-EHR-OBSERVATION.eprom_ear_and_labyrinth.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-07">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"9a567f80e0a55fc96e0539095591b396">
+		["build_uid"] = <"294baf8a-4d93-3d49-8b53-f547100d4eef">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROM_Ear_and_Labyrinth
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Hearing_impaired
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Tinnitus
+										value matches {
+											0|[local::at0010],
+											1|[local::at0011],
+											2|[local::at0012],
+											3|[local::at0013]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Vertigo
+										value matches {
+											0|[local::at0015],
+											1|[local::at0016],
+											2|[local::at0017],
+											3|[local::at0018]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROM_Ear_and_Labyrinth">
+					description = <"EPROM_Ear_and_Labyrinth">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Hearing_impaired">
+					description = <"Have you had problems hearing?">
+				>
+				["at0005"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Tinnitus">
+					description = <"Have you had any ringing or buzzing in your ears? ">
+				>
+				["at0010"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Vertigo">
+					description = <"Have you experienced vertigo (the feeling that the world is spinning around you)?">
+				>
+				["at0015"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+			>
+		>
+	>
