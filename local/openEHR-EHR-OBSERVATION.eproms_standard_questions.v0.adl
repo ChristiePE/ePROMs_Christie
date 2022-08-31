@@ -1,0 +1,204 @@
+archetype (adl_version=1.4; uid=8fb0c803-2e99-4c2b-8db8-1847756edf40)
+	openEHR-EHR-OBSERVATION.eproms_standard_questions.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2021-12-10">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"8f035ec83a277776817bb9d196011f6e">
+		["build_uid"] = <"535971ee-acaf-391b-975c-6f8e376e39a3">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROMS_Standard_Questions
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0009] occurrences matches {0..1} matches {    -- Smoking
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Smoking
+												value matches {
+													0|[local::at0005],
+													0|[local::at0006],
+													0|[local::at0007]
+												}
+											}
+											ELEMENT[at0008] occurrences matches {0..1} matches {    -- Referral
+												value matches {
+													DV_BOOLEAN matches {
+														value matches {true}
+													}
+												}
+											}
+										}
+									}
+									CLUSTER[at0011] occurrences matches {0..1} matches {    -- Financial_difficulties
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0013] occurrences matches {0..1} matches {    -- Financial_difficulties
+												value matches {
+													0|[local::at0024],
+													0|[local::at0025],
+													0|[local::at0026]
+												}
+											}
+											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Financial_advice_sought
+												value matches {
+													0|[local::at0027],
+													0|[local::at0028]
+												}
+											}
+											ELEMENT[at0018] occurrences matches {0..1} matches {    -- Financial_advice_helped
+												value matches {
+													0|[local::at0029],
+													0|[local::at0030]
+												}
+											}
+											ELEMENT[at0019] occurrences matches {0..1} matches {    -- Further_advice_required
+												value matches {
+													0|[local::at0031],
+													0|[local::at0032]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0010] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROMS_Standard_Questions">
+					description = <"EPROMS_Standard_Questions">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Smoking">
+					description = <"Please select the statement about smoking tobacco most applicable to you">
+				>
+				["at0005"] = <
+					text = <"I have never smoked">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Ex-smoker">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Current smoker">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Referral">
+					description = <"Please tick this box if you wish to be referred to the Christie smoking cessation service">
+				>
+				["at0009"] = <
+					text = <"Smoking">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0011"] = <
+					text = <"Financial_difficulties">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Financial_difficulties">
+					description = <"Has your physical or medical condition caused you financial difficulties?">
+				>
+				["at0017"] = <
+					text = <"Financial_advice_sought">
+					description = <"Have you sought any financial advice?">
+				>
+				["at0018"] = <
+					text = <"Financial_advice_helped">
+					description = <"Has this helped with your financial difficulties?">
+				>
+				["at0019"] = <
+					text = <"Further_advice_required">
+					description = <"Do you require further input/advice?">
+				>
+				["at0024"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Prefer not to say">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes">
+					description = <"">
+				>
+			>
+		>
+	>
