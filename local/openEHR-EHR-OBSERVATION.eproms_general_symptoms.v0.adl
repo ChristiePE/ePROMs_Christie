@@ -1,0 +1,549 @@
+archetype (adl_version=1.4; uid=41676e5c-4b12-47ae-999b-94919cf05eae)
+	openEHR-EHR-OBSERVATION.eproms_general_symptoms.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-01-20">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"ff0c37d57fbdd4c9314ed87b5ccc7db1">
+		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
+	>
+
+definition
+	OBSERVATION[at0000] occurrences matches {0..1} matches {    -- EPROMS_General_Symptoms
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Insomnia
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Hypersomnia
+										value matches {
+											0|[local::at0010],
+											1|[local::at0011],
+											2|[local::at0012],
+											3|[local::at0013]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Anorexia
+										value matches {
+											0|[local::at0015],
+											1|[local::at0016],
+											2|[local::at0017],
+											3|[local::at0018],
+											4|[local::at0019]
+										}
+									}
+									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Weight_loss
+										value matches {
+											0|[local::at0022],
+											1|[local::at0023],
+											2|[local::at0024],
+											3|[local::at0025]
+										}
+									}
+									ELEMENT[at0026] occurrences matches {0..1} matches {    -- Weight_gain
+										value matches {
+											0|[local::at0027],
+											1|[local::at0028],
+											2|[local::at0029],
+											3|[local::at0030]
+										}
+									}
+									ELEMENT[at0031] occurrences matches {0..1} matches {    -- Fever
+										value matches {
+											0|[local::at0032],
+											1|[local::at0033],
+											2|[local::at0034],
+											3|[local::at0035],
+											4|[local::at0076]
+										}
+									}
+									ELEMENT[at0036] occurrences matches {0..1} matches {    -- Flu_like_symptoms
+										value matches {
+											0|[local::at0037],
+											1|[local::at0038],
+											2|[local::at0039],
+											3|[local::at0040]
+										}
+									}
+									ELEMENT[at0041] occurrences matches {0..1} matches {    -- Hot_flashes
+										value matches {
+											0|[local::at0042],
+											1|[local::at0043],
+											2|[local::at0044],
+											3|[local::at0045]
+										}
+									}
+									ELEMENT[at0046] occurrences matches {0..1} matches {    -- Fatigue
+										value matches {
+											0|[local::at0047],
+											1|[local::at0048],
+											2|[local::at0049],
+											3|[local::at0050]
+										}
+									}
+									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Somnolence
+										value matches {
+											0|[local::at0053],
+											1|[local::at0054],
+											2|[local::at0055],
+											3|[local::at0056],
+											4|[local::at0077]
+										}
+									}
+									ELEMENT[at0052] occurrences matches {0..1} matches {    -- Mood_Swings
+										value matches {
+											1|[local::at0057],
+											0|[local::at0058]
+										}
+									}
+									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Appearance
+										value matches {
+											0|[local::at0061],
+											1|[local::at0062],
+											2|[local::at0063],
+											3|[local::at0064]
+										}
+									}
+									ELEMENT[at0065] occurrences matches {0..1} matches {    -- Epistaxis
+										value matches {
+											0|[local::at0066],
+											1|[local::at0067],
+											2|[local::at0068],
+											3|[local::at0069],
+											4|[local::at0070]
+										}
+									}
+									ELEMENT[at0071] occurrences matches {0..1} matches {    -- Dry_mouth
+										value matches {
+											0|[local::at0072],
+											1|[local::at0073],
+											2|[local::at0074],
+											3|[local::at0075]
+										}
+									}
+									ELEMENT[at0078] occurrences matches {0..1} matches {    -- Feeding_tube
+										value matches {
+											0|[local::at0079],
+											1|[local::at0080],
+											2|[local::at0081],
+											3|[local::at0082]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0020] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROMS_General_Symptoms">
+					description = <"EPROMS_General_Symptoms">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Insomnia">
+					description = <"Do you find it difficult to fall and/or remain asleep?">
+				>
+				["at0005"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Yes I have mild difficulty falling asleep, staying asleep or waking up early">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Yes I have moderate difficulty falling asleep, staying asleep or waking up early">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Yes I have severe difficulty falling asleep, staying asleep or waking up early">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Hypersomnia">
+					description = <"Do you feel more tired than usual?">
+				>
+				["at0010"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Anorexia">
+					description = <"Has your appetite reduced?
+">
+				>
+				["at0015"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Yes but I still eat as normal">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Yes and as a result I eat less than normal and/or I have been prescribed food supplements">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes and as a result I eat very little and/or I had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Yes and as a result I cannot eat and/or I had to be admitted to hospital and required emergency medical care">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0021"] = <
+					text = <"Weight_loss">
+					description = <"Have you lost weight in the last month?">
+				>
+				["at0022"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Yes and I have lost 5-10% of my bodyweight">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Yes and I have lost 10-20% of my bodyweight and/or I have been prescribed food supplements">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Yes and I have lost more than 20% of my bodyweight and/or I had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Weight_gain">
+					description = <"Have you gained weight in the last month?
+
+
+
+">
+				>
+				["at0027"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Yes I have gained 5-10% of my bodyweight">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Yes I have lost 10-20% of my bodyweight">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Yes I have lost more than 20% of my bodyweight">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Fever">
+					description = <"Do you have a high body temperature?
+">
+				>
+				["at0032"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes, my temperature is slightly higher than normal (38-39 degrees C)">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Yes, my temperature is moderately higher than normal (39-40 degrees C)">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Yes, my temperature is much higher than normal (over 40 degrees C) for 24 hours or less">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Flu_like_symptoms">
+					description = <"Do you have flu-like symptoms? (fever, chills, body aches, malaise, loss of appetite, dry cough)
+
+
+
+">
+				>
+				["at0037"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Hot_flashes">
+					description = <"Do you struggle with hot flushes/sweats?
+
+
+
+">
+				>
+				["at0042"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Fatigue">
+					description = <"Do you have a general lack of energy or weakness to accomplish daily activities?
+
+
+
+">
+				>
+				["at0047"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Yes but it is relieved by rest">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Yes and it is not relieved by rest and / or it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Yes and it is not relieved by rest and / or it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Somnolence">
+					description = <"Do you suffer from excessive sleepiness or drowsiness?
+
+
+
+">
+				>
+				["at0052"] = <
+					text = <"Mood_Swings">
+					description = <"Have you or others noticed mood swings that are out of the ordinary?
+
+">
+				>
+				["at0053"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Appearance">
+					description = <"Does your appearance / body image bother you?
+
+
+
+">
+				>
+				["at0061"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Yes it bothers me, but has not changed how I interact with other people">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Yes it bothers me and has changed how I interact with other people">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Yes and because of this I avoid interacting with other people">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Epistaxis">
+					description = <"Have you noticed any new bleeding (e.g. nosebleeds)?
+
+
+
+
+">
+				>
+				["at0066"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Yes, I had an episode of bleeding but it settled quickly and no treatment was required">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Yes, I had an episode of bleeding and it did not settle quickly and / or required treatment">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Yes, I had an episode of bleeding and needed to go to hospital for treatment">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Yes, I had to be admitted to hospital and required an emergency procedure or operation">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"Dry_mouth">
+					description = <"Does your mouth feel dry?
+
+
+
+
+">
+				>
+				["at0072"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Yes my saliva is slightly thicker than normal but I still eat as normal">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Yes and I need to drink more water or use oral gels / rinses or can only eat moist foods">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Yes and because of this I am unable to eat">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Yes, my temperature is much higher than normal (over 40 degrees C) for more than 24 hours">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Feeding_tube">
+					description = <"Do you have a feeding tube?
+
+
+
+">
+				>
+				["at0079"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Yes but I do not use it">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Yes and I use it, but I also eat and drink">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Yes and I use it for all my nutrition (I cannot eat and drink)">
+					description = <"">
+				>
+			>
+		>
+	>
