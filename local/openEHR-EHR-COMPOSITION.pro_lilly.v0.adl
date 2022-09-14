@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2939573484288b2feb19a96bf266e587">
+		["MD5-CAM-1.0.1"] = <"be433489ce2c197b0ac11efbfb1f1cc2">
 		["build_uid"] = <"aa2fb7f4-140a-354b-9118-c3ee48d8e9f6">
 	>
 
 definition
-	COMPOSITION[at0000] matches {    -- PRO_ABEMACICLIB
+	COMPOSITION[at0000] matches {    -- PRO_LILLY
 		category matches {
 			DV_CODED_TEXT[at0001] matches {    -- Coded text
 				defining_code matches {
@@ -50,8 +50,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"PRO_ABEMACICLIB">
-					description = <"PRO_ABEMACICLIB">
+					text = <"PRO_LILLY">
+					description = <"PRO_LILLY">
 				>
 				["at0001"] = <
 					text = <"Coded text">
