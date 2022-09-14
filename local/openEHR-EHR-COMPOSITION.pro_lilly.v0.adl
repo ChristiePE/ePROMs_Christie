@@ -1,5 +1,5 @@
 archetype (adl_version=1.4; uid=8cbe57c9-d0fe-44c8-850c-2ec916810947)
-	openEHR-EHR-COMPOSITION.pro_lilly.v0
+	openEHR-EHR-COMPOSITION.pro_ABEMACICLIB.v0
 
 concept
 	[at0000]
@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"15288021f102ac2fa24ea58c848d0fdb">
+		["MD5-CAM-1.0.1"] = <"2939573484288b2feb19a96bf266e587">
 		["build_uid"] = <"aa2fb7f4-140a-354b-9118-c3ee48d8e9f6">
 	>
 
