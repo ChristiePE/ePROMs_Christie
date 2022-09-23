@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "8.0.0",
+      "sem_ver" : "8.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "6cbe3df2f16a79856a753bef1de9bb2f",
+      "MD5-CAM-1.0.1" : "0714d6fa37161f2b373ac650c15ff098",
       "PARENT:MD5-CAM-1.0.1" : "0e277a5bdba95f938949d4fcdd28fbbf"
     },
     "details" : {
@@ -127,7 +127,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "8c3dac849b434d8f2fffe5344bd9007c"
+        "PARENT:MD5-CAM-1.0.1" : "d916cb76873f26d925466837402ab999"
       },
       "details" : { }
     },
@@ -328,7 +328,26 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0183" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0183",
+            "text" : "Unsteady _on_feet",
+            "description" : ""
+          },
+          "at0184" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0184",
+            "text" : "Not at ll",
+            "description" : ""
+          },
+          "at0183.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0183.1",
+            "text" : "Unsteady _on_feet",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
