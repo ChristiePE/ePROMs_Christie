@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"eb2969e31d31ac05662b9d6602105e22">
+		["MD5-CAM-1.0.1"] = <"71a764166be1eaeef54c8f819e200967">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -185,6 +185,14 @@ definition
 											2|[local::at0101],
 											3|[local::at0102],
 											4|[local::at0103]
+										}
+									}
+									ELEMENT[at0104] occurrences matches {0..1} matches {    -- Confusion_coded
+										value matches {
+											1|[local::at0105],
+											2|[local::at0106],
+											3|[local::at0107],
+											4|[local::at0108]
 										}
 									}
 								}
@@ -634,6 +642,26 @@ ontology
 					description = <"">
 				>
 				["at0103"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"Confusion_coded">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0108"] = <
 					text = <"Very much">
 					description = <"">
 				>
