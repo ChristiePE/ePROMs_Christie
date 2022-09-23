@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "93ef3575954331b5ea2a3cdfc0b23984",
+      "MD5-CAM-1.0.1" : "dd996c5819beed643597fbfd6b309809",
       "PARENT:MD5-CAM-1.0.1" : "0e277a5bdba95f938949d4fcdd28fbbf"
     },
     "details" : {
@@ -450,7 +450,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "71a764166be1eaeef54c8f819e200967"
+        "PARENT:MD5-CAM-1.0.1" : "566aee0f803564b36e14bb208ae31b0a"
       },
       "details" : { }
     },
@@ -610,7 +610,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0093" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0093",
+            "text" : "DV_ORDINAL",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
