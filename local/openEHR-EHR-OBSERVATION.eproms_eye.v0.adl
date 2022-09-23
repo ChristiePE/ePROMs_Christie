@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a5e3ec699855886fb53d7429d91f9921">
+		["MD5-CAM-1.0.1"] = <"ef17549eded35385001772a46959f99f">
 		["build_uid"] = <"84f1367c-e903-3fac-b37e-996c43f7e127">
 	>
 
@@ -50,6 +50,14 @@ definition
 											1|[local::at0011],
 											2|[local::at0012],
 											3|[local::at0013]
+										}
+									}
+									ELEMENT[at0015] occurrences matches {0..1} matches {    -- Blurred_vision_coded
+										value matches {
+											1|[local::at0016],
+											2|[local::at0017],
+											3|[local::at0018],
+											4|[local::at0019]
 										}
 									}
 								}
@@ -127,6 +135,26 @@ ontology
 				["at0014"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
+				>
+				["at0015"] = <
+					text = <"Blurred_vision_coded">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Very much">
+					description = <"">
 				>
 			>
 		>
