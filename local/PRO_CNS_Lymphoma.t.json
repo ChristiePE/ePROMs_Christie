@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "23c861a96c4af2d2d18e8dbc2d6712cd",
+      "MD5-CAM-1.0.1" : "b2ca9227a187d3f4a14dd6289b3b8051",
       "PARENT:MD5-CAM-1.0.1" : "0e277a5bdba95f938949d4fcdd28fbbf"
     },
     "details" : {
@@ -531,6 +531,24 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
+                      "nodeId" : "at0093.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "existence" : "0..1",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_ORDINAL",
+                          "occurrences" : "1..1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0021.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -632,6 +650,12 @@
           "at0093" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0093",
+            "text" : "DV_ORDINAL",
+            "description" : ""
+          },
+          "at0093.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0093.1",
             "text" : "DV_ORDINAL",
             "description" : ""
           }
