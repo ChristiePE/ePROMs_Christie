@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"db622fb6d8a5e097cf172e8e2761368d">
+		["MD5-CAM-1.0.1"] = <"8c3dac849b434d8f2fffe5344bd9007c">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -74,6 +74,14 @@ definition
 													4|[local::at0155]
 												}
 											}
+											ELEMENT[at0183] occurrences matches {0..1} matches {    -- Unsteady _on_feet
+												value matches {
+													1|[local::at0184],
+													2|[local::at0185],
+													3|[local::at0186],
+													4|[local::at0187]
+												}
+											}
 										}
 									}
 									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Memory_impairment
@@ -99,6 +107,14 @@ definition
 											2|[local::at0099],
 											3|[local::at0100],
 											4|[local::at0101]
+										}
+									}
+									ELEMENT[at0178] occurrences matches {0..1} matches {    -- Coordination_coded
+										value matches {
+											1|[local::at0179],
+											2|[local::at0180],
+											3|[local::at0181],
+											4|[local::at0182]
 										}
 									}
 									CLUSTER[at0020] occurrences matches {0..1} matches {    -- Dysphasia
@@ -815,6 +831,46 @@ ontology
 					description = <"">
 				>
 				["at0177"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0178"] = <
+					text = <"Coordination_coded">
+					description = <"">
+				>
+				["at0179"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0180"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0181"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0182"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0183"] = <
+					text = <"Unsteady _on_feet">
+					description = <"">
+				>
+				["at0184"] = <
+					text = <"Not at ll">
+					description = <"">
+				>
+				["at0185"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0186"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0187"] = <
 					text = <"Very much">
 					description = <"">
 				>
