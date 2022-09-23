@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8c3dac849b434d8f2fffe5344bd9007c">
+		["MD5-CAM-1.0.1"] = <"d916cb76873f26d925466837402ab999">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -74,7 +74,7 @@ definition
 													4|[local::at0155]
 												}
 											}
-											ELEMENT[at0183] occurrences matches {0..1} matches {    -- Unsteady _on_feet
+											ELEMENT[at0183] occurrences matches {0..1} matches {    -- Unsteady_on_feet_coded
 												value matches {
 													1|[local::at0184],
 													2|[local::at0185],
@@ -855,11 +855,11 @@ ontology
 					description = <"">
 				>
 				["at0183"] = <
-					text = <"Unsteady _on_feet">
+					text = <"Unsteady_on_feet_coded">
 					description = <"">
 				>
 				["at0184"] = <
-					text = <"Not at ll">
+					text = <"Not at all">
 					description = <"">
 				>
 				["at0185"] = <
