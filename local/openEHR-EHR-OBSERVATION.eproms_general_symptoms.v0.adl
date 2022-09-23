@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ff0c37d57fbdd4c9314ed87b5ccc7db1">
+		["MD5-CAM-1.0.1"] = <"e32c52b5cae962534679563b6f722d2c">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -108,6 +108,14 @@ definition
 											1|[local::at0048],
 											2|[local::at0049],
 											3|[local::at0050]
+										}
+									}
+									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Fatigue_coded
+										value matches {
+											1|[local::at0089],
+											2|[local::at0090],
+											3|[local::at0091],
+											4|[local::at0092]
 										}
 									}
 									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Somnolence
@@ -542,6 +550,26 @@ ontology
 				>
 				["at0082"] = <
 					text = <"Yes and I use it for all my nutrition (I cannot eat and drink)">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Fatigue_coded">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"A Little">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
