@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5b9e7972cde6a3ee86fe9eff38146101">
+		["MD5-CAM-1.0.1"] = <"f2e6bb6595a0039d0aed72b01362fbd0">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -109,6 +109,14 @@ definition
 													1|[local::at0028],
 													2|[local::at0029],
 													3|[local::at0092]
+												}
+											}
+											ELEMENT[at0168] occurrences matches {0..1} matches {    -- Dysphasia_coded
+												value matches {
+													1|[local::at0169],
+													2|[local::at0170],
+													3|[local::at0171],
+													4|[local::at0172]
 												}
 											}
 										}
@@ -760,6 +768,26 @@ ontology
 				>
 				["at0167"] = <
 					text = <"Leg(s)">
+					description = <"">
+				>
+				["at0168"] = <
+					text = <"Dysphasia_coded">
+					description = <"">
+				>
+				["at0169"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0170"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0171"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0172"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
