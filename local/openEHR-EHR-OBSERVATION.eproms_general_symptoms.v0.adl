@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e32c52b5cae962534679563b6f722d2c">
+		["MD5-CAM-1.0.1"] = <"73d6be6103246f3e58dea25c49f989e1">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -61,6 +61,11 @@ definition
 											4|[local::at0019]
 										}
 									}
+									ELEMENT[at0093] occurrences matches {0..1} matches {    -- DV_ORDINAL
+										value matches {
+											DV_ORDINAL matches {*}
+										}
+									}
 									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Weight_loss
 										value matches {
 											0|[local::at0022],
@@ -75,6 +80,14 @@ definition
 											1|[local::at0028],
 											2|[local::at0029],
 											3|[local::at0030]
+										}
+									}
+									ELEMENT[at0094] occurrences matches {0..1} matches {    -- Weight_maintenance_coded
+										value matches {
+											1|[local::at0095],
+											2|[local::at0096],
+											3|[local::at0097],
+											4|[local::at0098]
 										}
 									}
 									ELEMENT[at0031] occurrences matches {0..1} matches {    -- Fever
@@ -569,6 +582,30 @@ ontology
 					description = <"">
 				>
 				["at0092"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"DV_ORDINAL">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Weight_maintenance_coded">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0098"] = <
 					text = <"Very much">
 					description = <"">
 				>
