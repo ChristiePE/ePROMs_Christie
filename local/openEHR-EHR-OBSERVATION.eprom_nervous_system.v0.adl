@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f2e6bb6595a0039d0aed72b01362fbd0">
+		["MD5-CAM-1.0.1"] = <"db622fb6d8a5e097cf172e8e2761368d">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -82,6 +82,14 @@ definition
 											1|[local::at0106],
 											2|[local::at0107],
 											3|[local::at0108]
+										}
+									}
+									ELEMENT[at0173] occurrences matches {0..1} matches {    -- Memory_impairment_coded
+										value matches {
+											1|[local::at0174],
+											2|[local::at0175],
+											3|[local::at0176],
+											4|[local::at0177]
 										}
 									}
 									ELEMENT[at0015] occurrences matches {0..1} matches {    -- Seizure
@@ -787,6 +795,26 @@ ontology
 					description = <"">
 				>
 				["at0172"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0173"] = <
+					text = <"Memory_impairment_coded">
+					description = <"">
+				>
+				["at0174"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0175"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0176"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0177"] = <
 					text = <"Very much">
 					description = <"">
 				>
