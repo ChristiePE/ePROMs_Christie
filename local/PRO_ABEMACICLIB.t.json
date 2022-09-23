@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "66b00b2517c2777aba1ca3103dfcae28",
+      "MD5-CAM-1.0.1" : "b20dafd8e144c3628cd6a38bc509d6ba",
       "PARENT:MD5-CAM-1.0.1" : "c8521fa62e8293e0416f3b6c60f40c20"
     },
     "details" : {
@@ -156,7 +156,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "67fb42d6dafd22fc354e05bdc435aecd"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_gastrointestinal_disorders.v0",
     "differential" : true,
@@ -375,9 +388,22 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "ff0c37d57fbdd4c9314ed87b5ccc7db1"
+        "PARENT:MD5-CAM-1.0.1" : "71a764166be1eaeef54c8f819e200967"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_general_symptoms.v0",
     "differential" : true,
@@ -445,6 +471,13 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
+                      "nodeId" : "at0094.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0031.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -453,6 +486,13 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0036.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0088.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
@@ -488,6 +528,20 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0078.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0099.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0104.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     } ]
@@ -539,7 +593,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "cb37b6763e49e366bbed332c723d1c3d"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_skin_and_subcutaneous.v0",
     "differential" : true,
@@ -680,7 +747,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "c7ea2a3b5095d67e3633b6d99f4ac299"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eprom_respir_thoracic_mediastinal.v0",
     "differential" : true,
@@ -807,7 +887,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "1043e9a14ae91d4dcfbf3932c6b0a908"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_musculoskeletal_connect_tissue.v0",
     "differential" : true,
@@ -906,7 +999,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "8eb13b757a150ce70154fd988f9f4406"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eprom_reproductive_system.v0",
     "differential" : true,
@@ -1070,7 +1176,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "e0837169b87fb0cda2566a7509096571"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
