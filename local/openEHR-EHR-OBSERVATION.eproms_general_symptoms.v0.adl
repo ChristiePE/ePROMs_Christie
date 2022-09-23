@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"71a764166be1eaeef54c8f819e200967">
+		["MD5-CAM-1.0.1"] = <"566aee0f803564b36e14bb208ae31b0a">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -59,11 +59,6 @@ definition
 											2|[local::at0017],
 											3|[local::at0018],
 											4|[local::at0019]
-										}
-									}
-									ELEMENT[at0093] occurrences matches {0..1} matches {    -- DV_ORDINAL
-										value matches {
-											DV_ORDINAL matches {*}
 										}
 									}
 									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Weight_loss
@@ -599,10 +594,6 @@ ontology
 				>
 				["at0092"] = <
 					text = <"Very much">
-					description = <"">
-				>
-				["at0093"] = <
-					text = <"DV_ORDINAL">
 					description = <"">
 				>
 				["at0094"] = <
