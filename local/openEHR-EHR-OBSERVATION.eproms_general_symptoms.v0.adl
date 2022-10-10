@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"566aee0f803564b36e14bb208ae31b0a">
+		["MD5-CAM-1.0.1"] = <"34cffd39060bc6b1dfba84639ea8058e">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -578,7 +578,7 @@ ontology
 				>
 				["at0088"] = <
 					text = <"Fatigue_coded">
-					description = <"">
+					description = <"Do you feel weary, tired or fatigued (most of the time)?">
 				>
 				["at0089"] = <
 					text = <"Not at all">
@@ -598,7 +598,7 @@ ontology
 				>
 				["at0094"] = <
 					text = <"Weight_maintenance_coded">
-					description = <"">
+					description = <"Are you eating and drinking enough to maintain your weight?">
 				>
 				["at0095"] = <
 					text = <"Not at all">
@@ -618,7 +618,7 @@ ontology
 				>
 				["at0099"] = <
 					text = <"Concentration_coded">
-					description = <"">
+					description = <"Have you had trouble following conversation or the TV?">
 				>
 				["at0100"] = <
 					text = <"Not at all">
@@ -638,7 +638,7 @@ ontology
 				>
 				["at0104"] = <
 					text = <"Confusion_coded">
-					description = <"">
+					description = <"Have you felt muddled or confused?">
 				>
 				["at0105"] = <
 					text = <"Not at all">
