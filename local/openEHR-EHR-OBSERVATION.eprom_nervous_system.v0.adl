@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d916cb76873f26d925466837402ab999">
+		["MD5-CAM-1.0.1"] = <"684169dffbb7e6716c50afdc96e99a1a">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -796,7 +796,7 @@ ontology
 				>
 				["at0168"] = <
 					text = <"Dysphasia_coded">
-					description = <"">
+					description = <"Have you had trouble speaking or expressing yourself?">
 				>
 				["at0169"] = <
 					text = <"Not at all">
@@ -816,7 +816,7 @@ ontology
 				>
 				["at0173"] = <
 					text = <"Memory_impairment_coded">
-					description = <"">
+					description = <"Have you felt that your memory is not as good as it used to be?">
 				>
 				["at0174"] = <
 					text = <"Not at all">
@@ -836,7 +836,7 @@ ontology
 				>
 				["at0178"] = <
 					text = <"Coordination_coded">
-					description = <"">
+					description = <"Have you had difficulty with your coordination i.e using cutlery?">
 				>
 				["at0179"] = <
 					text = <"Not at all">
@@ -856,7 +856,7 @@ ontology
 				>
 				["at0183"] = <
 					text = <"Unsteady_on_feet_coded">
-					description = <"">
+					description = <"Are you unsteady on your feet?">
 				>
 				["at0184"] = <
 					text = <"Not at all">
