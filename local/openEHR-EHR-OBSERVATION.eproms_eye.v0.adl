@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ef17549eded35385001772a46959f99f">
+		["MD5-CAM-1.0.1"] = <"9004e47b14f216255bd5378b86c05df4">
 		["build_uid"] = <"84f1367c-e903-3fac-b37e-996c43f7e127">
 	>
 
@@ -138,7 +138,7 @@ ontology
 				>
 				["at0015"] = <
 					text = <"Blurred_vision_coded">
-					description = <"">
+					description = <"Have you had difficulty with your vision?">
 				>
 				["at0016"] = <
 					text = <"Not at all">
