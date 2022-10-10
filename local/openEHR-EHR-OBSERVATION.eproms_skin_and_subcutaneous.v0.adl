@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cb37b6763e49e366bbed332c723d1c3d">
+		["MD5-CAM-1.0.1"] = <"961c19b765ca414dc42498c52b6b1cd2">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -143,6 +143,12 @@ definition
 											1|[local::at0055],
 											2|[local::at0056],
 											3|[local::at0057]
+										}
+									}
+									ELEMENT[at0069] occurrences matches {0..1} matches {    -- Bruise_coded
+										value matches {
+											1|[local::at0070],
+											2|[local::at0071]
 										}
 									}
 								}
@@ -428,6 +434,18 @@ ontology
 				>
 				["at0068"] = <
 					text = <"The skin looks darker colour">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Bruise_coded">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
