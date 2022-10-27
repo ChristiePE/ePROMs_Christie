@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "449c5b696a54e5c7b0a74afa28722897",
+      "MD5-CAM-1.0.1" : "b7d1ea3d2d171fe59cd2130b8a7ef73d",
       "PARENT:MD5-CAM-1.0.1" : "653d9509a78d99515fc06a9f13c6b554"
     },
     "details" : {
@@ -136,7 +136,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "b5f892424aac0889051c67a8ac2bd527"
+        "PARENT:MD5-CAM-1.0.1" : "c712f9e8e6947f1ebf84b89af808f86a"
       },
       "details" : {
         "de" : {
@@ -433,6 +433,24 @@
                               "members" : [ {
                                 "@type" : "C_STRING",
                                 "rmTypeName" : "STRING",
+                                "constraint" : [ "[lb_av]" ]
+                              }, {
+                                "@type" : "C_REAL",
+                                "rmTypeName" : "REAL",
+                                "constraint" : [ {
+                                  "lower" : 0.0,
+                                  "upper" : 400.0,
+                                  "lowerIncluded" : true,
+                                  "upperIncluded" : true,
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
+                                } ]
+                              } ]
+                            }, {
+                              "@type" : "C_PRIMITIVE_TUPLE",
+                              "members" : [ {
+                                "@type" : "C_STRING",
+                                "rmTypeName" : "STRING",
                                 "constraint" : [ "kg" ]
                               }, {
                                 "@type" : "C_REAL",
@@ -440,42 +458,6 @@
                                 "constraint" : [ {
                                   "lower" : 0.0,
                                   "upper" : 200.0,
-                                  "lowerIncluded" : true,
-                                  "upperIncluded" : true,
-                                  "lowerUnbounded" : false,
-                                  "upperUnbounded" : false
-                                } ]
-                              } ]
-                            }, {
-                              "@type" : "C_PRIMITIVE_TUPLE",
-                              "members" : [ {
-                                "@type" : "C_STRING",
-                                "rmTypeName" : "STRING",
-                                "constraint" : [ "[lb_av]" ]
-                              }, {
-                                "@type" : "C_REAL",
-                                "rmTypeName" : "REAL",
-                                "constraint" : [ {
-                                  "lower" : 0.0,
-                                  "upper" : 2000.0,
-                                  "lowerIncluded" : true,
-                                  "upperIncluded" : true,
-                                  "lowerUnbounded" : false,
-                                  "upperUnbounded" : false
-                                } ]
-                              } ]
-                            }, {
-                              "@type" : "C_PRIMITIVE_TUPLE",
-                              "members" : [ {
-                                "@type" : "C_STRING",
-                                "rmTypeName" : "STRING",
-                                "constraint" : [ "g" ]
-                              }, {
-                                "@type" : "C_REAL",
-                                "rmTypeName" : "REAL",
-                                "constraint" : [ {
-                                  "lower" : 0.0,
-                                  "upper" : 1000000.0,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : true,
                                   "lowerUnbounded" : false,
