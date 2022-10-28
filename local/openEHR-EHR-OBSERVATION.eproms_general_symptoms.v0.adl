@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"34cffd39060bc6b1dfba84639ea8058e">
+		["MD5-CAM-1.0.1"] = <"e71345fb08ab5bb0454c19890dd87c17">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -80,9 +80,7 @@ definition
 									ELEMENT[at0094] occurrences matches {0..1} matches {    -- Weight_maintenance_coded
 										value matches {
 											1|[local::at0095],
-											2|[local::at0096],
-											3|[local::at0097],
-											4|[local::at0098]
+											2|[local::at0096]
 										}
 									}
 									ELEMENT[at0031] occurrences matches {0..1} matches {    -- Fever
@@ -601,19 +599,11 @@ ontology
 					description = <"Are you eating and drinking enough to maintain your weight?">
 				>
 				["at0095"] = <
-					text = <"Not at all">
+					text = <"Yes">
 					description = <"">
 				>
 				["at0096"] = <
-					text = <"A little">
-					description = <"">
-				>
-				["at0097"] = <
-					text = <"Quite a bit">
-					description = <"">
-				>
-				["at0098"] = <
-					text = <"Very much">
+					text = <"No">
 					description = <"">
 				>
 				["at0099"] = <
