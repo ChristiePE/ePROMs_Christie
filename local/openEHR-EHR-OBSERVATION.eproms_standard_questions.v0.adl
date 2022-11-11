@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"561ce8982091bce7cfd08f862751fcbb">
+		["MD5-CAM-1.0.1"] = <"967c86c3710535f065a62509dc32e032">
 		["build_uid"] = <"535971ee-acaf-391b-975c-6f8e376e39a3">
 	>
 
@@ -38,16 +38,11 @@ definition
 								items cardinality matches {0..*; unordered} matches {
 									ELEMENT[at0034] occurrences matches {0..1} matches {    -- Daily_activities
 										value matches {
-											DV_CODED_TEXT matches {
-												defining_code matches {
-													[local::
-													at0035,    -- I can carry out my routine activities without any difficulty
-													at0036,    -- I only have problems doing heavy work (for example exercise or lifting things)
-													at0037,    -- I struggle with my routine activities, but spend less than half the day in bed or a chair and can take care of myself
-													at0038,    -- I spend more than half the day in bed or a chair and/or need help with my care
-													at0039]    -- I am totally dependent on others to carry out my routine activities and care for myself
-												}
-											}
+											0|[local::at0040],
+											1|[local::at0041],
+											2|[local::at0042],
+											3|[local::at0043],
+											4|[local::at0044]
 										}
 									}
 									CLUSTER[at0009] occurrences matches {0..1} matches {    -- Smoking
@@ -217,23 +212,23 @@ ontology
 					text = <"Daily_activities">
 					description = <"Please indicate your ability to complete daily routine activities:">
 				>
-				["at0035"] = <
+				["at0040"] = <
 					text = <"I can carry out my routine activities without any difficulty">
 					description = <"PS0">
 				>
-				["at0036"] = <
+				["at0041"] = <
 					text = <"I only have problems doing heavy work (for example exercise or lifting things)">
 					description = <"PS1">
 				>
-				["at0037"] = <
+				["at0042"] = <
 					text = <"I struggle with my routine activities, but spend less than half the day in bed or a chair and can take care of myself">
 					description = <"PS2">
 				>
-				["at0038"] = <
+				["at0043"] = <
 					text = <"I spend more than half the day in bed or a chair and/or need help with my care">
 					description = <"PS3">
 				>
-				["at0039"] = <
+				["at0044"] = <
 					text = <"I am totally dependent on others to carry out my routine activities and care for myself">
 					description = <"PS4">
 				>
