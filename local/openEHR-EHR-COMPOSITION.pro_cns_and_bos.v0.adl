@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"910a8c1f9d00240ee958ebc4c657a766">
+		["MD5-CAM-1.0.1"] = <"e3f04e6291c2d179404ca622e23ecb75">
 		["build_uid"] = <"43e74eb3-06f7-3464-aa6a-8d90c98e1057">
 	>
 
 definition
-	COMPOSITION[at0000] matches {    -- PRO_CNS_and_BOS
+	COMPOSITION[at0000] matches {    -- PRO_CNS_including_BOS
 		category matches {
 			DV_CODED_TEXT[at0001] matches {    -- Coded text
 				defining_code matches {
@@ -46,8 +46,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"PRO_CNS_and_BOS">
-					description = <"PRO_CNS_and_BOS">
+					text = <"PRO_CNS_including_BOS">
+					description = <"PRO_CNS_including_BOS">
 				>
 				["at0001"] = <
 					text = <"Coded text">
