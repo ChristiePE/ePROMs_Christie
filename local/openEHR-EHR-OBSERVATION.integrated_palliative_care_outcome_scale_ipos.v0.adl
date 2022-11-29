@@ -1,0 +1,392 @@
+archetype (adl_version=1.4; uid=7a309a5f-a5f5-489f-9b54-832311366a77)
+	openEHR-EHR-OBSERVATION.integrated_palliative_care_outcome_scale_ipos.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2022-11-29">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"6a39529ef4f94a2e7d0bd61e42cbf174">
+		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Integrated Palliative Care Outcome Scale IPOS
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0004] occurrences matches {0..1} matches {    -- Experience of symptoms
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0006] occurrences matches {0..1} matches {    -- Pain
+												value matches {
+													0|[local::at0007],
+													1|[local::at0008],
+													2|[local::at0009],
+													3|[local::at0010],
+													4|[local::at0011]
+												}
+											}
+											ELEMENT[at0012] occurrences matches {0..1} matches {    -- Shortness of breath
+												value matches {
+													0|[local::at0013],
+													1|[local::at0014],
+													2|[local::at0015],
+													3|[local::at0016],
+													4|[local::at0017]
+												}
+											}
+											ELEMENT[at0018] occurrences matches {0..1} matches {    -- Weakness or lack of energy
+												value matches {
+													0|[local::at0019],
+													1|[local::at0020],
+													2|[local::at0021],
+													3|[local::at0022],
+													4|[local::at0023]
+												}
+											}
+											ELEMENT[at0024] occurrences matches {0..1} matches {    -- Nausea (feeling like you are going to be sick)
+												value matches {
+													0|[local::at0025],
+													1|[local::at0026],
+													2|[local::at0027],
+													3|[local::at0028],
+													4|[local::at0029]
+												}
+											}
+											ELEMENT[at0030] occurrences matches {0..1} matches {    -- Vomiting (being sick)
+												value matches {
+													0|[local::at0031],
+													1|[local::at0032],
+													2|[local::at0033],
+													3|[local::at0034],
+													4|[local::at0035]
+												}
+											}
+											ELEMENT[at0036] occurrences matches {0..1} matches {    -- Poor appetite
+												value matches {
+													0|[local::at0037],
+													1|[local::at0038],
+													2|[local::at0039],
+													3|[local::at0040],
+													4|[local::at0041]
+												}
+											}
+											ELEMENT[at0042] occurrences matches {0..1} matches {    -- Constipation
+												value matches {
+													0|[local::at0043],
+													1|[local::at0044],
+													2|[local::at0045],
+													3|[local::at0046],
+													4|[local::at0047]
+												}
+											}
+											CLUSTER[at0048] occurrences matches {0..1} matches {    -- Symptom 1
+												items cardinality matches {1..*; unordered} matches {
+													ELEMENT[at0049] occurrences matches {0..1} matches {    -- Symptom 1
+														value matches {
+															DV_TEXT matches {*}
+														}
+													}
+													ELEMENT[at0050] occurrences matches {0..1} matches {    -- Symptom 1
+														value matches {
+															0|[local::at0051],
+															1|[local::at0052],
+															2|[local::at0053],
+															3|[local::at0054],
+															4|[local::at0055]
+														}
+													}
+												}
+											}
+										}
+									}
+									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Personal anxiety
+										value matches {
+											0|[local::at0057],
+											1|[local::at0058],
+											2|[local::at0059],
+											3|[local::at0060],
+											4|[local::at0061]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Integrated Palliative Care Outcome Scale IPOS">
+					description = <"Integrated Palliative Care Outcome Scale IPOS">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Experience of symptoms">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Pain">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Shortness of breath">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Weakness or lack of energy">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Nausea (feeling like you are going to be sick)">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Vomiting (being sick)">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Poor appetite">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Constipation">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Symptom 1">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Symptom 1">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Symptom 1">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Personal anxiety">
+					description = <"Have you been feeling anxious or worried about your illness or treatment?">
+				>
+				["at0057"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Always">
+					description = <"">
+				>
+			>
+		>
+	>
