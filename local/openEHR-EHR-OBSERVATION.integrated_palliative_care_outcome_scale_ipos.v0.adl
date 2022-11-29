@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"6a39529ef4f94a2e7d0bd61e42cbf174">
+		["MD5-CAM-1.0.1"] = <"ea8e9a4d0c1984d4760f3cb0f5fbc640">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -65,7 +65,7 @@ definition
 													4|[local::at0023]
 												}
 											}
-											ELEMENT[at0024] occurrences matches {0..1} matches {    -- Nausea (feeling like you are going to be sick)
+											ELEMENT[at0024] occurrences matches {0..1} matches {    -- Nausea
 												value matches {
 													0|[local::at0025],
 													1|[local::at0026],
@@ -74,7 +74,7 @@ definition
 													4|[local::at0029]
 												}
 											}
-											ELEMENT[at0030] occurrences matches {0..1} matches {    -- Vomiting (being sick)
+											ELEMENT[at0030] occurrences matches {0..1} matches {    -- Vomiting
 												value matches {
 													0|[local::at0031],
 													1|[local::at0032],
@@ -101,6 +101,33 @@ definition
 													4|[local::at0047]
 												}
 											}
+											ELEMENT[at0064] occurrences matches {0..1} matches {    -- Sore or dry mouth
+												value matches {
+													0|[local::at0065],
+													1|[local::at0066],
+													2|[local::at0067],
+													3|[local::at0068],
+													4|[local::at0069]
+												}
+											}
+											ELEMENT[at0070] occurrences matches {0..1} matches {    -- Drowsiness
+												value matches {
+													0|[local::at0071],
+													1|[local::at0072],
+													2|[local::at0073],
+													3|[local::at0074],
+													4|[local::at0075]
+												}
+											}
+											ELEMENT[at0076] occurrences matches {0..1} matches {    -- Poor mobility
+												value matches {
+													0|[local::at0077],
+													1|[local::at0078],
+													2|[local::at0079],
+													3|[local::at0080],
+													4|[local::at0081]
+												}
+											}
 											CLUSTER[at0048] occurrences matches {0..1} matches {    -- Symptom 1
 												items cardinality matches {1..*; unordered} matches {
 													ELEMENT[at0049] occurrences matches {0..1} matches {    -- Symptom 1
@@ -119,6 +146,42 @@ definition
 													}
 												}
 											}
+											CLUSTER[at0122] occurrences matches {0..1} matches {    -- Symptom 2
+												items cardinality matches {1..*; unordered} matches {
+													ELEMENT[at0123] occurrences matches {0..1} matches {    -- Symptom 2
+														value matches {
+															DV_TEXT matches {*}
+														}
+													}
+													ELEMENT[at0124] occurrences matches {0..1} matches {    -- Symptom 2
+														value matches {
+															0|[local::at0125],
+															1|[local::at0126],
+															2|[local::at0127],
+															3|[local::at0128],
+															4|[local::at0129]
+														}
+													}
+												}
+											}
+											CLUSTER[at0130] occurrences matches {0..1} matches {    -- Symptom 3
+												items cardinality matches {1..*; unordered} matches {
+													ELEMENT[at0131] occurrences matches {0..1} matches {    -- Symptom 3
+														value matches {
+															DV_TEXT matches {*}
+														}
+													}
+													ELEMENT[at0132] occurrences matches {0..1} matches {    -- Symptom 3
+														value matches {
+															0|[local::at0133],
+															1|[local::at0134],
+															2|[local::at0135],
+															3|[local::at0136],
+															4|[local::at0137]
+														}
+													}
+												}
+											}
 										}
 									}
 									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Personal anxiety
@@ -128,6 +191,60 @@ definition
 											2|[local::at0059],
 											3|[local::at0060],
 											4|[local::at0061]
+										}
+									}
+									ELEMENT[at0082] occurrences matches {0..1} matches {    -- Anxiety of others
+										value matches {
+											0|[local::at0083],
+											1|[local::at0084],
+											2|[local::at0085],
+											3|[local::at0086],
+											4|[local::at0087]
+										}
+									}
+									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Depression
+										value matches {
+											0|[local::at0089],
+											1|[local::at0090],
+											2|[local::at0091],
+											3|[local::at0092],
+											4|[local::at0093]
+										}
+									}
+									ELEMENT[at0094] occurrences matches {0..1} matches {    -- Feeling at peace
+										value matches {
+											0|[local::at0095],
+											1|[local::at0096],
+											2|[local::at0097],
+											3|[local::at0098],
+											4|[local::at0099]
+										}
+									}
+									ELEMENT[at0100] occurrences matches {0..1} matches {    -- Sharing feelings
+										value matches {
+											0|[local::at0101],
+											1|[local::at0102],
+											2|[local::at0103],
+											3|[local::at0104],
+											4|[local::at0105]
+										}
+									}
+									ELEMENT[at0106] occurrences matches {0..1} matches {    -- Information
+										value matches {
+											0|[local::at0107],
+											1|[local::at0108],
+											2|[local::at0109],
+											3|[local::at0110],
+											4|[local::at0111]
+										}
+									}
+									ELEMENT[at0112] occurrences matches {0..1} matches {    -- Problems being addressed
+										value matches {
+											0|[local::at0113],
+											1|[local::at0114],
+											2|[local::at0115],
+											3|[local::at0116],
+											4|[local::at0117]
 										}
 									}
 								}
@@ -236,7 +353,7 @@ ontology
 					description = <"">
 				>
 				["at0024"] = <
-					text = <"Nausea (feeling like you are going to be sick)">
+					text = <"Nausea">
 					description = <"">
 				>
 				["at0025"] = <
@@ -260,7 +377,7 @@ ontology
 					description = <"">
 				>
 				["at0030"] = <
-					text = <"Vomiting (being sick)">
+					text = <"Vomiting">
 					description = <"">
 				>
 				["at0031"] = <
@@ -385,6 +502,286 @@ ontology
 				>
 				["at0061"] = <
 					text = <"Always">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Sore or dry mouth">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Drowsiness">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Poor mobility">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Anxiety of others">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Depression">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Feeling at peace">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Sharing feelings">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"Information">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"Always">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0109"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0110"] = <
+					text = <"Occasionally">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"Problems being addressed">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"Problems addressed/No problems">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Problems mostly addressed">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"Problems partly addressed">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"Problems hardly addressed">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"Problems not addressed">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"Symptom 2">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"Symptom 2">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Symptom 2">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"Symptom 3">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"Symptom 3">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"Symptom 3">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"Slightly">
+					description = <"">
+				>
+				["at0135"] = <
+					text = <"Moderately">
+					description = <"">
+				>
+				["at0136"] = <
+					text = <"Severely">
+					description = <"">
+				>
+				["at0137"] = <
+					text = <"Overwhelmingly">
 					description = <"">
 				>
 			>
