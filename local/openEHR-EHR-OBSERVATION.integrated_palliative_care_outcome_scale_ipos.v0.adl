@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ea8e9a4d0c1984d4760f3cb0f5fbc640">
+		["MD5-CAM-1.0.1"] = <"241cf6536c70623ae7e6e2266ed82d81">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -245,6 +245,13 @@ definition
 											2|[local::at0115],
 											3|[local::at0116],
 											4|[local::at0117]
+										}
+									}
+									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Questionnaire completion
+										value matches {
+											1|[local::at0141],
+											2|[local::at0142],
+											3|[local::at0143]
 										}
 									}
 								}
@@ -578,7 +585,7 @@ ontology
 				>
 				["at0082"] = <
 					text = <"Anxiety of others">
-					description = <"">
+					description = <"Have any of your family or friends been anxious or worried about you?">
 				>
 				["at0083"] = <
 					text = <"Not at all">
@@ -602,7 +609,7 @@ ontology
 				>
 				["at0088"] = <
 					text = <"Depression">
-					description = <"">
+					description = <"Have you been feeling depressed?">
 				>
 				["at0089"] = <
 					text = <"Not at all">
@@ -626,7 +633,7 @@ ontology
 				>
 				["at0094"] = <
 					text = <"Feeling at peace">
-					description = <"">
+					description = <"Have you felt at peace?">
 				>
 				["at0095"] = <
 					text = <"Always">
@@ -650,7 +657,7 @@ ontology
 				>
 				["at0100"] = <
 					text = <"Sharing feelings">
-					description = <"">
+					description = <"Have you been able to share how you are feeling with your family or friends as much as you wanted?">
 				>
 				["at0101"] = <
 					text = <"Always">
@@ -674,7 +681,7 @@ ontology
 				>
 				["at0106"] = <
 					text = <"Information">
-					description = <"">
+					description = <"Have you had as much information as you wanted?">
 				>
 				["at0107"] = <
 					text = <"Always">
@@ -698,7 +705,7 @@ ontology
 				>
 				["at0112"] = <
 					text = <"Problems being addressed">
-					description = <"">
+					description = <"Have any practical problems resulting from your illness been addressed? (such as financial or personal)">
 				>
 				["at0113"] = <
 					text = <"Problems addressed/No problems">
@@ -782,6 +789,22 @@ ontology
 				>
 				["at0137"] = <
 					text = <"Overwhelmingly">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"Questionnaire completion">
+					description = <"">
+				>
+				["at0141"] = <
+					text = <"On my own">
+					description = <"">
+				>
+				["at0142"] = <
+					text = <"With the help of a friend or relative">
+					description = <"">
+				>
+				["at0143"] = <
+					text = <"With help from a member of staff">
 					description = <"">
 				>
 			>
