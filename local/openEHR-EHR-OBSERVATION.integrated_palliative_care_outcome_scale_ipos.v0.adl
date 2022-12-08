@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"28095d0255609a3d31f6de1359310fc8">
+		["MD5-CAM-1.0.1"] = <"675bb7f329d13611ab5cfdcecfdcfe0f">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -213,6 +213,10 @@ definition
 												}
 											}
 										}
+									}
+									allow_archetype CLUSTER[at0145] occurrences matches {0..*} matches {    -- Patient Reported Symptom
+										include
+											archetype_id/value matches {/.*/}
 									}
 								}
 							}
@@ -705,6 +709,10 @@ ontology
 				["at0144"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
+				>
+				["at0145"] = <
+					text = <"Patient Reported Symptom">
+					description = <"">
 				>
 			>
 		>
