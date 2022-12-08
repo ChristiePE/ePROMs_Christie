@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"675bb7f329d13611ab5cfdcecfdcfe0f">
+		["MD5-CAM-1.0.1"] = <"024581e7c4eebe203cbea7eb1e1fbc1b">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -36,6 +36,10 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
+									allow_archetype CLUSTER[at0146] occurrences matches {0..*} matches {    -- Main Patient Reported Problems
+										include
+											archetype_id/value matches {/.*/}
+									}
 									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Personal anxiety
 										value matches {
 											0|[local::at0057],
@@ -712,6 +716,10 @@ ontology
 				>
 				["at0145"] = <
 					text = <"Patient Reported Symptom">
+					description = <"">
+				>
+				["at0146"] = <
+					text = <"Main Patient Reported Problems">
 					description = <"">
 				>
 			>
