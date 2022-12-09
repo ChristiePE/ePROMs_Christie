@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"024581e7c4eebe203cbea7eb1e1fbc1b">
+		["MD5-CAM-1.0.1"] = <"44a7ed07e9312046a66145d6fdf1f69b">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -39,76 +39,6 @@ definition
 									allow_archetype CLUSTER[at0146] occurrences matches {0..*} matches {    -- Main Patient Reported Problems
 										include
 											archetype_id/value matches {/.*/}
-									}
-									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Personal anxiety
-										value matches {
-											0|[local::at0057],
-											1|[local::at0058],
-											2|[local::at0059],
-											3|[local::at0060],
-											4|[local::at0061]
-										}
-									}
-									ELEMENT[at0082] occurrences matches {0..1} matches {    -- Anxiety of others
-										value matches {
-											0|[local::at0083],
-											1|[local::at0084],
-											2|[local::at0085],
-											3|[local::at0086],
-											4|[local::at0087]
-										}
-									}
-									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Depression
-										value matches {
-											0|[local::at0089],
-											1|[local::at0090],
-											2|[local::at0091],
-											3|[local::at0092],
-											4|[local::at0093]
-										}
-									}
-									ELEMENT[at0094] occurrences matches {0..1} matches {    -- Feeling at peace
-										value matches {
-											0|[local::at0095],
-											1|[local::at0096],
-											2|[local::at0097],
-											3|[local::at0098],
-											4|[local::at0099]
-										}
-									}
-									ELEMENT[at0100] occurrences matches {0..1} matches {    -- Sharing feelings
-										value matches {
-											0|[local::at0101],
-											1|[local::at0102],
-											2|[local::at0103],
-											3|[local::at0104],
-											4|[local::at0105]
-										}
-									}
-									ELEMENT[at0106] occurrences matches {0..1} matches {    -- Information
-										value matches {
-											0|[local::at0107],
-											1|[local::at0108],
-											2|[local::at0109],
-											3|[local::at0110],
-											4|[local::at0111]
-										}
-									}
-									ELEMENT[at0112] occurrences matches {0..1} matches {    -- Problems being addressed
-										value matches {
-											0|[local::at0113],
-											1|[local::at0114],
-											2|[local::at0115],
-											3|[local::at0116],
-											4|[local::at0117]
-										}
-									}
-									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Questionnaire completion
-										value matches {
-											1|[local::at0141],
-											2|[local::at0142],
-											3|[local::at0143]
-										}
 									}
 									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Pain
 										value matches {
@@ -221,6 +151,76 @@ definition
 									allow_archetype CLUSTER[at0145] occurrences matches {0..*} matches {    -- Patient Reported Symptom
 										include
 											archetype_id/value matches {/.*/}
+									}
+									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Personal anxiety
+										value matches {
+											0|[local::at0057],
+											1|[local::at0058],
+											2|[local::at0059],
+											3|[local::at0060],
+											4|[local::at0061]
+										}
+									}
+									ELEMENT[at0082] occurrences matches {0..1} matches {    -- Anxiety of others
+										value matches {
+											0|[local::at0083],
+											1|[local::at0084],
+											2|[local::at0085],
+											3|[local::at0086],
+											4|[local::at0087]
+										}
+									}
+									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Depression
+										value matches {
+											0|[local::at0089],
+											1|[local::at0090],
+											2|[local::at0091],
+											3|[local::at0092],
+											4|[local::at0093]
+										}
+									}
+									ELEMENT[at0094] occurrences matches {0..1} matches {    -- Feeling at peace
+										value matches {
+											0|[local::at0095],
+											1|[local::at0096],
+											2|[local::at0097],
+											3|[local::at0098],
+											4|[local::at0099]
+										}
+									}
+									ELEMENT[at0100] occurrences matches {0..1} matches {    -- Sharing feelings
+										value matches {
+											0|[local::at0101],
+											1|[local::at0102],
+											2|[local::at0103],
+											3|[local::at0104],
+											4|[local::at0105]
+										}
+									}
+									ELEMENT[at0106] occurrences matches {0..1} matches {    -- Information
+										value matches {
+											0|[local::at0107],
+											1|[local::at0108],
+											2|[local::at0109],
+											3|[local::at0110],
+											4|[local::at0111]
+										}
+									}
+									ELEMENT[at0112] occurrences matches {0..1} matches {    -- Problems being addressed
+										value matches {
+											0|[local::at0113],
+											1|[local::at0114],
+											2|[local::at0115],
+											3|[local::at0116],
+											4|[local::at0117]
+										}
+									}
+									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Questionnaire completion
+										value matches {
+											1|[local::at0141],
+											2|[local::at0142],
+											3|[local::at0143]
+										}
 									}
 								}
 							}
