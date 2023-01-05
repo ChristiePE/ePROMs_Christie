@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"da93da9277cbfd7579afebd16708f072">
+		["MD5-CAM-1.0.1"] = <"f8937e658a002e7ff98bf8ee00b6909f">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -36,9 +36,9 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									CLUSTER[at0004] occurrences matches {0..1} matches {    -- Difficulty
+									CLUSTER[at0004] occurrences matches {0..1} matches {    -- Difficulty_with_daily_activities
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Difficulty getting in or out of a low chair
+											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Getting_in_out_a_low_chair
 												value matches {
 													1|[local::at0006],
 													2|[local::at0007],
@@ -47,7 +47,7 @@ definition
 													5|[local::at0010]
 												}
 											}
-											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Difficulty shopping for groceries or other things
+											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Shopping_groceries_other_things
 												value matches {
 													1|[local::at0012],
 													2|[local::at0013],
@@ -56,7 +56,7 @@ definition
 													5|[local::at0016]
 												}
 											}
-											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Difficulty climbing stairs
+											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Climbing_stairs
 												value matches {
 													1|[local::at0018],
 													2|[local::at0019],
@@ -65,7 +65,7 @@ definition
 													5|[local::at0022]
 												}
 											}
-											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Difficulty getting out the bathtub or shower
+											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Getting_out_bathtub_shower
 												value matches {
 													1|[local::at0024],
 													2|[local::at0025],
@@ -74,7 +74,7 @@ definition
 													5|[local::at0028]
 												}
 											}
-											ELEMENT[at0029] occurrences matches {0..1} matches {    -- Difficulty getting comfortable to sleep
+											ELEMENT[at0029] occurrences matches {0..1} matches {    -- Getting_comfortable_to_sleep
 												value matches {
 													1|[local::at0030],
 													2|[local::at0031],
@@ -83,7 +83,7 @@ definition
 													5|[local::at0034]
 												}
 											}
-											ELEMENT[at0035] occurrences matches {0..1} matches {    -- Difficulty bending or kneeling down
+											ELEMENT[at0035] occurrences matches {0..1} matches {    -- Bending_kneeling_down
 												value matches {
 													1|[local::at0036],
 													2|[local::at0037],
@@ -92,7 +92,7 @@ definition
 													5|[local::at0040]
 												}
 											}
-											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Difficult dressing yourself
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Dressing_yourself
 												value matches {
 													1|[local::at0042],
 													2|[local::at0043],
@@ -101,7 +101,7 @@ definition
 													5|[local::at0046]
 												}
 											}
-											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Difficulty walking
+											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Walking
 												value matches {
 													1|[local::at0048],
 													2|[local::at0049],
@@ -110,7 +110,7 @@ definition
 													5|[local::at0052]
 												}
 											}
-											ELEMENT[at0053] occurrences matches {0..1} matches {    -- Difficulty moving after sitting or lying down
+											ELEMENT[at0053] occurrences matches {0..1} matches {    -- Moving_after_sitting_lying_down
 												value matches {
 													1|[local::at0054],
 													2|[local::at0055],
@@ -119,7 +119,7 @@ definition
 													5|[local::at0058]
 												}
 											}
-											ELEMENT[at0059] occurrences matches {0..1} matches {    -- Difficulty going out by yourself
+											ELEMENT[at0059] occurrences matches {0..1} matches {    -- Going_out_alone
 												value matches {
 													1|[local::at0060],
 													2|[local::at0061],
@@ -128,7 +128,7 @@ definition
 													5|[local::at0064]
 												}
 											}
-											ELEMENT[at0065] occurrences matches {0..1} matches {    -- Difficulty driving
+											ELEMENT[at0065] occurrences matches {0..1} matches {    -- Driving
 												value matches {
 													1|[local::at0066],
 													2|[local::at0067],
@@ -137,7 +137,7 @@ definition
 													5|[local::at0070]
 												}
 											}
-											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Difficulty cleaning yourself after going to the bathroom
+											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Cleaning_self_after_going_to_the_bathroom
 												value matches {
 													1|[local::at0072],
 													2|[local::at0073],
@@ -146,7 +146,7 @@ definition
 													5|[local::at0076]
 												}
 											}
-											ELEMENT[at0077] occurrences matches {0..1} matches {    -- Difficulty pivoting
+											ELEMENT[at0077] occurrences matches {0..1} matches {    -- Pivoting
 												value matches {
 													1|[local::at0078],
 													2|[local::at0079],
@@ -155,7 +155,7 @@ definition
 													5|[local::at0082]
 												}
 											}
-											ELEMENT[at0083] occurrences matches {0..1} matches {    -- Difficulty doing usual physical recreational activities
+											ELEMENT[at0083] occurrences matches {0..1} matches {    -- Doing_usual_physical_recreational_activities
 												value matches {
 													1|[local::at0084],
 													2|[local::at0085],
@@ -164,7 +164,7 @@ definition
 													5|[local::at0088]
 												}
 											}
-											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Difficulty doing light housework or yard work
+											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Doing_light_housework_or_yard_work
 												value matches {
 													1|[local::at0090],
 													2|[local::at0091],
@@ -173,7 +173,7 @@ definition
 													5|[local::at0094]
 												}
 											}
-											ELEMENT[at0095] occurrences matches {0..1} matches {    -- Difficulty doing heavy housework or yard work
+											ELEMENT[at0095] occurrences matches {0..1} matches {    -- Doing_heavy_housework_or_yard_work
 												value matches {
 													1|[local::at0096],
 													2|[local::at0097],
@@ -195,7 +195,7 @@ definition
 									}
 									CLUSTER[at0107] occurrences matches {0..1} matches {    -- Frequency of experiencing problems
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0108] occurrences matches {0..1} matches {    -- Walking with a limp
+											ELEMENT[at0108] occurrences matches {0..1} matches {    -- Walk_with_limp
 												value matches {
 													1|[local::at0109],
 													2|[local::at0110],
@@ -204,7 +204,7 @@ definition
 													5|[local::at0113]
 												}
 											}
-											ELEMENT[at0114] occurrences matches {0..1} matches {    -- Leg lock or give way
+											ELEMENT[at0114] occurrences matches {0..1} matches {    -- Leg_lock_or_give_way
 												value matches {
 													1|[local::at0115],
 													2|[local::at0116],
@@ -213,7 +213,7 @@ definition
 													5|[local::at0119]
 												}
 											}
-											ELEMENT[at0120] occurrences matches {0..1} matches {    -- Problems concentrating
+											ELEMENT[at0120] occurrences matches {0..1} matches {    -- Problems_concentrating
 												value matches {
 													1|[local::at0121],
 													2|[local::at0122],
@@ -222,7 +222,7 @@ definition
 													5|[local::at0125]
 												}
 											}
-											ELEMENT[at0126] occurrences matches {0..1} matches {    -- Doing too much in one day affect what you do the next day
+											ELEMENT[at0126] occurrences matches {0..1} matches {    -- Doing_too_much_in_one_day_affect_what_you_do_the_next_day
 												value matches {
 													1|[local::at0127],
 													2|[local::at0128],
@@ -231,7 +231,7 @@ definition
 													5|[local::at0131]
 												}
 											}
-											ELEMENT[at0132] occurrences matches {0..1} matches {    -- Act irritable towards those around you
+											ELEMENT[at0132] occurrences matches {0..1} matches {    -- Act_irritable_towards_others
 												value matches {
 													1|[local::at0133],
 													2|[local::at0134],
@@ -240,7 +240,7 @@ definition
 													5|[local::at0137]
 												}
 											}
-											ELEMENT[at0138] occurrences matches {0..1} matches {    -- Feel tired
+											ELEMENT[at0138] occurrences matches {0..1} matches {    -- Feel_tired
 												value matches {
 													1|[local::at0139],
 													2|[local::at0140],
@@ -249,7 +249,7 @@ definition
 													5|[local::at0143]
 												}
 											}
-											ELEMENT[at0144] occurrences matches {0..1} matches {    -- Feel disabled
+											ELEMENT[at0144] occurrences matches {0..1} matches {    -- Feel_disabled
 												value matches {
 													1|[local::at0145],
 													2|[local::at0146],
@@ -258,7 +258,7 @@ definition
 													5|[local::at0149]
 												}
 											}
-											ELEMENT[at0150] occurrences matches {0..1} matches {    -- Feel angry about injury
+											ELEMENT[at0150] occurrences matches {0..1} matches {    -- Feel_angry_about_injury
 												value matches {
 													1|[local::at0151],
 													2|[local::at0152],
@@ -402,11 +402,11 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"Difficulty">
+					text = <"Difficulty_with_daily_activities">
 					description = <"">
 				>
 				["at0005"] = <
-					text = <"Difficulty getting in or out of a low chair">
+					text = <"Getting_in_out_a_low_chair">
 					description = <"">
 				>
 				["at0006"] = <
@@ -430,7 +430,7 @@ ontology
 					description = <"">
 				>
 				["at0011"] = <
-					text = <"Difficulty shopping for groceries or other things">
+					text = <"Shopping_groceries_other_things">
 					description = <"">
 				>
 				["at0012"] = <
@@ -454,7 +454,7 @@ ontology
 					description = <"">
 				>
 				["at0017"] = <
-					text = <"Difficulty climbing stairs">
+					text = <"Climbing_stairs">
 					description = <"">
 				>
 				["at0018"] = <
@@ -478,7 +478,7 @@ ontology
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"Difficulty getting out the bathtub or shower">
+					text = <"Getting_out_bathtub_shower">
 					description = <"">
 				>
 				["at0024"] = <
@@ -502,7 +502,7 @@ ontology
 					description = <"">
 				>
 				["at0029"] = <
-					text = <"Difficulty getting comfortable to sleep">
+					text = <"Getting_comfortable_to_sleep">
 					description = <"">
 				>
 				["at0030"] = <
@@ -526,7 +526,7 @@ ontology
 					description = <"">
 				>
 				["at0035"] = <
-					text = <"Difficulty bending or kneeling down">
+					text = <"Bending_kneeling_down">
 					description = <"">
 				>
 				["at0036"] = <
@@ -550,7 +550,7 @@ ontology
 					description = <"">
 				>
 				["at0041"] = <
-					text = <"Difficult dressing yourself">
+					text = <"Dressing_yourself">
 					description = <"">
 				>
 				["at0042"] = <
@@ -574,7 +574,7 @@ ontology
 					description = <"">
 				>
 				["at0047"] = <
-					text = <"Difficulty walking">
+					text = <"Walking">
 					description = <"">
 				>
 				["at0048"] = <
@@ -598,7 +598,7 @@ ontology
 					description = <"">
 				>
 				["at0053"] = <
-					text = <"Difficulty moving after sitting or lying down">
+					text = <"Moving_after_sitting_lying_down">
 					description = <"">
 				>
 				["at0054"] = <
@@ -622,7 +622,7 @@ ontology
 					description = <"">
 				>
 				["at0059"] = <
-					text = <"Difficulty going out by yourself">
+					text = <"Going_out_alone">
 					description = <"">
 				>
 				["at0060"] = <
@@ -646,7 +646,7 @@ ontology
 					description = <"">
 				>
 				["at0065"] = <
-					text = <"Difficulty driving">
+					text = <"Driving">
 					description = <"">
 				>
 				["at0066"] = <
@@ -670,7 +670,7 @@ ontology
 					description = <"">
 				>
 				["at0071"] = <
-					text = <"Difficulty cleaning yourself after going to the bathroom">
+					text = <"Cleaning_self_after_going_to_the_bathroom">
 					description = <"">
 				>
 				["at0072"] = <
@@ -694,7 +694,7 @@ ontology
 					description = <"">
 				>
 				["at0077"] = <
-					text = <"Difficulty pivoting">
+					text = <"Pivoting">
 					description = <"">
 				>
 				["at0078"] = <
@@ -718,7 +718,7 @@ ontology
 					description = <"">
 				>
 				["at0083"] = <
-					text = <"Difficulty doing usual physical recreational activities">
+					text = <"Doing_usual_physical_recreational_activities">
 					description = <"">
 				>
 				["at0084"] = <
@@ -742,7 +742,7 @@ ontology
 					description = <"">
 				>
 				["at0089"] = <
-					text = <"Difficulty doing light housework or yard work">
+					text = <"Doing_light_housework_or_yard_work">
 					description = <"">
 				>
 				["at0090"] = <
@@ -766,7 +766,7 @@ ontology
 					description = <"">
 				>
 				["at0095"] = <
-					text = <"Difficulty doing heavy housework or yard work">
+					text = <"Doing_heavy_housework_or_yard_work">
 					description = <"">
 				>
 				["at0096"] = <
@@ -818,7 +818,7 @@ ontology
 					description = <"">
 				>
 				["at0108"] = <
-					text = <"Walking with a limp">
+					text = <"Walk_with_limp">
 					description = <"">
 				>
 				["at0109"] = <
@@ -842,7 +842,7 @@ ontology
 					description = <"">
 				>
 				["at0114"] = <
-					text = <"Leg lock or give way">
+					text = <"Leg_lock_or_give_way">
 					description = <"">
 				>
 				["at0115"] = <
@@ -866,7 +866,7 @@ ontology
 					description = <"">
 				>
 				["at0120"] = <
-					text = <"Problems concentrating">
+					text = <"Problems_concentrating">
 					description = <"">
 				>
 				["at0121"] = <
@@ -890,7 +890,7 @@ ontology
 					description = <"">
 				>
 				["at0126"] = <
-					text = <"Doing too much in one day affect what you do the next day">
+					text = <"Doing_too_much_in_one_day_affect_what_you_do_the_next_day">
 					description = <"">
 				>
 				["at0127"] = <
@@ -914,7 +914,7 @@ ontology
 					description = <"">
 				>
 				["at0132"] = <
-					text = <"Act irritable towards those around you">
+					text = <"Act_irritable_towards_others">
 					description = <"">
 				>
 				["at0133"] = <
@@ -938,7 +938,7 @@ ontology
 					description = <"">
 				>
 				["at0138"] = <
-					text = <"Feel tired">
+					text = <"Feel_tired">
 					description = <"">
 				>
 				["at0139"] = <
@@ -962,7 +962,7 @@ ontology
 					description = <"">
 				>
 				["at0144"] = <
-					text = <"Feel disabled">
+					text = <"Feel_disabled">
 					description = <"">
 				>
 				["at0145"] = <
@@ -986,7 +986,7 @@ ontology
 					description = <"">
 				>
 				["at0150"] = <
-					text = <"Feel angry about injury">
+					text = <"Feel_angry_about_injury">
 					description = <"">
 				>
 				["at0151"] = <
