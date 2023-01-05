@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1f6d911d2fbea503439b78594b328744">
+		["MD5-CAM-1.0.1"] = <"c0967f61df294d468a4505659b146904">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -323,6 +323,51 @@ definition
 													3|[local::at0191],
 													4|[local::at0192],
 													5|[local::at0193]
+												}
+											}
+											ELEMENT[at0194] occurrences matches {0..1} matches {    -- Friends, family, or other important people
+												value matches {
+													1|[local::at0195],
+													2|[local::at0196],
+													3|[local::at0197],
+													4|[local::at0198],
+													5|[local::at0199]
+												}
+											}
+											ELEMENT[at0200] occurrences matches {0..1} matches {    -- Thinking, concentrating or remembering
+												value matches {
+													1|[local::at0201],
+													2|[local::at0202],
+													3|[local::at0203],
+													4|[local::at0204],
+													5|[local::at0205]
+												}
+											}
+											ELEMENT[at0206] occurrences matches {0..1} matches {    -- Adjusting, coping with injury
+												value matches {
+													1|[local::at0207],
+													2|[local::at0208],
+													3|[local::at0209],
+													4|[local::at0210],
+													5|[local::at0211]
+												}
+											}
+											ELEMENT[at0212] occurrences matches {0..1} matches {    -- Feeling dependent
+												value matches {
+													1|[local::at0213],
+													2|[local::at0214],
+													3|[local::at0215],
+													4|[local::at0216],
+													5|[local::at0217]
+												}
+											}
+											ELEMENT[at0218] occurrences matches {0..1} matches {    -- Stiffness or pain
+												value matches {
+													1|[local::at0219],
+													2|[local::at0220],
+													3|[local::at0221],
+													4|[local::at0222],
+													5|[local::at0223]
 												}
 											}
 										}
@@ -1109,6 +1154,126 @@ ontology
 					description = <"">
 				>
 				["at0193"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0194"] = <
+					text = <"Friends, family, or other important people">
+					description = <"">
+				>
+				["at0195"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0196"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0197"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0198"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0199"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0200"] = <
+					text = <"Thinking, concentrating or remembering">
+					description = <"">
+				>
+				["at0201"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0202"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0203"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0204"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0205"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0206"] = <
+					text = <"Adjusting, coping with injury">
+					description = <"">
+				>
+				["at0207"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0208"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0209"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0210"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0211"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0212"] = <
+					text = <"Feeling dependent">
+					description = <"">
+				>
+				["at0213"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0214"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0215"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0216"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0217"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0218"] = <
+					text = <"Stiffness or pain">
+					description = <"">
+				>
+				["at0219"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0220"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0221"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0222"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0223"] = <
 					text = <"Extremely bothered">
 					description = <"">
 				>
