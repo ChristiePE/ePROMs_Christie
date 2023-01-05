@@ -1,0 +1,1117 @@
+archetype (adl_version=1.4; uid=2180a59a-f5fb-4e01-89ef-92cb490d2ee9)
+	openEHR-EHR-OBSERVATION.short_musculoskeletal_function_assessment.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-01-05">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"1f6d911d2fbea503439b78594b328744">
+		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Short_Musculoskeletal_Function_Assessment
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0004] occurrences matches {0..1} matches {    -- Difficulty
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Difficulty getting in or out of a low chair
+												value matches {
+													1|[local::at0006],
+													2|[local::at0007],
+													3|[local::at0008],
+													4|[local::at0009],
+													5|[local::at0010]
+												}
+											}
+											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Difficulty shopping for groceries or other things
+												value matches {
+													1|[local::at0012],
+													2|[local::at0013],
+													3|[local::at0014],
+													4|[local::at0015],
+													5|[local::at0016]
+												}
+											}
+											ELEMENT[at0017] occurrences matches {0..1} matches {    -- Difficulty climbing stairs
+												value matches {
+													1|[local::at0018],
+													2|[local::at0019],
+													3|[local::at0020],
+													4|[local::at0021],
+													5|[local::at0022]
+												}
+											}
+											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Difficulty getting out the bathtub or shower
+												value matches {
+													1|[local::at0024],
+													2|[local::at0025],
+													3|[local::at0026],
+													4|[local::at0027],
+													5|[local::at0028]
+												}
+											}
+											ELEMENT[at0029] occurrences matches {0..1} matches {    -- Difficulty getting comfortable to sleep
+												value matches {
+													1|[local::at0030],
+													2|[local::at0031],
+													3|[local::at0032],
+													4|[local::at0033],
+													5|[local::at0034]
+												}
+											}
+											ELEMENT[at0035] occurrences matches {0..1} matches {    -- Difficulty bending or kneeling down
+												value matches {
+													1|[local::at0036],
+													2|[local::at0037],
+													3|[local::at0038],
+													4|[local::at0039],
+													5|[local::at0040]
+												}
+											}
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Difficult dressing yourself
+												value matches {
+													1|[local::at0042],
+													2|[local::at0043],
+													3|[local::at0044],
+													4|[local::at0045],
+													5|[local::at0046]
+												}
+											}
+											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Difficulty walking
+												value matches {
+													1|[local::at0048],
+													2|[local::at0049],
+													3|[local::at0050],
+													4|[local::at0051],
+													5|[local::at0052]
+												}
+											}
+											ELEMENT[at0053] occurrences matches {0..1} matches {    -- Difficulty moving after sitting or lying down
+												value matches {
+													1|[local::at0054],
+													2|[local::at0055],
+													3|[local::at0056],
+													4|[local::at0057],
+													5|[local::at0058]
+												}
+											}
+											ELEMENT[at0059] occurrences matches {0..1} matches {    -- Difficulty going out by yourself
+												value matches {
+													1|[local::at0060],
+													2|[local::at0061],
+													3|[local::at0062],
+													4|[local::at0063],
+													5|[local::at0064]
+												}
+											}
+											ELEMENT[at0065] occurrences matches {0..1} matches {    -- Difficulty driving
+												value matches {
+													1|[local::at0066],
+													2|[local::at0067],
+													3|[local::at0068],
+													4|[local::at0069],
+													5|[local::at0070]
+												}
+											}
+											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Difficulty cleaning yourself after going to the bathroom
+												value matches {
+													1|[local::at0072],
+													2|[local::at0073],
+													3|[local::at0074],
+													4|[local::at0075],
+													5|[local::at0076]
+												}
+											}
+											ELEMENT[at0077] occurrences matches {0..1} matches {    -- Difficulty pivoting
+												value matches {
+													1|[local::at0078],
+													2|[local::at0079],
+													3|[local::at0080],
+													4|[local::at0081],
+													5|[local::at0082]
+												}
+											}
+											ELEMENT[at0083] occurrences matches {0..1} matches {    -- Difficulty doing usual physical recreational activities
+												value matches {
+													1|[local::at0084],
+													2|[local::at0085],
+													3|[local::at0086],
+													4|[local::at0087],
+													5|[local::at0088]
+												}
+											}
+											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Difficulty doing light housework or yard work
+												value matches {
+													1|[local::at0090],
+													2|[local::at0091],
+													3|[local::at0092],
+													4|[local::at0093],
+													5|[local::at0094]
+												}
+											}
+											ELEMENT[at0095] occurrences matches {0..1} matches {    -- Difficulty doing heavy housework or yard work
+												value matches {
+													1|[local::at0096],
+													2|[local::at0097],
+													3|[local::at0098],
+													4|[local::at0099],
+													5|[local::at0100]
+												}
+											}
+											ELEMENT[at0101] occurrences matches {0..1} matches {    -- Difficulty doing usual work
+												value matches {
+													1|[local::at0102],
+													2|[local::at0103],
+													3|[local::at0104],
+													4|[local::at0105],
+													5|[local::at0106]
+												}
+											}
+										}
+									}
+									CLUSTER[at0107] occurrences matches {0..1} matches {    -- Frequency of experiencing problems
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0108] occurrences matches {0..1} matches {    -- Walking with a limp
+												value matches {
+													1|[local::at0109],
+													2|[local::at0110],
+													3|[local::at0111],
+													4|[local::at0112],
+													5|[local::at0113]
+												}
+											}
+											ELEMENT[at0114] occurrences matches {0..1} matches {    -- Leg lock or give way
+												value matches {
+													1|[local::at0115],
+													2|[local::at0116],
+													3|[local::at0117],
+													4|[local::at0118],
+													5|[local::at0119]
+												}
+											}
+											ELEMENT[at0120] occurrences matches {0..1} matches {    -- Problems concentrating
+												value matches {
+													1|[local::at0121],
+													2|[local::at0122],
+													3|[local::at0123],
+													4|[local::at0124],
+													5|[local::at0125]
+												}
+											}
+											ELEMENT[at0126] occurrences matches {0..1} matches {    -- Doing too much in one day affect what you do the next day
+												value matches {
+													1|[local::at0127],
+													2|[local::at0128],
+													3|[local::at0129],
+													4|[local::at0130],
+													5|[local::at0131]
+												}
+											}
+											ELEMENT[at0132] occurrences matches {0..1} matches {    -- Act irritable towards those around you
+												value matches {
+													1|[local::at0133],
+													2|[local::at0134],
+													3|[local::at0135],
+													4|[local::at0136],
+													5|[local::at0137]
+												}
+											}
+											ELEMENT[at0138] occurrences matches {0..1} matches {    -- Feel tired
+												value matches {
+													1|[local::at0139],
+													2|[local::at0140],
+													3|[local::at0141],
+													4|[local::at0142],
+													5|[local::at0143]
+												}
+											}
+											ELEMENT[at0144] occurrences matches {0..1} matches {    -- Feel disabled
+												value matches {
+													1|[local::at0145],
+													2|[local::at0146],
+													3|[local::at0147],
+													4|[local::at0148],
+													5|[local::at0149]
+												}
+											}
+											ELEMENT[at0150] occurrences matches {0..1} matches {    -- Feel angry about injury
+												value matches {
+													1|[local::at0151],
+													2|[local::at0152],
+													3|[local::at0153],
+													4|[local::at0154],
+													5|[local::at0155]
+												}
+											}
+										}
+									}
+									CLUSTER[at0157] occurrences matches {0..1} matches {    -- How bothered by problems
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0158] occurrences matches {0..1} matches {    -- Using hands arms or legs
+												value matches {
+													1|[local::at0159],
+													2|[local::at0160],
+													3|[local::at0161],
+													4|[local::at0162],
+													5|[local::at0163]
+												}
+											}
+											ELEMENT[at0164] occurrences matches {0..1} matches {    -- Back
+												value matches {
+													1|[local::at0166],
+													2|[local::at0167],
+													3|[local::at0168],
+													4|[local::at0169],
+													5|[local::at0170]
+												}
+											}
+											ELEMENT[at0165] occurrences matches {0..1} matches {    -- Doing work around house
+												value matches {
+													1|[local::at0171],
+													2|[local::at0172],
+													3|[local::at0173],
+													4|[local::at0174],
+													5|[local::at0175]
+												}
+											}
+											ELEMENT[at0176] occurrences matches {0..1} matches {    -- Bathing, dressing, toileting or other personal care
+												value matches {
+													1|[local::at0177],
+													2|[local::at0178],
+													3|[local::at0179],
+													4|[local::at0180],
+													5|[local::at0181]
+												}
+											}
+											ELEMENT[at0182] occurrences matches {0..1} matches {    -- Sleep and rest
+												value matches {
+													1|[local::at0183],
+													2|[local::at0184],
+													3|[local::at0185],
+													4|[local::at0186],
+													5|[local::at0187]
+												}
+											}
+											ELEMENT[at0188] occurrences matches {0..1} matches {    -- Leisure or recreational activities
+												value matches {
+													1|[local::at0189],
+													2|[local::at0190],
+													3|[local::at0191],
+													4|[local::at0192],
+													5|[local::at0193]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Short_Musculoskeletal_Function_Assessment">
+					description = <"Short_Musculoskeletal_Function_Assessment">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Difficulty">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Difficulty getting in or out of a low chair">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Difficulty shopping for groceries or other things">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Difficulty climbing stairs">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Difficulty getting out the bathtub or shower">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Difficulty getting comfortable to sleep">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Difficulty bending or kneeling down">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Difficult dressing yourself">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Difficulty walking">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Difficulty moving after sitting or lying down">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Difficulty going out by yourself">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Difficulty driving">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"Difficulty cleaning yourself after going to the bathroom">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Difficulty pivoting">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Difficulty doing usual physical recreational activities">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Difficulty doing light housework or yard work">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Difficulty doing heavy housework or yard work">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Difficulty doing usual work">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"Frequency of experiencing problems">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"Walking with a limp">
+					description = <"">
+				>
+				["at0109"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0110"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Leg lock or give way">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0120"] = <
+					text = <"Problems concentrating">
+					description = <"">
+				>
+				["at0121"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"Doing too much in one day affect what you do the next day">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"Act irritable towards those around you">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0135"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0136"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0137"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0138"] = <
+					text = <"Feel tired">
+					description = <"">
+				>
+				["at0139"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0141"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0142"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0143"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0144"] = <
+					text = <"Feel disabled">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0146"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0147"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0148"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0149"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0150"] = <
+					text = <"Feel angry about injury">
+					description = <"">
+				>
+				["at0151"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0152"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0153"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0154"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0155"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0157"] = <
+					text = <"How bothered by problems">
+					description = <"">
+				>
+				["at0158"] = <
+					text = <"Using hands arms or legs">
+					description = <"">
+				>
+				["at0159"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0160"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0161"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0162"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0163"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0164"] = <
+					text = <"Back">
+					description = <"">
+				>
+				["at0165"] = <
+					text = <"Doing work around house">
+					description = <"">
+				>
+				["at0166"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0167"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0168"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0169"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0170"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0171"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0172"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0173"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0174"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0175"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0176"] = <
+					text = <"Bathing, dressing, toileting or other personal care">
+					description = <"">
+				>
+				["at0177"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0178"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0179"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0180"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0181"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0182"] = <
+					text = <"Sleep and rest">
+					description = <"">
+				>
+				["at0183"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0184"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0185"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0186"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0187"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0188"] = <
+					text = <"Leisure or recreational activities">
+					description = <"">
+				>
+				["at0189"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0190"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0191"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0192"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0193"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+			>
+		>
+	>
