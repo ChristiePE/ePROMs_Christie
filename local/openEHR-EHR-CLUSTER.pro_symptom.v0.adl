@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8fd52c00443658a0c2d3d8b7bb35c59a">
+		["MD5-CAM-1.0.1"] = <"5ee77fe818b1eec1dee1c1c4a41f365f">
 		["build_uid"] = <"f074bba2-1963-3747-a383-a0cc9e31c68f">
 	>
 
 definition
-	CLUSTER[at0000] occurrences matches {1..*} matches {    -- pro_symptom
+	CLUSTER[at0000] occurrences matches {1..*} matches {    -- PRO_Symptom
 		items cardinality matches {1..*; unordered} matches {
 			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Symptom
 				value matches {
@@ -52,8 +52,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"pro_symptom">
-					description = <"PRO_Symptom_Issue">
+					text = <"PRO_Symptom">
+					description = <"PRO_Symptom">
 				>
 				["at0001"] = <
 					text = <"Symptom">
