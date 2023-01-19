@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e886366bce22f1ab2548eb4568851a96">
+		["MD5-CAM-1.0.1"] = <"f97f0d68ff8c11126dfc2aea774a8214">
 		["build_uid"] = <"c2b9a34a-6099-399b-a3fc-630df3970c09">
 	>
 
@@ -142,7 +142,7 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Little_interest_or_pleasure">
-					description = <"">
+					description = <"Little interest or pleasure in doing things?">
 				>
 				["at0005"] = <
 					text = <"Not at all">
@@ -162,7 +162,7 @@ ontology
 				>
 				["at0009"] = <
 					text = <"Feeling_down_depressed_or_hopeless">
-					description = <"">
+					description = <"Feeling down, depressed, or hopeless?">
 				>
 				["at0010"] = <
 					text = <"Not at all">
@@ -182,7 +182,7 @@ ontology
 				>
 				["at0014"] = <
 					text = <"Trouble_falling_asleep_or_sleeping_too_much">
-					description = <"">
+					description = <"Trouble falling or staying asleep, or sleeping too much?">
 				>
 				["at0015"] = <
 					text = <"Not at all">
@@ -202,7 +202,7 @@ ontology
 				>
 				["at0019"] = <
 					text = <"Feeling_tired_or_having_little_energy">
-					description = <"">
+					description = <"Feeling tired or having little energy?">
 				>
 				["at0020"] = <
 					text = <"Item tree">
@@ -226,7 +226,7 @@ ontology
 				>
 				["at0025"] = <
 					text = <"Poor_appetite_or_overeating">
-					description = <"">
+					description = <"Poor appetite or overeating?">
 				>
 				["at0026"] = <
 					text = <"Not at all">
@@ -246,7 +246,7 @@ ontology
 				>
 				["at0030"] = <
 					text = <"Feeling_bad_about_yourself">
-					description = <"">
+					description = <"Feeling bad about yourself - or that you are a failure or have let yourself or your family down?">
 				>
 				["at0031"] = <
 					text = <"Not at all">
@@ -266,7 +266,7 @@ ontology
 				>
 				["at0035"] = <
 					text = <"Trouble_concentrating_on_things">
-					description = <"">
+					description = <"Trouble concentrating on things, such as reading the newspaper or watching television?">
 				>
 				["at0036"] = <
 					text = <"Not at all">
@@ -286,7 +286,8 @@ ontology
 				>
 				["at0040"] = <
 					text = <"Moving_or_speaking_slowly">
-					description = <"">
+					description = <"Moving or speaking so slowly that other people could have noticed?
+Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?">
 				>
 				["at0041"] = <
 					text = <"Not at all">
@@ -306,7 +307,7 @@ ontology
 				>
 				["at0045"] = <
 					text = <"Suicidal_thoughts_or_self_harm">
-					description = <"">
+					description = <"Thoughts that you would be better off dead, or of hurting yourself in some way?">
 				>
 				["at0046"] = <
 					text = <"Not at all">
