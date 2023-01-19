@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"865cd8c50fb7ebc1e948e01e1ba81a69">
+		["MD5-CAM-1.0.1"] = <"349ff0599565b9e288d194974b19c2f3">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -182,7 +182,7 @@ definition
 													5|[local::at0100]
 												}
 											}
-											ELEMENT[at0101] occurrences matches {0..1} matches {    -- Difficulty_doing_usual_work
+											ELEMENT[at0101] occurrences matches {0..1} matches {    -- Doing_usual_work
 												value matches {
 													1|[local::at0102],
 													2|[local::at0103],
@@ -790,7 +790,7 @@ ontology
 					description = <"">
 				>
 				["at0101"] = <
-					text = <"Difficulty_doing_usual_work">
+					text = <"Doing_usual_work">
 					description = <"">
 				>
 				["at0102"] = <
