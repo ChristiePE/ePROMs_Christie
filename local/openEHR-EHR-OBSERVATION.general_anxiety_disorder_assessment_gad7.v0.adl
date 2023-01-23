@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"615fb5722b410c0960cbdd953e1d5253">
+		["MD5-CAM-1.0.1"] = <"cdb1addc44b19f4ce6d3b37c8e98530c">
 		["build_uid"] = <"6bf9b935-d57b-3908-aca4-f97ca61d0686">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- General_Anxiety_Disorder_Assessment_GAD7
+	OBSERVATION[at0000] matches {    -- General_Anxiety_Disorder_Assessment
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -92,7 +92,7 @@ definition
 											3|[local::at0038]
 										}
 									}
-									ELEMENT[at0039] occurrences matches {0..1} matches {    -- GAD7_score
+									ELEMENT[at0039] occurrences matches {0..1} matches {    -- GAD_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -111,7 +111,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"General_Anxiety_Disorder_Assessment_GAD7">
+					text = <"General_Anxiety_Disorder_Assessment">
 					description = <"General_Anxiety_Disorder_Assessment_GAD7">
 				>
 				["at0001"] = <
@@ -267,7 +267,7 @@ ontology
 					description = <"">
 				>
 				["at0039"] = <
-					text = <"GAD7_score">
+					text = <"GAD_score">
 					description = <"">
 				>
 			>
