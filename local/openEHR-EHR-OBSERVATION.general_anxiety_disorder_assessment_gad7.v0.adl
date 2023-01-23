@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"53553f8c68878d725d16fce0122c4205">
+		["MD5-CAM-1.0.1"] = <"615fb5722b410c0960cbdd953e1d5253">
 		["build_uid"] = <"6bf9b935-d57b-3908-aca4-f97ca61d0686">
 	>
 
@@ -90,6 +90,11 @@ definition
 											1|[local::at0036],
 											2|[local::at0037],
 											3|[local::at0038]
+										}
+									}
+									ELEMENT[at0039] occurrences matches {0..1} matches {    -- GAD7_score
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -259,6 +264,10 @@ ontology
 				>
 				["at0038"] = <
 					text = <"Nearly every day">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"GAD7_score">
 					description = <"">
 				>
 			>
