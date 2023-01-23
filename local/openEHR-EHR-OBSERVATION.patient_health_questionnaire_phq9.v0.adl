@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"376d93390487d2ad8dfe5cf078aa5c02">
+		["MD5-CAM-1.0.1"] = <"fc5e945fcc3b1b52e0f8340ae6a3fddc">
 		["build_uid"] = <"c2b9a34a-6099-399b-a3fc-630df3970c09">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- Patient_Health_Questionnaire_PHQ9
+	OBSERVATION[at0000] matches {    -- Patient_Health_Questionnaire
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -108,7 +108,7 @@ definition
 											3|[local::at0049]
 										}
 									}
-									ELEMENT[at0050] occurrences matches {0..1} matches {    -- PHQ9_score
+									ELEMENT[at0050] occurrences matches {0..1} matches {    -- PHQ_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -130,7 +130,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"Patient_Health_Questionnaire_PHQ9">
+					text = <"Patient_Health_Questionnaire">
 					description = <"Patient_Health_Questionnaire_PHQ9">
 				>
 				["at0001"] = <
@@ -331,7 +331,7 @@ Or the opposite - being so fidgety or restless that you have been moving around 
 					description = <"">
 				>
 				["at0050"] = <
-					text = <"PHQ9_score">
+					text = <"PHQ_score">
 					description = <"">
 				>
 			>
