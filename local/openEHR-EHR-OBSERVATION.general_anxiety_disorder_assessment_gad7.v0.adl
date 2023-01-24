@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cdb1addc44b19f4ce6d3b37c8e98530c">
+		["MD5-CAM-1.0.1"] = <"10667e3f97855e7f794fe3689b466d09">
 		["build_uid"] = <"6bf9b935-d57b-3908-aca4-f97ca61d0686">
 	>
 
@@ -112,7 +112,9 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"General_Anxiety_Disorder_Assessment">
-					description = <"General_Anxiety_Disorder_Assessment_GAD7">
+					description = <"General_Anxiety_Disorder_Assessment_GAD
+
+These archetypes can be used for any of the General anxiety disorder assessments. For example: Generalized Anxiety Disorder 2-item (GAD-2) & Generalized Anxiety Disorder 7-item (GAD-7)">
 				>
 				["at0001"] = <
 					text = <"History">
