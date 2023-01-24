@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3150dcf1f09768b4e3ed172563da007e">
+		["MD5-CAM-1.0.1"] = <"6d78c155cafb2d14698e567182e998ff">
 		["build_uid"] = <"c2b9a34a-6099-399b-a3fc-630df3970c09">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- patient_health_questionnaire_phq
+	OBSERVATION[at0000] matches {    -- Patient_Health_Questionnaire_PHQ
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -130,8 +130,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"patient_health_questionnaire_phq">
-					description = <"Patient_Health_Questionnaire_PHQ9">
+					text = <"Patient_Health_Questionnaire_PHQ">
+					description = <"This group of archetypes can be used for any of the Patient Health Questionnaire responses For example: Patient Health Questionnaire-2 (PHQ-2) or Patient Health Questionnaire-2 (PHQ-2)">
 				>
 				["at0001"] = <
 					text = <"History">
