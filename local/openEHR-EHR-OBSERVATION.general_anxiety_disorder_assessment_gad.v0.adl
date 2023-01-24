@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d5a0d8cbe9994296e7aad16c1d6f5531">
+		["MD5-CAM-1.0.1"] = <"c01b581345f51d53620aad4b6e15b340">
 		["build_uid"] = <"6bf9b935-d57b-3908-aca4-f97ca61d0686">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- general_anxiety_disorder_assessment_gad
+	OBSERVATION[at0000] matches {    -- General_Anxiety_Disorder_Assessment_GAD
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -111,7 +111,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"general_anxiety_disorder_assessment_gad">
+					text = <"General_Anxiety_Disorder_Assessment_GAD">
 					description = <"General_Anxiety_Disorder_Assessment_GAD
 
 These archetypes can be used for any of the General anxiety disorder assessments. For example: Generalized Anxiety Disorder 2-item (GAD-2) & Generalized Anxiety Disorder 7-item (GAD-7)">
