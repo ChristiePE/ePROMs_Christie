@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "eafc413f83db88107ef1bbad596c5c8e",
+      "MD5-CAM-1.0.1" : "db3e629302ff46a16593cee63b61a77d",
       "PARENT:MD5-CAM-1.0.1" : "def8aa8069ea36b10a4ff482994f6b88"
     },
     "details" : {
@@ -184,7 +184,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "6d78c155cafb2d14698e567182e998ff"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.patient_health_questionnaire_phq.v0",
     "differential" : true,
@@ -284,7 +297,6 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
                       "nodeId" : "at0050.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -337,7 +349,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "c01b581345f51d53620aad4b6e15b340"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.general_anxiety_disorder_assessment_gad.v0",
     "differential" : true,
