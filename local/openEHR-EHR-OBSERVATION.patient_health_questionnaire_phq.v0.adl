@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"6d78c155cafb2d14698e567182e998ff">
+		["MD5-CAM-1.0.1"] = <"4bae5e24b4adc2bbaf722af12d93fc85">
 		["build_uid"] = <"c2b9a34a-6099-399b-a3fc-630df3970c09">
 	>
 
@@ -131,7 +131,9 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"Patient_Health_Questionnaire_PHQ">
-					description = <"This group of archetypes can be used for any of the Patient Health Questionnaire responses For example: Patient Health Questionnaire-2 (PHQ-2) or Patient Health Questionnaire-2 (PHQ-2)">
+					description = <"This group of archetypes can be used for any of the Patient Health Questionnaire responses For example: Patient Health Questionnaire-2 (PHQ-2) or Patient Health Questionnaire-9 (PHQ-9)
+
+https://www.hiv.uw.edu/page/mental-health-screening/phq-9 ">
 				>
 				["at0001"] = <
 					text = <"History">
