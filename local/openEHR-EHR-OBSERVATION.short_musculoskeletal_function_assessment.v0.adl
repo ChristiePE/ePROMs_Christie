@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"349ff0599565b9e288d194974b19c2f3">
+		["MD5-CAM-1.0.1"] = <"97d163730920e7ef64590441ee330b02">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -407,7 +407,7 @@ ontology
 				>
 				["at0005"] = <
 					text = <"Getting_in_out_low_chair">
-					description = <"">
+					description = <"How difficult is it for you to get in or out of a low chair?">
 				>
 				["at0006"] = <
 					text = <"Not at all difficult">
@@ -431,7 +431,7 @@ ontology
 				>
 				["at0011"] = <
 					text = <"Shopping_groceries_other_things">
-					description = <"">
+					description = <"How difficult is it for you to shop for groceries or other things?">
 				>
 				["at0012"] = <
 					text = <"Not at all difficult">
@@ -455,7 +455,7 @@ ontology
 				>
 				["at0017"] = <
 					text = <"Climbing_stairs">
-					description = <"">
+					description = <"How difficult is it for you to climb stairs?">
 				>
 				["at0018"] = <
 					text = <"Not at all difficult">
@@ -479,7 +479,7 @@ ontology
 				>
 				["at0023"] = <
 					text = <"Getting_out_bathtub_shower">
-					description = <"">
+					description = <"How difficult is it for you to get in or out of the bathtub or shower?">
 				>
 				["at0024"] = <
 					text = <"Not at all difficult">
@@ -503,7 +503,7 @@ ontology
 				>
 				["at0029"] = <
 					text = <"Getting_comfortable_to_sleep">
-					description = <"">
+					description = <"How difficult is it for you to get comfortable to sleep?">
 				>
 				["at0030"] = <
 					text = <"Not at all difficult">
@@ -527,7 +527,7 @@ ontology
 				>
 				["at0035"] = <
 					text = <"Bending_kneeling_down">
-					description = <"">
+					description = <"How difficult is it for you to bend or kneel down?">
 				>
 				["at0036"] = <
 					text = <"Not at all difficult">
@@ -551,7 +551,8 @@ ontology
 				>
 				["at0041"] = <
 					text = <"Dressing_yourself">
-					description = <"">
+					description = <"How difficult is it for you to dress yourself?
+">
 				>
 				["at0042"] = <
 					text = <"Not at all difficult">
@@ -575,7 +576,7 @@ ontology
 				>
 				["at0047"] = <
 					text = <"Walking">
-					description = <"">
+					description = <"How difficult is it for you to walk?">
 				>
 				["at0048"] = <
 					text = <"Not at all difficult">
@@ -599,7 +600,7 @@ ontology
 				>
 				["at0053"] = <
 					text = <"Moving_after_sitting_lying_down">
-					description = <"">
+					description = <"How difficult is it for you to get moving after you have been sitting or lying down?">
 				>
 				["at0054"] = <
 					text = <"Not at all difficult">
@@ -623,7 +624,7 @@ ontology
 				>
 				["at0059"] = <
 					text = <"Going_out_alone">
-					description = <"">
+					description = <"How difficult is it for you to go out by yourself?">
 				>
 				["at0060"] = <
 					text = <"Not at all difficult">
@@ -647,7 +648,7 @@ ontology
 				>
 				["at0065"] = <
 					text = <"Driving">
-					description = <"">
+					description = <"How difficult is it for you to drive?">
 				>
 				["at0066"] = <
 					text = <"Not at all difficult">
@@ -671,7 +672,7 @@ ontology
 				>
 				["at0071"] = <
 					text = <"Cleaning_self_after_going_to_the_bathroom">
-					description = <"">
+					description = <"How difficult is it for you to clean yourself after going to the bathroom?">
 				>
 				["at0072"] = <
 					text = <"Not at all difficult">
@@ -695,7 +696,7 @@ ontology
 				>
 				["at0077"] = <
 					text = <"Pivoting">
-					description = <"">
+					description = <"How difficult is it for you to pivot?">
 				>
 				["at0078"] = <
 					text = <"Not at all difficult">
@@ -719,7 +720,7 @@ ontology
 				>
 				["at0083"] = <
 					text = <"Doing_usual_physical_recreational_activities">
-					description = <"">
+					description = <"How difficult is it for you to do your usual physical recreational activities, such as bicycling, jogging, or walking?">
 				>
 				["at0084"] = <
 					text = <"Not at all difficult">
@@ -743,7 +744,7 @@ ontology
 				>
 				["at0089"] = <
 					text = <"Doing_light_housework_or_yard_work">
-					description = <"">
+					description = <"How difficult is it for you to do light housework or yard work, such as dusting, washing dishes, or watering plants?">
 				>
 				["at0090"] = <
 					text = <"Not at all difficult">
@@ -767,7 +768,8 @@ ontology
 				>
 				["at0095"] = <
 					text = <"Doing_heavy_housework_or_yard_work">
-					description = <"">
+					description = <"How difficult is it for you to do heavy housework or yard work, such as washing floors, vacuuming, or mowing lawns?
+">
 				>
 				["at0096"] = <
 					text = <"Not at all difficult">
@@ -791,7 +793,7 @@ ontology
 				>
 				["at0101"] = <
 					text = <"Doing_usual_work">
-					description = <"">
+					description = <"How difficult is it for you to do your usual work, such as a paid job, housework, or volunteer activities?">
 				>
 				["at0102"] = <
 					text = <"Not at all difficult">
@@ -819,7 +821,7 @@ ontology
 				>
 				["at0108"] = <
 					text = <"Walk_with_limp">
-					description = <"">
+					description = <"How often do you walk with a limp?">
 				>
 				["at0109"] = <
 					text = <"None of the time">
@@ -843,7 +845,7 @@ ontology
 				>
 				["at0114"] = <
 					text = <"Leg_lock_or_give_way">
-					description = <"">
+					description = <"How often does your leg lock or give way?">
 				>
 				["at0115"] = <
 					text = <"None of the time">
@@ -867,7 +869,7 @@ ontology
 				>
 				["at0120"] = <
 					text = <"Problems_concentrating">
-					description = <"">
+					description = <"How often do you have problems with concentrating?">
 				>
 				["at0121"] = <
 					text = <"None of the time">
@@ -891,7 +893,7 @@ ontology
 				>
 				["at0126"] = <
 					text = <"Doing_too_much_in_one_day_affect_what_you_do_the_next_day">
-					description = <"">
+					description = <"How often does doing too much in one way affect what you do the next day?">
 				>
 				["at0127"] = <
 					text = <"None of the time">
@@ -915,7 +917,7 @@ ontology
 				>
 				["at0132"] = <
 					text = <"Act_irritable_towards_others">
-					description = <"">
+					description = <"How often do you act irritable toward those around you(for example, snap at people, give sharp answers, or criticize easily)">
 				>
 				["at0133"] = <
 					text = <"None of the time">
@@ -939,7 +941,7 @@ ontology
 				>
 				["at0138"] = <
 					text = <"Feel_tired">
-					description = <"">
+					description = <"How often are you tired?">
 				>
 				["at0139"] = <
 					text = <"None of the time">
@@ -963,7 +965,7 @@ ontology
 				>
 				["at0144"] = <
 					text = <"Feel_disabled">
-					description = <"">
+					description = <"How often do you feel disabled?">
 				>
 				["at0145"] = <
 					text = <"None of the time">
@@ -987,7 +989,8 @@ ontology
 				>
 				["at0150"] = <
 					text = <"Feel_angry_about_injury">
-					description = <"">
+					description = <"How often do you feel angry or frustrated that you have this injury or arthritis?
+">
 				>
 				["at0151"] = <
 					text = <"None of the time">
@@ -1015,7 +1018,7 @@ ontology
 				>
 				["at0158"] = <
 					text = <"Using_hands_arms_or_legs">
-					description = <"">
+					description = <"How much are you bothered by problems using your hands, arms, or legs?">
 				>
 				["at0159"] = <
 					text = <"Not at all bothered">
@@ -1039,11 +1042,11 @@ ontology
 				>
 				["at0164"] = <
 					text = <"Back">
-					description = <"">
+					description = <"How much are you bothered by problems with your back?">
 				>
 				["at0165"] = <
 					text = <"Doing_work_around_house">
-					description = <"">
+					description = <"How much are you bothered by problems doing work around your home?">
 				>
 				["at0166"] = <
 					text = <"Not at all bothered">
