@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"97d163730920e7ef64590441ee330b02">
+		["MD5-CAM-1.0.1"] = <"1bbf62e121823bd3e4b5aacb78177db2">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -1090,7 +1090,7 @@ ontology
 				>
 				["at0176"] = <
 					text = <"Bathing_dressing_toileting_or_other_personal_care">
-					description = <"">
+					description = <"How much are you bothered by problems with bathing, dressing, toileting, or other personal care?">
 				>
 				["at0177"] = <
 					text = <"Not at all bothered">
@@ -1114,7 +1114,8 @@ ontology
 				>
 				["at0182"] = <
 					text = <"Sleep_and_rest">
-					description = <"">
+					description = <"How much are you bothered by problems with sleep and rest?
+">
 				>
 				["at0183"] = <
 					text = <"Not at all bothered">
@@ -1138,7 +1139,7 @@ ontology
 				>
 				["at0188"] = <
 					text = <"Leisure_or_recreational_activities">
-					description = <"">
+					description = <"How much are you bothered by problems with leisure or recreational activities?">
 				>
 				["at0189"] = <
 					text = <"Not at all bothered">
