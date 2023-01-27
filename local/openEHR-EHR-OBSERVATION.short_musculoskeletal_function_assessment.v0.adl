@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1bbf62e121823bd3e4b5aacb78177db2">
+		["MD5-CAM-1.0.1"] = <"a3d532adb168ae8a4266e920ca9e6bd4">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -1163,7 +1163,7 @@ ontology
 				>
 				["at0194"] = <
 					text = <"Friends_family_or_other_important_people">
-					description = <"">
+					description = <"How much are you bothered by problems with your friends, family, or other important people in your life?">
 				>
 				["at0195"] = <
 					text = <"Not at all bothered">
@@ -1187,7 +1187,7 @@ ontology
 				>
 				["at0200"] = <
 					text = <"Thinking_concentrating_or_remembering">
-					description = <"">
+					description = <"How much are you bothered by problems with thinking, concentrating, or remembering?">
 				>
 				["at0201"] = <
 					text = <"Not at all bothered">
@@ -1211,7 +1211,7 @@ ontology
 				>
 				["at0206"] = <
 					text = <"Adjusting_coping_with_injury">
-					description = <"">
+					description = <"How much are you bothered by problems adjusting or coping with your injury or arthritis?">
 				>
 				["at0207"] = <
 					text = <"Not at all bothered">
@@ -1235,7 +1235,7 @@ ontology
 				>
 				["at0212"] = <
 					text = <"Feeling_dependent">
-					description = <"">
+					description = <"How much are you bothered with feeling dependent on others?">
 				>
 				["at0213"] = <
 					text = <"Not at all bothered">
@@ -1259,7 +1259,7 @@ ontology
 				>
 				["at0218"] = <
 					text = <"Stiffness_or_pain">
-					description = <"">
+					description = <"How much are you bothered with stiffness and pain?">
 				>
 				["at0219"] = <
 					text = <"Not at all bothered">
