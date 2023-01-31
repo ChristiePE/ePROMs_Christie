@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8eb13b757a150ce70154fd988f9f4406">
+		["MD5-CAM-1.0.1"] = <"4ab5ef29759acbf9b3fec94f5fffc876">
 		["build_uid"] = <"0c2d0b05-0b88-38a9-b45e-90ccb32b25bf">
 	>
 
@@ -265,15 +265,15 @@ ontology
 					description = <"">
 				>
 				["at0015"] = <
-					text = <"Yes and it goes away with vaginal cream">
+					text = <"Yes and it goes away with use of lubricants or vaginal cream">
 					description = <"">
 				>
 				["at0016"] = <
-					text = <"Yes and it improves with vaginal cream but does not go away completely">
+					text = <"Yes and it improves with use of lubricants or vaginal cream but does not go away completely">
 					description = <"">
 				>
 				["at0017"] = <
-					text = <"Yes and it does not improve at all with vaginal cream">
+					text = <"Yes and it does not improve at all with lubricants or vaginal cream">
 					description = <"">
 				>
 				["at0018"] = <
