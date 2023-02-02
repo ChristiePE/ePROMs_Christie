@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"769597e32d81ea6e3829dc58da6673bc">
+		["MD5-CAM-1.0.1"] = <"7a9e3cb0eeb60c038ac72f98f77ccbf3">
 		["build_uid"] = <"6816dd1f-33c3-3e94-a8ea-1a92932cb64f">
 	>
 
@@ -43,10 +43,21 @@ definition
 											3|[local::at0027]
 										}
 									}
-									ELEMENT[at0005] occurrences matches {0..1} matches {    -- Faecal_urgency
-										value matches {
-											1|[local::at0028],
-											2|[local::at0029]
+									CLUSTER[at0088] occurrences matches {0..1} matches {    -- Faecal_urgency
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Faecal_urgency_frequency
+												value matches {
+													0|[local::at0095],
+													0|[local::at0096],
+													0|[local::at0097]
+												}
+											}
+											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Faecal_urgency
+												value matches {
+													1|[local::at0028],
+													2|[local::at0029]
+												}
+											}
 										}
 									}
 									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Diarrhoea
@@ -63,11 +74,22 @@ definition
 											3|[local::at0035]
 										}
 									}
-									ELEMENT[at0008] occurrences matches {0..1} matches {    -- Lower_gastrointestinal_haemorrhage
-										value matches {
-											1|[local::at0036],
-											2|[local::at0037],
-											3|[local::at0038]
+									CLUSTER[at0090] occurrences matches {0..1} matches {    -- Lower_gastrointestinal_haemorrhage
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0091] occurrences matches {0..1} matches {    -- Lower_gastrointestinal_haemorrhage_frequency
+												value matches {
+													0|[local::at0092],
+													0|[local::at0093],
+													0|[local::at0094]
+												}
+											}
+											ELEMENT[at0008] occurrences matches {0..1} matches {    -- Lower_gastrointestinal_haemorrhage
+												value matches {
+													1|[local::at0036],
+													2|[local::at0037],
+													3|[local::at0038]
+												}
+											}
 										}
 									}
 									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Constipation
@@ -156,14 +178,25 @@ definition
 											3|[local::at0072]
 										}
 									}
-									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Vaginal_dryness
-										value matches {
-											1|[local::at0073],
-											2|[local::at0074],
-											3|[local::at0075],
-											2|[local::at0076],
-											3|[local::at0077],
-											3|[local::at0078]
+									CLUSTER[at0098] occurrences matches {0..1} matches {    -- Vaginal_dryness
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0099] occurrences matches {0..1} matches {    -- Vaginal_dryness_frequency
+												value matches {
+													0|[local::at0100],
+													0|[local::at0101],
+													0|[local::at0102]
+												}
+											}
+											ELEMENT[at0022] occurrences matches {0..1} matches {    -- Vaginal_dryness
+												value matches {
+													1|[local::at0073],
+													2|[local::at0074],
+													3|[local::at0075],
+													2|[local::at0076],
+													3|[local::at0077],
+													3|[local::at0078]
+												}
+											}
 										}
 									}
 									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Dyspareunia
@@ -531,6 +564,66 @@ ontology
 				>
 				["at0084"] = <
 					text = <"I  am not sexually active">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Faecal_urgency">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Faecal_urgency_frequency">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Lower_gastrointestinal_haemorrhage">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Lower_gastrointestinal_haemorrhage_frequency">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"Daily">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"weekly">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Monthly">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Daily">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Weekly">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"Monthly or less often">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Vaginal_dryness">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Vaginal_dryness_frequency">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Daily">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Weekly">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"Monthly">
 					description = <"">
 				>
 			>
