@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a3d532adb168ae8a4266e920ca9e6bd4">
+		["MD5-CAM-1.0.1"] = <"6ce37ea415a24b58b1ea3393eb133e53">
 		["build_uid"] = <"433fc6d7-36cf-3c8e-bb11-b5194e74bbc0">
 	>
 
@@ -47,6 +47,15 @@ definition
 													5|[local::at0010]
 												}
 											}
+											ELEMENT[at0224] occurrences matches {0..1} matches {    -- Opening_medicine_bottles_or_jars
+												value matches {
+													1|[local::at0225],
+													2|[local::at0226],
+													3|[local::at0227],
+													4|[local::at0228],
+													5|[local::at0229]
+												}
+											}
 											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Shopping_groceries_other_things
 												value matches {
 													1|[local::at0012],
@@ -63,6 +72,15 @@ definition
 													3|[local::at0020],
 													4|[local::at0021],
 													5|[local::at0022]
+												}
+											}
+											ELEMENT[at0230] occurrences matches {0..1} matches {    -- Make_tight_fist
+												value matches {
+													1|[local::at0231],
+													2|[local::at0232],
+													3|[local::at0233],
+													4|[local::at0234],
+													5|[local::at0235]
 												}
 											}
 											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Getting_out_bathtub_shower
@@ -90,6 +108,24 @@ definition
 													3|[local::at0038],
 													4|[local::at0039],
 													5|[local::at0040]
+												}
+											}
+											ELEMENT[at0236] occurrences matches {0..1} matches {    -- Use_buttons_snaps_hooks_zippers
+												value matches {
+													1|[local::at0237],
+													2|[local::at0238],
+													3|[local::at0239],
+													4|[local::at0240],
+													5|[local::at0241]
+												}
+											}
+											ELEMENT[at0242] occurrences matches {0..1} matches {    -- Cut_own_fingernails
+												value matches {
+													1|[local::at0243],
+													2|[local::at0244],
+													3|[local::at0245],
+													4|[local::at0246],
+													5|[local::at0247]
 												}
 											}
 											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Dressing_yourself
@@ -146,6 +182,24 @@ definition
 													5|[local::at0076]
 												}
 											}
+											ELEMENT[at0248] occurrences matches {0..1} matches {    -- Turn_knobs_or_levers
+												value matches {
+													1|[local::at0249],
+													2|[local::at0250],
+													3|[local::at0251],
+													4|[local::at0252],
+													5|[local::at0253]
+												}
+											}
+											ELEMENT[at0254] occurrences matches {0..1} matches {    -- Write_or_type
+												value matches {
+													1|[local::at0255],
+													2|[local::at0256],
+													3|[local::at0257],
+													4|[local::at0258],
+													5|[local::at0259]
+												}
+											}
 											ELEMENT[at0077] occurrences matches {0..1} matches {    -- Pivoting
 												value matches {
 													1|[local::at0078],
@@ -162,6 +216,24 @@ definition
 													3|[local::at0086],
 													4|[local::at0087],
 													5|[local::at0088]
+												}
+											}
+											ELEMENT[at0260] occurrences matches {0..1} matches {    -- Usual_leisure_activities
+												value matches {
+													1|[local::at0261],
+													2|[local::at0262],
+													3|[local::at0263],
+													4|[local::at0264],
+													5|[local::at0265]
+												}
+											}
+											ELEMENT[at0266] occurrences matches {0..1} matches {    -- Sexual_activities
+												value matches {
+													1|[local::at0267],
+													2|[local::at0268],
+													3|[local::at0269],
+													4|[local::at0270],
+													5|[local::at0271]
 												}
 											}
 											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Doing_light_housework_or_yard_work
@@ -202,6 +274,15 @@ definition
 													3|[local::at0111],
 													4|[local::at0112],
 													5|[local::at0113]
+												}
+											}
+											ELEMENT[at0272] occurrences matches {0..1} matches {    -- Avoid_using_your_painful_limbs
+												value matches {
+													1|[local::at0273],
+													2|[local::at0274],
+													3|[local::at0275],
+													4|[local::at0276],
+													5|[local::at0277]
 												}
 											}
 											ELEMENT[at0114] occurrences matches {0..1} matches {    -- Leg_lock_or_give_way
@@ -350,6 +431,15 @@ definition
 													3|[local::at0209],
 													4|[local::at0210],
 													5|[local::at0211]
+												}
+											}
+											ELEMENT[at0278] occurrences matches {0..1} matches {    -- Problems_doing_usual work
+												value matches {
+													1|[local::at0279],
+													2|[local::at0280],
+													3|[local::at0281],
+													4|[local::at0282],
+													5|[local::at0283]
 												}
 											}
 											ELEMENT[at0212] occurrences matches {0..1} matches {    -- Feeling_dependent
@@ -1278,6 +1368,247 @@ ontology
 					description = <"">
 				>
 				["at0223"] = <
+					text = <"Extremely bothered">
+					description = <"">
+				>
+				["at0224"] = <
+					text = <"Opening_medicine_bottles_or_jars">
+					description = <"How difficult is it for you to open medicine bottles or jars?">
+				>
+				["at0225"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0226"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0227"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0228"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0229"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0230"] = <
+					text = <"Make_tight_fist">
+					description = <"How difficult is it for you to make a tight fist?">
+				>
+				["at0231"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0232"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0233"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0234"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0235"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0236"] = <
+					text = <"Use_buttons_snaps_hooks_zippers">
+					description = <"How difficult is it for you to use buttons, snaps, hooks, or zippers?">
+				>
+				["at0237"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0238"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0239"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0240"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0241"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0242"] = <
+					text = <"Cut_own_fingernails">
+					description = <"How difficult is it for you to cut your own fingernails?">
+				>
+				["at0243"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0244"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0245"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0246"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0247"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0248"] = <
+					text = <"Turn_knobs_or_levers">
+					description = <"How difficult is it for you to turn knobs or levers (for example, to open doors or to roll down car windows)?">
+				>
+				["at0249"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0250"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0251"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0252"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0253"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0254"] = <
+					text = <"Write_or_type">
+					description = <"How difficult is it for to write or type?">
+				>
+				["at0255"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0256"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0257"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0258"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0259"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0260"] = <
+					text = <"Usual_leisure_activities">
+					description = <"How difficult is it for you to do your usual leisure activities, such as hobbies, crafts, gardening, card-playing, or going out with friends?
+">
+				>
+				["at0261"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0262"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0263"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0264"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0265"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0266"] = <
+					text = <"Sexual_activities">
+					description = <"How much difficulty are you having with sexual activity?">
+				>
+				["at0267"] = <
+					text = <"Not at all difficult">
+					description = <"">
+				>
+				["at0268"] = <
+					text = <"A little difficult">
+					description = <"">
+				>
+				["at0269"] = <
+					text = <"Moderately difficult">
+					description = <"">
+				>
+				["at0270"] = <
+					text = <"Very difficult">
+					description = <"">
+				>
+				["at0271"] = <
+					text = <"Unable to do">
+					description = <"">
+				>
+				["at0272"] = <
+					text = <"Avoid_using_your_painful_limbs">
+					description = <"How often do you avoid using your painful limb(s) or back?">
+				>
+				["at0273"] = <
+					text = <"None of the time">
+					description = <"">
+				>
+				["at0274"] = <
+					text = <"A little of the time">
+					description = <"">
+				>
+				["at0275"] = <
+					text = <"Some of the time">
+					description = <"">
+				>
+				["at0276"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0277"] = <
+					text = <"All of the time">
+					description = <"">
+				>
+				["at0278"] = <
+					text = <"Problems_doing_usual work">
+					description = <"How much are you bothered by problems doing your usual work?">
+				>
+				["at0279"] = <
+					text = <"Not at all bothered">
+					description = <"">
+				>
+				["at0280"] = <
+					text = <"A little bothered">
+					description = <"">
+				>
+				["at0281"] = <
+					text = <"Moderately bothered">
+					description = <"">
+				>
+				["at0282"] = <
+					text = <"Very bothered">
+					description = <"">
+				>
+				["at0283"] = <
 					text = <"Extremely bothered">
 					description = <"">
 				>
