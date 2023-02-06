@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a7da796353440a732366cbfb614e77fa">
+		["MD5-CAM-1.0.1"] = <"7da48717cad5e5e42545da5d01d809f1">
 		["build_uid"] = <"3fefde52-ddc4-3c37-97ab-8762594557a0">
 	>
 
@@ -238,7 +238,7 @@ ontology
 				>
 				["at0006"] = <
 					text = <"Pain">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0007"] = <
 					text = <"Not at all">
@@ -262,7 +262,7 @@ ontology
 				>
 				["at0012"] = <
 					text = <"Shortness of breath">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0013"] = <
 					text = <"Not at all">
@@ -286,7 +286,7 @@ ontology
 				>
 				["at0018"] = <
 					text = <"Weakness or lack of energy">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0019"] = <
 					text = <"Not at all">
@@ -310,7 +310,7 @@ ontology
 				>
 				["at0024"] = <
 					text = <"Nausea">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0025"] = <
 					text = <"Not at all">
@@ -334,7 +334,7 @@ ontology
 				>
 				["at0030"] = <
 					text = <"Vomiting">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0031"] = <
 					text = <"Not at all">
@@ -358,7 +358,7 @@ ontology
 				>
 				["at0036"] = <
 					text = <"Poor appetite">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0037"] = <
 					text = <"Not at all">
@@ -382,7 +382,7 @@ ontology
 				>
 				["at0042"] = <
 					text = <"Constipation">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0043"] = <
 					text = <"Not at all">
@@ -430,7 +430,7 @@ ontology
 				>
 				["at0064"] = <
 					text = <"Sore or dry mouth">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0065"] = <
 					text = <"Not at all">
@@ -454,7 +454,7 @@ ontology
 				>
 				["at0070"] = <
 					text = <"Drowsiness">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0071"] = <
 					text = <"Not at all">
@@ -478,7 +478,7 @@ ontology
 				>
 				["at0076"] = <
 					text = <"Poor mobility">
-					description = <"">
+					description = <"Below is a list of symptoms, which you may or may not have experienced. For each symptom, please tick one box that best describes how it has affected you over the past week.  ">
 				>
 				["at0077"] = <
 					text = <"Not at all">
@@ -646,7 +646,7 @@ ontology
 				>
 				["at0140"] = <
 					text = <"Questionnaire completion">
-					description = <"">
+					description = <"How did you complete this questionnaire?">
 				>
 				["at0141"] = <
 					text = <"On my own">
@@ -666,11 +666,11 @@ ontology
 				>
 				["at0145"] = <
 					text = <"Patient Reported Symptom">
-					description = <"">
+					description = <"Please list any other symptoms not mentioned above, and tick one box to show how they have affected you over the past week.">
 				>
 				["at0146"] = <
 					text = <"Main Patient Reported Problems">
-					description = <"">
+					description = <"What have been your main problems or concerns over the past week?">
 				>
 			>
 		>
