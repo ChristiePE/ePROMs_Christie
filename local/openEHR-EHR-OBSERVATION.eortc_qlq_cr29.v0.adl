@@ -1,0 +1,567 @@
+archetype (adl_version=1.4; uid=8f8630d0-01f7-4c13-84f2-993728c04228)
+	openEHR-EHR-OBSERVATION.eortc_qlq_cr29.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-02-06">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"b0753a08afd69d7f2388ebe6e42ee459">
+		["build_uid"] = <"f9885327-e201-3b22-9a3f-f61546f16660">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EORTC_QLQ_CR29
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Urine_frequency_day
+										value matches {
+											1|[local::at0005],
+											2|[local::at0006],
+											3|[local::at0007],
+											4|[local::at0008]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Urine_frequency_night
+										value matches {
+											1|[local::at0010],
+											2|[local::at0011],
+											3|[local::at0012],
+											4|[local::at0013]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Unintentional_release_urine
+										value matches {
+											1|[local::at0015],
+											2|[local::at0016],
+											3|[local::at0017],
+											4|[local::at0018]
+										}
+									}
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Urine_pain
+										value matches {
+											1|[local::at0020],
+											2|[local::at0021],
+											3|[local::at0022],
+											4|[local::at0023]
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Abdominal_pain
+										value matches {
+											1|[local::at0025],
+											2|[local::at0026],
+											3|[local::at0027],
+											4|[local::at0028]
+										}
+									}
+									ELEMENT[at0029] occurrences matches {0..1} matches {    -- Buttocks_anal_rectum_pain
+										value matches {
+											1|[local::at0030],
+											2|[local::at0031],
+											3|[local::at0032],
+											4|[local::at0033]
+										}
+									}
+									ELEMENT[at0034] occurrences matches {0..1} matches {    -- Bloated_feeling_abdomen
+										value matches {
+											1|[local::at0035],
+											2|[local::at0036],
+											3|[local::at0037],
+											4|[local::at0038]
+										}
+									}
+									ELEMENT[at0039] occurrences matches {0..1} matches {    -- Blood_in_stool
+										value matches {
+											1|[local::at0040],
+											2|[local::at0041],
+											3|[local::at0042],
+											4|[local::at0043]
+										}
+									}
+									ELEMENT[at0044] occurrences matches {0..1} matches {    -- Mucus_in_stool
+										value matches {
+											1|[local::at0045],
+											2|[local::at0046],
+											3|[local::at0047],
+											4|[local::at0048]
+										}
+									}
+									ELEMENT[at0049] occurrences matches {0..1} matches {    -- Dry_mouth
+										value matches {
+											1|[local::at0050],
+											2|[local::at0051],
+											3|[local::at0052],
+											4|[local::at0053]
+										}
+									}
+									ELEMENT[at0054] occurrences matches {0..1} matches {    -- Lost_hair
+										value matches {
+											1|[local::at0055],
+											2|[local::at0056],
+											3|[local::at0057],
+											4|[local::at0058]
+										}
+									}
+									ELEMENT[at0059] occurrences matches {0..1} matches {    -- Problems_with_sense_of_taste
+										value matches {
+											1|[local::at0060],
+											2|[local::at0061],
+											3|[local::at0062],
+											4|[local::at0063]
+										}
+									}
+									ELEMENT[at0064] occurrences matches {0..1} matches {    -- Worried_about_future_health
+										value matches {
+											1|[local::at0065],
+											2|[local::at0066],
+											3|[local::at0067],
+											4|[local::at0068]
+										}
+									}
+									ELEMENT[at0069] occurrences matches {0..1} matches {    -- Worried_about_weight
+										value matches {
+											1|[local::at0070],
+											2|[local::at0071],
+											3|[local::at0072],
+											4|[local::at0073]
+										}
+									}
+									ELEMENT[at0074] occurrences matches {0..1} matches {    -- Felt_physically_less_attractive
+										value matches {
+											1|[local::at0075],
+											2|[local::at0076],
+											3|[local::at0077],
+											4|[local::at0078]
+										}
+									}
+									ELEMENT[at0079] occurrences matches {0..1} matches {    -- Feel_less_feminine_masculine
+										value matches {
+											1|[local::at0080],
+											2|[local::at0081],
+											3|[local::at0082],
+											4|[local::at0083]
+										}
+									}
+									ELEMENT[at0084] occurrences matches {0..1} matches {    -- Dissatisfied_wtih_body
+										value matches {
+											1|[local::at0085],
+											2|[local::at0086],
+											3|[local::at0087],
+											4|[local::at0088]
+										}
+									}
+									ELEMENT[at0089] occurrences matches {0..1} matches {    -- Stoma_bag
+										value matches {
+											0|[local::at0090],
+											0|[local::at0091]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EORTC_QLQ_CR29">
+					description = <"EORTC_QLQ_CR29">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Urine_frequency_day">
+					description = <"Did you urinate frequently during the day?">
+				>
+				["at0005"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Urine_frequency_night">
+					description = <"Did you urinate frequently during the night?">
+				>
+				["at0010"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Unintentional_release_urine">
+					description = <"Have you had any unintentional release (leakage) of urine?">
+				>
+				["at0015"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Urine_pain">
+					description = <"Did you have pain when you urinated?">
+				>
+				["at0020"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Abdominal_pain">
+					description = <"Did you have abdominal pain?">
+				>
+				["at0025"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Buttocks_anal_rectum_pain">
+					description = <"Did you have pain in your buttocks/anal area/rectum?">
+				>
+				["at0030"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Bloated_feeling_abdomen">
+					description = <"Did you have a bloated feeling in your abdomen? ">
+				>
+				["at0035"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Blood_in_stool">
+					description = <"Have you had blood in your stools?">
+				>
+				["at0040"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Mucus_in_stool">
+					description = <"Have you had mucus in your stools?">
+				>
+				["at0045"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Dry_mouth">
+					description = <"Did you have a dry mouth?">
+				>
+				["at0050"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Lost_hair">
+					description = <"Have you lost hair as a result of your treatment?">
+				>
+				["at0055"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Problems_with_sense_of_taste">
+					description = <"Have you had problems with your sense of taste? ">
+				>
+				["at0060"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Worried_about_future_health">
+					description = <"Were you worried about your health in the future?">
+				>
+				["at0065"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Worried_about_weight">
+					description = <"Have you worried about your weight?">
+				>
+				["at0070"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Felt_physically_less_attractive">
+					description = <"Have you felt physically less attractive as a result 
+of your disease or treatment? ">
+				>
+				["at0075"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Feel_less_feminine_masculine">
+					description = <"Have you been feeling less feminine/masculine as a 
+result of your disease or treatment?">
+				>
+				["at0080"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Dissatisfied_wtih_body">
+					description = <"Have you been dissatisfied with your body?">
+				>
+				["at0085"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Stoma_bag">
+					description = <"Do you have a stoma bag (colostomy/ileostomy)?
+ (please circle the correct answer) ">
+				>
+				["at0090"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"No">
+					description = <"">
+				>
+			>
+		>
+	>
