@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7a9e3cb0eeb60c038ac72f98f77ccbf3">
+		["MD5-CAM-1.0.1"] = <"38826cf4e5fca6589b4f11902e1c3587">
 		["build_uid"] = <"6816dd1f-33c3-3e94-a8ea-1a92932cb64f">
 	>
 
@@ -135,7 +135,8 @@ definition
 									ELEMENT[at0015] occurrences matches {0..1} matches {    -- Urine_frequency
 										value matches {
 											1|[local::at0055],
-											2|[local::at0056]
+											2|[local::at0056],
+											3|[local::at0103]
 										}
 									}
 									ELEMENT[at0016] occurrences matches {0..1} matches {    -- Nocturia
@@ -244,7 +245,7 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Proctitus">
-					description = <"">
+					description = <"Do you have any pain when you open your bowels?">
 				>
 				["at0005"] = <
 					text = <"Faecal_urgency">
@@ -327,23 +328,23 @@ ontology
 					description = <"">
 				>
 				["at0025"] = <
-					text = <"I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					text = <"I am able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0026"] = <
-					text = <"It limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0027"] = <
-					text = <"It limits me caring for myself (for example washing or dressing)">
+					text = <"It makes it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 				["at0028"] = <
-					text = <"I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0029"] = <
-					text = <"It limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0030"] = <
@@ -355,11 +356,11 @@ ontology
 					description = <"">
 				>
 				["at0032"] = <
-					text = <"I open my bowels 7 times or more per day than usual. As a result I struggle to care for myself (for example wash or shower)">
+					text = <"I open my bowels 7 times or more per day than usual (As a result I struggle to care for myself)">
 					description = <"">
 				>
 				["at0033"] = <
-					text = <"Because of this I use pads less than once a week">
+					text = <"Because of this I use pads less than once per week">
 					description = <"">
 				>
 				["at0034"] = <
@@ -371,11 +372,11 @@ ontology
 					description = <"">
 				>
 				["at0036"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0037"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0038"] = <
@@ -427,19 +428,19 @@ ontology
 					description = <"">
 				>
 				["at0050"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0051"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0052"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0053"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0054"] = <
@@ -447,11 +448,11 @@ ontology
 					description = <"">
 				>
 				["at0055"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0056"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0057"] = <
@@ -467,11 +468,11 @@ ontology
 					description = <"">
 				>
 				["at0060"] = <
-					text = <"I do not use pads">
+					text = <"For example when coughing or sneezing, but I do not use pads">
 					description = <"">
 				>
 				["at0061"] = <
-					text = <"Because of this I use pads and/or it stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"Because of this I use pads and/or it stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0062"] = <
@@ -495,11 +496,11 @@ ontology
 					description = <"">
 				>
 				["at0067"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0068"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0069"] = <
@@ -507,11 +508,11 @@ ontology
 					description = <"">
 				>
 				["at0070"] = <
-					text = <"I am still able to do my routine activities (for example light housework or shopping)">
+					text = <"I am still able to do my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0071"] = <
-					text = <"It stops me from doing my routine activities (for example light housework or shopping)">
+					text = <"It stops me from doing my routine activities (for example light housework/shopping)">
 					description = <"">
 				>
 				["at0072"] = <
@@ -603,7 +604,7 @@ ontology
 					description = <"">
 				>
 				["at0097"] = <
-					text = <"Monthly or less often">
+					text = <"Less than monthly">
 					description = <"">
 				>
 				["at0098"] = <
@@ -624,6 +625,10 @@ ontology
 				>
 				["at0102"] = <
 					text = <"Monthly">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"It makes it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 			>
