@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"c7ea2a3b5095d67e3633b6d99f4ac299">
+		["MD5-CAM-1.0.1"] = <"df3f0293d0fd73644a0e4ef138bcd4cd">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -47,6 +47,7 @@ definition
 									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Bronchopulmonary_haemorrhage
 										value matches {
 											0|[local::at0010],
+											1|[local::at0057],
 											1|[local::at0052],
 											2|[local::at0053],
 											3|[local::at0054],
@@ -265,6 +266,10 @@ ontology
 				>
 				["at0056"] = <
 					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
