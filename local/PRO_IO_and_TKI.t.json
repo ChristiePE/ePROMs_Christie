@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "e6d12fe2214bcd77deec8e4007783f4c",
+      "MD5-CAM-1.0.1" : "e059eb4d88eff9ee17efcaf166e2ddab",
       "PARENT:MD5-CAM-1.0.1" : "954b5c740457f8a5cbad131113cd807f"
     },
     "details" : {
@@ -625,7 +625,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0173.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0173.1",
+            "text" : "Dysphagia",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1217,20 +1224,6 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
-                      "nodeId" : "at0058.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
-                      "nodeId" : "at0063.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0068.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -1316,7 +1309,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "c7ea2a3b5095d67e3633b6d99f4ac299"
+        "PARENT:MD5-CAM-1.0.1" : "df3f0293d0fd73644a0e4ef138bcd4cd"
       },
       "details" : {
         "en" : {
@@ -1371,13 +1364,6 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0004.1",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
-                      "nodeId" : "at0009.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
