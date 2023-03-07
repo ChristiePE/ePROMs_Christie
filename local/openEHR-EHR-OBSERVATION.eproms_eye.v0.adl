@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"9004e47b14f216255bd5378b86c05df4">
+		["MD5-CAM-1.0.1"] = <"6f22445028666ada93274f3f5685d22a">
 		["build_uid"] = <"84f1367c-e903-3fac-b37e-996c43f7e127">
 	>
 
@@ -58,6 +58,14 @@ definition
 											2|[local::at0017],
 											3|[local::at0018],
 											4|[local::at0019]
+										}
+									}
+									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Burning_Sore eyes
+										value matches {
+											1|[local::at0021],
+											2|[local::at0022],
+											3|[local::at0023],
+											4|[local::at0024]
 										}
 									}
 								}
@@ -154,6 +162,26 @@ ontology
 				>
 				["at0019"] = <
 					text = <"Very much">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Burning_Sore eyes">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
 					description = <"">
 				>
 			>
