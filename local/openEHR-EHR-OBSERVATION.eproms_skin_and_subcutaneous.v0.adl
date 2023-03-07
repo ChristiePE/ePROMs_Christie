@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"961c19b765ca414dc42498c52b6b1cd2">
+		["MD5-CAM-1.0.1"] = <"e6ba431202413cb3bef571654d10cd50">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -149,6 +149,14 @@ definition
 										value matches {
 											1|[local::at0070],
 											2|[local::at0071]
+										}
+									}
+									ELEMENT[at0073] occurrences matches {0..1} matches {    -- Splitting_fingernails_toenails
+										value matches {
+											0|[local::at0074],
+											1|[local::at0075],
+											2|[local::at0076],
+											3|[local::at0077]
 										}
 									}
 								}
@@ -446,6 +454,30 @@ ontology
 				>
 				["at0071"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Splitting_fingernails_toenails">
+					description = <"Do you notice any problems with your finger/toenails?
+
+
+
+">
+				>
+				["at0074"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Yes and I have required a cream or ointment">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Yes, I have required a tablet or liquid medication and / or the itching limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Yes, it is constant and / or limits me caring for myself (for example washing or dressing).   I may have been admitted to hospital since the last review appointment for my cancer">
 					description = <"">
 				>
 			>
