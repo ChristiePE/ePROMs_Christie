@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"eef2ee486644a250b06a86ef83391616">
+		["MD5-CAM-1.0.1"] = <"883960ad92929b59ba6a9cc5cc3e32c7">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -42,6 +42,32 @@ definition
 											1|[local::at0006],
 											2|[local::at0007],
 											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Breast_swelling
+										value matches {
+											1|[local::at0015],
+											2|[local::at0016],
+											3|[local::at0017]
+										}
+									}
+									ELEMENT[at0018] occurrences matches {0..1} matches {    -- Nipple_deformity
+										value matches {
+											1|[local::at0019],
+											2|[local::at0020]
+										}
+									}
+									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Breast_appearance_shape
+										value matches {
+											1|[local::at0022],
+											2|[local::at0023],
+											3|[local::at0024]
+										}
+									}
+									ELEMENT[at0025] occurrences matches {0..1} matches {    -- Breast_shrinkage
+										value matches {
+											1|[local::at0026],
+											2|[local::at0027]
 										}
 									}
 								}
@@ -99,6 +125,62 @@ ontology
 				["at0013"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
+				>
+				["at0014"] = <
+					text = <"Breast_swelling">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"I have a mild swelling in my breast">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"I have a moderate swelling in my breast, this may stop me doing my routine activities (for example light housework or shopping) or affects bra fit">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"I have severe swelling in my breast, ths may make it diffiult to care for myself (for example wash or shower)">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Nipple_deformity">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"There is some asymmetry and slight retraction (drawing inwards) or thickening of the nipple and the surrounding nipple skin (areola)">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"There is noticeable asymmetry and retraction (drawing inwards) or thickening of the nipple or surrounding nipple skin (areola)">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Breast_appearance_shape">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Mild change, this does not bother me">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Moderate change, but I would not want any treatment for this">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Severe change, I would consider treatment for this (e.g. surgery)">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Breast_shrinkage">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"The breast is smaller but this does not affect bra/underwear fit">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"The breast is smaller and this does affect bra/underwear fit">
+					description = <"">
 				>
 			>
 		>
