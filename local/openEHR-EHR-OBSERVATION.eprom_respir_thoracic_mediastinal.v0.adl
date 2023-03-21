@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1ff08ab246d25ead85b611e33e462c6a">
+		["MD5-CAM-1.0.1"] = <"07997edd7724f14d196a46298b7a0fa3">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -42,6 +42,11 @@ definition
 											1|[local::at0049],
 											2|[local::at0050],
 											3|[local::at0051]
+										}
+									}
+									ELEMENT[at0059] occurrences matches {0..1} matches {    -- Cough
+										value matches {
+											DV_CODED_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Bronchopulmonary_haemorrhage
@@ -279,6 +284,10 @@ ontology
 				>
 				["at0058"] = <
 					text = <"Dyspnea">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Cough">
 					description = <"">
 				>
 			>
