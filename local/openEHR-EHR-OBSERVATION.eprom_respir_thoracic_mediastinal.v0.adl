@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"df3f0293d0fd73644a0e4ef138bcd4cd">
+		["MD5-CAM-1.0.1"] = <"1ff08ab246d25ead85b611e33e462c6a">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -76,6 +76,11 @@ definition
 											2|[local::at0025],
 											3|[local::at0026],
 											4|[local::at0056]
+										}
+									}
+									ELEMENT[at0058] occurrences matches {0..1} matches {    -- Dyspnea
+										value matches {
+											DV_CODED_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0027] occurrences matches {0..1} matches {    -- Neck_pain
@@ -270,6 +275,10 @@ ontology
 				>
 				["at0057"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Dyspnea">
 					description = <"">
 				>
 			>
