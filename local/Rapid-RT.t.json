@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "2ae767a7025f2f1b4a98d93b8a6a1918",
+      "MD5-CAM-1.0.1" : "788201579fb8d914c8216fa1bc0b0bf9",
       "PARENT:MD5-CAM-1.0.1" : "99203bbeccae189f9b053a0b62c9c295"
     },
     "details" : {
@@ -250,6 +250,18 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "DV_CODED_TEXT",
+                          "defaultValue" : {
+                            "defining_code" : {
+                              "terminology_id" : {
+                                "value" : "local_terms",
+                                "@type" : "TERMINOLOGY_ID"
+                              },
+                              "code_string" : "0",
+                              "@type" : "CODE_PHRASE"
+                            },
+                            "value" : "No I have not had any problems with swallowing",
+                            "@type" : "DV_CODED_TEXT"
+                          },
                           "attributes" : [ {
                             "@type" : "C_ATTRIBUTE",
                             "rmAttributeName" : "defining_code",
@@ -412,6 +424,50 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0059.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "local_terms"
+                              },
+                              "constraint" : [ ],
+                              "selectedTerminologies" : [ "local_terms" ],
+                              "includedExternalTerminologyCodes" : [ {
+                                "terminologyId" : "local_terms",
+                                "code" : "0",
+                                "value" : "No I have not have a cough develop since I started radiotherapy"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "1",
+                                "value" : "Yes but I did not require medical help"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "2",
+                                "value" : "Yes and it limited me doing my routine activities (for example light housework, deskwork or shopping) and/or I required medical help"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "3",
+                                "value" : "Yes it limited me caring for myself (for example washing or dressing)"
+                              } ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0009.1",
                       "attributes" : [ ],
@@ -436,6 +492,54 @@
                       "occurrences" : "0..0",
                       "nodeId" : "at0022.1",
                       "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0058.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "TERMINOLOGY_CODE",
+                              "terminologyId" : {
+                                "value" : "local_terms"
+                              },
+                              "constraint" : [ ],
+                              "selectedTerminologies" : [ "local_terms" ],
+                              "includedExternalTerminologyCodes" : [ {
+                                "terminologyId" : "local_terms",
+                                "code" : "0",
+                                "value" : "No I have not found it more difficult to breathe"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "1",
+                                "value" : "Yes and I became short of breath with moderate effort"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "2",
+                                "value" : "Yes and I became short of breath with minimal effort; this limited me from doing my routine activities (for example light housework, deskwork or shopping)"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "3",
+                                "value" : "Yes and I was short of breath at rest; this limited me caring for myself (for example washing or dressing"
+                              }, {
+                                "terminologyId" : "local_terms",
+                                "code" : "4",
+                                "value" : "Yes and as a result I was admitted to hospital for emergency medical care"
+                              } ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
                       "attributeTuples" : [ ]
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
