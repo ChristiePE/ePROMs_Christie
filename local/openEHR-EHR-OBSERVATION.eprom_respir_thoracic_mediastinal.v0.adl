@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a5f03a27037cc97ce4b512adcff5e02c">
+		["MD5-CAM-1.0.1"] = <"ba20daebf05cf84eea609f423431b936">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -77,7 +77,6 @@ definition
 									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Dyspnea
 										value matches {
 											0|[local::at0023],
-											0|[local::at0060],
 											1|[local::at0024],
 											2|[local::at0025],
 											3|[local::at0026],
@@ -289,10 +288,6 @@ ontology
 				>
 				["at0059"] = <
 					text = <"Cough">
-					description = <"">
-				>
-				["at0060"] = <
-					text = <"No I have not found it more difficult to breathe">
 					description = <"">
 				>
 			>
