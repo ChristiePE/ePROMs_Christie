@@ -1,0 +1,164 @@
+archetype (adl_version=1.4; uid=853cde51-d2ed-4ea7-8ddb-3b9c873010e9)
+	openEHR-EHR-OBSERVATION.eprom_rapidrt.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-03-23">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"e95eab81d3791de1a7e6f2b7ed3dcfc5">
+		["build_uid"] = <"2bfc7262-3e6d-3f20-8495-9eecea4743a9">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- EPROM_RapidRT
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Dysphagia
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008],
+											4|[local::at0009]
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Dyspnea
+										value matches {
+											0|[local::at0011],
+											1|[local::at0012],
+											2|[local::at0013],
+											3|[local::at0014],
+											4|[local::at0015]
+										}
+									}
+									ELEMENT[at0016] occurrences matches {0..1} matches {    -- Cough
+										value matches {
+											0|[local::at0017],
+											1|[local::at0018],
+											2|[local::at0019],
+											3|[local::at0020]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"EPROM_RapidRT">
+					description = <"EPROM_RapidRT">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Dysphagia">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"No I have not had any problems with swallowing">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Yes but I was still able to eat my normal diet">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Yes but I had to change my diet to easier-to-eat foods">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Yes and I had to use a feeding tube and/or had to be admitted to hospital">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Yes and I had to be admitted to hospital and required an emergency procedure or operation">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Dyspnea">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"No I have not found it more difficult to breathe">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Yes and I became short of breath with moderate effort">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Yes and I became short of breath with minimal effort; this limited me from doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Yes and I was short of breath at rest; this limited me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Cough">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"No I have not have a cough develop since I started radiotherapy">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes but I did not require medical help">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Yes and it limited me doing my routine activities (for example light housework, deskwork or shopping) and/or I required medical help">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Yes it limited me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+			>
+		>
+	>
