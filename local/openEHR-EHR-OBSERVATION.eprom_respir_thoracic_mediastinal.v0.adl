@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ba20daebf05cf84eea609f423431b936">
+		["MD5-CAM-1.0.1"] = <"8f527459d62afd11b9219dbee5a87139">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -42,11 +42,6 @@ definition
 											1|[local::at0049],
 											2|[local::at0050],
 											3|[local::at0051]
-										}
-									}
-									ELEMENT[at0059] occurrences matches {0..1} matches {    -- Cough
-										value matches {
-											DV_CODED_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Bronchopulmonary_haemorrhage
@@ -81,11 +76,6 @@ definition
 											2|[local::at0025],
 											3|[local::at0026],
 											4|[local::at0056]
-										}
-									}
-									ELEMENT[at0058] occurrences matches {0..1} matches {    -- Dyspnea
-										value matches {
-											DV_CODED_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0027] occurrences matches {0..1} matches {    -- Neck_pain
@@ -280,14 +270,6 @@ ontology
 				>
 				["at0057"] = <
 					text = <"Yes">
-					description = <"">
-				>
-				["at0058"] = <
-					text = <"Dyspnea">
-					description = <"">
-				>
-				["at0059"] = <
-					text = <"Cough">
 					description = <"">
 				>
 			>
