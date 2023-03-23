@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"42eefa968a9f55b84f69ba37bb675f54">
+		["MD5-CAM-1.0.1"] = <"684169dffbb7e6716c50afdc96e99a1a">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -202,11 +202,6 @@ definition
 											2|[local::at0125],
 											3|[local::at0126],
 											4|[local::at0127]
-										}
-									}
-									ELEMENT[at0189] occurrences matches {0..1} matches {    -- Dysphagia
-										value matches {
-											DV_CODED_TEXT matches {*}
 										}
 									}
 									ELEMENT[at0063] occurrences matches {0..1} matches {    -- Dizziness
@@ -877,10 +872,6 @@ ontology
 				>
 				["at0187"] = <
 					text = <"Very much">
-					description = <"">
-				>
-				["at0189"] = <
-					text = <"Dysphagia">
 					description = <"">
 				>
 			>
