@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e5886a07aac54709e9ea9d27049846ca">
+		["MD5-CAM-1.0.1"] = <"5cb3501b3894b5da0a19f620fb42d1f7">
 		["build_uid"] = <"2bfc7262-3e6d-3f20-8495-9eecea4743a9">
 	>
 
@@ -60,11 +60,6 @@ definition
 											1|[local::at0018],
 											2|[local::at0019],
 											3|[local::at0020]
-										}
-									}
-									ELEMENT[at0021] occurrences matches {0..1} matches {    -- test
-										value matches {
-											DV_CODED_TEXT matches {*}
 										}
 									}
 								}
@@ -162,10 +157,6 @@ ontology
 				>
 				["at0020"] = <
 					text = <"Yes it limited me caring for myself (for example washing or dressing)">
-					description = <"">
-				>
-				["at0021"] = <
-					text = <"test">
 					description = <"">
 				>
 			>
