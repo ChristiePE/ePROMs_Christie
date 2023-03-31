@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e6ba431202413cb3bef571654d10cd50">
+		["MD5-CAM-1.0.1"] = <"7c9186e37dc2056cf8a97d59d56cbb86">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -473,11 +473,11 @@ ontology
 					description = <"">
 				>
 				["at0076"] = <
-					text = <"Yes, I have required a tablet or liquid medication and / or the itching limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					text = <"Yes, I have required a tablet or liquid medication and/or the itching limits me doing my routine activities (for example light housework, deskwork or shopping)">
 					description = <"">
 				>
 				["at0077"] = <
-					text = <"Yes, it is constant and / or limits me caring for myself (for example washing or dressing).   I may have been admitted to hospital since the last review appointment for my cancer">
+					text = <"Yes, it is constant and/or limits me caring for myself (for example washing or dressing).   I may have been admitted to hospital since the last review appointment for my cancer">
 					description = <"">
 				>
 			>
