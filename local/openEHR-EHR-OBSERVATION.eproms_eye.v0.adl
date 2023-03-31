@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"07b5d0879478a17e04d9f78a19f719d7">
+		["MD5-CAM-1.0.1"] = <"4d9f76b143a7d86d8d46ec67c60db8a3">
 		["build_uid"] = <"84f1367c-e903-3fac-b37e-996c43f7e127">
 	>
 
@@ -62,10 +62,10 @@ definition
 									}
 									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Burning_sore_eyes
 										value matches {
-											1|[local::at0021],
-											2|[local::at0022],
-											3|[local::at0023],
-											4|[local::at0024]
+											0|[local::at0021],
+											1|[local::at0022],
+											2|[local::at0023],
+											3|[local::at0024]
 										}
 									}
 								}
