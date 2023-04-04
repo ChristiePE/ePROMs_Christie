@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a179eb15599f5f8460ca514533843f88">
+		["MD5-CAM-1.0.1"] = <"54b996a004df3f8c34d2665a6bb34471">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -42,6 +42,14 @@ definition
 											1|[local::at0006],
 											2|[local::at0007],
 											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0065] occurrences matches {0..1} matches {    -- Lymphoedema
+										value matches {
+											0|[local::at0066],
+											1|[local::at0067],
+											2|[local::at0068],
+											3|[local::at0069]
 										}
 									}
 									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Shoulder_joint_function
@@ -383,6 +391,26 @@ ontology
 				>
 				["at0064"] = <
 					text = <"Yes, and because of this I avoid interacting with other people">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Lymphoedema">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Yes, I have a mild swelling in my arm or hand">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Yes, I have a moderate swelling in my arm or hand, this may stop me doing my routine activities (for example light housework or shopping)">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Yes, I have severe swelling in my arm or hand, this may make it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 			>
