@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0d8610f37d1cfcb858d1c9d7ba9f550c">
+		["MD5-CAM-1.0.1"] = <"a179eb15599f5f8460ca514533843f88">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -42,6 +42,87 @@ definition
 											1|[local::at0006],
 											2|[local::at0007],
 											3|[local::at0008]
+										}
+									}
+									ELEMENT[at0014] occurrences matches {0..1} matches {    -- Shoulder_joint_function
+										value matches {
+											0|[local::at0015],
+											1|[local::at0016],
+											2|[local::at0017],
+											3|[local::at0018]
+										}
+									}
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Breast_swelling
+										value matches {
+											0|[local::at0020],
+											1|[local::at0021],
+											2|[local::at0022],
+											3|[local::at0023]
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Shoulder_arm_pain
+										value matches {
+											0|[local::at0025],
+											1|[local::at0026],
+											2|[local::at0027],
+											3|[local::at0028]
+										}
+									}
+									ELEMENT[at0029] occurrences matches {0..1} matches {    -- Chest_wall_pain
+										value matches {
+											0|[local::at0030],
+											1|[local::at0031],
+											2|[local::at0032],
+											3|[local::at0033]
+										}
+									}
+									ELEMENT[at0034] occurrences matches {0..1} matches {    -- Nipple_deformity
+										value matches {
+											0|[local::at0035],
+											1|[local::at0036],
+											2|[local::at0037]
+										}
+									}
+									ELEMENT[at0038] occurrences matches {0..1} matches {    -- Breast_appearance_shape
+										value matches {
+											0|[local::at0039],
+											1|[local::at0040],
+											2|[local::at0041],
+											3|[local::at0042]
+										}
+									}
+									ELEMENT[at0043] occurrences matches {0..1} matches {    -- Acute_dermatitis
+										value matches {
+											0|[local::at0044],
+											1|[local::at0045],
+											2|[local::at0046],
+											3|[local::at0047]
+										}
+									}
+									ELEMENT[at0048] occurrences matches {0..*} matches {    -- Late_skin_effects
+										value matches {
+											0|[local::at0049],
+											0|[local::at0050],
+											0|[local::at0051],
+											0|[local::at0052],
+											0|[local::at0053],
+											0|[local::at0054],
+											0|[local::at0055]
+										}
+									}
+									ELEMENT[at0056] occurrences matches {0..1} matches {    -- Breast_shrinkage
+										value matches {
+											0|[local::at0057],
+											1|[local::at0058],
+											2|[local::at0059]
+										}
+									}
+									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Body_image
+										value matches {
+											0|[local::at0061],
+											1|[local::at0062],
+											2|[local::at0063],
+											3|[local::at0064]
 										}
 									}
 								}
@@ -99,6 +180,210 @@ ontology
 				["at0013"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
+				>
+				["at0014"] = <
+					text = <"Shoulder_joint_function">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Yes, I have mild restriction in my arm or shoulder movement">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Yes, I have moderate restriction in my arm or shoulder movement, this may stop me doing my routine activities (for example light housework or shopping)">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes, I have severe swelling in my arm or hand, this may make it difficult to care for myself (for example wash or shower)">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Breast_swelling">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Yes, I have a mild swelling in my breast">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Yes, I have a moderate swelling in my breast, this may stop me doing my routine activities (for example light housework or shopping) or affects bra fit">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Yes, I have severe swelling in my breast, this may make it difficult to care for myself (for example wash or shower)">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Shoulder_arm_pain">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Yes, I have a mild pain in my shoulder/arm">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Yes, I have moderate shoulder/arm pain, this may stop me doing my routine activities (for example light housework or shopping)">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Yes, I have severe shoulder/arm pain, this may make it difficult to care for myself (for example wash or shower)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Chest_wall_pain">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Yes, I have a mild pain or tenderness in my chest wall/ribs">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes, I have moderate pain or tenderness in my chest wall/ribs, this may stop me doing my routine activities (for example light housework or shopping) or make it uncomfortable to sleep on the affected side">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes, I have severe pain or tenderness in my chest wall/ribs, this may make it difficult to care for myself (for example wash or shower) or mean you cannot sleep on the affected side">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Nipple_deformity">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Yes, there is some asymmetry and slight retraction (drawing inwards) or thickening of the nipple and the surrounding nipple skin (areola)">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Yes, there is noticeable asymmetry and retraction (drawing inwards) or thickening of the nipple or surrounding nipple skin (areola)">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Breast_appearance_shape">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Yes, I have mild change, this does not bother me">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Yes, I have moderate change, but I would not want any treatment for this">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Yes, I have severe change, I would consider treatment for this (e.g. surgery)">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Acute_dermatitis">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Yes, I have a faint redness, slight darkening or dry peeling of the skin">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Yes, I have a bright redness, significant darkening or patchy moist peeling of the skin, mainly in the skin folds or creases">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Yes, I have a moist peeling of the skin in areas other than the skin folds and creases, it may bleed when touched">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Late_skin_effects">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"The skin looks a darker colour">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"The skin looks a lighter colour">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"I can see tiny blood vessels on the skin">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"The skin looks thin">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Chronic ulcer">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"The skin looks swollen">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"None of the above">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Breast_shrinkage">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Yes, the breast is smaller but this does not affect bra/underwear fit">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Yes, the breast is smaller and this does affect bra/underwear fit">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Body_image">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Yes, it bothers me, but has not changed how I interact with other people">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Yes, it bothers me and has changed how I interact with other people">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Yes, and because of this I avoid interacting with other people">
+					description = <"">
 				>
 			>
 		>
