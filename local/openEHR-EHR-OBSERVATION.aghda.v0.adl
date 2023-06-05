@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f0afc7ac00a57b0c029d3634fa1bf424">
+		["MD5-CAM-1.0.1"] = <"8e208c3df5c1999b52cd0bfb4ef8be46">
 		["build_uid"] = <"82c97869-a470-3e1d-a622-0034939b32a6">
 	>
 
@@ -60,12 +60,142 @@ definition
 											0|[local::at0015]
 										}
 									}
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Making friends
+										value matches {
+											0|[local::at0026],
+											0|[local::at0027]
+										}
+									}
+									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Performing tasks
+										value matches {
+											0|[local::at0028],
+											0|[local::at0029]
+										}
+									}
+									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Controlling emotions
+										value matches {
+											0|[local::at0030],
+											0|[local::at0031]
+										}
+									}
+									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Losing track of speech
+										value matches {
+											0|[local::at0032],
+											0|[local::at0033]
+										}
+									}
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Lacking confidence
+										value matches {
+											0|[local::at0034],
+											0|[local::at0035]
+										}
+									}
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Pushing to do things
+										value matches {
+											0|[local::at0036],
+											0|[local::at0037]
+										}
+									}
+									ELEMENT[at0025] occurrences matches {0..1} matches {    -- Feeling tense
+										value matches {
+											0|[local::at0038],
+											0|[local::at0039]
+										}
+									}
+									ELEMENT[at0040] occurrences matches {0..1} matches {    -- Letting people down
+										value matches {
+											0|[local::at0043],
+											0|[local::at0044]
+										}
+									}
+									ELEMENT[at0041] occurrences matches {0..1} matches {    -- Mixing with people
+										value matches {
+											0|[local::at0045],
+											0|[local::at0046]
+										}
+									}
+									ELEMENT[at0042] occurrences matches {0..1} matches {    -- Feeling worn out
+										value matches {
+											0|[local::at0047],
+											0|[local::at0048]
+										}
+									}
+									ELEMENT[at0049] occurrences matches {0..1} matches {    -- Feeling low
+										value matches {
+											0|[local::at0056],
+											0|[local::at0057]
+										}
+									}
+									ELEMENT[at0050] occurrences matches {0..1} matches {    -- Avoiding responsibilities
+										value matches {
+											0|[local::at0058],
+											0|[local::at0059]
+										}
+									}
+									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Avoiding mixing with people
+										value matches {
+											0|[local::at0060],
+											0|[local::at0061]
+										}
+									}
+									ELEMENT[at0052] occurrences matches {0..1} matches {    -- Feeling like a burden
+										value matches {
+											0|[local::at0062],
+											0|[local::at0063]
+										}
+									}
+									ELEMENT[at0053] occurrences matches {0..1} matches {    -- Forgetfulness
+										value matches {
+											0|[local::at0064],
+											0|[local::at0065]
+										}
+									}
+									ELEMENT[at0054] occurrences matches {0..1} matches {    -- Planning ahead
+										value matches {
+											0|[local::at0066],
+											0|[local::at0067]
+										}
+									}
+									ELEMENT[at0055] occurrences matches {0..1} matches {    -- Irritated by other people
+										value matches {
+											0|[local::at0068],
+											0|[local::at0069]
+										}
+									}
+									ELEMENT[at0070] occurrences matches {0..1} matches {    -- Tiredness
+										value matches {
+											0|[local::at0076],
+											0|[local::at0077]
+										}
+									}
+									ELEMENT[at0071] occurrences matches {0..1} matches {    -- Getting things done
+										value matches {
+											0|[local::at0078],
+											0|[local::at0079]
+										}
+									}
+									ELEMENT[at0072] occurrences matches {0..1} matches {    -- Staying awake
+										value matches {
+											0|[local::at0080],
+											0|[local::at0081]
+										}
+									}
+									ELEMENT[at0073] occurrences matches {0..1} matches {    -- Memory
+										value matches {
+											0|[local::at0074],
+											0|[local::at0075]
+										}
+									}
+									CLUSTER[at0082] occurrences matches {0..1} matches {*}    -- CLUSTER
 								}
 							}
 						}
 					}
 				}
 			}
+		}
+		protocol matches {
+			ITEM_TREE matches {*}
 		}
 	}
 
@@ -135,6 +265,262 @@ ontology
 				>
 				["at0015"] = <
 					text = <"No">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Making friends">
+					description = <"It is difficult for me to make friends">
+				>
+				["at0020"] = <
+					text = <"Performing tasks">
+					description = <"It takes a lot of effort for me to do simple tasks">
+				>
+				["at0021"] = <
+					text = <"Controlling emotions">
+					description = <"I have difficulty controlling my emotions">
+				>
+				["at0022"] = <
+					text = <"Losing track of speech">
+					description = <"I often lose track of what I want to say">
+				>
+				["at0023"] = <
+					text = <"Lacking confidence">
+					description = <"I lack confidence">
+				>
+				["at0024"] = <
+					text = <"Pushing to do things">
+					description = <"I have to push myself to do things">
+				>
+				["at0025"] = <
+					text = <"Feeling tense">
+					description = <"I often feel very tense">
+				>
+				["at0026"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Letting people down">
+					description = <"I feel as if I let people down">
+				>
+				["at0041"] = <
+					text = <"Mixing with people">
+					description = <"I find it hard to mix with people">
+				>
+				["at0042"] = <
+					text = <"Feeling worn out">
+					description = <"I feel worn out even when I've not done anything">
+				>
+				["at0043"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Feeling low">
+					description = <"There are times when I feel very low">
+				>
+				["at0050"] = <
+					text = <"Avoiding responsibilities">
+					description = <"I avoid responsibilities if possible">
+				>
+				["at0051"] = <
+					text = <"Avoiding mixing with people">
+					description = <"I avoid mixing with people I don't know well">
+				>
+				["at0052"] = <
+					text = <"Feeling like a burden">
+					description = <"I feel as if I'm a burden to people">
+				>
+				["at0053"] = <
+					text = <"Forgetfulness">
+					description = <"I often forget what people have said to me">
+				>
+				["at0054"] = <
+					text = <"Planning ahead">
+					description = <"I find it difficult to plan ahead">
+				>
+				["at0055"] = <
+					text = <"Irritated by other people">
+					description = <"I am easily irritated by other people">
+				>
+				["at0056"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Tiredness">
+					description = <"I often feel too tired to do the things I ought to do">
+				>
+				["at0071"] = <
+					text = <"Getting things done">
+					description = <"I have to force myself to do all the things that need doing">
+				>
+				["at0072"] = <
+					text = <"Staying awake">
+					description = <"I often have to force myself to stay awake">
+				>
+				["at0073"] = <
+					text = <"Memory">
+					description = <"My memory lets me down">
+				>
+				["at0074"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"CLUSTER">
 					description = <"">
 				>
 			>
