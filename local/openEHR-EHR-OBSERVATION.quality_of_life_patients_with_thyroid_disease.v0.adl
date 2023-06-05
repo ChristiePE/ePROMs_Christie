@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"82096b943f0d07146b7f7e57f606832c">
+		["MD5-CAM-1.0.1"] = <"94052443b3d3ef148ede40a2666d7ce5">
 		["build_uid"] = <"30483a44-bd2e-3536-84a7-6046ae8f3256">
 	>
 
@@ -38,7 +38,7 @@ definition
 								items cardinality matches {0..*; unordered} matches {
 									CLUSTER[at0088] occurrences matches {0..1} matches {    -- Symptoms
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Sensation of fullness
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Sensation_of_fullness
 												value matches {
 													0|[local::at0005],
 													1|[local::at0006],
@@ -47,7 +47,7 @@ definition
 													4|[local::at0009]
 												}
 											}
-											ELEMENT[at0010] occurrences matches {0..1} matches {    -- Pressure in the throat
+											ELEMENT[at0010] occurrences matches {0..1} matches {    -- Pressure_in_the_throat
 												value matches {
 													0|[local::at0015],
 													1|[local::at0016],
@@ -56,7 +56,7 @@ definition
 													4|[local::at0019]
 												}
 											}
-											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Discomfort swallowing
+											ELEMENT[at0011] occurrences matches {0..1} matches {    -- Discomfort_swallowing
 												value matches {
 													0|[local::at0020],
 													1|[local::at0021],
@@ -65,7 +65,7 @@ definition
 													4|[local::at0024]
 												}
 											}
-											ELEMENT[at0012] occurrences matches {0..1} matches {    -- Trembling hands
+											ELEMENT[at0012] occurrences matches {0..1} matches {    -- Trembling_hands
 												value matches {
 													0|[local::at0025],
 													1|[local::at0026],
@@ -74,7 +74,7 @@ definition
 													4|[local::at0029]
 												}
 											}
-											ELEMENT[at0013] occurrences matches {0..1} matches {    -- Tendency to sweat
+											ELEMENT[at0013] occurrences matches {0..1} matches {    -- Tendency_to_sweat
 												value matches {
 													0|[local::at0030],
 													1|[local::at0031],
@@ -92,7 +92,7 @@ definition
 													4|[local::at0039]
 												}
 											}
-											ELEMENT[at0040] occurrences matches {0..1} matches {    -- Sensitivity to cold
+											ELEMENT[at0040] occurrences matches {0..1} matches {    -- Sensitivity_to_cold
 												value matches {
 													0|[local::at0048],
 													1|[local::at0049],
@@ -101,7 +101,7 @@ definition
 													4|[local::at0052]
 												}
 											}
-											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Upset stomach
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Upset_stomach
 												value matches {
 													0|[local::at0053],
 													1|[local::at0054],
@@ -110,7 +110,7 @@ definition
 													4|[local::at0057]
 												}
 											}
-											ELEMENT[at0042] occurrences matches {0..1} matches {    -- Sensation of dryness in the eyes
+											ELEMENT[at0042] occurrences matches {0..1} matches {    -- Sensation_of_dryness_in_the_eyes
 												value matches {
 													0|[local::at0058],
 													1|[local::at0059],
@@ -119,7 +119,7 @@ definition
 													4|[local::at0062]
 												}
 											}
-											ELEMENT[at0043] occurrences matches {0..1} matches {    -- Impaired vision
+											ELEMENT[at0043] occurrences matches {0..1} matches {    -- Impaired_vision
 												value matches {
 													0|[local::at0063],
 													1|[local::at0064],
@@ -128,7 +128,7 @@ definition
 													4|[local::at0067]
 												}
 											}
-											ELEMENT[at0044] occurrences matches {0..1} matches {    -- Sensitivity to light
+											ELEMENT[at0044] occurrences matches {0..1} matches {    -- Sensitivity_to_light
 												value matches {
 													0|[local::at0068],
 													1|[local::at0069],
@@ -137,7 +137,7 @@ definition
 													4|[local::at0072]
 												}
 											}
-											ELEMENT[at0045] occurrences matches {0..1} matches {    -- Swollen hands or feet
+											ELEMENT[at0045] occurrences matches {0..1} matches {    -- Swollen_hands_or_feet
 												value matches {
 													0|[local::at0073],
 													1|[local::at0074],
@@ -146,7 +146,7 @@ definition
 													4|[local::at0077]
 												}
 											}
-											ELEMENT[at0046] occurrences matches {0..1} matches {    -- Dry skin
+											ELEMENT[at0046] occurrences matches {0..1} matches {    -- Dry_skin
 												value matches {
 													0|[local::at0078],
 													1|[local::at0079],
@@ -155,7 +155,7 @@ definition
 													4|[local::at0082]
 												}
 											}
-											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Itchy skin
+											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Itchy_skin
 												value matches {
 													0|[local::at0083],
 													1|[local::at0084],
@@ -201,7 +201,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0104] occurrences matches {0..1} matches {    -- Memory and concentration
+									CLUSTER[at0104] occurrences matches {0..1} matches {    -- Memory_and_concentration
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at0112] occurrences matches {0..1} matches {    -- Remembering
 												value matches {
@@ -232,7 +232,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0105] occurrences matches {0..1} matches {    -- Nervousness and tension
+									CLUSTER[at0105] occurrences matches {0..1} matches {    -- Nervousness_and_tension
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at0115] occurrences matches {0..1} matches {    -- Anxiety
 												value matches {
@@ -263,7 +263,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0106] occurrences matches {0..1} matches {    -- Psychological well-being
+									CLUSTER[at0106] occurrences matches {0..1} matches {    -- Psychological_well-being
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at0118] occurrences matches {0..1} matches {    -- Sadness
 												value matches {
@@ -294,7 +294,7 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0107] occurrences matches {0..1} matches {    -- Difficulty coping/mood swings
+									CLUSTER[at0107] occurrences matches {0..1} matches {    -- Difficulty_coping/mood_swings
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at0121] occurrences matches {0..1} matches {    -- Stress
 												value matches {
@@ -305,7 +305,7 @@ definition
 													4|[local::at0203]
 												}
 											}
-											ELEMENT[at0122] occurrences matches {0..1} matches {    -- Mood swings
+											ELEMENT[at0122] occurrences matches {0..1} matches {    -- Mood_swings
 												value matches {
 													0|[local::at0194],
 													1|[local::at0195],
@@ -325,9 +325,9 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0108] occurrences matches {0..1} matches {    -- Relationships with other people
+									CLUSTER[at0108] occurrences matches {0..1} matches {    -- Relationships_with_other_people
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0124] occurrences matches {0..1} matches {    -- Difficulty being with other people
+											ELEMENT[at0124] occurrences matches {0..1} matches {    -- Difficulty_being_with_other_people
 												value matches {
 													0|[local::at0204],
 													1|[local::at0205],
@@ -356,9 +356,9 @@ definition
 											}
 										}
 									}
-									CLUSTER[at0109] occurrences matches {0..1} matches {    -- Daily activities
+									CLUSTER[at0109] occurrences matches {0..1} matches {    -- Daily_activities
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0127] occurrences matches {0..1} matches {    -- Managing daily life
+											ELEMENT[at0127] occurrences matches {0..1} matches {    -- Managing_daily_life
 												value matches {
 													0|[local::at0229],
 													1|[local::at0230],
@@ -376,7 +376,7 @@ definition
 													4|[local::at0228]
 												}
 											}
-											ELEMENT[at0129] occurrences matches {0..1} matches {    -- Feeling as if things take longer to do
+											ELEMENT[at0129] occurrences matches {0..1} matches {    -- Feeling_as_if_things_take_longer_to_do
 												value matches {
 													0|[local::at0219],
 													1|[local::at0220],
@@ -398,7 +398,7 @@ definition
 													4|[local::at0238]
 												}
 											}
-											ELEMENT[at0131] occurrences matches {0..1} matches {    -- Bothered by other people
+											ELEMENT[at0131] occurrences matches {0..1} matches {    -- Bothered_by_other_people
 												value matches {
 													0|[local::at0239],
 													1|[local::at0240],
@@ -420,7 +420,7 @@ definition
 									}
 									CLUSTER[at0111] occurrences matches {0..1} matches {    -- Overall
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0133] occurrences matches {0..1} matches {    -- Quality of life
+											ELEMENT[at0133] occurrences matches {0..1} matches {    -- Quality_of_life
 												value matches {
 													0|[local::at0134],
 													1|[local::at0135],
@@ -464,7 +464,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"Sensation of fullness">
+					text = <"Sensation_of_fullness">
 					description = <"had the sensation of fullness in the neck?">
 				>
 				["at0005"] = <
@@ -488,19 +488,19 @@ ontology
 					description = <"">
 				>
 				["at0010"] = <
-					text = <"Pressure in the throat">
+					text = <"Pressure_in_the_throat">
 					description = <"felt pressure in your throat?">
 				>
 				["at0011"] = <
-					text = <"Discomfort swallowing">
+					text = <"Discomfort_swallowing">
 					description = <"felt discomfort swallowing?">
 				>
 				["at0012"] = <
-					text = <"Trembling hands">
+					text = <"Trembling_hands">
 					description = <"had trembling hands?">
 				>
 				["at0013"] = <
-					text = <"Tendency to sweat">
+					text = <"Tendency_to_sweat">
 					description = <"had a tendency to sweat a lot?">
 				>
 				["at0014"] = <
@@ -608,35 +608,35 @@ ontology
 					description = <"">
 				>
 				["at0040"] = <
-					text = <"Sensitivity to cold">
+					text = <"Sensitivity_to_cold">
 					description = <"been sensitive to cold?">
 				>
 				["at0041"] = <
-					text = <"Upset stomach">
+					text = <"Upset_stomach">
 					description = <"had an upset stomach?">
 				>
 				["at0042"] = <
-					text = <"Sensation of dryness in the eyes">
+					text = <"Sensation_of_dryness_in_the_eyes">
 					description = <"had the sensation of dryness or \"grittiness\" in the eyes?">
 				>
 				["at0043"] = <
-					text = <"Impaired vision">
+					text = <"Impaired_vision">
 					description = <"had impaired vision?">
 				>
 				["at0044"] = <
-					text = <"Sensitivity to light">
+					text = <"Sensitivity_to_light">
 					description = <"been very sensitive to light?">
 				>
 				["at0045"] = <
-					text = <"Swollen hands or feet">
+					text = <"Swollen_hands_or_feet">
 					description = <"had swollen hands or feet?">
 				>
 				["at0046"] = <
-					text = <"Dry skin">
+					text = <"Dry_skin">
 					description = <"had dry skin?">
 				>
 				["at0047"] = <
-					text = <"Itchy skin">
+					text = <"Itchy_skin">
 					description = <"had itchy skin?">
 				>
 				["at0048"] = <
@@ -864,27 +864,27 @@ ontology
 					description = <"">
 				>
 				["at0104"] = <
-					text = <"Memory and concentration">
+					text = <"Memory_and_concentration">
 					description = <"">
 				>
 				["at0105"] = <
-					text = <"Nervousness and tension">
+					text = <"Nervousness_and_tension">
 					description = <"">
 				>
 				["at0106"] = <
-					text = <"Psychological well-being">
+					text = <"Psychological_well-being">
 					description = <"">
 				>
 				["at0107"] = <
-					text = <"Difficulty coping/mood swings">
+					text = <"Difficulty_coping/mood_swings">
 					description = <"">
 				>
 				["at0108"] = <
-					text = <"Relationships with other people">
+					text = <"Relationships_with_other_people">
 					description = <"">
 				>
 				["at0109"] = <
-					text = <"Daily activities">
+					text = <"Daily_activities">
 					description = <"">
 				>
 				["at0110"] = <
@@ -936,7 +936,7 @@ ontology
 					description = <"noticed you easily felt stressed?">
 				>
 				["at0122"] = <
-					text = <"Mood swings">
+					text = <"Mood_swings">
 					description = <"had mood swings?">
 				>
 				["at0123"] = <
@@ -944,7 +944,7 @@ ontology
 					description = <"felt in control of your life?">
 				>
 				["at0124"] = <
-					text = <"Difficulty being with other people">
+					text = <"Difficulty_being_with_other_people">
 					description = <"have difficulty being together with other people (for example, spouse, children, boy/girlfriend, friends, or others)?">
 				>
 				["at0125"] = <
@@ -956,7 +956,7 @@ ontology
 					description = <"have conflicts with other people?">
 				>
 				["at0127"] = <
-					text = <"Managing daily life">
+					text = <"Managing_daily_life">
 					description = <"have difficulty managing your daily life?">
 				>
 				["at0128"] = <
@@ -964,7 +964,7 @@ ontology
 					description = <"not be able to participate in life around you?">
 				>
 				["at0129"] = <
-					text = <"Feeling as if things take longer to do">
+					text = <"Feeling_as_if_things_take_longer_to_do">
 					description = <"feel as if everything takes longer to do?">
 				>
 				["at0130"] = <
@@ -972,7 +972,7 @@ ontology
 					description = <"has your thyroid disease affected your appearance (for example, swelling of the neck, eye changes, weight changes)?">
 				>
 				["at0131"] = <
-					text = <"Bothered by other people">
+					text = <"Bothered_by_other_people">
 					description = <"have you been bothered by other people looking at you?">
 				>
 				["at0132"] = <
@@ -980,7 +980,7 @@ ontology
 					description = <"has your thyroid disease influenced which clothes you wear?">
 				>
 				["at0133"] = <
-					text = <"Quality of life">
+					text = <"Quality_of_life">
 					description = <"has your thyroid disease had a negative effect on your quality of life?">
 				>
 				["at0134"] = <
