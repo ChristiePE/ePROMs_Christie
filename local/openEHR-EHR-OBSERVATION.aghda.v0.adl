@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8e208c3df5c1999b52cd0bfb4ef8be46">
+		["MD5-CAM-1.0.1"] = <"633630bf09b8d2953d0aa57e7e6f5738">
 		["build_uid"] = <"82c97869-a470-3e1d-a622-0034939b32a6">
 	>
 
@@ -36,13 +36,13 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Finishing jobs
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Finishing_jobs
 										value matches {
 											0|[local::at0005],
 											0|[local::at0006]
 										}
 									}
-									ELEMENT[at0007] occurrences matches {0..1} matches {    -- Sleeping in the day
+									ELEMENT[at0007] occurrences matches {0..1} matches {    -- Sleeping_in_the_day
 										value matches {
 											0|[local::at0010],
 											0|[local::at0011]
@@ -54,91 +54,91 @@ definition
 											0|[local::at0013]
 										}
 									}
-									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Reading comprehension
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Reading_comprehension
 										value matches {
 											0|[local::at0014],
 											0|[local::at0015]
 										}
 									}
-									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Making friends
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Making_friends
 										value matches {
 											0|[local::at0026],
 											0|[local::at0027]
 										}
 									}
-									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Performing tasks
+									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Performing_tasks
 										value matches {
 											0|[local::at0028],
 											0|[local::at0029]
 										}
 									}
-									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Controlling emotions
+									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Controlling_emotions
 										value matches {
 											0|[local::at0030],
 											0|[local::at0031]
 										}
 									}
-									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Losing track of speech
+									ELEMENT[at0022] occurrences matches {0..1} matches {    -- Losing_track_of_speech
 										value matches {
 											0|[local::at0032],
 											0|[local::at0033]
 										}
 									}
-									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Lacking confidence
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- Confidence
 										value matches {
 											0|[local::at0034],
 											0|[local::at0035]
 										}
 									}
-									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Pushing to do things
+									ELEMENT[at0024] occurrences matches {0..1} matches {    -- Pushing_to_do_things
 										value matches {
 											0|[local::at0036],
 											0|[local::at0037]
 										}
 									}
-									ELEMENT[at0025] occurrences matches {0..1} matches {    -- Feeling tense
+									ELEMENT[at0025] occurrences matches {0..1} matches {    -- Feeling_tense
 										value matches {
 											0|[local::at0038],
 											0|[local::at0039]
 										}
 									}
-									ELEMENT[at0040] occurrences matches {0..1} matches {    -- Letting people down
+									ELEMENT[at0040] occurrences matches {0..1} matches {    -- Letting_people_down
 										value matches {
 											0|[local::at0043],
 											0|[local::at0044]
 										}
 									}
-									ELEMENT[at0041] occurrences matches {0..1} matches {    -- Mixing with people
+									ELEMENT[at0041] occurrences matches {0..1} matches {    -- Mixing_with_people
 										value matches {
 											0|[local::at0045],
 											0|[local::at0046]
 										}
 									}
-									ELEMENT[at0042] occurrences matches {0..1} matches {    -- Feeling worn out
+									ELEMENT[at0042] occurrences matches {0..1} matches {    -- Feeling_worn_out
 										value matches {
 											0|[local::at0047],
 											0|[local::at0048]
 										}
 									}
-									ELEMENT[at0049] occurrences matches {0..1} matches {    -- Feeling low
+									ELEMENT[at0049] occurrences matches {0..1} matches {    -- Feeling_low
 										value matches {
 											0|[local::at0056],
 											0|[local::at0057]
 										}
 									}
-									ELEMENT[at0050] occurrences matches {0..1} matches {    -- Avoiding responsibilities
+									ELEMENT[at0050] occurrences matches {0..1} matches {    -- Avoiding_responsibilities
 										value matches {
 											0|[local::at0058],
 											0|[local::at0059]
 										}
 									}
-									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Avoiding mixing with people
+									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Avoiding_mixing_with_people
 										value matches {
 											0|[local::at0060],
 											0|[local::at0061]
 										}
 									}
-									ELEMENT[at0052] occurrences matches {0..1} matches {    -- Feeling like a burden
+									ELEMENT[at0052] occurrences matches {0..1} matches {    -- Feeling_like_a_burden
 										value matches {
 											0|[local::at0062],
 											0|[local::at0063]
@@ -150,13 +150,13 @@ definition
 											0|[local::at0065]
 										}
 									}
-									ELEMENT[at0054] occurrences matches {0..1} matches {    -- Planning ahead
+									ELEMENT[at0054] occurrences matches {0..1} matches {    -- Planning_ahead
 										value matches {
 											0|[local::at0066],
 											0|[local::at0067]
 										}
 									}
-									ELEMENT[at0055] occurrences matches {0..1} matches {    -- Irritated by other people
+									ELEMENT[at0055] occurrences matches {0..1} matches {    -- Irritated_by_other_people
 										value matches {
 											0|[local::at0068],
 											0|[local::at0069]
@@ -168,13 +168,13 @@ definition
 											0|[local::at0077]
 										}
 									}
-									ELEMENT[at0071] occurrences matches {0..1} matches {    -- Getting things done
+									ELEMENT[at0071] occurrences matches {0..1} matches {    -- Getting_things_done
 										value matches {
 											0|[local::at0078],
 											0|[local::at0079]
 										}
 									}
-									ELEMENT[at0072] occurrences matches {0..1} matches {    -- Staying awake
+									ELEMENT[at0072] occurrences matches {0..1} matches {    -- Staying_awake
 										value matches {
 											0|[local::at0080],
 											0|[local::at0081]
@@ -186,7 +186,6 @@ definition
 											0|[local::at0075]
 										}
 									}
-									CLUSTER[at0082] occurrences matches {0..1} matches {*}    -- CLUSTER
 								}
 							}
 						}
@@ -220,7 +219,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"Finishing jobs">
+					text = <"Finishing_jobs">
 					description = <"I have to struggle to finish jobs">
 				>
 				["at0005"] = <
@@ -232,7 +231,7 @@ ontology
 					description = <"">
 				>
 				["at0007"] = <
-					text = <"Sleeping in the day">
+					text = <"Sleeping_in_the_day">
 					description = <"I feel a strong need to sleep during the day">
 				>
 				["at0008"] = <
@@ -240,7 +239,7 @@ ontology
 					description = <"I often feel lonely even when I am with other people">
 				>
 				["at0009"] = <
-					text = <"Reading comprehension">
+					text = <"Reading_comprehension">
 					description = <"I have to read things several times before they sink in">
 				>
 				["at0010"] = <
@@ -268,31 +267,31 @@ ontology
 					description = <"">
 				>
 				["at0019"] = <
-					text = <"Making friends">
+					text = <"Making_friends">
 					description = <"It is difficult for me to make friends">
 				>
 				["at0020"] = <
-					text = <"Performing tasks">
+					text = <"Performing_tasks">
 					description = <"It takes a lot of effort for me to do simple tasks">
 				>
 				["at0021"] = <
-					text = <"Controlling emotions">
+					text = <"Controlling_emotions">
 					description = <"I have difficulty controlling my emotions">
 				>
 				["at0022"] = <
-					text = <"Losing track of speech">
+					text = <"Losing_track_of_speech">
 					description = <"I often lose track of what I want to say">
 				>
 				["at0023"] = <
-					text = <"Lacking confidence">
+					text = <"Confidence">
 					description = <"I lack confidence">
 				>
 				["at0024"] = <
-					text = <"Pushing to do things">
+					text = <"Pushing_to_do_things">
 					description = <"I have to push myself to do things">
 				>
 				["at0025"] = <
-					text = <"Feeling tense">
+					text = <"Feeling_tense">
 					description = <"I often feel very tense">
 				>
 				["at0026"] = <
@@ -352,15 +351,15 @@ ontology
 					description = <"">
 				>
 				["at0040"] = <
-					text = <"Letting people down">
+					text = <"Letting_people_down">
 					description = <"I feel as if I let people down">
 				>
 				["at0041"] = <
-					text = <"Mixing with people">
+					text = <"Mixing_with_people">
 					description = <"I find it hard to mix with people">
 				>
 				["at0042"] = <
-					text = <"Feeling worn out">
+					text = <"Feeling_worn_out">
 					description = <"I feel worn out even when I've not done anything">
 				>
 				["at0043"] = <
@@ -388,19 +387,19 @@ ontology
 					description = <"">
 				>
 				["at0049"] = <
-					text = <"Feeling low">
+					text = <"Feeling_low">
 					description = <"There are times when I feel very low">
 				>
 				["at0050"] = <
-					text = <"Avoiding responsibilities">
+					text = <"Avoiding_responsibilities">
 					description = <"I avoid responsibilities if possible">
 				>
 				["at0051"] = <
-					text = <"Avoiding mixing with people">
+					text = <"Avoiding_mixing_with_people">
 					description = <"I avoid mixing with people I don't know well">
 				>
 				["at0052"] = <
-					text = <"Feeling like a burden">
+					text = <"Feeling_like_a_burden">
 					description = <"I feel as if I'm a burden to people">
 				>
 				["at0053"] = <
@@ -408,11 +407,11 @@ ontology
 					description = <"I often forget what people have said to me">
 				>
 				["at0054"] = <
-					text = <"Planning ahead">
+					text = <"Planning_ahead">
 					description = <"I find it difficult to plan ahead">
 				>
 				["at0055"] = <
-					text = <"Irritated by other people">
+					text = <"Irritated_by_other_people">
 					description = <"I am easily irritated by other people">
 				>
 				["at0056"] = <
@@ -476,11 +475,11 @@ ontology
 					description = <"I often feel too tired to do the things I ought to do">
 				>
 				["at0071"] = <
-					text = <"Getting things done">
+					text = <"Getting_things_done">
 					description = <"I have to force myself to do all the things that need doing">
 				>
 				["at0072"] = <
-					text = <"Staying awake">
+					text = <"Staying_awake">
 					description = <"I often have to force myself to stay awake">
 				>
 				["at0073"] = <
@@ -517,10 +516,6 @@ ontology
 				>
 				["at0081"] = <
 					text = <"No">
-					description = <"">
-				>
-				["at0082"] = <
-					text = <"CLUSTER">
 					description = <"">
 				>
 			>
