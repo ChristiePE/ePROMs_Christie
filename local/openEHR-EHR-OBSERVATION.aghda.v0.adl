@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"633630bf09b8d2953d0aa57e7e6f5738">
+		["MD5-CAM-1.0.1"] = <"96224e6a7805c09dbae77815d132268a">
 		["build_uid"] = <"82c97869-a470-3e1d-a622-0034939b32a6">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- AGHDA
+	OBSERVATION[at0000] matches {    -- Assessment_of_GH_Deficiency_in_Adults_AGHDA
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -203,7 +203,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"AGHDA">
+					text = <"Assessment_of_GH_Deficiency_in_Adults_AGHDA">
 					description = <"AGHDA">
 				>
 				["at0001"] = <
