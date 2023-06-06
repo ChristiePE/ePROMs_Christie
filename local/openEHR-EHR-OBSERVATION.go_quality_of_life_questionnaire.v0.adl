@@ -1,0 +1,449 @@
+archetype (adl_version=1.4; uid=f8a3252e-1ef2-43b4-abe6-1f5383745bd5)
+	openEHR-EHR-OBSERVATION.go_quality_of_life_questionnaire.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-06-06">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"b31cd70a75f9c5d533685c01507891f9">
+		["build_uid"] = <"a9326ae6-85b9-3add-8f54-8fa5f52220f0">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- GO_Quality_of_Life_Questionnaire
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0005] occurrences matches {0..1} matches {    -- Bicycling
+										value matches {
+											0|[local::at0018],
+											0|[local::at0017],
+											0|[local::at0016]
+										}
+									}
+									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Driving
+										value matches {
+											0|[local::at0021],
+											0|[local::at0020],
+											0|[local::at0019]
+										}
+									}
+									ELEMENT[at0007] occurrences matches {0..1} matches {    -- Moving_around_the_house
+										value matches {
+											0|[local::at0015],
+											0|[local::at0014],
+											0|[local::at0013]
+										}
+									}
+									ELEMENT[at0008] occurrences matches {0..1} matches {    -- Walking_outdoors
+										value matches {
+											0|[local::at0024],
+											0|[local::at0023],
+											0|[local::at0022]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Reading
+										value matches {
+											0|[local::at0027],
+											0|[local::at0026],
+											0|[local::at0025]
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- TV
+										value matches {
+											2|[local::at0030],
+											1|[local::at0029],
+											0|[local::at0028]
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- Hobbies
+										value matches {
+											0|[local::at0033],
+											0|[local::at0032],
+											0|[local::at0031]
+										}
+									}
+									ELEMENT[at0012] occurrences matches {0..1} matches {    -- Hindered_by_thyroid_eye_disease
+										value matches {
+											0|[local::at0036],
+											0|[local::at0035],
+											0|[local::at0034]
+										}
+									}
+									CLUSTER[at0042] occurrences matches {0..1} matches {    -- General
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0037] occurrences matches {0..1} matches {    -- Appearance
+												value matches {
+													0|[local::at0046],
+													0|[local::at0047],
+													0|[local::at0048]
+												}
+											}
+											ELEMENT[at0038] occurrences matches {0..1} matches {    -- Drawing_attention
+												value matches {
+													0|[local::at0049],
+													0|[local::at0050],
+													0|[local::at0051]
+												}
+											}
+											ELEMENT[at0039] occurrences matches {0..1} matches {    -- Reaction_from_others
+												value matches {
+													0|[local::at0052],
+													0|[local::at0053],
+													0|[local::at0054]
+												}
+											}
+											ELEMENT[at0040] occurrences matches {0..1} matches {    -- Self-confidence
+												value matches {
+													0|[local::at0055],
+													0|[local::at0056],
+													0|[local::at0057]
+												}
+											}
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Social_isolation
+												value matches {
+													0|[local::at0058],
+													0|[local::at0059],
+													0|[local::at0060]
+												}
+											}
+											ELEMENT[at0043] occurrences matches {0..1} matches {    -- Making_friends
+												value matches {
+													0|[local::at0061],
+													0|[local::at0062],
+													0|[local::at0063]
+												}
+											}
+											ELEMENT[at0044] occurrences matches {0..1} matches {    -- Appearing_in_photos
+												value matches {
+													0|[local::at0064],
+													0|[local::at0065],
+													0|[local::at0066]
+												}
+											}
+											ELEMENT[at0045] occurrences matches {0..1} matches {    -- Masking_changes_in_appearance
+												value matches {
+													0|[local::at0067],
+													0|[local::at0068],
+													0|[local::at0069]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"GO_Quality_of_Life_Questionnaire">
+					description = <"GO_Quality_of_Life_Questionnaire">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0005"] = <
+					text = <"Bicycling">
+					description = <"Bicycling (never learned to ride a bike)">
+				>
+				["at0006"] = <
+					text = <"Driving">
+					description = <"Driving (no driver's license)">
+				>
+				["at0007"] = <
+					text = <"Moving_around_the_house">
+					description = <"Moving around the house">
+				>
+				["at0008"] = <
+					text = <"Walking_outdoors">
+					description = <"Walking outdoors">
+				>
+				["at0009"] = <
+					text = <"Reading">
+					description = <"Reading">
+				>
+				["at0010"] = <
+					text = <"TV">
+					description = <"Watching TV">
+				>
+				["at0011"] = <
+					text = <"Hobbies">
+					description = <"Hobby or pastime, i.e.">
+				>
+				["at0012"] = <
+					text = <"Hindered_by_thyroid_eye_disease">
+					description = <"During the past week, did you feel hindered from something that you wanted to do because of your thyroid eye disease?">
+				>
+				["at0013"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"No, not at all limited">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes, a little limited">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes, seriously limited">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"No, not at all hindered">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Yes, a little hindered">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Yes, severely hindered">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Appearance">
+					description = <"Do you feel that your appearance has changed because of your thyroid eye disease?">
+				>
+				["at0038"] = <
+					text = <"Drawing_attention">
+					description = <"Do you feel that you are stared at in the streets because of thyroid eye disease?">
+				>
+				["at0039"] = <
+					text = <"Reaction_from_others">
+					description = <"Do you feel that people react unpleasantly because of your thyroid eye disease?">
+				>
+				["at0040"] = <
+					text = <"Self-confidence">
+					description = <"Do you feel that your thyroid eye disease has an influence on your self-confidence?">
+				>
+				["at0041"] = <
+					text = <"Social_isolation">
+					description = <"Do you feel socially isolated because of your thyroid eye disease?">
+				>
+				["at0042"] = <
+					text = <"General">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Making_friends">
+					description = <"Do you feel that your thyroid eye disease has an influence on making friends?">
+				>
+				["at0044"] = <
+					text = <"Appearing_in_photos">
+					description = <"Do you feel that you appear less often on photos than before you had thyroid eye disease?">
+				>
+				["at0045"] = <
+					text = <"Masking_changes_in_appearance">
+					description = <"Do you try mask changes in appearance caused by your thyroid eye disease?">
+				>
+				["at0046"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Yes, very much so">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Yes, a little">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"No, not at all">
+					description = <"">
+				>
+			>
+		>
+	>
