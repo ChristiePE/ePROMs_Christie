@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"94052443b3d3ef148ede40a2666d7ce5">
+		["MD5-CAM-1.0.1"] = <"ba5be55ff3a092444cbb9c1c68aa8568">
 		["build_uid"] = <"30483a44-bd2e-3536-84a7-6046ae8f3256">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- Quality_of_Life_Patients_with_Thyroid_Disease
+	OBSERVATION[at0000] matches {    -- Quality_of_Life_Patients_with_Thyroid_Disease_ThyPRO39
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -448,7 +448,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"Quality_of_Life_Patients_with_Thyroid_Disease">
+					text = <"Quality_of_Life_Patients_with_Thyroid_Disease_ThyPRO39">
 					description = <"Quality_of_Life_Patients_with_Thyroid_Disease">
 				>
 				["at0001"] = <
