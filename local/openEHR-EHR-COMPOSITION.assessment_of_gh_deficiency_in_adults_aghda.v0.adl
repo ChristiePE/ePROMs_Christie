@@ -1,0 +1,58 @@
+archetype (adl_version=1.4; uid=3a373ab1-02f0-4a1b-bb6e-5075f4a4130f)
+	openEHR-EHR-COMPOSITION.assessment_of_gh_deficiency_in_adults_aghda.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-06-08">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"c602020e9013e08603b6b62ef5033bb5">
+		["build_uid"] = <"df02ca7c-46fc-30f0-8292-6566d799358f">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- Assessment_of_GH_Deficiency_in_Adults_AGHDA
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE matches {*}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Assessment_of_GH_Deficiency_in_Adults_AGHDA">
+					description = <"Assessment_of_GH_Deficiency_in_Adults_AGHDA">
+				>
+			>
+		>
+	>
