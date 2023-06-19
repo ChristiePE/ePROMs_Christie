@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "be366ed99b7a31495e590396fc78cc8b",
+      "MD5-CAM-1.0.1" : "43f3b495a3db65fd1ca87231393ade61",
       "PARENT:MD5-CAM-1.0.1" : "3d1236f37eccac63c9dea07aae072e1e"
     },
     "details" : {
@@ -112,7 +112,14 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "en" : { }
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "PRO_HCC_Pancreatic",
+          "description" : "PRO_HCC_Pancreatic_Carcinoma"
+        }
+      }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -138,7 +145,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "e71345fb08ab5bb0454c19890dd87c17"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_general_symptoms.v0",
     "differential" : true,
@@ -189,7 +209,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "67fb42d6dafd22fc354e05bdc435aecd"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_gastrointestinal_disorders.v0",
     "differential" : true,
@@ -240,7 +273,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "7c9186e37dc2056cf8a97d59d56cbb86"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_skin_and_subcutaneous.v0",
     "differential" : true,
@@ -291,7 +337,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "684169dffbb7e6716c50afdc96e99a1a"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eprom_nervous_system.v0",
     "differential" : true,
@@ -342,7 +401,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "0d059c05701b519dfb386e703f3d64bb"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
