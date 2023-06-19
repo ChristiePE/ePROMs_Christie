@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3d1236f37eccac63c9dea07aae072e1e">
+		["MD5-CAM-1.0.1"] = <"77c840c7f066191e0d012412fe25e927">
 		["build_uid"] = <"e23546b8-9067-3515-9549-6cc0bd40238f">
 	>
 
 definition
-	COMPOSITION[at0000] matches {    -- PRO_HCC_Pancreatic_Carcinoma
+	COMPOSITION[at0000] matches {    -- PRO_HCC_Pancreatic
 		category matches {
 			DV_CODED_TEXT matches {
 				defining_code matches {
@@ -46,8 +46,8 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"PRO_HCC_Pancreatic_Carcinoma">
-					description = <"PRO_HCC_Pancreatic_Carcinoma">
+					text = <"PRO_HCC_Pancreatic">
+					description = <"PRO_HCC_Pancreatic">
 				>
 			>
 		>
