@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"38b60fec94b952b0dee53b431ceb859b">
+		["MD5-CAM-1.0.1"] = <"b72d3a6e17d5b549195f3cc1aaf8c40f">
 		["build_uid"] = <"a9326ae6-85b9-3add-8f54-8fa5f52220f0">
 	>
 
@@ -485,19 +485,19 @@ ontology
 					description = <"I do not have a driver's license">
 				>
 				["at0074"] = <
-					text = <"I am able to drive">
+					text = <"I have a driver's license">
 					description = <"">
 				>
 				["at0075"] = <
-					text = <"I am unable to drive">
+					text = <"I do not have a driver's license">
 					description = <"">
 				>
 				["at0076"] = <
-					text = <"I can ride a bike">
+					text = <"I learnt how to ride a bike">
 					description = <"">
 				>
 				["at0077"] = <
-					text = <"I cannot ride a bike">
+					text = <"I never learnt how to ride a bike">
 					description = <"">
 				>
 				["at0078"] = <
