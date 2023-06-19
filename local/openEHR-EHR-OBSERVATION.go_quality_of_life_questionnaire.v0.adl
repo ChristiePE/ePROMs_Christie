@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5bb11aaddc5fdd4d65cda31a853bcfe0">
+		["MD5-CAM-1.0.1"] = <"ec63d14110575f56ebadfdf0674b8117">
 		["build_uid"] = <"a9326ae6-85b9-3add-8f54-8fa5f52220f0">
 	>
 
@@ -38,6 +38,12 @@ definition
 								items cardinality matches {0..*; unordered} matches {
 									CLUSTER[at0070] occurrences matches {0..1} matches {    -- Bicycling
 										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Bicycling_never_learned
+												value matches {
+													0|[local::at0076],
+													0|[local::at0077]
+												}
+											}
 											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Bicycling
 												value matches {
 													2|[local::at0018],
@@ -45,27 +51,21 @@ definition
 													0|[local::at0016]
 												}
 											}
-											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Bicycling_never_learned
-												value matches {
-													0|[local::at0076],
-													0|[local::at0077]
-												}
-											}
 										}
 									}
 									CLUSTER[at0072] occurrences matches {0..1} matches {    -- Driving
 										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0073] occurrences matches {0..1} matches {    -- Driving_never_learned
+												value matches {
+													0|[local::at0074],
+													0|[local::at0075]
+												}
+											}
 											ELEMENT[at0006] occurrences matches {0..1} matches {    -- Driving
 												value matches {
 													2|[local::at0021],
 													1|[local::at0020],
 													0|[local::at0019]
-												}
-											}
-											ELEMENT[at0073] occurrences matches {0..1} matches {    -- Driving_never_learned
-												value matches {
-													0|[local::at0074],
-													0|[local::at0075]
 												}
 											}
 										}
