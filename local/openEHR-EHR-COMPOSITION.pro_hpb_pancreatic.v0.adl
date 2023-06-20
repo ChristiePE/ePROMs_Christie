@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=614e1344-51fa-442a-b1d8-9a0f35613795)
+	openEHR-EHR-COMPOSITION.pro_hpb_pancreatic.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-06-14">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"228fc91d5adc61d934fe0cc7970c3cff">
+		["build_uid"] = <"e23546b8-9067-3515-9549-6cc0bd40238f">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- pro_hpb_pancreatic
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"pro_hpb_pancreatic">
+					description = <"PRO_HCC_Pancreatic">
+				>
+			>
+		>
+	>
