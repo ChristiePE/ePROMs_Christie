@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=c44caddf-6a96-422b-8c46-454eeea63a55)
+archetype (adl_version=1.4; uid=614e1344-51fa-442a-b1d8-9a0f35613795)
 	openEHR-EHR-COMPOSITION.pro_hpb_pancreatic.v0
 
 concept
@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d5a9a541a05bfa0735cc52d7bff9a387">
+		["MD5-CAM-1.0.1"] = <"3809e60922c6972646ea96345bf84598">
 		["build_uid"] = <"e23546b8-9067-3515-9549-6cc0bd40238f">
 	>
 
 definition
-	COMPOSITION[at0000] matches {    -- pro_hpb_pancreatic
+	COMPOSITION[at0000] matches {    -- PRO_HPB_Pancreatic
 		category matches {
 			DV_CODED_TEXT matches {
 				defining_code matches {
@@ -37,7 +37,18 @@ definition
 			}
 		}
 		context matches {
-			EVENT_CONTEXT matches {*}
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE matches {
+						items cardinality matches {0..*; unordered} matches {
+							allow_archetype CLUSTER[at0001] occurrences matches {0..*} matches {    -- Meta_Data
+								include
+									archetype_id/value matches {/.*/}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -46,8 +57,12 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"pro_hpb_pancreatic">
+					text = <"PRO_HPB_Pancreatic">
 					description = <"PRO_HCC_Pancreatic">
+				>
+				["at0001"] = <
+					text = <"Meta_Data">
+					description = <"">
 				>
 			>
 		>
