@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"44a5e78900196092867e418ec71cb88a">
+		["MD5-CAM-1.0.1"] = <"e9eee9068470c667cb6ff1b0067bf4b8">
 		["build_uid"] = <"82c97869-a470-3e1d-a622-0034939b32a6">
 	>
 
@@ -184,6 +184,11 @@ definition
 										value matches {
 											1|[local::at0074],
 											0|[local::at0075]
+										}
+									}
+									ELEMENT[at0082] occurrences matches {0..1} matches {    -- AGHDA_score
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -516,6 +521,10 @@ ontology
 				>
 				["at0081"] = <
 					text = <"No">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"AGHDA_score">
 					description = <"">
 				>
 			>
