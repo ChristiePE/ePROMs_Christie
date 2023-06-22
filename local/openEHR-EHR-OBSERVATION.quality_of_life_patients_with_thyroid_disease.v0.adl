@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ba5be55ff3a092444cbb9c1c68aa8568">
+		["MD5-CAM-1.0.1"] = <"43fc911f40fe44e537292556dc1f5240">
 		["build_uid"] = <"30483a44-bd2e-3536-84a7-6046ae8f3256">
 	>
 
@@ -429,6 +429,21 @@ definition
 													4|[local::at0138]
 												}
 											}
+										}
+									}
+									ELEMENT[at0251] occurrences matches {0..1} matches {    -- General_scoring
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0252] occurrences matches {0..1} matches {    -- Thyroid_specific_scoring
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0253] occurrences matches {0..1} matches {    -- General_and_Thyroid_specific_scoring_combined
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -1441,6 +1456,18 @@ ontology
 				>
 				["at0248"] = <
 					text = <"Very much">
+					description = <"">
+				>
+				["at0251"] = <
+					text = <"General_scoring">
+					description = <"">
+				>
+				["at0252"] = <
+					text = <"Thyroid_specific_scoring">
+					description = <"">
+				>
+				["at0253"] = <
+					text = <"General_and_Thyroid_specific_scoring_combined">
 					description = <"">
 				>
 			>
