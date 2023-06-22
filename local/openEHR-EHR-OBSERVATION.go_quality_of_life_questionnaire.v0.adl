@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0a1195ee40626f13f8b3f1b2b1b857b8">
+		["MD5-CAM-1.0.1"] = <"5a4f8f0cfeb1c0898d367cce97b93104">
 		["build_uid"] = <"a9326ae6-85b9-3add-8f54-8fa5f52220f0">
 	>
 
@@ -96,6 +96,11 @@ definition
 													0|[local::at0034]
 												}
 											}
+											ELEMENT[at0081] occurrences matches {0..1} matches {    -- Activities_scoring
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
 										}
 									}
 									CLUSTER[at0042] occurrences matches {0..1} matches {    -- General
@@ -154,6 +159,11 @@ definition
 													2|[local::at0067],
 													1|[local::at0068],
 													0|[local::at0069]
+												}
+											}
+											ELEMENT[at0083] occurrences matches {0..1} matches {    -- General_scoring
+												value matches {
+													DV_COUNT matches {*}
 												}
 											}
 										}
@@ -460,6 +470,14 @@ ontology
 				>
 				["at0080"] = <
 					text = <"No driver's licence">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Activities_scoring">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"General_scoring">
 					description = <"">
 				>
 			>
