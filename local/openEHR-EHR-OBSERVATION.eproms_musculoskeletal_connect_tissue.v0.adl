@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1043e9a14ae91d4dcfbf3932c6b0a908">
+		["MD5-CAM-1.0.1"] = <"47b422029236100b2dcc2729debffbb5">
 		["build_uid"] = <"38272195-a96d-3b58-8458-764c2b7ee215">
 	>
 
@@ -66,6 +66,22 @@ definition
 											1|[local::at0022],
 											2|[local::at0023],
 											3|[local::at0024]
+										}
+									}
+									ELEMENT[at0025] occurrences matches {0..1} matches {    -- Shoulder_joint_function
+										value matches {
+											0|[local::at0026],
+											1|[local::at0027],
+											2|[local::at0028],
+											3|[local::at0029]
+										}
+									}
+									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Breast_lymphoedema
+										value matches {
+											0|[local::at0031],
+											1|[local::at0032],
+											2|[local::at0033],
+											3|[local::at0034]
 										}
 									}
 								}
@@ -183,6 +199,46 @@ If you already have leg swelling, has this got worse?
 				>
 				["at0024"] = <
 					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Shoulder_joint_function">
+					description = <"In the past week, have you had any problems with stiffness or restricted movement in your arm/shoulder on the same side as your treatment? ">
+				>
+				["at0026"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Yes, I have mild restriction in my arm or shoulder movement">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Yes, I have moderate restriction in my arm or shoulder movement, this may stop me doing my routine activities (for example light housework or shopping)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Yes, I have severe restriction in my arm or shoulder movement, this may make it difficulty to care for myself (for example wash or shower or brush hair)">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Breast_lymphoedema">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Yes, I have a mild swelling in my arm or hand">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Yes, I have a moderate swelling in my arm or hand, this may stop me doing my routine activities (for example light housework or shopping)">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Yes, I have severe swelling in my arm or hand, ths may make it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 			>
