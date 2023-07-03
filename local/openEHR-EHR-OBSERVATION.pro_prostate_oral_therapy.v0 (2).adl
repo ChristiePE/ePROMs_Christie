@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ff6e165fa4174fc6b71710a34f8a2ffa">
+		["MD5-CAM-1.0.1"] = <"741c908734a454f1086d01108212f3de">
 		["build_uid"] = <"6ee61f69-4108-3b1a-ac28-787dcc090242">
 	>
 
@@ -36,19 +36,34 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Blood_tests_in_previous_month
+									ELEMENT[at0007] occurrences matches {0..1} matches {    -- Blood_tests
 										value matches {
-											DV_ORDINAL matches {*}
+											DV_TEXT matches {*}
 										}
 									}
-									ELEMENT[at0005] occurrences matches {0..1} matches {    -- Medication_left
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Medication_supply
 										value matches {
-											DV_ORDINAL matches {*}
+											C_DV_QUANTITY <
+												property = <[openehr::128]>
+												list = <
+													["1"] = <
+														units = <"d">
+														magnitude = <|>=0.0|>
+													>
+												>
+											>
 										}
 									}
-									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Blood_pressure
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- Blood_pressure
 										value matches {
-											DV_ORDINAL matches {*}
+											C_DV_QUANTITY <
+												property = <[openehr::125]>
+												list = <
+													["1"] = <
+														units = <"mm[Hg]">
+													>
+												>
+											>
 										}
 									}
 								}
@@ -80,17 +95,17 @@ ontology
 					text = <"Tree">
 					description = <"@ internal @">
 				>
-				["at0004"] = <
-					text = <"Blood_tests_in_previous_month">
-					description = <"">
+				["at0007"] = <
+					text = <"Blood_tests">
+					description = <"Did you have blood tests done over the past 2 weeks?">
 				>
-				["at0005"] = <
-					text = <"Medication_left">
-					description = <"">
+				["at0010"] = <
+					text = <"Medication_supply">
+					description = <"How many days' medication supply do you have left?">
 				>
-				["at0006"] = <
+				["at0011"] = <
 					text = <"Blood_pressure">
-					description = <"">
+					description = <"What is your blood pressure reading?">
 				>
 			>
 		>
