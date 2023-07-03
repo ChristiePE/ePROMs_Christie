@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"bf461d6f85f050bfb5e270fbede3747b">
+		["MD5-CAM-1.0.1"] = <"968184189cbf9feaecfb5e252bc91f17">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -50,14 +50,6 @@ definition
 											1|[local::at0021],
 											2|[local::at0022],
 											3|[local::at0023]
-										}
-									}
-									ELEMENT[at0029] occurrences matches {0..1} matches {    -- Chest_wall_pain
-										value matches {
-											0|[local::at0030],
-											1|[local::at0031],
-											2|[local::at0032],
-											3|[local::at0033]
 										}
 									}
 									ELEMENT[at0034] occurrences matches {0..1} matches {    -- Nipple_deformity
@@ -140,7 +132,7 @@ ontology
 				>
 				["at0019"] = <
 					text = <"Breast_swelling">
-					description = <"">
+					description = <"In the past week, have you had swelling of the breast or chest wall on the same side as your treatment? ">
 				>
 				["at0020"] = <
 					text = <"No">
@@ -158,29 +150,9 @@ ontology
 					text = <"Yes, I have severe swelling in my breast, this may make it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
-				["at0029"] = <
-					text = <"Chest_wall_pain">
-					description = <"">
-				>
-				["at0030"] = <
-					text = <"No">
-					description = <"">
-				>
-				["at0031"] = <
-					text = <"Yes, I have a mild pain or tenderness in my chest wall/ribs">
-					description = <"">
-				>
-				["at0032"] = <
-					text = <"Yes, I have moderate pain or tenderness in my chest wall/ribs, this may stop me doing my routine activities (for example light housework or shopping) or make it uncomfortable to sleep on the affected side">
-					description = <"">
-				>
-				["at0033"] = <
-					text = <"Yes, I have severe pain or tenderness in my chest wall/ribs, this may make it difficult to care for myself (for example wash or shower) or mean you cannot sleep on the affected side">
-					description = <"">
-				>
 				["at0034"] = <
 					text = <"Nipple_deformity">
-					description = <"">
+					description = <"Compared to before treatment for breast cancer, in the last week have you noticed any changes in your nipple? ">
 				>
 				["at0035"] = <
 					text = <"No">
@@ -196,7 +168,7 @@ ontology
 				>
 				["at0038"] = <
 					text = <"Breast_appearance_shape">
-					description = <"">
+					description = <"Compared to prior to radiotherapy, has the overall appearance of your breast changed?">
 				>
 				["at0039"] = <
 					text = <"No">
@@ -216,7 +188,7 @@ ontology
 				>
 				["at0056"] = <
 					text = <"Breast_shrinkage">
-					description = <"">
+					description = <"Compared to before treatment for breast cancer, in the last week have you noticed your affected breast is smaller?">
 				>
 				["at0057"] = <
 					text = <"No">
