@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e71345fb08ab5bb0454c19890dd87c17">
+		["MD5-CAM-1.0.1"] = <"e93467eaf5b46d85430e0515b2588dc5">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -186,6 +186,14 @@ definition
 											2|[local::at0106],
 											3|[local::at0107],
 											4|[local::at0108]
+										}
+									}
+									ELEMENT[at0109] occurrences matches {0..1} matches {    -- Body_image
+										value matches {
+											0|[local::at0110],
+											1|[local::at0111],
+											2|[local::at0112],
+											3|[local::at0113]
 										}
 									}
 								}
@@ -644,6 +652,26 @@ ontology
 				>
 				["at0108"] = <
 					text = <"Very much">
+					description = <"">
+				>
+				["at0109"] = <
+					text = <"Body_image">
+					description = <"Does your appearance / body image bother you?">
+				>
+				["at0110"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"Yes, It bothers me, but has not changed how I interact with other people">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"Yes, It bothers me and has changed how I interact with other people">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"Yes, and because of this I avoid interacting with other people">
 					description = <"">
 				>
 			>
