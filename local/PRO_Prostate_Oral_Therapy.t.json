@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "3.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "a682ed028352e533b547dcc1d4e592d5",
+      "MD5-CAM-1.0.1" : "503d80f79bbd4dee2421d93027d6ebe1",
       "PARENT:MD5-CAM-1.0.1" : "e6ffd318c3c8655a2d7cc2b1234016ca"
     },
     "details" : {
@@ -1181,7 +1181,118 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0074.1",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_ORDINAL",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ {
+                                "@type" : "C_ATTRIBUTE_TUPLE",
+                                "members" : [ {
+                                  "@type" : "C_ATTRIBUTE",
+                                  "rmAttributeName" : "value",
+                                  "children" : [ ]
+                                }, {
+                                  "@type" : "C_ATTRIBUTE",
+                                  "rmAttributeName" : "symbol",
+                                  "children" : [ ]
+                                } ],
+                                "tuples" : [ {
+                                  "@type" : "C_PRIMITIVE_TUPLE",
+                                  "members" : [ {
+                                    "@type" : "C_INTEGER",
+                                    "rmTypeName" : "INTEGER",
+                                    "constraint" : [ {
+                                      "lower" : 0,
+                                      "upper" : 0,
+                                      "lowerIncluded" : true,
+                                      "upperIncluded" : true,
+                                      "lowerUnbounded" : false,
+                                      "upperUnbounded" : false
+                                    } ]
+                                  }, {
+                                    "@type" : "C_TERMINOLOGY_CODE",
+                                    "rmTypeName" : "TERMINOLOGY_CODE",
+                                    "constraint" : [ "at0079" ]
+                                  } ]
+                                }, {
+                                  "@type" : "C_PRIMITIVE_TUPLE",
+                                  "members" : [ {
+                                    "@type" : "C_INTEGER",
+                                    "rmTypeName" : "INTEGER",
+                                    "constraint" : [ {
+                                      "lower" : 0,
+                                      "upper" : 0,
+                                      "lowerIncluded" : true,
+                                      "upperIncluded" : true,
+                                      "lowerUnbounded" : false,
+                                      "upperUnbounded" : false
+                                    } ]
+                                  }, {
+                                    "@type" : "C_TERMINOLOGY_CODE",
+                                    "rmTypeName" : "TERMINOLOGY_CODE",
+                                    "constraint" : [ "at0080" ]
+                                  } ]
+                                }, {
+                                  "@type" : "C_PRIMITIVE_TUPLE",
+                                  "members" : [ {
+                                    "@type" : "C_INTEGER",
+                                    "rmTypeName" : "INTEGER",
+                                    "constraint" : [ {
+                                      "lower" : 0,
+                                      "upper" : 0,
+                                      "lowerIncluded" : true,
+                                      "upperIncluded" : true,
+                                      "lowerUnbounded" : false,
+                                      "upperUnbounded" : false
+                                    } ]
+                                  }, {
+                                    "@type" : "C_TERMINOLOGY_CODE",
+                                    "rmTypeName" : "TERMINOLOGY_CODE",
+                                    "constraint" : [ "at0081" ]
+                                  } ]
+                                }, {
+                                  "@type" : "C_PRIMITIVE_TUPLE",
+                                  "members" : [ {
+                                    "@type" : "C_INTEGER",
+                                    "rmTypeName" : "INTEGER",
+                                    "constraint" : [ {
+                                      "lower" : 0,
+                                      "upper" : 0,
+                                      "lowerIncluded" : true,
+                                      "upperIncluded" : true,
+                                      "lowerUnbounded" : false,
+                                      "upperUnbounded" : false
+                                    } ]
+                                  }, {
+                                    "@type" : "C_TERMINOLOGY_CODE",
+                                    "rmTypeName" : "TERMINOLOGY_CODE",
+                                    "constraint" : [ "at0082" ]
+                                  } ]
+                                }, {
+                                  "@type" : "C_PRIMITIVE_TUPLE",
+                                  "members" : [ {
+                                    "@type" : "C_INTEGER",
+                                    "rmTypeName" : "INTEGER",
+                                    "constraint" : [ {
+                                      "lower" : 0,
+                                      "upper" : 0,
+                                      "lowerIncluded" : true,
+                                      "upperIncluded" : true,
+                                      "lowerUnbounded" : false,
+                                      "upperUnbounded" : false
+                                    } ]
+                                  }, {
+                                    "@type" : "C_TERMINOLOGY_CODE",
+                                    "rmTypeName" : "TERMINOLOGY_CODE",
+                                    "constraint" : [ "at0166" ]
+                                  } ]
+                                } ]
+                              } ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         } ]
                       } ],
