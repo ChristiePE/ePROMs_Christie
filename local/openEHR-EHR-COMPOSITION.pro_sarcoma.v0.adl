@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=08711565-6bca-4a89-9641-653edabc2e8b)
+	openEHR-EHR-COMPOSITION.pro_sarcoma.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-07-27">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"f16c8dad227d9c8086c3bae1436c4273">
+		["build_uid"] = <"958f42c2-6b4e-3447-866d-f8982d992e05">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_Sarcoma
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_Sarcoma">
+					description = <"PRO_Sarcoma">
+				>
+			>
+		>
+	>
