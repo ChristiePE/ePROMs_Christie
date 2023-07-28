@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"968184189cbf9feaecfb5e252bc91f17">
+		["MD5-CAM-1.0.1"] = <"6aeb86238e75e5a78ee4840c00437ec8">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -159,11 +159,11 @@ ontology
 					description = <"">
 				>
 				["at0036"] = <
-					text = <"Yes, there is some asymmetry and slight retraction (drawing inwards) or thickening of the nipple and the surrounding nipple skin (areola)">
+					text = <"Yes, there is mild asymmetry and slight retraction (drawing inwards) or thickening of the nipple and the surrounding nipple skin (areola)">
 					description = <"">
 				>
 				["at0037"] = <
-					text = <"Yes, there is noticeable asymmetry and retraction (drawing inwards) or thickening of the nipple or surrounding nipple skin (areola)">
+					text = <"Yes, there is obvious asymmetry and retraction (drawing inwards) or thickening of the nipple or surrounding nipple skin (areola)">
 					description = <"">
 				>
 				["at0038"] = <
