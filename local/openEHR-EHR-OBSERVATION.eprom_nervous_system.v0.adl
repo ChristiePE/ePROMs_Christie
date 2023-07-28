@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1cedb79d8b1e1b25aceff3655d79f3ec">
+		["MD5-CAM-1.0.1"] = <"d2b10fd74e2bc83acf19eeadbeafc895">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -240,6 +240,9 @@ definition
 													0|[local::at0166],
 													0|[local::at0188],
 													0|[local::at0189],
+													0|[local::at0190],
+													0|[local::at0191],
+													0|[local::at0192],
 													0|[local::at0085]
 												}
 											}
@@ -882,6 +885,18 @@ ontology
 				>
 				["at0189"] = <
 					text = <"Legs">
+					description = <"">
+				>
+				["at0190"] = <
+					text = <"Breast(s)">
+					description = <"">
+				>
+				["at0191"] = <
+					text = <"Chest wall/ribs">
+					description = <"">
+				>
+				["at0192"] = <
+					text = <"Shoulder(s)">
 					description = <"">
 				>
 			>
