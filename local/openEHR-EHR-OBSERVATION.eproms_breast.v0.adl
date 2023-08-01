@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"6aeb86238e75e5a78ee4840c00437ec8">
+		["MD5-CAM-1.0.1"] = <"7708b3c8bb17a1d8923a2708ccb0dd6c">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -139,15 +139,15 @@ ontology
 					description = <"">
 				>
 				["at0021"] = <
-					text = <"Yes, I have a mild swelling in my breast">
+					text = <"Yes, I have a mild swelling in my breast or chest wall">
 					description = <"">
 				>
 				["at0022"] = <
-					text = <"Yes, I have a moderate swelling in my breast, this may stop me doing my routine activities (for example light housework or shopping) or affects bra fit">
+					text = <"Yes, I have a moderate swelling in my breast or chest wall, this may stop me doing my routine activities (for example light housework or shopping) or affects bra fit">
 					description = <"">
 				>
 				["at0023"] = <
-					text = <"Yes, I have severe swelling in my breast, this may make it difficult to care for myself (for example wash or shower)">
+					text = <"Yes, I have severe swelling in my breast or chest wall, this may make it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 				["at0034"] = <
