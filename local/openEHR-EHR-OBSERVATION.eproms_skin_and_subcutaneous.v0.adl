@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7c9186e37dc2056cf8a97d59d56cbb86">
+		["MD5-CAM-1.0.1"] = <"d629698a517d29d1e5795f28a7ce9c95">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -157,6 +157,15 @@ definition
 											1|[local::at0075],
 											2|[local::at0076],
 											3|[local::at0077]
+										}
+									}
+									ELEMENT[at0078] occurrences matches {0..1} matches {    -- Chronic_wound
+										value matches {
+											0|[local::at0079],
+											1|[local::at0080],
+											2|[local::at0081],
+											3|[local::at0083],
+											4|[local::at0082]
 										}
 									}
 								}
@@ -478,6 +487,30 @@ ontology
 				>
 				["at0077"] = <
 					text = <"Yes, it is constant and/or limits me caring for myself (for example washing or dressing).   I may have been admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Chronic_wound">
+					description = <"Have you developed any new problems at the site of an existing wound?">
+				>
+				["at0079"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
 					description = <"">
 				>
 			>
