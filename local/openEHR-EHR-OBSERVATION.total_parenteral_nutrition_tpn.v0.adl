@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a8bd45f0c295b4c7dfd6d5137e27c6fb">
+		["MD5-CAM-1.0.1"] = <"8555d9139da12f7688170ace69d9aa78">
 		["build_uid"] = <"e81cda48-5fc0-37cc-a956-e76f83905d32">
 	>
 
@@ -54,7 +54,8 @@ definition
 									}
 									ELEMENT[at0015] occurrences matches {0..1} matches {    -- Sleep disturbance
 										value matches {
-											DV_ORDINAL matches {*}
+											0|[local::at0017],
+											1|[local::at0018]
 										}
 									}
 								}
@@ -143,6 +144,14 @@ ontology
 				>
 				["at0016"] = <
 					text = <"TPN Score">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
