@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"792420ecf424082bc0e34d466eda60bb">
+		["MD5-CAM-1.0.1"] = <"a8bd45f0c295b4c7dfd6d5137e27c6fb">
 		["build_uid"] = <"e81cda48-5fc0-37cc-a956-e76f83905d32">
 	>
 
@@ -59,6 +59,17 @@ definition
 									}
 								}
 							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE matches {
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0016] occurrences matches {0..1} matches {    -- TPN Score
+						value matches {
+							DV_COUNT matches {*}
 						}
 					}
 				}
@@ -128,6 +139,10 @@ ontology
 				>
 				["at0015"] = <
 					text = <"Sleep disturbance">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"TPN Score">
 					description = <"">
 				>
 			>
