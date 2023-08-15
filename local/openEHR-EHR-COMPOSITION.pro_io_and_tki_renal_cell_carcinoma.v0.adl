@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=294685f9-0ea8-4bce-a4e1-00ba85496bb4)
+	openEHR-EHR-COMPOSITION.pro_io_and_tki_renal_cell_carcinoma.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-08-15">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"0e62512bc607cf73abe21dbb460b2b7a">
+		["build_uid"] = <"77d23c99-50ba-3d57-b726-cd2cba435c0d">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_IO_and_TKI_Renal_Cell_Carcinoma
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_IO_and_TKI_Renal_Cell_Carcinoma">
+					description = <"PRO_IO_and_TKI_Renal_Cell_Carcinoma">
+				>
+			>
+		>
+	>
