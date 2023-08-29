@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"19cac348e1bd6b82345c0f53afbfe6bf">
+		["MD5-CAM-1.0.1"] = <"066ab6a9d45ade3584c0d97c31b72c55">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -199,7 +199,9 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Acute_radiation_dermatitis">
-					description = <"Do you have skin peeling or redness of the skin?">
+					description = <"Redundant question: Do you have skin peeling or redness of the skin?
+
+New question: How would you describe the skin in the area you had radiotherapy treatment to?">
 				>
 				["at0005"] = <
 					text = <"Not pink/red/dry/darker or scaly">
