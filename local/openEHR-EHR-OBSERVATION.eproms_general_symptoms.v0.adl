@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e93467eaf5b46d85430e0515b2588dc5">
+		["MD5-CAM-1.0.1"] = <"ab061fd7558f2b1996c3c06366ba369d">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -194,6 +194,14 @@ definition
 											1|[local::at0111],
 											2|[local::at0112],
 											3|[local::at0113]
+										}
+									}
+									ELEMENT[at0114] occurrences matches {0..1} matches {    -- Concentration
+										value matches {
+											0|[local::at0115],
+											1|[local::at0116],
+											2|[local::at0117],
+											3|[local::at0118]
 										}
 									}
 								}
@@ -672,6 +680,26 @@ ontology
 				>
 				["at0113"] = <
 					text = <"Yes, and because of this I avoid interacting with other people">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Concentration">
+					description = <"Do you have 'brain fog' or find it difficult to concentrate?">
+				>
+				["at0115"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
 					description = <"">
 				>
 			>
