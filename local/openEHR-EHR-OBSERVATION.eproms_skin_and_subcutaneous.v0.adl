@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"066ab6a9d45ade3584c0d97c31b72c55">
+		["MD5-CAM-1.0.1"] = <"fe4e64ac9326819003c0ab6455e01db8">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -53,7 +53,7 @@ definition
 													1|[local::at0012]
 												}
 											}
-											ELEMENT[at0061] occurrences matches {0..1} matches {    -- Late_radiation_dermatitis_detailed
+											ELEMENT[at0061] occurrences matches {0..*} matches {    -- Late_radiation_dermatitis_detailed
 												value matches {
 													0|[local::at0062],
 													0|[local::at0063],
