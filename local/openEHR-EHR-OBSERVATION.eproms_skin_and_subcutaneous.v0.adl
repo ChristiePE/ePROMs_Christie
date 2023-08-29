@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"81d7e467d7d37400d38d06a37fa62416">
+		["MD5-CAM-1.0.1"] = <"978d5461aeb1166513f4aa0355f9647b">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -61,6 +61,7 @@ definition
 													0|[local::at0064],
 													0|[local::at0065],
 													0|[local::at0066],
+													0|[local::at0087],
 													0|[local::at0067]
 												}
 											}
@@ -506,6 +507,10 @@ ontology
 				>
 				["at0086"] = <
 					text = <"Yes and because of this I had to be admitted to hospital and/or required a procedure or operation">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"Non-healing ulcer">
 					description = <"">
 				>
 			>
