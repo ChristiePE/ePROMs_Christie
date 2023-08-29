@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"fe4e64ac9326819003c0ab6455e01db8">
+		["MD5-CAM-1.0.1"] = <"d9f49899fdaa7d61e08f8fdce2444840">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -448,7 +448,7 @@ New question: How would you describe the skin in the area you had radiotherapy t
 					description = <"">
 				>
 				["at0060"] = <
-					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					text = <"As a result of issues, I was admitted to hospital for emergency medical care">
 					description = <"">
 				>
 				["at0068"] = <
