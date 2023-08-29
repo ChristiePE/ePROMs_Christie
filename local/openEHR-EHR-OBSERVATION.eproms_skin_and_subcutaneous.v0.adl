@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"978d5461aeb1166513f4aa0355f9647b">
+		["MD5-CAM-1.0.1"] = <"19cac348e1bd6b82345c0f53afbfe6bf">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -202,19 +202,19 @@ ontology
 					description = <"Do you have skin peeling or redness of the skin?">
 				>
 				["at0005"] = <
-					text = <"No">
+					text = <"Not pink/red/dry/darker or scaly">
 					description = <"">
 				>
 				["at0006"] = <
-					text = <"Yes, I have faint redness or dry peeling of the skin">
+					text = <"Pink or slightly darker colour than previously, or dry/scaly">
 					description = <"">
 				>
 				["at0007"] = <
-					text = <"Yes, I have bright redness or patchy moist peeling of the skin, mainly in the skin folds or creases">
+					text = <"Red or darker colour than previously. There may also be small areas of skin breakdown in skin folds and creases.">
 					description = <"">
 				>
 				["at0008"] = <
-					text = <"Yes, I have moist peeling of the skin in areas other than the skin folds and creases, it may bleed when touched.">
+					text = <"Red or darker with breaks in the skin leaving large moist areas">
 					description = <"">
 				>
 				["at0009"] = <
