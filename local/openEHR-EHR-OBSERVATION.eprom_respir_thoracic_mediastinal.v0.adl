@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8f527459d62afd11b9219dbee5a87139">
+		["MD5-CAM-1.0.1"] = <"4716df8992498f1d12a7d305a4cbb44d">
 		["build_uid"] = <"83a93cd7-7c3a-341f-a669-f43e950033f1">
 	>
 
@@ -92,6 +92,14 @@ definition
 											1|[local::at0034],
 											2|[local::at0035],
 											3|[local::at0036]
+										}
+									}
+									ELEMENT[at0058] occurrences matches {0..1} matches {    -- Dysphonia
+										value matches {
+											0|[local::at0059],
+											1|[local::at0060],
+											2|[local::at0061],
+											3|[local::at0062]
 										}
 									}
 								}
@@ -270,6 +278,26 @@ ontology
 				>
 				["at0057"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Dysphonia">
+					description = <"Have you noticed your voice become more harsh or raspy?">
+				>
+				["at0059"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Yes, I have mild or intermittent voice changes but am fully understandable">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Yes, I have moderate or persistent voice changes; may require occasional repetition but understandable on telephone">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Yes, I have severe voice changes including predominantly whispered speech">
 					description = <"">
 				>
 			>
