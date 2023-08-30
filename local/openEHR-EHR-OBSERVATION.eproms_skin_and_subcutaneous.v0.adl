@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d9f49899fdaa7d61e08f8fdce2444840">
+		["MD5-CAM-1.0.1"] = <"407e286146e5d987b393ada1628e270c">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -168,12 +168,21 @@ definition
 											3|[local::at0086]
 										}
 									}
+									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Lymphadenopathy
+										value matches {
+											0|[local::at0089],
+											1|[local::at0090]
+										}
+									}
 								}
 							}
 						}
 					}
 				}
 			}
+		}
+		protocol matches {
+			ITEM_TREE matches {*}
 		}
 	}
 
@@ -513,6 +522,18 @@ New question: How would you describe the skin in the area you had radiotherapy t
 				>
 				["at0087"] = <
 					text = <"Non-healing ulcer">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Lymphadenopathy">
+					description = <"Have you noticed any new lumps in your neck?">
+				>
+				["at0089"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
