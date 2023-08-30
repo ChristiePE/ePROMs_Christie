@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ab061fd7558f2b1996c3c06366ba369d">
+		["MD5-CAM-1.0.1"] = <"0e999f53cbe1bde8289c1a103f0f258e">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -202,6 +202,18 @@ definition
 											1|[local::at0116],
 											2|[local::at0117],
 											3|[local::at0118]
+										}
+									}
+									ELEMENT[at0119] occurrences matches {0..1} matches {    -- Feeling_the_cold
+										value matches {
+											0|[local::at0123],
+											1|[local::at0124]
+										}
+									}
+									ELEMENT[at0120] occurrences matches {0..1} matches {    -- Struggling_with_warm_conditions
+										value matches {
+											0|[local::at0121],
+											1|[local::at0122]
 										}
 									}
 								}
@@ -700,6 +712,30 @@ ontology
 				>
 				["at0118"] = <
 					text = <"Yes and it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"Feeling_the_cold">
+					description = <"Do you feel the cold easily?">
+				>
+				["at0120"] = <
+					text = <"Struggling_with_warm_conditions">
+					description = <"Do you struggle to tolerate warm conditions?">
+				>
+				["at0121"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
