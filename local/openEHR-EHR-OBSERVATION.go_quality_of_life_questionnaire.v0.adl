@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b9c6e23bd6ebaa2775b5c37aa9567465">
+		["MD5-CAM-1.0.1"] = <"3978b8a446737c3098ec3ce4a1f6c7f1">
 		["build_uid"] = <"a9326ae6-85b9-3add-8f54-8fa5f52220f0">
 	>
 
@@ -166,6 +166,11 @@ definition
 													DV_COUNT matches {*}
 												}
 											}
+										}
+									}
+									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Combined_scoring
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -478,6 +483,10 @@ ontology
 				>
 				["at0084"] = <
 					text = <"Activities_scoring">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"Combined_scoring">
 					description = <"">
 				>
 			>
