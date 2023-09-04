@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "11.0.0",
+      "sem_ver" : "11.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "cef4d1622871314a74d9eff2157c06d3",
+      "MD5-CAM-1.0.1" : "bc3d36ae0bbbd0683f702211cae8a5f5",
       "PARENT:MD5-CAM-1.0.1" : "e6ffd318c3c8655a2d7cc2b1234016ca"
     },
     "details" : {
@@ -3879,7 +3879,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0173.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0173.1",
+            "text" : "Dysphagia",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3998,7 +4005,6 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
                       "nodeId" : "at0038.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
