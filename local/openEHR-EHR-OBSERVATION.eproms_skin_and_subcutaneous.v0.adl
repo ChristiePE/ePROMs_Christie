@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"407e286146e5d987b393ada1628e270c">
+		["MD5-CAM-1.0.1"] = <"52825f77e86794fb753d8f4c1946997b">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -182,7 +182,7 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE matches {*}
+			ITEM_TREE[at0058] matches {*}    -- ITEM_TREE
 		}
 	}
 
@@ -466,7 +466,7 @@ New question: How would you describe the skin in the area you had radiotherapy t
 				>
 				["at0069"] = <
 					text = <"Bruise_coded">
-					description = <"">
+					description = <"Since treatment have you bruised more easily?">
 				>
 				["at0070"] = <
 					text = <"No">
@@ -534,6 +534,10 @@ New question: How would you describe the skin in the area you had radiotherapy t
 				>
 				["at0090"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"ITEM_TREE">
 					description = <"">
 				>
 			>
