@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"52825f77e86794fb753d8f4c1946997b">
+		["MD5-CAM-1.0.1"] = <"c7579610d724f320f38214ce36845563">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -146,10 +146,10 @@ definition
 											3|[local::at0057]
 										}
 									}
-									ELEMENT[at0069] occurrences matches {0..1} matches {    -- Bruise_coded
+									ELEMENT[at0069] occurrences matches {0..1} matches {    -- Ecchymosis
 										value matches {
-											1|[local::at0070],
-											2|[local::at0071]
+											0|[local::at0070],
+											1|[local::at0071]
 										}
 									}
 									ELEMENT[at0073] occurrences matches {0..1} matches {    -- Splitting_fingernails_toenails
@@ -465,7 +465,7 @@ New question: How would you describe the skin in the area you had radiotherapy t
 					description = <"">
 				>
 				["at0069"] = <
-					text = <"Bruise_coded">
+					text = <"Ecchymosis">
 					description = <"Since treatment have you bruised more easily?">
 				>
 				["at0070"] = <
