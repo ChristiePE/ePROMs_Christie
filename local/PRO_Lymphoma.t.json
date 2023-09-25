@@ -21,8 +21,8 @@
       "custodian_namespace" : "",
       "sem_ver" : "2.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "5760aa1a021795e15c37c75fcc595495",
-      "PARENT:MD5-CAM-1.0.1" : "6dfb2a7ed13203fb8fcb975a3de6e7fd"
+      "MD5-CAM-1.0.1" : "a7ad6e223b76e2796cc1522f768cbb4a",
+      "PARENT:MD5-CAM-1.0.1" : "e7065efb19397689796574187e25e629"
     },
     "details" : {
       "en" : {
@@ -50,6 +50,15 @@
     "rmTypeName" : "COMPOSITION",
     "nodeId" : "at0000.1",
     "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "context",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "EVENT_CONTEXT",
+        "attributes" : [ ],
+        "attributeTuples" : [ ]
+      } ]
+    }, {
       "@type" : "C_ATTRIBUTE",
       "rmAttributeName" : "content",
       "existence" : "0..1",
@@ -217,14 +226,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0002.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0002.1",
-            "text" : "Any event",
-            "description" : ""
-          }
-        }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -382,7 +384,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "52825f77e86794fb753d8f4c1946997b"
+        "PARENT:MD5-CAM-1.0.1" : "c7579610d724f320f38214ce36845563"
       },
       "details" : {
         "en" : {
