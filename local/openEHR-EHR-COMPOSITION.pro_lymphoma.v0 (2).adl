@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"6dfb2a7ed13203fb8fcb975a3de6e7fd">
+		["MD5-CAM-1.0.1"] = <"e7065efb19397689796574187e25e629">
 		["build_uid"] = <"873fd9a9-acce-3666-ba48-5615609c8e78">
 	>
 
@@ -37,7 +37,18 @@ definition
 			}
 		}
 		context matches {
-			EVENT_CONTEXT matches {*}
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE[at0001] matches {    -- Item tree
+						items cardinality matches {0..*; unordered} matches {
+							allow_archetype CLUSTER[at0002] occurrences matches {0..*} matches {    -- Metadata
+								include
+									archetype_id/value matches {/.*/}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -48,6 +59,14 @@ ontology
 				["at0000"] = <
 					text = <"PRO_Lymphoma">
 					description = <"PRO_Lymphoma">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Metadata">
+					description = <"">
 				>
 			>
 		>
