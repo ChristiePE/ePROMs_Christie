@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0e999f53cbe1bde8289c1a103f0f258e">
+		["MD5-CAM-1.0.1"] = <"e1d76320041a851e7b1147010cb6264f">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -90,6 +90,11 @@ definition
 											2|[local::at0034],
 											3|[local::at0035],
 											4|[local::at0076]
+										}
+									}
+									ELEMENT[at0125] occurrences matches {0..1} matches {    -- Night_sweats
+										value matches {
+											DV_ORDINAL matches {*}
 										}
 									}
 									ELEMENT[at0036] occurrences matches {0..1} matches {    -- Flu_like_symptoms
@@ -736,6 +741,10 @@ ontology
 				>
 				["at0124"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"Night_sweats">
 					description = <"">
 				>
 			>
