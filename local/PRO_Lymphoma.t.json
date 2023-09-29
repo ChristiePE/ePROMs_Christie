@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c06d2d8ad0dbde1a00b24c314dd9a500",
+      "MD5-CAM-1.0.1" : "a5eefe327e5ba92f81e0e2fdf42251d9",
       "PARENT:MD5-CAM-1.0.1" : "e7065efb19397689796574187e25e629"
     },
     "details" : {
@@ -860,6 +860,13 @@
                       "rmTypeName" : "CLUSTER",
                       "occurrences" : "0..0",
                       "nodeId" : "at0020.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0030.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
