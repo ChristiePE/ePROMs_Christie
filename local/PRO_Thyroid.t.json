@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ad9991a31a42b5024a9cb273d9525dc8",
+      "MD5-CAM-1.0.1" : "51434c61424f283a09eee92e4ba0ad4a",
       "PARENT:MD5-CAM-1.0.1" : "873c375e3b0143a8b09f128a80beb9fb"
     },
     "details" : {
@@ -163,7 +163,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "0e999f53cbe1bde8289c1a103f0f258e"
+        "PARENT:MD5-CAM-1.0.1" : "8729072356b8479586d00503297dd4c5"
       },
       "details" : {
         "en" : {
@@ -258,6 +258,13 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0031.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0125.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
@@ -486,6 +493,13 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0027.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0032.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     } ]
@@ -1484,7 +1498,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "52825f77e86794fb753d8f4c1946997b"
+        "PARENT:MD5-CAM-1.0.1" : "c7579610d724f320f38214ce36845563"
       },
       "details" : {
         "en" : {
@@ -1605,7 +1619,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0059",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0059.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
