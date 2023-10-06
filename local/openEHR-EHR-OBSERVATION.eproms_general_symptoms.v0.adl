@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8729072356b8479586d00503297dd4c5">
+		["MD5-CAM-1.0.1"] = <"1a5386b01a65e79c684dc41af61f8bfa">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -219,6 +219,11 @@ definition
 										value matches {
 											0|[local::at0121],
 											1|[local::at0122]
+										}
+									}
+									ELEMENT[at0126] occurrences matches {0..1} matches {    -- Night_Sweats
+										value matches {
+											DV_ORDINAL matches {*}
 										}
 									}
 								}
@@ -746,6 +751,10 @@ ontology
 				["at0125"] = <
 					text = <"Sleep_hyperhidrosis">
 					description = <"Are you having night sweats?">
+				>
+				["at0126"] = <
+					text = <"Night_Sweats">
+					description = <"">
 				>
 			>
 		>
