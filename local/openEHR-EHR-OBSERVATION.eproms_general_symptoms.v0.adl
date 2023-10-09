@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1a5386b01a65e79c684dc41af61f8bfa">
+		["MD5-CAM-1.0.1"] = <"2b65a16c278c3ea8c204d1314f1c97ff">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -364,11 +364,11 @@ ontology
 					description = <"">
 				>
 				["at0029"] = <
-					text = <"Yes I have lost 10-20% of my bodyweight">
+					text = <"Yes I have gained 10-20% of my bodyweight">
 					description = <"">
 				>
 				["at0030"] = <
-					text = <"Yes I have lost more than 20% of my bodyweight">
+					text = <"Yes I have gained more than 20% of my bodyweight">
 					description = <"">
 				>
 				["at0031"] = <
