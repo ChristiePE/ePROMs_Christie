@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=f28162f0-060f-443d-a4a1-2607118cccf6)
+	openEHR-EHR-COMPOSITION.pro_the_expanded_prostate_cancer_index_composite_epic_26.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-10-12">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"5c57f9521863bd91fe6f8ffb61f8da5a">
+		["build_uid"] = <"57ab17ec-ae37-3d53-8c35-f25ea6779ac2">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_The_Expanded_Prostate_Cancer_Index_Composite_EPIC_26
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_The_Expanded_Prostate_Cancer_Index_Composite_EPIC_26">
+					description = <"PRO_The_Expanded_Prostate_Cancer_Index_Composite_EPIC_26">
+				>
+			>
+		>
+	>
