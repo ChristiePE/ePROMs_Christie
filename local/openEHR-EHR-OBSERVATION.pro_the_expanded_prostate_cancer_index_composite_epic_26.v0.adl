@@ -1,0 +1,945 @@
+archetype (adl_version=1.4; uid=018d8580-e7b8-4782-b8bf-c9018b9416f2)
+	openEHR-EHR-OBSERVATION.pro_the_expanded_prostate_cancer_index_composite_epic_26.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-10-10">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2494921946fa71d26adee3cc4f010686">
+		["build_uid"] = <"4ee247be-c7d2-315a-a386-b02729093081">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- pro_the_expanded_prostate_cancer_index_composite_epic_26
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Over the past 4 weeks, how often have you leaked urine?
+										value matches {
+											1|[local::at0005],
+											2|[local::at0006],
+											3|[local::at0007],
+											4|[local::at0008],
+											5|[local::at0009]
+										}
+									}
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Which of the following best describes your urinary control during the last 4 weeks?
+										value matches {
+											1|[local::at0011],
+											2|[local::at0012],
+											3|[local::at0013],
+											4|[local::at0014]
+										}
+									}
+									ELEMENT[at0015] occurrences matches {0..1} matches {    -- How many pads or adult diapers per day did you usually use to control leakage   during the last 4 weeks?
+										value matches {
+											0|[local::at0016],
+											1|[local::at0017],
+											2|[local::at0018],
+											3|[local::at0019]
+										}
+									}
+									CLUSTER[at0021] occurrences matches {0..1} matches {    -- How big a problem, if any, has each of the following been for you during the last 4 weeks?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0032] matches {    -- Dripping or leaking urine
+												value matches {
+													0|[local::at0033],
+													1|[local::at0034],
+													2|[local::at0035],
+													3|[local::at0036],
+													4|[local::at0037]
+												}
+											}
+											ELEMENT[at0038] matches {    -- Pain or burning on urination
+												value matches {
+													0|[local::at0039],
+													1|[local::at0040],
+													2|[local::at0041],
+													3|[local::at0042],
+													4|[local::at0043]
+												}
+											}
+											ELEMENT[at0044] matches {    -- Bleeding with urination
+												value matches {
+													0|[local::at0045],
+													1|[local::at0046],
+													2|[local::at0047],
+													3|[local::at0048],
+													4|[local::at0049]
+												}
+											}
+											ELEMENT[at0050] matches {    -- Weak urine stream or incomplete emptying
+												value matches {
+													0|[local::at0051],
+													1|[local::at0052],
+													2|[local::at0053],
+													3|[local::at0054],
+													4|[local::at0055]
+												}
+											}
+											ELEMENT[at0056] matches {    -- Need to urinate frequently during the day
+												value matches {
+													0|[local::at0057],
+													1|[local::at0058],
+													2|[local::at0059],
+													3|[local::at0060],
+													4|[local::at0061]
+												}
+											}
+										}
+									}
+									ELEMENT[at0072] matches {    -- Overall, how big a problem has your urinary function been for you during the last 4 weeks?
+										value matches {
+											1|[local::at0073],
+											2|[local::at0074],
+											3|[local::at0075],
+											4|[local::at0076],
+											5|[local::at0077]
+										}
+									}
+									CLUSTER[at0078] occurrences matches {0..1} matches {    -- How big a problem, if any, has each of the following been for you?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0079] matches {    -- Urgency to have a bowel movement
+												value matches {
+													0|[local::at0080],
+													1|[local::at0081],
+													2|[local::at0082],
+													3|[local::at0083],
+													4|[local::at0084]
+												}
+											}
+											ELEMENT[at0085] matches {    -- Increased frequency of bowel movements
+												value matches {
+													0|[local::at0086],
+													1|[local::at0087],
+													2|[local::at0088],
+													3|[local::at0089],
+													4|[local::at0090]
+												}
+											}
+											ELEMENT[at0091] matches {    -- Losing control of your stools
+												value matches {
+													0|[local::at0092],
+													1|[local::at0093],
+													2|[local::at0094],
+													3|[local::at0095],
+													4|[local::at0096]
+												}
+											}
+											ELEMENT[at0097] matches {    -- Bloody stools
+												value matches {
+													0|[local::at0098],
+													1|[local::at0099],
+													2|[local::at0100],
+													3|[local::at0101],
+													4|[local::at0102]
+												}
+											}
+											ELEMENT[at0103] matches {    -- Abdominal/ Pelvic/ Rectal pain
+												value matches {
+													0|[local::at0104],
+													1|[local::at0105],
+													2|[local::at0106],
+													3|[local::at0107],
+													4|[local::at0108]
+												}
+											}
+										}
+									}
+									ELEMENT[at0111] matches {    -- Overall, how big a problem have your bowel habits been for you during the last 4 weeks?
+										value matches {
+											0|[local::at0112],
+											1|[local::at0113],
+											2|[local::at0114],
+											3|[local::at0115],
+											4|[local::at0116]
+										}
+									}
+									CLUSTER[at0118] occurrences matches {0..1} matches {    -- How would you rate each of the following during the last 4 weeks?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0119] occurrences matches {0..1} matches {    -- Your ability to have an erection?
+												value matches {
+													1|[local::at0120],
+													2|[local::at0121],
+													3|[local::at0122],
+													4|[local::at0123],
+													5|[local::at0124]
+												}
+											}
+											ELEMENT[at0125] occurrences matches {0..1} matches {    -- Your ability to reach orgasm (climax)?
+												value matches {
+													1|[local::at0126],
+													2|[local::at0127],
+													3|[local::at0128],
+													4|[local::at0129],
+													5|[local::at0130]
+												}
+											}
+										}
+									}
+									ELEMENT[at0131] occurrences matches {0..1} matches {    -- How would you describe the usual QUALITY of your erections during the last 4 weeks?
+										value matches {
+											1|[local::at0132],
+											2|[local::at0133],
+											3|[local::at0134],
+											4|[local::at0135]
+										}
+									}
+									ELEMENT[at0136] occurrences matches {0..1} matches {    -- How would you describe the FREQUENCY of your erections during the last 4 weeks?
+										value matches {
+											1|[local::at0137],
+											2|[local::at0138],
+											3|[local::at0139],
+											4|[local::at0140],
+											5|[local::at0141]
+										}
+									}
+									ELEMENT[at0142] occurrences matches {0..1} matches {    -- Overall, how would you rate your ability to function sexually during the last 4 weeks?
+										value matches {
+											1|[local::at0143],
+											2|[local::at0144],
+											3|[local::at0145],
+											4|[local::at0146],
+											5|[local::at0147]
+										}
+									}
+									ELEMENT[at0148] occurrences matches {0..1} matches {    -- Overall, how big a problem has your sexual function or lack of sexual function been for you during the last 4 weeks?
+										value matches {
+											1|[local::at0149],
+											2|[local::at0150],
+											3|[local::at0151],
+											4|[local::at0152],
+											5|[local::at0153]
+										}
+									}
+									CLUSTER[at0154] occurrences matches {0..1} matches {    -- How big a problem during the last 4 weeks, if any, has each of the following been for you?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0155] occurrences matches {0..1} matches {    -- Hot flashes
+												value matches {
+													0|[local::at0156],
+													1|[local::at0157],
+													2|[local::at0158],
+													3|[local::at0159],
+													4|[local::at0160]
+												}
+											}
+											ELEMENT[at0161] occurrences matches {0..1} matches {    -- Breast tenderness/enlargement
+												value matches {
+													0|[local::at0162],
+													1|[local::at0163],
+													2|[local::at0164],
+													3|[local::at0165],
+													4|[local::at0166]
+												}
+											}
+											ELEMENT[at0167] occurrences matches {0..1} matches {    -- Feeling depressed
+												value matches {
+													0|[local::at0168],
+													1|[local::at0169],
+													2|[local::at0170],
+													3|[local::at0171],
+													4|[local::at0172]
+												}
+											}
+											ELEMENT[at0173] occurrences matches {0..1} matches {    -- Lack of energy
+												value matches {
+													0|[local::at0174],
+													1|[local::at0175],
+													2|[local::at0176],
+													3|[local::at0177],
+													4|[local::at0178]
+												}
+											}
+											ELEMENT[at0179] occurrences matches {0..1} matches {    -- Change in body weight
+												value matches {
+													0|[local::at0180],
+													1|[local::at0181],
+													2|[local::at0182],
+													3|[local::at0183],
+													4|[local::at0184]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"pro_the_expanded_prostate_cancer_index_composite_epic_26">
+					description = <"The_Expanded_Prostate_Cancer_Index_Composite_EPIC_26">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Over the past 4 weeks, how often have you leaked urine?">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"More than once a day">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"About once a day">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"More than once a week">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"About once a week">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Rarely or never">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Which of the following best describes your urinary control during the last 4 weeks?">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"No urinary control whatsoever">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Frequent dribbling">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Occasional dribbling">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Total control">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"How many pads or adult diapers per day did you usually use to control leakage   during the last 4 weeks?">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"None">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"1 pad per day">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"2 pads per day">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"3 or more pads per day">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"How big a problem, if any, has each of the following been for you during the last 4 weeks?">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Dripping or leaking urine">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Pain or burning on urination">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Bleeding with urination">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Weak urine stream or incomplete emptying">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Need to urinate frequently during the day">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Overall, how big a problem has your urinary function been for you during the last 4 weeks?">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"No problem">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Very small problem">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Small problem">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Moderate problem">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Big problem">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"How big a problem, if any, has each of the following been for you?">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Urgency to have a bowel movement">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"Increased frequency of bowel movements">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Big Broblem">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Losing control of your stools">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"Bloody stools">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"Abdominal/ Pelvic/ Rectal pain">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"Overall, how big a problem have your bowel habits been for you during the last 4 weeks?">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"How would you rate each of the following during the last 4 weeks?">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"Your ability to have an erection?">
+					description = <"">
+				>
+				["at0120"] = <
+					text = <"Very Poor to None">
+					description = <"">
+				>
+				["at0121"] = <
+					text = <"Poor">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"Fair">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"Good">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Very Good">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"Your ability to reach orgasm (climax)?">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"Very Poor to None">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"Poor">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"Fair">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"Good">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"Very Good">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"How would you describe the usual QUALITY of your erections during the last 4 weeks?">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"None at all">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"Not firm enough for any sexual activity">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"Firm enough for masturbation and foreplay only">
+					description = <"">
+				>
+				["at0135"] = <
+					text = <"Firm enough for intercourse">
+					description = <"">
+				>
+				["at0136"] = <
+					text = <"How would you describe the FREQUENCY of your erections during the last 4 weeks?">
+					description = <"">
+				>
+				["at0137"] = <
+					text = <"I NEVER had an erection when I wanted one">
+					description = <"">
+				>
+				["at0138"] = <
+					text = <"I had an erection LESS THAN HALF the time I wanted one">
+					description = <"">
+				>
+				["at0139"] = <
+					text = <"I had an erection ABOUT HALF the time I wanted one">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"I had an erection MORE THAN HALF the time I wanted one">
+					description = <"">
+				>
+				["at0141"] = <
+					text = <"I had an erection WHENEVER I wanted one">
+					description = <"">
+				>
+				["at0142"] = <
+					text = <"Overall, how would you rate your ability to function sexually during the last 4 weeks?">
+					description = <"">
+				>
+				["at0143"] = <
+					text = <"Very Poor">
+					description = <"">
+				>
+				["at0144"] = <
+					text = <"Poor">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"Fair">
+					description = <"">
+				>
+				["at0146"] = <
+					text = <"Good">
+					description = <"">
+				>
+				["at0147"] = <
+					text = <"Very Good">
+					description = <"">
+				>
+				["at0148"] = <
+					text = <"Overall, how big a problem has your sexual function or lack of sexual function been for you during the last 4 weeks?">
+					description = <"">
+				>
+				["at0149"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0150"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0151"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0152"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0153"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0154"] = <
+					text = <"How big a problem during the last 4 weeks, if any, has each of the following been for you?">
+					description = <"">
+				>
+				["at0155"] = <
+					text = <"Hot flashes">
+					description = <"">
+				>
+				["at0156"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0157"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0158"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0159"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0160"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0161"] = <
+					text = <"Breast tenderness/enlargement">
+					description = <"">
+				>
+				["at0162"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0163"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0164"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0165"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0166"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0167"] = <
+					text = <"Feeling depressed">
+					description = <"">
+				>
+				["at0168"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0169"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0170"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0171"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0172"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0173"] = <
+					text = <"Lack of energy">
+					description = <"">
+				>
+				["at0174"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0175"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0176"] = <
+					text = <"Small Problem">
+					description = <"">
+				>
+				["at0177"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0178"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+				["at0179"] = <
+					text = <"Change in body weight">
+					description = <"">
+				>
+				["at0180"] = <
+					text = <"No Problem">
+					description = <"">
+				>
+				["at0181"] = <
+					text = <"Very Small Problem">
+					description = <"">
+				>
+				["at0182"] = <
+					text = <"Small Porblem">
+					description = <"">
+				>
+				["at0183"] = <
+					text = <"Moderate Problem">
+					description = <"">
+				>
+				["at0184"] = <
+					text = <"Big Problem">
+					description = <"">
+				>
+			>
+		>
+	>
