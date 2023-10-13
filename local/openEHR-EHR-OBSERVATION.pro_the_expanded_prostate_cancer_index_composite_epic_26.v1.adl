@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"fff75c9f9cf2b64a2c9cdd5732c112f6">
+		["MD5-CAM-1.0.1"] = <"9cf43260eadf03246f40ed1e2b5a0c06">
 		["build_uid"] = <"4ee247be-c7d2-315a-a386-b02729093081">
 	>
 
@@ -281,6 +281,24 @@ definition
 													4|[local::at0184]
 												}
 											}
+										}
+									}
+									ELEMENT[at0196] occurrences matches {0..1} matches {    -- I am content with the quality of my life right now
+										value matches {
+											0|[local::at0197],
+											1|[local::at0198],
+											2|[local::at0199],
+											3|[local::at0200],
+											4|[local::at0201]
+										}
+									}
+									ELEMENT[at0202] occurrences matches {0..1} matches {    -- I am able to feel like a man
+										value matches {
+											0|[local::at0203],
+											1|[local::at0204],
+											2|[local::at0205],
+											3|[local::at0206],
+											4|[local::at0207]
 										}
 									}
 								}
@@ -938,6 +956,54 @@ ontology
 				>
 				["at0184"] = <
 					text = <"Big Problem">
+					description = <"">
+				>
+				["at0196"] = <
+					text = <"I am content with the quality of my life right now">
+					description = <"">
+				>
+				["at0197"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0198"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0199"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0200"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0201"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0202"] = <
+					text = <"I am able to feel like a man">
+					description = <"">
+				>
+				["at0203"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0204"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0205"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0206"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0207"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
