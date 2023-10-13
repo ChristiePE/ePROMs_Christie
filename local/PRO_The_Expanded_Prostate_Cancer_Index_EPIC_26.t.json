@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "91d95b241e2e008dab249ab441cc54ae",
+      "MD5-CAM-1.0.1" : "6fd44b13c070414f4891ccf5e454f7ea",
       "PARENT:MD5-CAM-1.0.1" : "5c57f9521863bd91fe6f8ffb61f8da5a"
     },
     "details" : {
@@ -107,9 +107,22 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "fff75c9f9cf2b64a2c9cdd5732c112f6"
+        "PARENT:MD5-CAM-1.0.1" : "b11ca16fe91d0a5cd1b249664481a733"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.pro_the_expanded_prostate_cancer_index_composite_epic_26.v1",
     "differential" : true,
