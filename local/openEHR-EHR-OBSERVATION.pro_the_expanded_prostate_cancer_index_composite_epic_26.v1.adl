@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b11ca16fe91d0a5cd1b249664481a733">
+		["MD5-CAM-1.0.1"] = <"73abea7896cef74f1fbed8f141249634">
 		["build_uid"] = <"4ee247be-c7d2-315a-a386-b02729093081">
 	>
 
@@ -170,11 +170,11 @@ definition
 									}
 									ELEMENT[at0111] matches {    -- Overall, how big a problem have your bowel habits been for you during the last 4 weeks?
 										value matches {
-											0|[local::at0112],
-											1|[local::at0113],
+											1|[local::at0112],
+											2|[local::at0113],
 											2|[local::at0114],
-											3|[local::at0115],
-											4|[local::at0116]
+											4|[local::at0115],
+											5|[local::at0116]
 										}
 									}
 									CLUSTER[at0118] occurrences matches {0..1} matches {    -- How would you rate each of the following during the last 4 weeks?
