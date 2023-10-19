@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0e62512bc607cf73abe21dbb460b2b7a">
+		["MD5-CAM-1.0.1"] = <"89997bbe583dcf6bd0662ec47f4247b1">
 		["build_uid"] = <"77d23c99-50ba-3d57-b726-cd2cba435c0d">
 	>
 
@@ -37,7 +37,18 @@ definition
 			}
 		}
 		context matches {
-			EVENT_CONTEXT matches {*}
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE[at0001] matches {    -- Item tree
+						items cardinality matches {0..*; unordered} matches {
+							allow_archetype CLUSTER[at0002] occurrences matches {0..*} matches {    -- CLUSTER_SLOT
+								include
+									archetype_id/value matches {/.*/}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -48,6 +59,14 @@ ontology
 				["at0000"] = <
 					text = <"PRO_IO_and_TKI_Renal_Cell_Carcinoma">
 					description = <"PRO_IO_and_TKI_Renal_Cell_Carcinoma">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"CLUSTER_SLOT">
+					description = <"">
 				>
 			>
 		>
