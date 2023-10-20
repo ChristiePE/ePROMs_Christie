@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a1d033b342887dd9920f20b2ed6fccfc">
+		["MD5-CAM-1.0.1"] = <"554c05bfa52b178f3e1b49ccb57b22c0">
 		["build_uid"] = <"4ee247be-c7d2-315a-a386-b02729093081">
 	>
 
@@ -406,23 +406,23 @@ ontology
 					description = <"">
 				>
 				["at0033"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0034"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0035"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0036"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0037"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0038"] = <
@@ -430,23 +430,23 @@ ontology
 					description = <"">
 				>
 				["at0039"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0040"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0041"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0042"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0043"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0044"] = <
@@ -454,23 +454,23 @@ ontology
 					description = <"">
 				>
 				["at0045"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0046"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0047"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0048"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0049"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0050"] = <
@@ -478,23 +478,23 @@ ontology
 					description = <"">
 				>
 				["at0051"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0052"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0053"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0054"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0055"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0056"] = <
@@ -502,23 +502,23 @@ ontology
 					description = <"">
 				>
 				["at0057"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0058"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0059"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0060"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0061"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0072"] = <
@@ -554,23 +554,23 @@ ontology
 					description = <"">
 				>
 				["at0080"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0081"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0082"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0083"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0084"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0085"] = <
@@ -578,23 +578,23 @@ ontology
 					description = <"">
 				>
 				["at0086"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0087"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0088"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0089"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0090"] = <
-					text = <"Big Broblem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0091"] = <
@@ -602,23 +602,23 @@ ontology
 					description = <"">
 				>
 				["at0092"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0093"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0094"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0095"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0096"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0097"] = <
@@ -626,23 +626,23 @@ ontology
 					description = <"">
 				>
 				["at0098"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0099"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0100"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0101"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0102"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0103"] = <
@@ -650,23 +650,23 @@ ontology
 					description = <"">
 				>
 				["at0104"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0105"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0106"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0107"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0108"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0111"] = <
@@ -674,23 +674,23 @@ ontology
 					description = <"">
 				>
 				["at0112"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0113"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0114"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0115"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0116"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0118"] = <
@@ -702,7 +702,7 @@ ontology
 					description = <"">
 				>
 				["at0120"] = <
-					text = <"Very Poor to None">
+					text = <"Very poor to none">
 					description = <"">
 				>
 				["at0121"] = <
@@ -718,7 +718,7 @@ ontology
 					description = <"">
 				>
 				["at0124"] = <
-					text = <"Very Good">
+					text = <"Very good">
 					description = <"">
 				>
 				["at0125"] = <
@@ -726,7 +726,7 @@ ontology
 					description = <"">
 				>
 				["at0126"] = <
-					text = <"Very Poor to None">
+					text = <"Very poor to none">
 					description = <"">
 				>
 				["at0127"] = <
@@ -742,7 +742,7 @@ ontology
 					description = <"">
 				>
 				["at0130"] = <
-					text = <"Very Good">
+					text = <"Very good">
 					description = <"">
 				>
 				["at0131"] = <
@@ -794,7 +794,7 @@ ontology
 					description = <"">
 				>
 				["at0143"] = <
-					text = <"Very Poor">
+					text = <"Very poor">
 					description = <"">
 				>
 				["at0144"] = <
@@ -810,7 +810,7 @@ ontology
 					description = <"">
 				>
 				["at0147"] = <
-					text = <"Very Good">
+					text = <"Very good">
 					description = <"">
 				>
 				["at0148"] = <
@@ -818,23 +818,23 @@ ontology
 					description = <"">
 				>
 				["at0149"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0150"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0151"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0152"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0153"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0154"] = <
@@ -846,23 +846,23 @@ ontology
 					description = <"">
 				>
 				["at0156"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0157"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0158"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0159"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0160"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0161"] = <
@@ -870,23 +870,23 @@ ontology
 					description = <"">
 				>
 				["at0162"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0163"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0164"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0165"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0166"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0167"] = <
@@ -894,23 +894,23 @@ ontology
 					description = <"">
 				>
 				["at0168"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0169"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0170"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0171"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0172"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0173"] = <
@@ -918,23 +918,23 @@ ontology
 					description = <"">
 				>
 				["at0174"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0175"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0176"] = <
-					text = <"Small Problem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0177"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0178"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0179"] = <
@@ -942,23 +942,23 @@ ontology
 					description = <"">
 				>
 				["at0180"] = <
-					text = <"No Problem">
+					text = <"No problem">
 					description = <"">
 				>
 				["at0181"] = <
-					text = <"Very Small Problem">
+					text = <"Very small problem">
 					description = <"">
 				>
 				["at0182"] = <
-					text = <"Small Porblem">
+					text = <"Small problem">
 					description = <"">
 				>
 				["at0183"] = <
-					text = <"Moderate Problem">
+					text = <"Moderate problem">
 					description = <"">
 				>
 				["at0184"] = <
-					text = <"Big Problem">
+					text = <"Big problem">
 					description = <"">
 				>
 				["at0196"] = <
