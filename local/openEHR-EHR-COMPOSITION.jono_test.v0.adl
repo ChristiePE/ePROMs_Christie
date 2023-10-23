@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=9867fe0f-5f85-4862-8560-11465e5ebb0e)
+	openEHR-EHR-COMPOSITION.jono_test.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-10-23">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"50728f2f66e4b0bcc4cf5315e8a8a61f">
+		["build_uid"] = <"ac7e9995-32be-3ddc-b486-1f8979e5d3bd">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- Jono_Test
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Jono_Test">
+					description = <"Jono_Test">
+				>
+			>
+		>
+	>
