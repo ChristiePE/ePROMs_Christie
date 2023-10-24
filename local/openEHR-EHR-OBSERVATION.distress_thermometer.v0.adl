@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"286ba0b4ce54c66640fc93b78162dfd9">
+		["MD5-CAM-1.0.1"] = <"d0842608be14fece68b160a9ef412d1c">
 		["build_uid"] = <"6ae1009c-daf3-3ef0-84ff-1bcd2784a353">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- Distress_Thermometer
+	OBSERVATION[at0000] matches {    -- NCCN_Distress_Thermometer
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -100,7 +100,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"Distress_Thermometer">
+					text = <"NCCN_Distress_Thermometer">
 					description = <"Distress_Thermometer">
 				>
 				["at0001"] = <
