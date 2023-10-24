@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d0842608be14fece68b160a9ef412d1c">
+		["MD5-CAM-1.0.1"] = <"73509c50b11447049b9b24cf2d022267">
 		["build_uid"] = <"6ae1009c-daf3-3ef0-84ff-1bcd2784a353">
 	>
 
@@ -101,7 +101,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"NCCN_Distress_Thermometer">
-					description = <"Distress_Thermometer">
+					description = <"NCCN_Distress_Thermometer">
 				>
 				["at0001"] = <
 					text = <"History">
