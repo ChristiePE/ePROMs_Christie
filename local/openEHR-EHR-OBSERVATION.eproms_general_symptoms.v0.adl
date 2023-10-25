@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2b65a16c278c3ea8c204d1314f1c97ff">
+		["MD5-CAM-1.0.1"] = <"0fb1bbd0d42465dc9dce8eaea5f22c1d">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -223,7 +223,9 @@ definition
 									}
 									ELEMENT[at0126] occurrences matches {0..1} matches {    -- Night_Sweats
 										value matches {
-											DV_ORDINAL matches {*}
+											0|[local::at0127],
+											1|[local::at0128],
+											2|[local::at0129]
 										}
 									}
 								}
@@ -754,6 +756,18 @@ ontology
 				>
 				["at0126"] = <
 					text = <"Night_Sweats">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"Yes, but I have not had to change my nightwear/bedding">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"Yes, and I have had to change my nightwear/bedding">
 					description = <"">
 				>
 			>
