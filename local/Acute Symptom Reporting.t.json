@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "7.1.0",
+      "sem_ver" : "7.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "75decc8c0371d3e99ffc3c48f0f57b07",
+      "MD5-CAM-1.0.1" : "d9036e833676e85d9bb5e29b4d76e529",
       "PARENT:MD5-CAM-1.0.1" : "93D7156AD670461B54017CE2CB55ECAF"
     },
     "details" : {
@@ -2314,7 +2314,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.5" ],
+                  "constraint" : [ "ac0.6" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -2697,10 +2697,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2713,7 +2713,7 @@
           },
           "at0.1" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No ongoing shortness of breath",
+            "text" : "Ongoing shortness of breath",
             "code" : "at0.1",
             "description" : ""
           },
@@ -2747,10 +2747,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2797,10 +2797,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2847,10 +2847,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2897,10 +2897,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2947,10 +2947,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -2997,10 +2997,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         },
@@ -3047,10 +3047,10 @@
             "code" : "ac0.4",
             "description" : ""
           },
-          "ac0.5" : {
+          "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.5",
+            "code" : "ac0.6",
             "description" : ""
           }
         }
@@ -3087,6 +3087,11 @@
         "ac0.5" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.5",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.6" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.6",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
@@ -11027,7 +11032,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.3" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -11398,10 +11403,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11414,7 +11419,7 @@
           },
           "at0.1" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No, previously nausea but resolved",
+            "text" : "No. Previous nausea but resolved",
             "code" : "at0.1",
             "description" : ""
           },
@@ -11436,10 +11441,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11474,10 +11479,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11512,10 +11517,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11550,10 +11555,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11588,10 +11593,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11626,10 +11631,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -11664,10 +11669,10 @@
             "code" : "at0.4",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -11689,6 +11694,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
@@ -13399,7 +13409,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.3" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -13794,10 +13804,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -13834,14 +13844,14 @@
           },
           "at0.5" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Yes, unable to tolerate any food or drink requires parenteral or enteral support",
+            "text" : "Yes, unable to tolerate any food or drink",
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -13882,10 +13892,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -13926,10 +13936,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -13970,10 +13980,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -14014,10 +14024,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -14058,10 +14068,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -14102,10 +14112,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -14127,6 +14137,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
@@ -17089,7 +17104,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.4" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -17115,24 +17130,6 @@
                   "children" : [ ]
                 } ],
                 "tuples" : [ {
-                  "@type" : "C_PRIMITIVE_TUPLE",
-                  "members" : [ {
-                    "@type" : "C_INTEGER",
-                    "rmTypeName" : "INTEGER",
-                    "constraint" : [ {
-                      "lower" : 0,
-                      "upper" : 0,
-                      "lowerIncluded" : true,
-                      "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
-                    } ]
-                  }, {
-                    "@type" : "C_TERMINOLOGY_CODE",
-                    "rmTypeName" : "TERMINOLOGY_CODE",
-                    "constraint" : [ "at0.1" ]
-                  } ]
-                }, {
                   "@type" : "C_PRIMITIVE_TUPLE",
                   "members" : [ {
                     "@type" : "C_INTEGER",
@@ -17454,12 +17451,6 @@
             "text" : "*Symptom/Sign(en) (14)",
             "description" : "*Reported observation of a physical or mental disturbance in an individual.(en)"
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17484,10 +17475,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17498,12 +17489,6 @@
             "text" : "Anorexia",
             "description" : "Reported observation of a physical or mental disturbance in an individual."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "No",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "Yes, without altering eating habits",
@@ -17512,26 +17497,26 @@
           },
           "at0.3" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Yes, oral intake decreased without significant effects on weight",
+            "text" : "Yes, oral intake decreased without significant effect on weight",
             "code" : "at0.3",
             "description" : ""
           },
           "at0.4" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Yes, oral intake decreased with significant effects on weight",
+            "text" : "Yes, oral intake decreased with significant effect on weight",
             "code" : "at0.4",
             "description" : ""
           },
           "at0.5" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Yes, decreased intake with effects such as weakness and collapse",
+            "text" : "Yes, decreased intake with side effects such as weakness and collapse",
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17542,12 +17527,6 @@
             "text" : "Symptom/Krankheitsanzeichen (14)",
             "description" : "Berichtete Beobachtung einer körperlichen oder psychischen Störung bei einer Person."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17572,10 +17551,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17586,12 +17565,6 @@
             "text" : "Symptom/Sykdomstegn (14)",
             "description" : "Rapportert observasjon av fysiske tegn eller beskrivelse av unormale eller ubehagelige fornemmelser i kropp og/eller sinn."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17616,10 +17589,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17630,12 +17603,6 @@
             "text" : "Oire (14)",
             "description" : "Reported observation of a physical or mental disturbance in an individual.(en)"
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17660,10 +17627,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17674,12 +17641,6 @@
             "text" : "Symtom och tecken (14)",
             "description" : "Observation av ett fysiskt eller psykiskt besvär hos en individ."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17704,10 +17665,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17718,12 +17679,6 @@
             "text" : "Sintoma/sinal (14)",
             "description" : "Observação de um distúrbio físico ou mental relatada em um indivíduo."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17748,10 +17703,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -17762,12 +17717,6 @@
             "text" : "Symptoom (14)",
             "description" : "Vastgestelde observatie van een fysieke of mentale afwijking bij een individu."
           },
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*No (en)",
-            "code" : "at0.1",
-            "description" : ""
-          },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*Yes, without altering eating habits (en)",
@@ -17792,10 +17741,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.4",
             "description" : ""
           }
         }
@@ -17817,6 +17766,16 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.4" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.4",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
@@ -18341,7 +18300,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.3" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -18736,10 +18695,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -18758,32 +18717,32 @@
           },
           "at0.2" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No, minimal change in colour, frequency, urgency or reduction in output. Mild pain or discomfort when passing urine",
+            "text" : "Minimal change in colour, frequency, urgency or reduction in output. Mild pain or discomfort when passing urine",
             "code" : "at0.2",
             "description" : ""
           },
           "at0.3" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No, moderate change in frequency, urgency or pain when passing urine or reduction in output.",
+            "text" : "Moderate change in frequency, urgency or pain when passing urine or reduction in output.",
             "code" : "at0.3",
             "description" : ""
           },
           "at0.4" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No, new incontinence. New presence of blood in urine. Severe reduction in output. Severe pain when passing urine.",
+            "text" : "New incontinence. New presence of blood in urine. Severe reduction in output. Severe pain when passing urine.",
             "code" : "at0.4",
             "description" : ""
           },
           "at0.5" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "No, little or no urine output",
+            "text" : "Little or no urine output",
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -18824,10 +18783,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -18868,10 +18827,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -18912,10 +18871,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -18956,10 +18915,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -19000,10 +18959,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -19044,10 +19003,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -19069,6 +19028,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
