@@ -136,6 +136,29 @@ The anticipated use of this archetype includes, but is not limited to:
 The main Sections/Content component has been deliberately left unconstrained. This will allow it to be populated with any SECTION or ENTRY archetypes appropriate for the clinical purpose within a template. (en)">
 			misuse = <"Ska inte användas för att representera information genererad av hälso- och sjukvårdspersonal.">
 		>
+		["pt"] = <
+			language = <[ISO_639-1::pt]>
+			purpose = <"Um contentor para informações fornecidas por um indivíduo, para apoiar uma separação clara dos pacientes gerados a partir de dados de saúde gerados pelo médico.">
+			keywords = <"questionário","auto-relatório","formulário","inquérito","PROM","PREM","PRO","diário">
+			use = <"Utilização como contentor genérico para registar informações fornecidas por um indivíduo, para apoiar uma separação clara entre os dados de saúde gerados pelo paciente e os dados de saúde gerados pelo médico.
+
+O âmbito do conteúdo deste arquétipo pode ser muito amplo e incluir muitos contextos. O âmbito de conteúdo previsto inclui, mas não se limita a:
+- respostas auto-geradas a questionários, incluindo PREMs ou PROMs
+- diário da dor ou do humor
+- diário de tabagismo
+- resumo de saúde auto-gerada para partilha com outros
+- auto-controlo das medições e observações
+
+O uso antecipado deste arquétipo inclui, mas não está limitado a
+- apresentação de um questionário autodeclarado a um clínico antes de um contacto planeado
+- apresentação de um formulário de pedido de contacto
+- medições diárias dentro de um Registo de Saúde Pessoal
+- dados centrados no paciente num portal clínico partilhado
+- registos de informação gerados pelo paciente a partir de dispositivos pessoais ou médicos
+
+A componente principal das Secções/Conteúdo foi deliberadamente deixada sem constrangimentos. Isto permitirá que seja preenchida com qualquer arquétipo de SECÇÃO ou ENTRADA apropriado para o propósito clínico dentro de um modelo.">
+			misuse = <"Não deve ser utilizado para representar registos gerados por clínicos.">
+		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"En container for informasjon gitt av et individ, for å kunne skille mellom data generert av pasienten og data generert av kliniker.">
@@ -159,29 +182,6 @@ Den antatte bruken av denne arketypen inkluderer, men er ikke avgrenset til:
 
 Det er ikke satt begrensinger på hovedkomponenten Section/content. Dette gjør at man kan legge til hvilken som helst SECTION eller ENTRY arketype som er som passer til det kliniske formålet i templatet.">
 			misuse = <"Skal ikke brukes til å representere data generert av kliniker.">
-		>
-		["pt"] = <
-			language = <[ISO_639-1::pt]>
-			purpose = <"Um contentor para informações fornecidas por um indivíduo, para apoiar uma separação clara dos pacientes gerados a partir de dados de saúde gerados pelo médico.">
-			keywords = <"questionário","auto-relatório","formulário","inquérito","PROM","PREM","PRO","diário">
-			use = <"Utilização como contentor genérico para registar informações fornecidas por um indivíduo, para apoiar uma separação clara entre os dados de saúde gerados pelo paciente e os dados de saúde gerados pelo médico.
-
-O âmbito do conteúdo deste arquétipo pode ser muito amplo e incluir muitos contextos. O âmbito de conteúdo previsto inclui, mas não se limita a:
-- respostas auto-geradas a questionários, incluindo PREMs ou PROMs
-- diário da dor ou do humor
-- diário de tabagismo
-- resumo de saúde auto-gerada para partilha com outros
-- auto-controlo das medições e observações
-
-O uso antecipado deste arquétipo inclui, mas não está limitado a
-- apresentação de um questionário autodeclarado a um clínico antes de um contacto planeado
-- apresentação de um formulário de pedido de contacto
-- medições diárias dentro de um Registo de Saúde Pessoal
-- dados centrados no paciente num portal clínico partilhado
-- registos de informação gerados pelo paciente a partir de dispositivos pessoais ou médicos
-
-A componente principal das Secções/Conteúdo foi deliberadamente deixada sem constrangimentos. Isto permitirá que seja preenchida com qualquer arquétipo de SECÇÃO ou ENTRADA apropriado para o propósito clínico dentro de um modelo.">
-			misuse = <"Não deve ser utilizado para representar registos gerados por clínicos.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
@@ -237,7 +237,7 @@ Les sections/contenus principaux sont volontairement sans contraintes. Cela perm
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ef04ea3b15a60c28f8950ac9a3a7dda3">
+		["MD5-CAM-1.0.1"] = <"93D7156AD670461B54017CE2CB55ECAF">
 		["build_uid"] = <"fa81fe0d-024e-4a64-be07-30be90b739bb">
 		["revision"] = <"1.1.0">
 	>
@@ -265,10 +265,6 @@ definition
 									archetype_id/value matches {/openEHR-EHR-CLUSTER\.device(-[a-zA-Z0-9_]+)*\.v1/}
 							}
 							allow_archetype CLUSTER[at0004] occurrences matches {0..*} matches {    -- Extension
-								include
-									archetype_id/value matches {/.*/}
-							}
-							allow_archetype CLUSTER[at0007] occurrences matches {0..*} matches {    -- Metadata
 								include
 									archetype_id/value matches {/.*/}
 							}
@@ -305,10 +301,6 @@ ontology
 					description = <"About one or more source types for the information contained in the report.">
 					comment = <"This data element may be used when the Information source is different to the author or composer. For example: 'parent'; or 'carer'.">
 				>
-				["at0007"] = <
-					text = <"Metadata">
-					description = <"">
-				>
 			>
 		>
 		["nb"] = <
@@ -334,10 +326,6 @@ ontology
 					text = <"Informasjonskilde">
 					description = <"Om en eller flere typer kilde for informasjonen i rapporten.">
 					comment = <"Dette dataelementet kan brukes når informasjonskilden er forskjellig fra forfatteren. For eksempel: \"forelder\" eller \"omsorgsperson\".">
-				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
 				>
 			>
 		>
@@ -365,10 +353,6 @@ ontology
 					description = <"*About one or more source types for the information contained in the report. (en)">
 					comment = <"*This data element may be used when the Information source is different to the author or composer. For example: 'parent'; or 'carer'. (en)">
 				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
-				>
 			>
 		>
 		["sv"] = <
@@ -394,10 +378,6 @@ ontology
 					text = <"*Information Source (en)">
 					description = <"*About one or more source types for the information contained in the report. (en)">
 					comment = <"*This data element may be used when the Information source is different to the author or composer. For example: 'parent'; or 'carer'. (en)">
-				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
 				>
 			>
 		>
@@ -425,10 +405,6 @@ ontology
 					description = <"Über eine oder mehrere Arten von Quelle für die im Bericht enthaltenen Informationen.">
 					comment = <"Dieses Datenelement kann verwendet werden, wenn sich die Informationsquelle vom Autor oder Verfasser unterscheidet. Zum Beispiel: \"Elternteil\" oder „Betreuer“.">
 				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
-				>
 			>
 		>
 		["fr"] = <
@@ -455,10 +431,6 @@ ontology
 					description = <"A propos d'un ou plusieurs types de sources pour les informations contenues dans le rapport.">
 					comment = <"Ces éléments de données peuvent être utilisées lorsque la source d'information est différente de l'auteur ou du rédacteur. Par exemple: 'parent' ou 'soignant'.">
 				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
-				>
 			>
 		>
 		["pt"] = <
@@ -484,10 +456,6 @@ ontology
 					text = <"Fonte de informação">
 					description = <"Sobre um ou mais tipos de fontes para a informação contida no relatório.">
 					comment = <"Este elemento de dados pode ser utilizado quando a fonte de informação é diferente da do autor ou compositor. Por exemplo: 'progenitor'; ou 'cuidador'.">
-				>
-				["at0007"] = <
-					text = <"*Metadata (en)">
-					description = <"">
 				>
 			>
 		>
