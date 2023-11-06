@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "8.0.0",
+      "sem_ver" : "9.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ad8a935fea3652cd8c3763d4ec77911f",
+      "MD5-CAM-1.0.1" : "4d5923ee945620d844e61adf70bce420",
       "PARENT:MD5-CAM-1.0.1" : "93D7156AD670461B54017CE2CB55ECAF"
     },
     "details" : {
@@ -1295,7 +1295,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-001.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-001.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -2662,7 +2662,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-002.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-002.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -3991,7 +3991,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-003.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-003.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -5239,7 +5239,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-004.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-004.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -6473,7 +6473,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-005.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-005.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -7721,7 +7721,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-006.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-006.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -8939,7 +8939,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-007.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-007.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -10200,7 +10200,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-008.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-008.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -11443,7 +11443,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-009.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-009.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -12643,7 +12643,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-010.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-010.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -13856,7 +13856,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-011.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-011.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -15122,7 +15122,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-012.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-012.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -16365,7 +16365,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-013.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-013.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -17560,7 +17560,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-014.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-014.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -18783,7 +18783,7 @@
           "nodeId" : "at0198.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-015.v0",
+          "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-rag_rating-015.v0",
           "referenceType" : "archetypeOverlay"
         } ]
       } ],
@@ -20129,7 +20129,7 @@
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "cb229278-e19d-4733-8c53-a2ca6933add4",
+    "uid" : "78d6763f-7cff-4244-a3e1-d93919f2739c",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20138,48 +20138,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-001.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-001.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20192,15 +20159,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20211,20 +20177,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "15722279-8c23-49a5-bd94-e8580b40017a",
+    "uid" : "c03f7e6f-550e-4860-b751-ad8810655ad2",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20233,48 +20189,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-002.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-002.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20287,15 +20210,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20306,20 +20228,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "a9e19051-c8b9-4dfa-9199-eacc52f52552",
+    "uid" : "fff6e9a5-67ba-45aa-9738-11f13c1edaaa",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20328,48 +20240,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-003.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-003.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20382,15 +20261,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20401,20 +20279,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "3b4fd4e6-cf94-4140-a095-a1371fb4ed94",
+    "uid" : "f04e3538-134d-474a-9256-d1686d5b8b6d",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20423,48 +20291,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-004.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-004.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20477,15 +20312,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20496,20 +20330,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "28f4b98f-d70b-45f4-99a0-7ed4e6e8671e",
+    "uid" : "114065aa-5d29-4cee-9ee6-d167116deced",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20518,48 +20342,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-005.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-005.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20572,15 +20363,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20591,20 +20381,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "ac83008a-7982-473f-ab86-1b00643ebe2a",
+    "uid" : "9ee6a7a8-26dc-4868-8fa5-0535900a1ab6",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20613,48 +20393,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-006.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-006.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20667,15 +20414,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20686,20 +20432,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "b138175e-a1c2-4918-9449-e3c5560a1356",
+    "uid" : "1aff5281-b623-4d9d-936d-ad46a718d837",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20708,48 +20444,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-007.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-007.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20762,15 +20465,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20781,20 +20483,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "96eb73bc-f6a9-416a-ab39-c30d1a66c8c2",
+    "uid" : "4871f323-16ed-48fd-b07d-4b75ca5f4341",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20803,48 +20495,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-008.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-008.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20857,15 +20516,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20876,20 +20534,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "e1f1e61a-3839-4c39-8f85-e8d0114a8e92",
+    "uid" : "e6e612e7-c330-4e43-b81a-4219d3ddca52",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20898,48 +20546,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-009.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-009.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -20952,15 +20567,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -20971,20 +20585,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "f7d72b08-0cf1-4c2e-b98d-d798e1074973",
+    "uid" : "73cfffdd-bf0b-4b07-9a6e-409289d29ee9",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -20993,48 +20597,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-010.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-010.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21047,15 +20618,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21066,20 +20636,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "997a54b3-63a9-4b83-9e97-14ae36e6c18b",
+    "uid" : "54e51049-0ee6-4a82-82ce-6e48cdf922bb",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -21088,48 +20648,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-011.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-011.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21142,15 +20669,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21161,20 +20687,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "40674c62-13c4-4c53-8239-ad652243c5d4",
+    "uid" : "8f86fec8-0ab2-47c9-a7de-fb608d58cd26",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -21183,48 +20699,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-012.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-012.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21237,15 +20720,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21256,20 +20738,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "b3106f8b-e476-4ac9-a861-ea4e7532c135",
+    "uid" : "c5805007-7468-4c1f-bb06-15691faaf15e",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -21278,48 +20750,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-013.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-013.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21332,15 +20771,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21351,20 +20789,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "e0d35b91-7e34-48ea-adf8-e359dde61efa",
+    "uid" : "3116995f-9aa0-4233-b9a8-f4e2e7fb8fc4",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -21373,48 +20801,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-014.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-014.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21427,15 +20822,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21446,20 +20840,10 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "53eaae54-b3a4-4fca-9547-d5fbf89b6a00",
+    "uid" : "033850ec-7196-4e3a-a980-3c03623de3d7",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -21468,48 +20852,15 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BAF827B0B625A2FE4B5AA7F655AF61FC"
+        "PARENT:MD5-CAM-1.0.1" : "514869b8039f1d29b5450aab68a928a0"
       },
-      "details" : {
-        "nb" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nb"
-          },
-          "purpose" : "*To record numeric rating scale to quantify severity of a symptom/sign/problem/issue. (en)",
-          "keywords" : [ "*numeric rating scale, visual analogue scale, rating scale, severity (en)" ],
-          "use" : "*Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine). (en)",
-          "misuse" : "*Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe. (en)",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "purpose" : "To record numeric rating scale to quantify severity of a symptom/sign/problem/issue.",
-          "keywords" : [ "numeric rating scale, visual analogue scale, rating scale, severity" ],
-          "use" : "Use to record numeric rating scale to quantify severity of a symptom/sign/problem/issue.\r\n\r\nThis archetype is intended to be used to represent a range of widely used different severity rating scales, such as visual analogue scale, or different ranges of numerical rating scales.\r\n\r\nSeverity can be rated by the individual by recording a score, for example from 0 (not present) to 10.0 (as severe as the individual can imagine).",
-          "misuse" : "Not to be used in established rating scales such as Clinical Frailty Scale and Glasgow Coma Scale. Use an archetype specific for the rating scale for this purpose.\r\n\r\nNot to be used for verbal rating scales and graphic rating scales, because they are usually tailored to the specific rated concept.\r\n\r\nNot to be used for ratings where the scale is inverted, for example where 10 is the least severe and 0 is the most severe.",
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
-    "parentArchetypeId" : "openEHR-EHR-CLUSTER.severity_rating_scale.v0",
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.rag_rating.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-severity_rating_scale-015.v0"
+      "value" : "openEHR-EHR-CLUSTER.ovl-rag_rating-015.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -21522,15 +20873,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
-        "nb" : { }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "68819f01-52c5-446d-8dd5-59a3001a7bf5",
+    "buildUid" : "0895d66a-9eb9-35b8-975a-32bedd7e4b57",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -21541,17 +20891,7 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   } ],
   "originalLanguage" : {
     "terminologyId" : {
