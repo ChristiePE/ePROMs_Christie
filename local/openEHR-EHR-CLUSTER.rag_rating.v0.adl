@@ -23,14 +23,14 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"225b6b9de346fbcc304f3ff1d0457f98">
+		["MD5-CAM-1.0.1"] = <"514869b8039f1d29b5450aab68a928a0">
 		["build_uid"] = <"0895d66a-9eb9-35b8-975a-32bedd7e4b57">
 	>
 
 definition
 	CLUSTER[at0000] matches {    -- RAG_Rating
 		items cardinality matches {1..*; unordered} matches {
-			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Rag_Rating
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Rag_rating
 				value matches {
 					1|[local::at0002],
 					2|[local::at0003],
@@ -49,7 +49,7 @@ ontology
 					description = <"RAG_Rating">
 				>
 				["at0001"] = <
-					text = <"Rag_Rating">
+					text = <"Rag_rating">
 					description = <"">
 				>
 				["at0002"] = <
