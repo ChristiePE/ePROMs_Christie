@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "10.0.0",
+      "sem_ver" : "11.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "f96a5c2a1f8a29102b60914312b0b8d2",
+      "MD5-CAM-1.0.1" : "9c85c08eb723048ab23a27d993783607",
       "PARENT:MD5-CAM-1.0.1" : "93D7156AD670461B54017CE2CB55ECAF"
     },
     "details" : {
@@ -10112,7 +10112,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.3" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -10516,10 +10516,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10550,7 +10550,7 @@
           },
           "at0.4" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Yes, severe cognitive disability and/or severe confusion; severeley limiting activities of daily living. Altered level of consciousness.",
+            "text" : "Yes, severe cognitive disability and/or severe confusion; severely limiting activities of daily living. Altered level of consciousness.",
             "code" : "at0.4",
             "description" : ""
           },
@@ -10560,10 +10560,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10604,10 +10604,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10648,10 +10648,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10692,10 +10692,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10736,10 +10736,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10780,10 +10780,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -10824,10 +10824,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -10849,6 +10849,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
