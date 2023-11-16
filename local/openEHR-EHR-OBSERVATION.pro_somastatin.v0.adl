@@ -1,0 +1,263 @@
+archetype (adl_version=1.4; uid=9f1bd135-5445-408c-a259-a7c364ac2185)
+	openEHR-EHR-OBSERVATION.pro_somastatin.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-11-16">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"4362603b4183f81c2881bfb671b930ed">
+		["build_uid"] = <"c1a47f34-8da7-3b73-bf1e-52020e80e336">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- PRO_Somastatin
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0005] occurrences matches {0..1} matches {    -- Syringe
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Recent_switch
+												value matches {
+													0|[local::at0007],
+													1|[local::at0008]
+												}
+											}
+											ELEMENT[at0010] occurrences matches {0..1} matches {    -- Switch_specify
+												value matches {
+													0|[local::at0011],
+													0|[local::at0012]
+												}
+											}
+											ELEMENT[at0009] occurrences matches {0..1} matches {    -- Change_in_symptoms
+												value matches {
+													0|[local::at0013],
+													0|[local::at0015],
+													0|[local::at0016],
+													0|[local::at0017],
+													0|[local::at0018]
+												}
+											}
+										}
+									}
+									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Benefit_from_long_acting_injections
+										value matches {
+											0|[local::at0029],
+											0|[local::at0030],
+											0|[local::at0031],
+											0|[local::at0032],
+											0|[local::at0033],
+											0|[local::at0034],
+											0|[local::at0035],
+											0|[local::at0036],
+											0|[local::at0037],
+											0|[local::at0038]
+										}
+									}
+									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Downsides_to_long_acting_injection
+										value matches {
+											0|[local::at0025],
+											0|[local::at0026],
+											0|[local::at0027],
+											0|[local::at0028]
+										}
+									}
+									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Continue_with_plan
+										value matches {
+											1|[local::at0022],
+											2|[local::at0023],
+											3|[local::at0024]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0006] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_Somastatin">
+					description = <"PRO_Somastatin">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Recent_switch">
+					description = <"Have you recently been switched from a syringe driver (octreotide) to a long-acting injection (Ianreotide)?">
+				>
+				["at0005"] = <
+					text = <"Syringe">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0007"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Change_in_symptoms">
+					description = <"Have you noticed any change in symptoms?">
+				>
+				["at0010"] = <
+					text = <"Switch_specify">
+					description = <"Are you currently on a syringe driver or monthly injections?">
+				>
+				["at0011"] = <
+					text = <"On a syringe driver">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"On monthly injections">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Nausea">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Vomiting">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Dry mouth">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Other">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"No change">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Benefit_from_long_acting_injections">
+					description = <"Do you feel you have benefitted from long-acting injections? (Please select any benefits that you think apply to you)">
+				>
+				["at0020"] = <
+					text = <"Downsides_to_long_acting_injection">
+					description = <"Have there been any downsides to starting long-acting injections?">
+				>
+				["at0021"] = <
+					text = <"Continue_with_plan">
+					description = <"Do you wish to continue with your current management plan?">
+				>
+				["at0022"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Unsure">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Worse control of my symptoms">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Injections are more painful">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Less visits from district/community nurses">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Other">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Improved mobility as I no longer require a syringe driver">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Increased mobility as no longer need a ryles">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Less frequent injections">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Better control of my symptoms">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Less visits to see the nurses">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Less of a \"medical environment\"/less medical equipment required">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Less worry about my prescriptions">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Less wastage/transport (more envrionmentally friendly)">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Improved body image">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Other">
+					description = <"">
+				>
+			>
+		>
+	>
