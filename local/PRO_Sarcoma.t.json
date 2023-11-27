@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "7.0.0",
+      "sem_ver" : "8.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "a2d27454e6523d062ea8663f4c979290",
+      "MD5-CAM-1.0.1" : "8a3586d8561e252d8030473337f086c7",
       "PARENT:MD5-CAM-1.0.1" : "d99934fed6c8719cc72c3b532fd95626"
     },
     "details" : {
@@ -240,7 +240,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "2b65a16c278c3ea8c204d1314f1c97ff"
+        "PARENT:MD5-CAM-1.0.1" : "0fb1bbd0d42465dc9dce8eaea5f22c1d"
       },
       "details" : {
         "en" : {
@@ -331,6 +331,13 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0031.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0125.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     }, {
@@ -2352,6 +2359,65 @@
                   "attributeTuples" : [ ]
                 }, {
                   "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "ELEMENT",
+                  "nodeId" : "at0023.1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_QUANTITY",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ {
+                        "@type" : "C_ATTRIBUTE_TUPLE",
+                        "members" : [ {
+                          "@type" : "C_ATTRIBUTE",
+                          "rmAttributeName" : "units",
+                          "children" : [ ]
+                        }, {
+                          "@type" : "C_ATTRIBUTE",
+                          "rmAttributeName" : "magnitude",
+                          "children" : [ ]
+                        }, {
+                          "@type" : "C_ATTRIBUTE",
+                          "rmAttributeName" : "precision",
+                          "children" : [ ]
+                        } ],
+                        "tuples" : [ {
+                          "@type" : "C_PRIMITIVE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_STRING",
+                            "rmTypeName" : "STRING",
+                            "constraint" : [ "1/wk" ]
+                          }, {
+                            "@type" : "C_REAL",
+                            "rmTypeName" : "REAL",
+                            "constraint" : [ {
+                              "lower" : 0.0,
+                              "lowerIncluded" : true,
+                              "upperIncluded" : false,
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
+                            } ]
+                          }, {
+                            "@type" : "C_INTEGER",
+                            "rmTypeName" : "INTEGER",
+                            "constraint" : [ {
+                              "lower" : 1,
+                              "upper" : 1,
+                              "lowerIncluded" : true,
+                              "upperIncluded" : true,
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
+                            } ]
+                          } ]
+                        } ]
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "CLUSTER",
                   "occurrences" : "0..0",
                   "nodeId" : "at0029.1",
@@ -3389,7 +3455,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "a238fe8ac3a516275952979905e5be1b"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.metadata.v0",
     "differential" : true,
