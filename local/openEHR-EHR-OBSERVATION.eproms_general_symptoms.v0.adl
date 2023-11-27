@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0fb1bbd0d42465dc9dce8eaea5f22c1d">
+		["MD5-CAM-1.0.1"] = <"bc6c41a3eec52f98c279c6ddf6e2bf98">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -226,6 +226,12 @@ definition
 											0|[local::at0127],
 											1|[local::at0128],
 											2|[local::at0129]
+										}
+									}
+									ELEMENT[at0130] occurrences matches {0..1} matches {    -- Lying_flat
+										value matches {
+											1|[local::at0131],
+											0|[local::at0132]
 										}
 									}
 								}
@@ -768,6 +774,18 @@ ontology
 				>
 				["at0129"] = <
 					text = <"Yes, and I have had to change my nightwear/bedding">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"Lying_flat">
+					description = <"Are you able to lie flat for more than 30 minutes?">
+				>
+				["at0131"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"No">
 					description = <"">
 				>
 			>
