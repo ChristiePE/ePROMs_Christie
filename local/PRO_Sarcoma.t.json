@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "8.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "8a3586d8561e252d8030473337f086c7",
+      "MD5-CAM-1.0.1" : "966ba9b89e4568cc8e28b977fa791c9d",
       "PARENT:MD5-CAM-1.0.1" : "d99934fed6c8719cc72c3b532fd95626"
     },
     "details" : {
@@ -589,7 +589,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "7708b3c8bb17a1d8923a2708ccb0dd6c"
+        "PARENT:MD5-CAM-1.0.1" : "cde42663228b11e1c3ca326bc082eca1"
       },
       "details" : {
         "en" : {
@@ -2367,7 +2367,17 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "DV_QUANTITY",
-                      "attributes" : [ ],
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "property",
+                        "children" : [ {
+                          "@type" : "C_TERMINOLOGY_CODE",
+                          "terminologyId" : {
+                            "value" : "openehr"
+                          },
+                          "constraint" : [ "382" ]
+                        } ]
+                      } ],
                       "attributeTuples" : [ {
                         "@type" : "C_ATTRIBUTE_TUPLE",
                         "members" : [ {
