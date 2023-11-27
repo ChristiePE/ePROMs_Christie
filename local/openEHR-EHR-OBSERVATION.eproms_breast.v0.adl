@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cde42663228b11e1c3ca326bc082eca1">
+		["MD5-CAM-1.0.1"] = <"c1766c35fefeb44f7c18a93f9f95485f">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -76,14 +76,14 @@ definition
 									}
 									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Breast_prosthesis
 										value matches {
-											0|[local::at0062],
-											1|[local::at0063]
+											1|[local::at0063],
+											0|[local::at0062]
 										}
 									}
 									ELEMENT[at0061] occurrences matches {0..1} matches {    -- Breast_reconstruction
 										value matches {
-											0|[local::at0064],
-											1|[local::at0065]
+											1|[local::at0065],
+											0|[local::at0064]
 										}
 									}
 								}
