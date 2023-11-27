@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7708b3c8bb17a1d8923a2708ccb0dd6c">
+		["MD5-CAM-1.0.1"] = <"cde42663228b11e1c3ca326bc082eca1">
 		["build_uid"] = <"fb232a29-130a-3b83-be5e-bf532dbdc133">
 	>
 
@@ -72,6 +72,18 @@ definition
 											0|[local::at0057],
 											1|[local::at0058],
 											2|[local::at0059]
+										}
+									}
+									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Breast_prosthesis
+										value matches {
+											0|[local::at0062],
+											1|[local::at0063]
+										}
+									}
+									ELEMENT[at0061] occurrences matches {0..1} matches {    -- Breast_reconstruction
+										value matches {
+											0|[local::at0064],
+											1|[local::at0065]
 										}
 									}
 								}
@@ -200,6 +212,30 @@ ontology
 				>
 				["at0059"] = <
 					text = <"Yes, the breast is smaller and this does affect bra/underwear fit">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Breast_prosthesis">
+					description = <"Would you like to find out more about Breast Prosthesis? ">
+				>
+				["at0061"] = <
+					text = <"Breast_reconstruction">
+					description = <"Would you like to find out more about Breast Reconstruction options?">
+				>
+				["at0062"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Yes">
 					description = <"">
 				>
 			>
