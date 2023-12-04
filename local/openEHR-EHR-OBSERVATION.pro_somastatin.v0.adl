@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b2396cab01d3dc22acdcb76b057c5a9b">
+		["MD5-CAM-1.0.1"] = <"10ea212f7203f0eab49dde3b67bcbc94">
 		["build_uid"] = <"c1a47f34-8da7-3b73-bf1e-52020e80e336">
 	>
 
@@ -36,7 +36,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0019] occurrences matches {0..1} matches {    -- Benefit_from_long_acting_injections
+									ELEMENT[at0019] occurrences matches {0..*} matches {    -- Benefit_from_long_acting_injections
 										value matches {
 											0|[local::at0029],
 											0|[local::at0030],
@@ -50,7 +50,7 @@ definition
 											0|[local::at0038]
 										}
 									}
-									ELEMENT[at0020] occurrences matches {0..1} matches {    -- Downsides_to_long_acting_injection
+									ELEMENT[at0020] occurrences matches {0..*} matches {    -- Downsides_to_long_acting_injection
 										value matches {
 											0|[local::at0025],
 											0|[local::at0026],
