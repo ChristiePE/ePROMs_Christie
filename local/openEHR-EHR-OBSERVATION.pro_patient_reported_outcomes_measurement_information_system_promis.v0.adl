@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"35575f342d9c83508c75282acf64fc85">
+		["MD5-CAM-1.0.1"] = <"672a70e73b280daa98a1f4f3bfba8cb3">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -48,7 +48,83 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE[at0004] matches {*}    -- Item tree
+			ITEM_TREE[at0004] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0006] occurrences matches {0..1} matches {    -- My mind has been as sharp as usual
+						value matches {
+							1|[local::at0007],
+							2|[local::at0008],
+							3|[local::at0009],
+							4|[local::at0010],
+							5|[local::at0011]
+						}
+					}
+					ELEMENT[at0012] occurrences matches {0..1} matches {    -- My memory has been as good as usual
+						value matches {
+							1|[local::at0013],
+							2|[local::at0014],
+							3|[local::at0015],
+							4|[local::at0016],
+							5|[local::at0017]
+						}
+					}
+					ELEMENT[at0018] occurrences matches {0..1} matches {    -- My thinking has been as fast as usual
+						value matches {
+							1|[local::at0019],
+							2|[local::at0020],
+							3|[local::at0021],
+							4|[local::at0022],
+							5|[local::at0023]
+						}
+					}
+					ELEMENT[at0024] occurrences matches {0..1} matches {    -- I have been able to keep track of what I am  doing, even if I am interrupted
+						value matches {
+							DV_ORDINAL matches {*}
+						}
+					}
+					ELEMENT[at0026] occurrences matches {0..1} matches {    -- I have been able to concentrate
+						value matches {
+							1|[local::at0027],
+							2|[local::at0028],
+							3|[local::at0029],
+							4|[local::at0030],
+							5|[local::at0031]
+						}
+					}
+					ELEMENT[at0032] occurrences matches {0..1} matches {    -- I have been able to think clearly without  extra effort
+						value matches {
+							1|[local::at0033],
+							2|[local::at0034],
+							3|[local::at0035],
+							4|[local::at0036],
+							5|[local::at0037]
+						}
+					}
+					ELEMENT[at0038] occurrences matches {0..1} matches {    -- I have been able to remember things as  easily as usual without extra effort
+						value matches {
+							1|[local::at0039],
+							2|[local::at0040],
+							3|[local::at0041],
+							4|[local::at0042],
+							5|[local::at0043]
+						}
+					}
+					ELEMENT[at0044] occurrences matches {0..1} matches {    -- I have been able to pay attention and keep  track of what I am doing without extra  effort
+						value matches {
+							1|[local::at0045],
+							2|[local::at0046],
+							3|[local::at0047],
+							4|[local::at0048],
+							5|[local::at0049]
+						}
+					}
+					ELEMENT[at0050] occurrences matches {0..1} matches {    -- PROMIS Score
+						value matches {
+							DV_COUNT matches {*}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -78,6 +154,182 @@ ontology
 				>
 				["at0005"] = <
 					text = <"CLUSTER_SLOT">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"My mind has been as sharp as usual">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"My memory has been as good as usual">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"My thinking has been as fast as usual">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"I have been able to keep track of what I am  doing, even if I am interrupted">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"I have been able to concentrate">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"I have been able to think clearly without  extra effort">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"I have been able to remember things as  easily as usual without extra effort">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"I have been able to pay attention and keep  track of what I am doing without extra  effort">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"PROMIS Score">
 					description = <"">
 				>
 			>
