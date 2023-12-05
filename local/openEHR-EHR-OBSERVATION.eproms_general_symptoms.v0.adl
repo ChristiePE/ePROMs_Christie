@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d6a693bc0f041d009ed6a7f1937a7d2a">
+		["MD5-CAM-1.0.1"] = <"21dc91bf22e661a158f2959b46f423d5">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -758,11 +758,11 @@ ontology
 				>
 				["at0125"] = <
 					text = <"Sleep_hyperhidrosis">
-					description = <"Are you having night sweats?">
+					description = <"Sleep hyperhidrosis may happen while you are asleep, but, they are caused by a medical condition such as the menopause.">
 				>
 				["at0126"] = <
 					text = <"Night_Sweats">
-					description = <"Have you had night sweats?">
+					description = <"">
 				>
 				["at0127"] = <
 					text = <"No">
