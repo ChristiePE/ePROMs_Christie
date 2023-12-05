@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "13.1.0",
+      "sem_ver" : "13.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "39e808c432efdac9004dc77707e0d17e",
+      "MD5-CAM-1.0.1" : "ad17c013580442038ca02c4ea2d4c3fb",
       "PARENT:MD5-CAM-1.0.1" : "93D7156AD670461B54017CE2CB55ECAF"
     },
     "details" : {
@@ -3908,7 +3908,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.4" ],
+                  "constraint" : [ "ac0.5" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -4312,10 +4312,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4356,18 +4356,11 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
-          },
-          "at0021.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0021.1",
-            "text" : "Fatigue",
-            "description" : "Category representing the overall severity of the symptom or sign.",
-            "comment" : "Defining values such as mild, moderate or severe in such a way that is applicable to multiple symptoms or signs plus allows multiple users to interpret and record them consistently is not easy. Some organisations extend the value set further with inclusion of additional values such as 'Trivial' and 'Very severe', and/or 'Mild-Moderate' and 'Moderate-Severe', adds to the definitional difficulty and may also worsen inter-recorder reliability issues. Use of 'Life-threatening' and 'Fatal' is also often considered as part of this value set, although from a pure point of view it may actually reflect an outcome rather than a severity. In view of the above, keeping to a well-defined but smaller list is preferred and so the mild/moderate/severe value set is offered, however the choice of other text allows for other value sets to be included at this data element in a template."
           }
         },
         "de" : {
@@ -4407,10 +4400,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4451,10 +4444,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4495,10 +4488,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4539,10 +4532,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4583,10 +4576,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         },
@@ -4627,10 +4620,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.4" : {
+          "ac0.5" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.5",
             "description" : ""
           }
         }
@@ -4662,6 +4655,11 @@
         "ac0.4" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.4",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.5" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.5",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
