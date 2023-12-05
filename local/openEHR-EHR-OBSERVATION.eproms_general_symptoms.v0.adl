@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"bc6c41a3eec52f98c279c6ddf6e2bf98">
+		["MD5-CAM-1.0.1"] = <"d6a693bc0f041d009ed6a7f1937a7d2a">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -762,7 +762,7 @@ ontology
 				>
 				["at0126"] = <
 					text = <"Night_Sweats">
-					description = <"">
+					description = <"Have you had night sweats?">
 				>
 				["at0127"] = <
 					text = <"No">
