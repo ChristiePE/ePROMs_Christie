@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"23389a739c3af8b05f27acad399df5ab">
+		["MD5-CAM-1.0.1"] = <"cf985740759dd097bce0545dbee188e2">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -34,14 +34,7 @@ definition
 				events cardinality matches {1..*; unordered} matches {
 					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
 						data matches {
-							ITEM_TREE[at0003] matches {    -- Tree
-								items cardinality matches {0..*; unordered} matches {
-									allow_archetype CLUSTER[at0005] occurrences matches {0..*} matches {    -- Metadata
-										include
-											archetype_id/value matches {/.*/}
-									}
-								}
-							}
+							ITEM_TREE[at0003] matches {*}    -- Tree
 						}
 					}
 				}
@@ -151,10 +144,6 @@ ontology
 				["at0004"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
-				>
-				["at0005"] = <
-					text = <"Metadata">
-					description = <"">
 				>
 				["at0006"] = <
 					text = <"My mind has been as sharp as usual">
