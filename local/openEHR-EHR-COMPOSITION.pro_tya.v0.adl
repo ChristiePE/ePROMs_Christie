@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0d1b2cd8cf1eed76c055afa71806b2d6">
+		["MD5-CAM-1.0.1"] = <"6a727c73e81f0a603cae5b4d60c55873">
 		["build_uid"] = <"59a5ca6e-5f4c-3398-ba89-630a113f8593">
 	>
 
@@ -39,7 +39,14 @@ definition
 		context matches {
 			EVENT_CONTEXT matches {
 				other_context matches {
-					ITEM_TREE[at0001] matches {*}    -- Item tree
+					ITEM_TREE[at0001] matches {    -- Item tree
+						items cardinality matches {0..*; unordered} matches {
+							allow_archetype CLUSTER[at0002] occurrences matches {0..*} matches {    -- Metadata
+								include
+									archetype_id/value matches {/.*/}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -56,6 +63,10 @@ ontology
 				["at0001"] = <
 					text = <"Item tree">
 					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Metadata">
+					description = <"">
 				>
 			>
 		>
