@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e4dcd519a90c043cff5c3f7976dd63fd">
+		["MD5-CAM-1.0.1"] = <"58f6a75eb00f20b9534986b07bfc6e1c">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -281,9 +281,29 @@ definition
 											6|[local::at0159]
 										}
 									}
-									ELEMENT[at0161] occurrences matches {0..1} matches {    -- DV_COUNT
+									ELEMENT[at0161] occurrences matches {0..1} matches {    -- Functional Scale Score
 										value matches {
 											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0164] occurrences matches {0..1} matches {    -- Functional Scales
+										value matches {
+											DV_CODED_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0162] occurrences matches {0..1} matches {    -- Global health status score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0163] occurrences matches {0..1} matches {    -- Symptoms Score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0166] occurrences matches {0..1} matches {    -- Symptom Scales
+										value matches {
+											DV_CODED_TEXT matches {*}
 										}
 									}
 								}
@@ -943,7 +963,23 @@ ontology
 					description = <"">
 				>
 				["at0161"] = <
-					text = <"DV_COUNT">
+					text = <"Functional Scale Score">
+					description = <"">
+				>
+				["at0162"] = <
+					text = <"Global health status score">
+					description = <"">
+				>
+				["at0163"] = <
+					text = <"Symptoms Score">
+					description = <"">
+				>
+				["at0164"] = <
+					text = <"Functional Scales">
+					description = <"">
+				>
+				["at0166"] = <
+					text = <"Symptom Scales">
 					description = <"">
 				>
 			>
