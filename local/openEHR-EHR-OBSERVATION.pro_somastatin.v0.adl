@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"10ea212f7203f0eab49dde3b67bcbc94">
+		["MD5-CAM-1.0.1"] = <"f370a005cd1a865bb6d25ca7c4532ffa">
 		["build_uid"] = <"c1a47f34-8da7-3b73-bf1e-52020e80e336">
 	>
 
@@ -47,7 +47,8 @@ definition
 											0|[local::at0035],
 											0|[local::at0036],
 											0|[local::at0037],
-											0|[local::at0038]
+											0|[local::at0038],
+											0|[local::at0039]
 										}
 									}
 									ELEMENT[at0020] occurrences matches {0..*} matches {    -- Downsides_to_long_acting_injection
@@ -55,7 +56,8 @@ definition
 											0|[local::at0025],
 											0|[local::at0026],
 											0|[local::at0027],
-											0|[local::at0028]
+											0|[local::at0028],
+											0|[local::at0040]
 										}
 									}
 									ELEMENT[at0021] occurrences matches {0..1} matches {    -- Continue_with_plan
@@ -146,7 +148,7 @@ ontology
 					description = <"">
 				>
 				["at0030"] = <
-					text = <"Increased mobility as no longer need a ryles">
+					text = <"Increased mobility as I no longer need a ryles">
 					description = <"">
 				>
 				["at0031"] = <
@@ -179,6 +181,14 @@ ontology
 				>
 				["at0038"] = <
 					text = <"Other">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"I have not benefitted from long-acting injections">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"There have been no downsides to starting long-acting injections">
 					description = <"">
 				>
 			>
