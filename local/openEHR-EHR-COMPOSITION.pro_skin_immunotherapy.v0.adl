@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=1e66ccc9-e872-4cf3-9097-9c5345f6acf2)
+	openEHR-EHR-COMPOSITION.pro_skin_immunotherapy.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2023-12-14">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2f5ca4c2c52e401a4da538ff6357dac4">
+		["build_uid"] = <"f7e54503-07f4-3f23-b20b-18b49d13e4a5">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_Skin_Immunotherapy
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_Skin_Immunotherapy">
+					description = <"PRO_Skin_Immunotherapy">
+				>
+			>
+		>
+	>
