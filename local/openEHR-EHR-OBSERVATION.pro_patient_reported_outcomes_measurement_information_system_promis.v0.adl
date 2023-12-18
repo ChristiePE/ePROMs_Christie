@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cf985740759dd097bce0545dbee188e2">
+		["MD5-CAM-1.0.1"] = <"dc501d359b4796e154bcf125bd7fc773">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -111,7 +111,12 @@ definition
 							5|[local::at0049]
 						}
 					}
-					ELEMENT[at0050] occurrences matches {0..1} matches {    -- PROMIS Score
+					ELEMENT[at0050] occurrences matches {0..1} matches {    -- Total Raw Score
+						value matches {
+							DV_COUNT matches {*}
+						}
+					}
+					ELEMENT[at0051] occurrences matches {0..1} matches {    -- Total T-Score
 						value matches {
 							DV_COUNT matches {*}
 						}
@@ -318,7 +323,11 @@ ontology
 					description = <"">
 				>
 				["at0050"] = <
-					text = <"PROMIS Score">
+					text = <"Total Raw Score">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Total T-Score">
 					description = <"">
 				>
 			>
