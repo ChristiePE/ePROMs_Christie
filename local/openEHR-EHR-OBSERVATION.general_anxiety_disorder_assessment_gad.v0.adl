@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"da18d45c395babace52e533f404a03d1">
+		["MD5-CAM-1.0.1"] = <"d8d2d2baba4f0270f818213c3afd89b7">
 		["build_uid"] = <"6bf9b935-d57b-3908-aca4-f97ca61d0686">
 	>
 
@@ -93,6 +93,11 @@ definition
 										}
 									}
 									ELEMENT[at0039] occurrences matches {0..1} matches {    -- GAD_score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0040] occurrences matches {0..1} matches {    -- Anxiety Severity Score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -272,6 +277,10 @@ https://www.hiv.uw.edu/page/mental-health-screening/phq-9 ">
 				>
 				["at0039"] = <
 					text = <"GAD_score">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Anxiety Severity Score">
 					description = <"">
 				>
 			>
