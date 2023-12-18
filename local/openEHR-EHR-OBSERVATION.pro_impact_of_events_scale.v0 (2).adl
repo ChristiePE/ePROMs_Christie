@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"da1428dc5b4f844fd596dda641b5429f">
+		["MD5-CAM-1.0.1"] = <"b9f20582a225edf106e614b1a955c4cb">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -232,6 +232,36 @@ definition
 											2|[local::at0135],
 											3|[local::at0136],
 											4|[local::at0137]
+										}
+									}
+									ELEMENT[at0138] occurrences matches {0..1} matches {    -- Subscale 1
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0141] occurrences matches {0..1} matches {    -- Mean Subscale 1
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0139] occurrences matches {0..1} matches {    -- Subscale 2
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0144] occurrences matches {0..1} matches {    -- Mean Subscale 2
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Subscale 3
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0145] occurrences matches {0..1} matches {    -- Mean Subscale 3
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -792,6 +822,30 @@ Patients are asked to read each question and then indicate how distressing each 
 				>
 				["at0137"] = <
 					text = <"Extremely">
+					description = <"">
+				>
+				["at0138"] = <
+					text = <"Subscale 1">
+					description = <"">
+				>
+				["at0139"] = <
+					text = <"Subscale 2">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"Subscale 3">
+					description = <"">
+				>
+				["at0141"] = <
+					text = <"Mean Subscale 1">
+					description = <"">
+				>
+				["at0144"] = <
+					text = <"Mean Subscale 2">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"Mean Subscale 3">
 					description = <"">
 				>
 			>
