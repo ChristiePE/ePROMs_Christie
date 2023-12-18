@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b9f20582a225edf106e614b1a955c4cb">
+		["MD5-CAM-1.0.1"] = <"e786379ad9a06d8ba49ca3f07b566557">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -234,32 +234,32 @@ definition
 											4|[local::at0137]
 										}
 									}
-									ELEMENT[at0138] occurrences matches {0..1} matches {    -- Subscale 1
+									ELEMENT[at0138] occurrences matches {0..1} matches {    -- Intrusion Subscale
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0141] occurrences matches {0..1} matches {    -- Mean Subscale 1
+									ELEMENT[at0141] occurrences matches {0..1} matches {    -- Mean Intrusion Scale
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0139] occurrences matches {0..1} matches {    -- Subscale 2
+									ELEMENT[at0139] occurrences matches {0..1} matches {    -- Avoidance Subscale
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0144] occurrences matches {0..1} matches {    -- Mean Subscale 2
+									ELEMENT[at0144] occurrences matches {0..1} matches {    -- Mean Avoidance Scale
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Subscale 3
+									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Hyperarousal Subscale
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0145] occurrences matches {0..1} matches {    -- Mean Subscale 3
+									ELEMENT[at0145] occurrences matches {0..1} matches {    -- Mean Hyperarousal Scale
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -825,27 +825,27 @@ Patients are asked to read each question and then indicate how distressing each 
 					description = <"">
 				>
 				["at0138"] = <
-					text = <"Subscale 1">
+					text = <"Intrusion Subscale">
 					description = <"">
 				>
 				["at0139"] = <
-					text = <"Subscale 2">
+					text = <"Avoidance Subscale">
 					description = <"">
 				>
 				["at0140"] = <
-					text = <"Subscale 3">
+					text = <"Hyperarousal Subscale">
 					description = <"">
 				>
 				["at0141"] = <
-					text = <"Mean Subscale 1">
+					text = <"Mean Intrusion Scale">
 					description = <"">
 				>
 				["at0144"] = <
-					text = <"Mean Subscale 2">
+					text = <"Mean Avoidance Scale">
 					description = <"">
 				>
 				["at0145"] = <
-					text = <"Mean Subscale 3">
+					text = <"Mean Hyperarousal Scale">
 					description = <"">
 				>
 			>
