@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.2.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "b97bb0881f4edd36ce6a8bfb963f61ef",
+      "MD5-CAM-1.0.1" : "17796e010bb5de21467064756e110317",
       "PARENT:MD5-CAM-1.0.1" : "6a727c73e81f0a603cae5b4d60c55873"
     },
     "details" : {
@@ -113,10 +113,10 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.15",
+        "nodeId" : "at0.23",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-pro_impact_of_events_scale-002.v0",
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-pro_impact_of_events_scale-001.v0",
         "referenceType" : "archetypeOverlay"
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
@@ -641,7 +641,7 @@
     "translations" : [ ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "a2b6be95-a8f0-4761-8627-538e1eaf4088",
+    "uid" : "5d7727b6-05f4-4f31-87ab-0c24c494137a",
     "description" : {
       "@type" : "RESOURCE_DESCRIPTION",
       "originalAuthor" : { },
@@ -652,26 +652,13 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "da1428dc5b4f844fd596dda641b5429f"
       },
-      "details" : {
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "keywords" : [ ],
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
+      "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.pro_impact_of_events_scale.v0",
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-OBSERVATION.ovl-pro_impact_of_events_scale-002.v0"
+      "value" : "openEHR-EHR-OBSERVATION.ovl-pro_impact_of_events_scale-001.v0"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -684,14 +671,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "PRO Impact of Events Scale (2)",
-            "description" : "PRO Impact of Events Scale.\nA list of difficulties people sometimes have after stressful life events.\nPatients are asked to read each question and then indicate how distressing each difficulty has been for them during the past seven days.\n"
-          }
-        }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
