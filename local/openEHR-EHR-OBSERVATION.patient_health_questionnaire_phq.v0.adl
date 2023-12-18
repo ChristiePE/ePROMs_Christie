@@ -23,12 +23,12 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4bae5e24b4adc2bbaf722af12d93fc85">
+		["MD5-CAM-1.0.1"] = <"25ae10b95bb0ba8a225709e165980b97">
 		["build_uid"] = <"c2b9a34a-6099-399b-a3fc-630df3970c09">
 	>
 
 definition
-	OBSERVATION[at0000] matches {    -- Patient_Health_Questionnaire_PHQ
+	OBSERVATION[at0000] matches {    -- Patient_Health_Questionnaire_PHQ9
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
@@ -113,6 +113,11 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
+									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Depression Severity Score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
 								}
 							}
 						}
@@ -130,7 +135,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"Patient_Health_Questionnaire_PHQ">
+					text = <"Patient_Health_Questionnaire_PHQ9">
 					description = <"This group of archetypes can be used for any of the Patient Health Questionnaire responses For example: Patient Health Questionnaire-2 (PHQ-2) or Patient Health Questionnaire-9 (PHQ-9)
 
 https://www.hiv.uw.edu/page/mental-health-screening/phq-9 ">
@@ -334,6 +339,10 @@ Or the opposite - being so fidgety or restless that you have been moving around 
 				>
 				["at0050"] = <
 					text = <"PHQ_score">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Depression Severity Score">
 					description = <"">
 				>
 			>
