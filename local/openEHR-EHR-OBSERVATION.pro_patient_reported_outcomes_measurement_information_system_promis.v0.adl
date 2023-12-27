@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"dc501d359b4796e154bcf125bd7fc773">
+		["MD5-CAM-1.0.1"] = <"175332d3b0a3cc089622342bb394e32d">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -72,7 +72,11 @@ definition
 					}
 					ELEMENT[at0024] occurrences matches {0..1} matches {    -- I have been able to keep track of what I am  doing, even if I am interrupted
 						value matches {
-							DV_ORDINAL matches {*}
+							1|[local::at0052],
+							2|[local::at0053],
+							3|[local::at0054],
+							4|[local::at0055],
+							5|[local::at0056]
 						}
 					}
 					ELEMENT[at0026] occurrences matches {0..1} matches {    -- I have been able to concentrate
@@ -328,6 +332,26 @@ ontology
 				>
 				["at0051"] = <
 					text = <"Total T-Score">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
