@@ -1,0 +1,790 @@
+archetype (adl_version=1.4; uid=5a4051c6-8c1e-4bdf-9fdb-0d4fb9fb1413)
+	openEHR-EHR-OBSERVATION.pro_melanoma.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-01-03">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"32bd9c5c356a004c5f48d0cfc43f4f4a">
+		["build_uid"] = <"3a25ec38-4bb4-363e-b2e7-46969063c865">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- PRO_Melanoma
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									CLUSTER[at0015] occurrences matches {0..1} matches {    -- Physical_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0019] occurrences matches {0..1} matches {    -- Breathing_difficulties
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0071] occurrences matches {0..1} matches {    -- Passing_urine
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0072] occurrences matches {0..1} matches {    -- Constipation
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0073] occurrences matches {0..1} matches {    -- Diarrhoea
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0074] occurrences matches {0..1} matches {    -- Eating_appetite_or_taste
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0075] occurrences matches {0..1} matches {    -- Indigestion
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0076] occurrences matches {0..1} matches {    -- Swallowing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0077] occurrences matches {0..1} matches {    -- Coughing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0078] occurrences matches {0..1} matches {    -- Sore_or_dry_mouth_or_ulcers
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0079] occurrences matches {0..1} matches {    -- Nausea_or_vomiting
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0080] occurrences matches {0..1} matches {    -- Tired_exhausted_or_fatigued
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0081] occurrences matches {0..1} matches {    -- Swelling
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0082] occurrences matches {0..1} matches {    -- High_temperature_or_fever
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0083] occurrences matches {0..1} matches {    -- Moving_around_(walking)
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0084] occurrences matches {0..1} matches {    -- Tingling_in_hands_or_feet
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0085] occurrences matches {0..1} matches {    -- Pain_or_discomfort
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0086] occurrences matches {0..1} matches {    -- Hot_flushes_or_sweating
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0088] occurrences matches {0..1} matches {    -- Dry_itchy_or_sore_skin
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0089] occurrences matches {0..1} matches {    -- Changes_in_weight
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0090] occurrences matches {0..1} matches {    -- Wound_care
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0091] occurrences matches {0..1} matches {    -- Memory_or_concentration
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0092] occurrences matches {0..1} matches {    -- Sight_or_hearing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0093] occurrences matches {0..1} matches {    -- Speech_or_voice_problems
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0094] occurrences matches {0..1} matches {    -- My_appearance
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0095] occurrences matches {0..1} matches {    -- Sleep_problems
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0096] occurrences matches {0..1} matches {    -- Sex_intimacy_or_fertility
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0097] occurrences matches {0..1} matches {    -- Other_medical_conditions
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0013] occurrences matches {0..1} matches {    -- Practical_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0052] occurrences matches {0..1} matches {    -- Taking_care_of_others
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0053] occurrences matches {0..1} matches {    -- Work_or_education
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0054] occurrences matches {0..1} matches {    -- Money_or_finance
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0055] occurrences matches {0..1} matches {    -- Travel
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0056] occurrences matches {0..1} matches {    -- Housing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0057] occurrences matches {0..1} matches {    -- Transport_or_parking
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0058] occurrences matches {0..1} matches {    -- Talking_or_being_understood
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0059] occurrences matches {0..1} matches {    -- Laundry_or_housework
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0060] occurrences matches {0..1} matches {    -- Grocery_shopping
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0061] occurrences matches {0..1} matches {    -- Washing_and_dressing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0062] occurrences matches {0..1} matches {    -- Preparing_meals_or_drinks
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0063] occurrences matches {0..1} matches {    -- Pets
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0064] occurrences matches {0..1} matches {    -- Difficulty_making_plans
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0065] occurrences matches {0..1} matches {    -- Smoking_cessation
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0068] occurrences matches {0..1} matches {    -- Problems_with_alcohol_or_drugs
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0069] occurrences matches {0..1} matches {    -- My_medication
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0012] occurrences matches {0..1} matches {    -- Emotional_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0040] occurrences matches {0..1} matches {    -- Uncertainty
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0041] occurrences matches {0..1} matches {    -- Loss_of_interest_in_activities
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0042] occurrences matches {0..1} matches {    -- Unable_to_express_feelings
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0043] occurrences matches {0..1} matches {    -- Thinking_about_the_future
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0044] occurrences matches {0..1} matches {    -- Regret_about_the_past
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0045] occurrences matches {0..1} matches {    -- Anger_or_frustration
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0046] occurrences matches {0..1} matches {    -- Loneliness_or_isolation
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0047] occurrences matches {0..1} matches {    -- Sadness_or_depression
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0048] occurrences matches {0..1} matches {    -- Hopelessness
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0049] occurrences matches {0..1} matches {    -- Guilt
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0050] occurrences matches {0..1} matches {    -- Worry_fear_or_anxiety
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0051] occurrences matches {0..1} matches {    -- Independence
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0014] occurrences matches {0..1} matches {    -- Family_or_relationship_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0035] occurrences matches {0..1} matches {    -- Partner
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0036] occurrences matches {0..1} matches {    -- Children
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0037] occurrences matches {0..1} matches {    -- Other_relatives_or_friends
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0038] occurrences matches {0..1} matches {    -- Person_who_looks_after_me
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0039] occurrences matches {0..1} matches {    -- Person_who_I_look_after
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0030] occurrences matches {0..1} matches {    -- Spiritual_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0032] occurrences matches {0..1} matches {    -- Faith_or_spirituality
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0033] occurrences matches {0..1} matches {    -- Meaning_or_purpose_of_life
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0034] occurrences matches {0..1} matches {    -- Feeling_at_odds_with_culture_beliefs_or_values
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0016] occurrences matches {0..1} matches {    -- Information_or_support_concerns
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0021] occurrences matches {0..1} matches {    -- Exercise_and_activity
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0022] occurrences matches {0..1} matches {    -- Diet_and_nutrition
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0023] occurrences matches {0..1} matches {    -- Complementary_therapies
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0024] occurrences matches {0..1} matches {    -- Planning_for_my_future_priorities
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0025] occurrences matches {0..1} matches {    -- Making_a_will_or_legal_advice
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0026] occurrences matches {0..1} matches {    -- Health_and_wellbeing
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0027] occurrences matches {0..1} matches {    -- Patient_or_carer's_support_group
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0028] occurrences matches {0..1} matches {    -- Managing_my_symptoms
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+											ELEMENT[at0029] occurrences matches {0..1} matches {    -- Sun_protection
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+									CLUSTER[at0018] occurrences matches {0..1} matches {    -- Diagnosis_and_treatment
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0020] occurrences matches {0..1} matches {    -- Questions_about_diagnosis_treatments_or_effects
+												value matches {
+													DV_BOOLEAN matches {*}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0017] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_Melanoma">
+					description = <"PRO_Melanoma">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0012"] = <
+					text = <"Emotional_concerns">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Practical_concerns">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Family_or_relationship_concerns">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Physical_concerns">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Information_or_support_concerns">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0018"] = <
+					text = <"Diagnosis_and_treatment">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Breathing_difficulties">
+					description = <"Breathing difficulties">
+				>
+				["at0020"] = <
+					text = <"Questions_about_diagnosis_treatments_or_effects">
+					description = <"I have questions about my diagnosis, treatments or effects">
+				>
+				["at0021"] = <
+					text = <"Exercise_and_activity">
+					description = <"Exercise and activity">
+				>
+				["at0022"] = <
+					text = <"Diet_and_nutrition">
+					description = <"Diet and nutrition">
+				>
+				["at0023"] = <
+					text = <"Complementary_therapies">
+					description = <"Complementary therapies">
+				>
+				["at0024"] = <
+					text = <"Planning_for_my_future_priorities">
+					description = <"Planning for my future priorities">
+				>
+				["at0025"] = <
+					text = <"Making_a_will_or_legal_advice">
+					description = <"Making a will or legal advice">
+				>
+				["at0026"] = <
+					text = <"Health_and_wellbeing">
+					description = <"Health and wellbeing">
+				>
+				["at0027"] = <
+					text = <"Patient_or_carer's_support_group">
+					description = <"Patient or carer’s support group">
+				>
+				["at0028"] = <
+					text = <"Managing_my_symptoms">
+					description = <"Managing my symptoms">
+				>
+				["at0029"] = <
+					text = <"Sun_protection">
+					description = <"Sun protection">
+				>
+				["at0030"] = <
+					text = <"Spiritual_concerns">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Faith_or_spirituality">
+					description = <"Faith or spirituality">
+				>
+				["at0033"] = <
+					text = <"Meaning_or_purpose_of_life">
+					description = <"Meaning or purpose of life">
+				>
+				["at0034"] = <
+					text = <"Feeling_at_odds_with_culture_beliefs_or_values">
+					description = <"Feeling at odds with my culture, beliefs or values">
+				>
+				["at0035"] = <
+					text = <"Partner">
+					description = <"Partner">
+				>
+				["at0036"] = <
+					text = <"Children">
+					description = <"Children">
+				>
+				["at0037"] = <
+					text = <"Other_relatives_or_friends">
+					description = <"Other relatives or friends">
+				>
+				["at0038"] = <
+					text = <"Person_who_looks_after_me">
+					description = <"Person who looks after me">
+				>
+				["at0039"] = <
+					text = <"Person_who_I_look_after">
+					description = <"Person who I look after">
+				>
+				["at0040"] = <
+					text = <"Uncertainty">
+					description = <"Uncertainty">
+				>
+				["at0041"] = <
+					text = <"Loss_of_interest_in_activities">
+					description = <"Loss of interest in activities">
+				>
+				["at0042"] = <
+					text = <"Unable_to_express_feelings">
+					description = <"Unable to express feelings">
+				>
+				["at0043"] = <
+					text = <"Thinking_about_the_future">
+					description = <"Thinking about the future">
+				>
+				["at0044"] = <
+					text = <"Regret_about_the_past">
+					description = <"Regret about the past">
+				>
+				["at0045"] = <
+					text = <"Anger_or_frustration">
+					description = <"Anger or frustration">
+				>
+				["at0046"] = <
+					text = <"Loneliness_or_isolation">
+					description = <"Loneliness or isolation">
+				>
+				["at0047"] = <
+					text = <"Sadness_or_depression">
+					description = <"Sadness or depression">
+				>
+				["at0048"] = <
+					text = <"Hopelessness">
+					description = <"Hopelessness">
+				>
+				["at0049"] = <
+					text = <"Guilt">
+					description = <"Guilt">
+				>
+				["at0050"] = <
+					text = <"Worry_fear_or_anxiety">
+					description = <"Worry, fear or anxiety">
+				>
+				["at0051"] = <
+					text = <"Independence">
+					description = <"Independence">
+				>
+				["at0052"] = <
+					text = <"Taking_care_of_others">
+					description = <"Taking care of others">
+				>
+				["at0053"] = <
+					text = <"Work_or_education">
+					description = <"Work or education">
+				>
+				["at0054"] = <
+					text = <"Money_or_finance">
+					description = <"Money or finance">
+				>
+				["at0055"] = <
+					text = <"Travel">
+					description = <"Travel">
+				>
+				["at0056"] = <
+					text = <"Housing">
+					description = <"Housing">
+				>
+				["at0057"] = <
+					text = <"Transport_or_parking">
+					description = <"Transport or parking">
+				>
+				["at0058"] = <
+					text = <"Talking_or_being_understood">
+					description = <"Talking or being understood">
+				>
+				["at0059"] = <
+					text = <"Laundry_or_housework">
+					description = <"Laundry or housework">
+				>
+				["at0060"] = <
+					text = <"Grocery_shopping">
+					description = <"Grocery shopping">
+				>
+				["at0061"] = <
+					text = <"Washing_and_dressing">
+					description = <"Washing and dressing">
+				>
+				["at0062"] = <
+					text = <"Preparing_meals_or_drinks">
+					description = <"Preparing meals or drinks">
+				>
+				["at0063"] = <
+					text = <"Pets">
+					description = <"Pets">
+				>
+				["at0064"] = <
+					text = <"Difficulty_making_plans">
+					description = <"Difficulty making plans">
+				>
+				["at0065"] = <
+					text = <"Smoking_cessation">
+					description = <"Smoking cessation">
+				>
+				["at0068"] = <
+					text = <"Problems_with_alcohol_or_drugs">
+					description = <"Problems with alcohol or drugs">
+				>
+				["at0069"] = <
+					text = <"My_medication">
+					description = <"My medication">
+				>
+				["at0071"] = <
+					text = <"Passing_urine">
+					description = <"Passing urine">
+				>
+				["at0072"] = <
+					text = <"Constipation">
+					description = <"Constipation">
+				>
+				["at0073"] = <
+					text = <"Diarrhoea">
+					description = <"Diarrhoea">
+				>
+				["at0074"] = <
+					text = <"Eating_appetite_or_taste">
+					description = <"Eating, appetite or taste">
+				>
+				["at0075"] = <
+					text = <"Indigestion">
+					description = <"Indigestion">
+				>
+				["at0076"] = <
+					text = <"Swallowing">
+					description = <"Swallowing">
+				>
+				["at0077"] = <
+					text = <"Coughing">
+					description = <"Coughing">
+				>
+				["at0078"] = <
+					text = <"Sore_or_dry_mouth_or_ulcers">
+					description = <"Sore or dry mouth or ulcers">
+				>
+				["at0079"] = <
+					text = <"Nausea_or_vomiting">
+					description = <"Nausea or vomiting">
+				>
+				["at0080"] = <
+					text = <"Tired_exhausted_or_fatigued">
+					description = <"Tired, exhausted or fatigued">
+				>
+				["at0081"] = <
+					text = <"Swelling">
+					description = <"Swelling">
+				>
+				["at0082"] = <
+					text = <"High_temperature_or_fever">
+					description = <"High temperature or fever">
+				>
+				["at0083"] = <
+					text = <"Moving_around_(walking)">
+					description = <"Moving around (walking)">
+				>
+				["at0084"] = <
+					text = <"Tingling_in_hands_or_feet">
+					description = <"Tingling in hands or feet">
+				>
+				["at0085"] = <
+					text = <"Pain_or_discomfort">
+					description = <"Pain or discomfort">
+				>
+				["at0086"] = <
+					text = <"Hot_flushes_or_sweating">
+					description = <"Hot flushes or sweating">
+				>
+				["at0088"] = <
+					text = <"Dry_itchy_or_sore_skin">
+					description = <"Dry, itchy or sore skin">
+				>
+				["at0089"] = <
+					text = <"Changes_in_weight">
+					description = <"Changes in weight">
+				>
+				["at0090"] = <
+					text = <"Wound_care">
+					description = <"Wound care">
+				>
+				["at0091"] = <
+					text = <"Memory_or_concentration">
+					description = <"Memory or concentration">
+				>
+				["at0092"] = <
+					text = <"Sight_or_hearing">
+					description = <"Sight or hearing">
+				>
+				["at0093"] = <
+					text = <"Speech_or_voice_problems">
+					description = <"Speech or voice problems">
+				>
+				["at0094"] = <
+					text = <"My_appearance">
+					description = <"My appearance">
+				>
+				["at0095"] = <
+					text = <"Sleep_problems">
+					description = <"Sleep problems">
+				>
+				["at0096"] = <
+					text = <"Sex_intimacy_or_fertility">
+					description = <"Sex, intimacy or fertility">
+				>
+				["at0097"] = <
+					text = <"Other_medical_conditions">
+					description = <"Other medical conditions">
+				>
+			>
+		>
+	>
