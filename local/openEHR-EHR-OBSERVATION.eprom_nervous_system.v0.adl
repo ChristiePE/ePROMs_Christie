@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d2b10fd74e2bc83acf19eeadbeafc895">
+		["MD5-CAM-1.0.1"] = <"b284c340200b0152b9bc715e0a1912e6">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -268,6 +268,30 @@ definition
 											1|[local::at0163],
 											2|[local::at0164],
 											3|[local::at0165]
+										}
+									}
+									ELEMENT[at0193] occurrences matches {0..1} matches {    -- Communication
+										value matches {
+											0|[local::at0196],
+											0|[local::at0197],
+											0|[local::at0198],
+											0|[local::at0199]
+										}
+									}
+									ELEMENT[at0194] occurrences matches {0..1} matches {    -- Visual_problems
+										value matches {
+											0|[local::at0200],
+											0|[local::at0201],
+											0|[local::at0202],
+											0|[local::at0203]
+										}
+									}
+									ELEMENT[at0195] occurrences matches {0..1} matches {    -- Hearing_problems
+										value matches {
+											0|[local::at0204],
+											0|[local::at0205],
+											0|[local::at0206],
+											0|[local::at0207]
 										}
 									}
 								}
@@ -897,6 +921,66 @@ ontology
 				>
 				["at0192"] = <
 					text = <"Shoulder(s)">
+					description = <"">
+				>
+				["at0193"] = <
+					text = <"Communication">
+					description = <"Have you noticed any changes in your communication e.g. your speech, understanding whay people say, joining in conversations, finding words, reading or spelling?">
+				>
+				["at0194"] = <
+					text = <"Visual_problems">
+					description = <"Do you have any changes to your vision?">
+				>
+				["at0195"] = <
+					text = <"Hearing_problems">
+					description = <"Have you had hearing problems or changes to your hearing?">
+				>
+				["at0196"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0197"] = <
+					text = <"Yes, I have mild difficulty but it doesn't affect my ability to communicate">
+					description = <"">
+				>
+				["at0198"] = <
+					text = <"Yes, I have moderate difficulty which affects my ability to communicate spontaneously">
+					description = <"">
+				>
+				["at0199"] = <
+					text = <"Yes, I have severe difficulty which affects my ability to communicate">
+					description = <"">
+				>
+				["at0200"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0201"] = <
+					text = <"Yes but I am still able to do my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0202"] = <
+					text = <"It limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					description = <"">
+				>
+				["at0203"] = <
+					text = <"Yes and it significantly affects my eyesight and/or it limits me caring for myself (for example washing or dressing)">
+					description = <"">
+				>
+				["at0204"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0205"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0206"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0207"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
