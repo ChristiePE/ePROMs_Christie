@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "5586c7bb19f5b26fb8196907c6730fcf",
+      "MD5-CAM-1.0.1" : "eaba04a7790087fc4bc9be13f245343d",
       "PARENT:MD5-CAM-1.0.1" : "2f010961c59bdd8371f68120f4da4593"
     },
     "details" : {
@@ -150,7 +150,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "d2b10fd74e2bc83acf19eeadbeafc895"
+        "PARENT:MD5-CAM-1.0.1" : "b284c340200b0152b9bc715e0a1912e6"
       },
       "details" : {
         "en" : {
@@ -284,6 +284,27 @@
                       "nodeId" : "at0161.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0193.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0194.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0195.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -331,7 +352,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "f44effb2f1fde5796b09b5c742f807b7"
+        "PARENT:MD5-CAM-1.0.1" : "b72aa0c8994be7e82cad52507320d7fd"
       },
       "details" : {
         "en" : {
@@ -523,9 +544,22 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "a238fe8ac3a516275952979905e5be1b"
+        "PARENT:MD5-CAM-1.0.1" : "175703ea59962c9ba081d2560adb91a7"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.metadata.v0",
     "differential" : true,
