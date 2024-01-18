@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"c3cc8db589c882cf5e98b3674a8342c8">
+		["MD5-CAM-1.0.1"] = <"1d7a7acf59d6652c75df8560ca445eba">
 		["build_uid"] = <"4acac21d-2c70-30a6-80e8-3538b04db546">
 	>
 
@@ -58,6 +58,11 @@ definition
 										value matches {
 											0|[local::at0014],
 											1|[local::at0015]
+										}
+									}
+									ELEMENT[at0018] occurrences matches {0..1} matches {    -- Score
+										value matches {
+											DV_BOOLEAN matches {*}
 										}
 									}
 								}
@@ -136,6 +141,10 @@ ontology
 				["at0015"] = <
 					text = <"Yes">
 					description = <"">
+				>
+				["at0018"] = <
+					text = <"Score">
+					description = <"Boolean for scoring regarding triage/contact">
 				>
 			>
 		>
