@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0bfa815c094b9d3e39636f4838a31f9f">
+		["MD5-CAM-1.0.1"] = <"50ea633d76223725384533528a94ead0">
 		["build_uid"] = <"6d661d97-29cc-3f66-80a8-9ce2e7b6026d">
 	>
 
@@ -41,6 +41,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0130],
 											1|[local::at0034],
 											2|[local::at0035],
 											3|[local::at0036],
@@ -54,6 +55,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0131],
 											1|[local::at0040],
 											2|[local::at0041],
 											3|[local::at0042],
@@ -67,6 +69,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0132],
 											1|[local::at0046],
 											2|[local::at0047],
 											3|[local::at0048],
@@ -80,6 +83,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0133],
 											1|[local::at0052],
 											2|[local::at0053],
 											3|[local::at0054],
@@ -93,6 +97,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0134],
 											1|[local::at0058],
 											2|[local::at0059],
 											3|[local::at0060],
@@ -106,6 +111,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0135],
 											1|[local::at0064],
 											2|[local::at0065],
 											3|[local::at0066],
@@ -119,6 +125,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0136],
 											1|[local::at0070],
 											2|[local::at0071],
 											3|[local::at0072],
@@ -132,6 +139,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0137],
 											1|[local::at0076],
 											2|[local::at0077],
 											3|[local::at0078],
@@ -145,6 +153,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0138],
 											1|[local::at0082],
 											2|[local::at0083],
 											3|[local::at0084],
@@ -158,6 +167,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0139],
 											1|[local::at0088],
 											2|[local::at0089],
 											3|[local::at0090],
@@ -171,6 +181,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0140],
 											1|[local::at0094],
 											2|[local::at0095],
 											3|[local::at0096],
@@ -184,6 +195,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0141],
 											1|[local::at0100],
 											2|[local::at0101],
 											3|[local::at0102],
@@ -197,6 +209,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0142],
 											1|[local::at0106],
 											2|[local::at0107],
 											3|[local::at0108],
@@ -210,6 +223,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0143],
 											1|[local::at0112],
 											2|[local::at0113],
 											3|[local::at0114],
@@ -223,6 +237,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0144],
 											1|[local::at0118],
 											2|[local::at0119],
 											3|[local::at0120],
@@ -236,6 +251,7 @@ definition
 											DV_COUNT matches {
 												magnitude matches {|0..6|}
 											}
+											0|[local::at0145],
 											1|[local::at0124],
 											2|[local::at0125],
 											3|[local::at0126],
@@ -724,6 +740,70 @@ ontology
 				>
 				["at0129"] = <
 					text = <"6">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0135"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0136"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0137"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0138"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0139"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0140"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0141"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0142"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0143"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0144"] = <
+					text = <"0">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"0">
 					description = <"">
 				>
 			>
