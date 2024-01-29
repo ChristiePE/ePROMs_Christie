@@ -1,0 +1,70 @@
+archetype (adl_version=1.4; uid=99b72304-00ea-4709-9876-ca351bf56bc1)
+	openEHR-EHR-COMPOSITION.pro_parpi.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-01-29">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"2bd79c5b8a187e8b6981d9a4f53ce6e7">
+		["build_uid"] = <"08d1f357-03a6-3b36-8976-058558f9dc25">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_PARPi
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {
+				other_context matches {
+					ITEM_TREE[at0001] matches {    -- Item tree
+						items cardinality matches {0..*; unordered} matches {
+							CLUSTER[at0002] occurrences matches {0..1} matches {*}    -- Metadata
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_PARPi">
+					description = <"PRO_PARPi">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Metadata">
+					description = <"">
+				>
+			>
+		>
+	>
