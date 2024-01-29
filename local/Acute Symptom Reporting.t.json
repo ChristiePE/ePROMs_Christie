@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "14.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "2507fced7f76fd4d1253f24738e2edf1",
+      "MD5-CAM-1.0.1" : "527e913af3369f9cbbf908a40be6fd2d",
       "PARENT:MD5-CAM-1.0.1" : "93D7156AD670461B54017CE2CB55ECAF"
     },
     "details" : {
@@ -18683,7 +18683,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.3" ],
+                  "constraint" : [ "ac0.4" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -19087,10 +19087,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19115,13 +19115,13 @@
           },
           "at0.3" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "Moderate change in frequency, urgency or pain when passing urine or reduction in output.",
+            "text" : "Moderate change in frequency, urgency or pain when passing urine or reduction in output",
             "code" : "at0.3",
             "description" : ""
           },
           "at0.4" : {
             "@type" : "ARCHETYPE_TERM",
-            "text" : "New incontinence. New presence of blood in urine. Severe reduction in output. Severe pain when passing urine.",
+            "text" : "New incontinence. New presence of blood in urine. Severe reduction in output. Severe pain when passing urine",
             "code" : "at0.4",
             "description" : ""
           },
@@ -19131,10 +19131,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19175,10 +19175,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19219,10 +19219,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19263,10 +19263,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19307,10 +19307,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19351,10 +19351,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         },
@@ -19395,10 +19395,10 @@
             "code" : "at0.5",
             "description" : ""
           },
-          "ac0.3" : {
+          "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.3",
+            "code" : "ac0.4",
             "description" : ""
           }
         }
@@ -19425,6 +19425,11 @@
         "ac0.3" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.3",
+          "members" : [ "at0023", "at0024", "at0025" ]
+        },
+        "ac0.4" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.4",
           "members" : [ "at0023", "at0024", "at0025" ]
         }
       }
