@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"31622a1f44ba6b02a73440b3c2199abe">
+		["MD5-CAM-1.0.1"] = <"1967b5a96a4816d29a03608638f579c1">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -79,6 +79,11 @@ definition
 									ELEMENT[at0167] occurrences matches {0..1} matches {    -- Physical Function Raw Score
 										value matches {
 											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0198] occurrences matches {0..1} matches {    -- Physical Function Raw Score
+										value matches {
+											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0168] occurrences matches {0..1} matches {    -- Physical Function Overall Score
@@ -1232,6 +1237,10 @@ ontology
 				>
 				["at0197"] = <
 					text = <"Financial Difficulties Overall Score">
+					description = <"">
+				>
+				["at0198"] = <
+					text = <"Physical Function Raw Score">
 					description = <"">
 				>
 			>
