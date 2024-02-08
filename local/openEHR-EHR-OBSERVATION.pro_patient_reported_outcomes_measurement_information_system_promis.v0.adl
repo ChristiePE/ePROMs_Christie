@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1f0ee8cb7ddae795d94b92c711490adb">
+		["MD5-CAM-1.0.1"] = <"305af634b3d76d00b63d394b07877cba">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -125,14 +125,54 @@ definition
 							DV_COUNT matches {*}
 						}
 					}
-					ELEMENT[at0057] occurrences matches {0..1} matches {    -- Raw Score 8
-						value matches {
-							DV_QUANTITY matches {*}
+					CLUSTER[at0091] occurrences matches {0..1} matches {    -- CLUSTER
+						items cardinality matches {1..*; unordered} matches {
+							ELEMENT[at0092] occurrences matches {0..1} matches {    -- DV_QUANTITY
+								value matches {
+									DV_QUANTITY matches {*}
+									1|[local::at0095],
+									2|[local::at0096],
+									3|[local::at0097],
+									4|[local::at0098],
+									5|[local::at0099],
+									6|[local::at0100],
+									7|[local::at0101],
+									8|[local::at0102],
+									9|[local::at0103],
+									10|[local::at0104],
+									11|[local::at0105],
+									12|[local::at0106],
+									13|[local::at0107],
+									14|[local::at0108],
+									15|[local::at0109],
+									16|[local::at0110],
+									17|[local::at0111],
+									18|[local::at0112],
+									19|[local::at0113],
+									20|[local::at0114],
+									21|[local::at0115],
+									22|[local::at0116],
+									23|[local::at0117],
+									24|[local::at0118],
+									25|[local::at0119],
+									26|[local::at0120],
+									27|[local::at0121],
+									28|[local::at0122],
+									29|[local::at0123],
+									30|[local::at0124],
+									31|[local::at0125],
+									32|[local::at0126],
+									33|[local::at0127],
+									34|[local::at0128],
+									35|[local::at0129],
+									36|[local::at0130],
+									37|[local::at0131],
+									38|[local::at0132],
+									39|[local::at0133],
+									40|[local::at0134]
+								}
+							}
 						}
-					}
-					allow_archetype CLUSTER[at0090] occurrences matches {0..*} matches {    -- Raw Score
-						include
-							archetype_id/value matches {/.*/}
 					}
 				}
 			}
@@ -363,12 +403,172 @@ ontology
 					text = <"Very much">
 					description = <"">
 				>
-				["at0057"] = <
-					text = <"Raw Score 8">
+				["at0091"] = <
+					text = <"CLUSTER">
 					description = <"">
 				>
-				["at0090"] = <
-					text = <"Raw Score">
+				["at0092"] = <
+					text = <"DV_QUANTITY">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"1">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"2">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"3">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"4">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"5">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"6">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"7">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"8">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"9">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"10">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"11">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"12">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"13">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"14">
+					description = <"">
+				>
+				["at0109"] = <
+					text = <"15">
+					description = <"">
+				>
+				["at0110"] = <
+					text = <"16">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"17">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"18">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"19">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"20">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"21">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"22">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"23">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"24">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"25">
+					description = <"">
+				>
+				["at0120"] = <
+					text = <"26">
+					description = <"">
+				>
+				["at0121"] = <
+					text = <"27">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"28">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"29">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"30">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"31">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"32">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"33">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"34">
+					description = <"">
+				>
+				["at0129"] = <
+					text = <"35">
+					description = <"">
+				>
+				["at0130"] = <
+					text = <"36">
+					description = <"">
+				>
+				["at0131"] = <
+					text = <"37">
+					description = <"">
+				>
+				["at0132"] = <
+					text = <"38">
+					description = <"">
+				>
+				["at0133"] = <
+					text = <"39">
+					description = <"">
+				>
+				["at0134"] = <
+					text = <"40">
 					description = <"">
 				>
 			>
