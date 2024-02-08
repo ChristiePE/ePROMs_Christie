@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"28a8bfce4c4b9f6fd77cfa22d2ab4a46">
+		["MD5-CAM-1.0.1"] = <"7aa83016432bf48647859cf0a43f0b10">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -129,39 +129,39 @@ definition
 						items cardinality matches {1..*; unordered} matches {
 							ELEMENT[at0137] occurrences matches {0..1} matches {    -- DV_ORDINAL
 								value matches {
-									1|[local::at0138],
-									2|[local::at0139],
-									3|[local::at0140],
-									4|[local::at0141],
-									5|[local::at0142],
-									6|[local::at0143],
-									7|[local::at0144],
-									8|[local::at0145],
-									9|[local::at0146],
-									10|[local::at0147],
-									11|[local::at0148],
-									12|[local::at0149],
-									13|[local::at0150],
-									14|[local::at0151],
-									15|[local::at0152],
-									16|[local::at0153],
-									17|[local::at0154],
-									18|[local::at0155],
-									19|[local::at0156],
-									20|[local::at0157],
-									21|[local::at0158],
-									22|[local::at0159],
-									23|[local::at0160],
-									24|[local::at0161],
-									25|[local::at0162],
-									26|[local::at0163],
-									27|[local::at0164],
-									28|[local::at0165],
-									29|[local::at0166],
-									30|[local::at0167],
-									31|[local::at0168],
-									32|[local::at0169],
-									33|[local::at0170]
+									8|[local::at0171],
+									9|[local::at0172],
+									10|[local::at0173],
+									11|[local::at0174],
+									12|[local::at0175],
+									13|[local::at0176],
+									14|[local::at0177],
+									15|[local::at0178],
+									16|[local::at0179],
+									17|[local::at0180],
+									18|[local::at0181],
+									19|[local::at0182],
+									20|[local::at0183],
+									21|[local::at0184],
+									22|[local::at0185],
+									23|[local::at0186],
+									24|[local::at0187],
+									25|[local::at0188],
+									26|[local::at0189],
+									27|[local::at0190],
+									28|[local::at0191],
+									29|[local::at0192],
+									30|[local::at0193],
+									31|[local::at0194],
+									32|[local::at0195],
+									33|[local::at0196],
+									34|[local::at0197],
+									35|[local::at0198],
+									36|[local::at0199],
+									37|[local::at0200],
+									38|[local::at0201],
+									39|[local::at0202],
+									40|[local::at0203]
 								}
 							}
 						}
@@ -403,136 +403,136 @@ ontology
 					text = <"DV_ORDINAL">
 					description = <"">
 				>
-				["at0138"] = <
-					text = <"8">
+				["at0171"] = <
+					text = <"23.27">
 					description = <"">
 				>
-				["at0139"] = <
-					text = <"9">
+				["at0172"] = <
+					text = <"26.59">
 					description = <"">
 				>
-				["at0140"] = <
-					text = <"10">
+				["at0173"] = <
+					text = <"28.63">
 					description = <"">
 				>
-				["at0141"] = <
-					text = <"11">
+				["at0174"] = <
+					text = <"30.23">
 					description = <"">
 				>
-				["at0142"] = <
-					text = <"12">
+				["at0175"] = <
+					text = <"31.63">
 					description = <"">
 				>
-				["at0143"] = <
-					text = <"13">
+				["at0176"] = <
+					text = <"32.87">
 					description = <"">
 				>
-				["at0144"] = <
-					text = <"14">
+				["at0177"] = <
+					text = <"34.01">
 					description = <"">
 				>
-				["at0145"] = <
-					text = <"15">
+				["at0178"] = <
+					text = <"35.07">
 					description = <"">
 				>
-				["at0146"] = <
-					text = <"16">
+				["at0179"] = <
+					text = <"36.07">
 					description = <"">
 				>
-				["at0147"] = <
-					text = <"17">
+				["at0180"] = <
+					text = <"37.04">
 					description = <"">
 				>
-				["at0148"] = <
-					text = <"18">
+				["at0181"] = <
+					text = <"37.97">
 					description = <"">
 				>
-				["at0149"] = <
-					text = <"19">
+				["at0182"] = <
+					text = <"38.90">
 					description = <"">
 				>
-				["at0150"] = <
-					text = <"20">
+				["at0183"] = <
+					text = <"39.81">
 					description = <"">
 				>
-				["at0151"] = <
-					text = <"21">
+				["at0184"] = <
+					text = <"40.71">
 					description = <"">
 				>
-				["at0152"] = <
-					text = <"22">
+				["at0185"] = <
+					text = <"41.61">
 					description = <"">
 				>
-				["at0153"] = <
-					text = <"23">
+				["at0186"] = <
+					text = <"42.51">
 					description = <"">
 				>
-				["at0154"] = <
-					text = <"24">
+				["at0187"] = <
+					text = <"43.42">
 					description = <"">
 				>
-				["at0155"] = <
-					text = <"25">
+				["at0188"] = <
+					text = <"44.34">
 					description = <"">
 				>
-				["at0156"] = <
-					text = <"26">
+				["at0189"] = <
+					text = <"45.27">
 					description = <"">
 				>
-				["at0157"] = <
-					text = <"27">
+				["at0190"] = <
+					text = <"46.21">
 					description = <"">
 				>
-				["at0158"] = <
-					text = <"28">
+				["at0191"] = <
+					text = <"47.18">
 					description = <"">
 				>
-				["at0159"] = <
-					text = <"29">
+				["at0192"] = <
+					text = <"48.16">
 					description = <"">
 				>
-				["at0160"] = <
-					text = <"30">
+				["at0193"] = <
+					text = <"49.17">
 					description = <"">
 				>
-				["at0161"] = <
-					text = <"31">
+				["at0194"] = <
+					text = <"50.21">
 					description = <"">
 				>
-				["at0162"] = <
-					text = <"32">
+				["at0195"] = <
+					text = <"51.29">
 					description = <"">
 				>
-				["at0163"] = <
-					text = <"33">
+				["at0196"] = <
+					text = <"52.42">
 					description = <"">
 				>
-				["at0164"] = <
-					text = <"34">
+				["at0197"] = <
+					text = <"53.63">
 					description = <"">
 				>
-				["at0165"] = <
-					text = <"35">
+				["at0198"] = <
+					text = <"54.94">
 					description = <"">
 				>
-				["at0166"] = <
-					text = <"36">
+				["at0199"] = <
+					text = <"56.39">
 					description = <"">
 				>
-				["at0167"] = <
-					text = <"37">
+				["at0200"] = <
+					text = <"58.03">
 					description = <"">
 				>
-				["at0168"] = <
-					text = <"38">
+				["at0201"] = <
+					text = <"59.95">
 					description = <"">
 				>
-				["at0169"] = <
-					text = <"39">
+				["at0202"] = <
+					text = <"62.52">
 					description = <"">
 				>
-				["at0170"] = <
-					text = <"40">
+				["at0203"] = <
+					text = <"67.09">
 					description = <"">
 				>
 			>
