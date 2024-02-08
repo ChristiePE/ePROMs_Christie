@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"43390fe3091cb62df79f3ee9f2265a26">
+		["MD5-CAM-1.0.1"] = <"1f0ee8cb7ddae795d94b92c711490adb">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -129,6 +129,10 @@ definition
 						value matches {
 							DV_QUANTITY matches {*}
 						}
+					}
+					allow_archetype CLUSTER[at0090] occurrences matches {0..*} matches {    -- Raw Score
+						include
+							archetype_id/value matches {/.*/}
 					}
 				}
 			}
@@ -361,6 +365,10 @@ ontology
 				>
 				["at0057"] = <
 					text = <"Raw Score 8">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"Raw Score">
 					description = <"">
 				>
 			>
