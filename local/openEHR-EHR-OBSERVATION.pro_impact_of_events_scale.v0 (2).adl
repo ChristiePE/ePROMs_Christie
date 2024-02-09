@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"54b508e54d380625dfa179e4f143f8dd">
+		["MD5-CAM-1.0.1"] = <"f85608930dc0d80217caaaabde755245">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -236,7 +236,9 @@ definition
 									}
 									ELEMENT[at0138] occurrences matches {0..1} matches {    -- Intrusion Subscale
 										value matches {
-											DV_COUNT matches {*}
+											DV_COUNT matches {
+												magnitude matches {|0..1|}
+											}
 											DV_PROPORTION matches {*}
 										}
 									}
