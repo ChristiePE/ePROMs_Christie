@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5212dad60e50769663f0f3eb6559fc56">
+		["MD5-CAM-1.0.1"] = <"f2e60dacec4fd9eceb4e2417024bff50">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -273,6 +273,7 @@ definition
 									ELEMENT[at0146] occurrences matches {0..1} matches {    -- Total MEAN Scores
 										value matches {
 											DV_COUNT matches {*}
+											DV_PROPORTION matches {*}
 										}
 									}
 								}
