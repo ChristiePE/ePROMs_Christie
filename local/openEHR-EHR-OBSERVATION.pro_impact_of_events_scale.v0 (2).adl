@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"54b508e54d380625dfa179e4f143f8dd">
+		["MD5-CAM-1.0.1"] = <"5212dad60e50769663f0f3eb6559fc56">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -268,6 +268,11 @@ definition
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
+										}
+									}
+									ELEMENT[at0146] occurrences matches {0..1} matches {    -- Total MEAN Scores
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -852,6 +857,10 @@ Patients are asked to read each question and then indicate how distressing each 
 				>
 				["at0145"] = <
 					text = <"Mean Hyperarousal Scale">
+					description = <"">
+				>
+				["at0146"] = <
+					text = <"Total MEAN Scores">
 					description = <"">
 				>
 			>
