@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f2e60dacec4fd9eceb4e2417024bff50">
+		["MD5-CAM-1.0.1"] = <"89ba311323fc2c2fb50b0eb37c5d26b9">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -274,6 +274,11 @@ definition
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
+										}
+									}
+									ELEMENT[at0148] occurrences matches {0..1} matches {    -- Total Scores
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -862,6 +867,10 @@ Patients are asked to read each question and then indicate how distressing each 
 				>
 				["at0146"] = <
 					text = <"Total MEAN Scores">
+					description = <"">
+				>
+				["at0148"] = <
+					text = <"Total Scores">
 					description = <"">
 				>
 			>
