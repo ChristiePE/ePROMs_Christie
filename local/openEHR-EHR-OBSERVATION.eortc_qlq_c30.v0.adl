@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"74c9d4aa9f467e2e2550d6b41d5c449f">
+		["MD5-CAM-1.0.1"] = <"9349a2e237f36354e199c344a6f72e23">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -83,7 +83,9 @@ definition
 									}
 									ELEMENT[at0198] occurrences matches {0..1} matches {    -- Physical Function Raw Score
 										value matches {
-											DV_PROPORTION matches {*}
+											DV_PROPORTION matches {
+												precision matches {|1|}
+											}
 											DV_COUNT matches {*}
 										}
 									}
