@@ -1,0 +1,344 @@
+archetype (adl_version=1.4; uid=9b9a2af1-b6e1-4785-8d5f-8d0197e84be5)
+	openEHR-EHR-OBSERVATION.pro_neuro_oncology_concerns.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-02-16">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"348ea7c5cefc65eadecd9901009b9fd2">
+		["build_uid"] = <"b229e34d-2f89-3e87-bf2b-312646407ac6">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- PRO_Neuro_oncology_concerns
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Distress_rating
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0005] occurrences matches {0..1} matches {    -- Physical_health
+										value matches {
+											1|[local::at0010],
+											2|[local::at0011],
+											3|[local::at0012],
+											4|[local::at0013],
+											5|[local::at0014],
+											6|[local::at0015],
+											7|[local::at0016],
+											8|[local::at0017],
+											9|[local::at0018],
+											10|[local::at0019],
+											11|[local::at0020],
+											12|[local::at0021],
+											13|[local::at0022],
+											14|[local::at0023],
+											15|[local::at0024],
+											16|[local::at0025],
+											17|[local::at0026],
+											18|[local::at0027],
+											19|[local::at0028],
+											20|[local::at0029],
+											21|[local::at0030],
+											22|[local::at0031],
+											23|[local::at0032],
+											24|[local::at0033],
+											25|[local::at0034],
+											26|[local::at0035]
+										}
+									}
+									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Practical_problems
+										value matches {
+											1|[local::at0036],
+											2|[local::at0037],
+											3|[local::at0038],
+											4|[local::at0039],
+											5|[local::at0040],
+											6|[local::at0041],
+											7|[local::at0042],
+											8|[local::at0043]
+										}
+									}
+									ELEMENT[at0007] occurrences matches {0..1} matches {    -- Family_problems
+										value matches {
+											1|[local::at0044],
+											2|[local::at0045],
+											3|[local::at0046]
+										}
+									}
+									ELEMENT[at0008] occurrences matches {0..1} matches {    -- Emotional_problems
+										value matches {
+											1|[local::at0047],
+											2|[local::at0048],
+											3|[local::at0049],
+											4|[local::at0050],
+											5|[local::at0051]
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Spiritual_religious_concerns
+										value matches {
+											1|[local::at0052],
+											2|[local::at0053],
+											3|[local::at0054]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_Neuro_oncology_concerns">
+					description = <"PRO_Neuro_oncology_concerns">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Distress_rating">
+					description = <"Please enter a number in the box below that best describes in general how much distress you feel you have been experiencing over the past week, including today">
+				>
+				["at0005"] = <
+					text = <"Physical_health">
+					description = <"If any items below have been a cause of this distress for you over the past week, including today, please select the problem">
+				>
+				["at0006"] = <
+					text = <"Practical_problems">
+					description = <"If any items below have been a cause of this distress for you over the past week, including today, please select the problem">
+				>
+				["at0007"] = <
+					text = <"Family_problems">
+					description = <"If any items below have been a cause of this distress for you over the past week, including today, please select the problem">
+				>
+				["at0008"] = <
+					text = <"Emotional_problems">
+					description = <"If any items below have been a cause of this distress for you over the past week, including today, please select the problem">
+				>
+				["at0009"] = <
+					text = <"Spiritual_religious_concerns">
+					description = <"If any items below have been a cause of this distress for you over the past week, including today, please select the problem">
+				>
+				["at0010"] = <
+					text = <"My appearance">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Appetite or eating">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Bathing or dressing">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Breathing difficulties">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Changes in passing urine">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Concentration">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Constipation">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Co-ordination">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Diarrhoea">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Epilepsy or seizures">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Fatigue, tiredness or low energy">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Feeling swollen">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Headache">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"High temperature or fever">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Indigestion">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Memory">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Mobility/getting around">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Nausea or vomiting">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Pain (apart from headaches)">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Skin dry, itchy or rashes">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Sleep problems">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"Speech problems">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Tingling in hands and/or feet">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Taste changes">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Weakness in arms or legs">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"Weight change">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Caring responsibilities e.g., childcare, family">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Finance or financial benefits">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Holidays">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Housing">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Insurance">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Recreation">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Transport or driving">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Work">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Dealing with my children">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Dealing with my partner">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Ensuring support for my family">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Anger or irritability">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Fear of the tumour coming back">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Loneliness or isolation">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Sadness, low mood or depression">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Worry, fear or anxiety">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Loss of faith or other spiritual concern">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Loss of meaning or purpose in life">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Not being at peace with, or feeling regret about the past">
+					description = <"">
+				>
+			>
+		>
+	>
