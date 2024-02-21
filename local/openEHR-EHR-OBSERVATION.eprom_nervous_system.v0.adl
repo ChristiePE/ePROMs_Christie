@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b284c340200b0152b9bc715e0a1912e6">
+		["MD5-CAM-1.0.1"] = <"0e03b7e1c9d801d6ff69a6358cc726cd">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -270,28 +270,40 @@ definition
 											3|[local::at0165]
 										}
 									}
-									ELEMENT[at0193] occurrences matches {0..1} matches {    -- Communication
-										value matches {
-											0|[local::at0196],
-											0|[local::at0197],
-											0|[local::at0198],
-											0|[local::at0199]
+									CLUSTER[at0208] occurrences matches {0..1} matches {    -- Communication
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0193] occurrences matches {0..1} matches {    -- Communication
+												value matches {
+													0|[local::at0196],
+													1|[local::at0197],
+													2|[local::at0198],
+													3|[local::at0199]
+												}
+											}
+											ELEMENT[at0209] occurrences matches {0..1} matches {    -- Communication_affect
+												value matches {
+													0|[local::at0210],
+													1|[local::at0211],
+													2|[local::at0212],
+													3|[local::at0213]
+												}
+											}
 										}
 									}
 									ELEMENT[at0194] occurrences matches {0..1} matches {    -- Visual_problems
 										value matches {
 											0|[local::at0200],
-											0|[local::at0201],
-											0|[local::at0202],
-											0|[local::at0203]
+											1|[local::at0201],
+											2|[local::at0202],
+											3|[local::at0203]
 										}
 									}
 									ELEMENT[at0195] occurrences matches {0..1} matches {    -- Hearing_problems
 										value matches {
 											0|[local::at0204],
-											0|[local::at0205],
-											0|[local::at0206],
-											0|[local::at0207]
+											1|[local::at0205],
+											2|[local::at0206],
+											3|[local::at0207]
 										}
 									}
 								}
@@ -981,6 +993,31 @@ ontology
 				>
 				["at0207"] = <
 					text = <"Very much">
+					description = <"">
+				>
+				["at0208"] = <
+					text = <"Communication">
+					description = <"">
+				>
+				["at0209"] = <
+					text = <"Communication_affect">
+					description = <"How does this affect your ability to communicate with others?">
+					comment = <"Part 2 but shown at the same time">
+				>
+				["at0210"] = <
+					text = <"I can communicate easily">
+					description = <"">
+				>
+				["at0211"] = <
+					text = <"Strangers or new people can find it difficult to communicate with me">
+					description = <"">
+				>
+				["at0212"] = <
+					text = <"Friends and family find it difficult to communicate with me">
+					description = <"">
+				>
+				["at0213"] = <
+					text = <"I cannot communicate or be understood">
 					description = <"">
 				>
 			>
