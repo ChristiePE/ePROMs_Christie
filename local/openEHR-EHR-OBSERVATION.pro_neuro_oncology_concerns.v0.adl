@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"38dca047b42f59645deb6dac53021b40">
+		["MD5-CAM-1.0.1"] = <"19bfff64e2ddb6b4c2beb15bc8f741c1">
 		["build_uid"] = <"b229e34d-2f89-3e87-bf2b-312646407ac6">
 	>
 
@@ -68,7 +68,8 @@ definition
 											23|[local::at0032],
 											24|[local::at0033],
 											25|[local::at0034],
-											26|[local::at0035]
+											26|[local::at0035],
+											27|[local::at0055]
 										}
 									}
 									ELEMENT[at0006] occurrences matches {0..*} matches {    -- Practical_problems
@@ -80,14 +81,16 @@ definition
 											5|[local::at0040],
 											6|[local::at0041],
 											7|[local::at0042],
-											8|[local::at0043]
+											8|[local::at0043],
+											9|[local::at0056]
 										}
 									}
 									ELEMENT[at0007] occurrences matches {0..*} matches {    -- Family_problems
 										value matches {
 											1|[local::at0044],
 											2|[local::at0045],
-											3|[local::at0046]
+											3|[local::at0046],
+											4|[local::at0057]
 										}
 									}
 									ELEMENT[at0008] occurrences matches {0..*} matches {    -- Emotional_problems
@@ -96,14 +99,16 @@ definition
 											2|[local::at0048],
 											3|[local::at0049],
 											4|[local::at0050],
-											5|[local::at0051]
+											5|[local::at0051],
+											6|[local::at0058]
 										}
 									}
 									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Spiritual_religious_concerns
 										value matches {
 											1|[local::at0052],
 											2|[local::at0053],
-											3|[local::at0054]
+											3|[local::at0054],
+											4|[local::at0059]
 										}
 									}
 								}
@@ -337,6 +342,26 @@ ontology
 				>
 				["at0054"] = <
 					text = <"Not being at peace with, or feeling regret about the past">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"I have no concerns with my physical health">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"I have no practical problems">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"I have no family problems">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"I have no emotional problems">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"I have no spiritual or religious concerns">
 					description = <"">
 				>
 			>
