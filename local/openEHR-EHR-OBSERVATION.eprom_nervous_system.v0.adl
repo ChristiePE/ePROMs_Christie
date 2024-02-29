@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ea091c12311393c8fa06bb9cb5bd4a64">
+		["MD5-CAM-1.0.1"] = <"8bc92207f9d09553e346c003a77aa45d">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -156,6 +156,7 @@ definition
 										items cardinality matches {1..*; unordered} matches {
 											ELEMENT[at0035] occurrences matches {0..*} matches {    -- Muscle_weakness_lower_limb_muscle_weakness_upper_limb_area
 												value matches {
+													0|[local::at0218],
 													0|[local::at0036],
 													0|[local::at0037],
 													0|[local::at0038],
@@ -1044,6 +1045,10 @@ ontology
 				>
 				["at0217"] = <
 					text = <"Yes">
+					description = <"">
+				>
+				["at0218"] = <
+					text = <"Face">
 					description = <"">
 				>
 			>
