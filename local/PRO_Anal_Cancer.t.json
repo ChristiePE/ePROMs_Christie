@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "4.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "2d289e5588911e6ab4709ddecbbefb8d",
+      "MD5-CAM-1.0.1" : "8b4c75228cb26872af9b2f4b1bd06a3c",
       "PARENT:MD5-CAM-1.0.1" : "be11949e0fd71380564ac24ce2a18f75"
     },
     "details" : {
@@ -3598,7 +3598,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "5e4a08579b48d961a317454d38c5ee6c"
+        "PARENT:MD5-CAM-1.0.1" : "5bf67596802be45be42a75ba5e24cec7"
       },
       "details" : { }
     },
@@ -3619,7 +3619,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0016" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0016",
+            "text" : "Treatment",
+            "description" : ""
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
