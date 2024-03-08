@@ -2987,7 +2987,17 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "DV_QUANTITY",
-                      "attributes" : [ ],
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "property",
+                        "children" : [ {
+                          "@type" : "C_TERMINOLOGY_CODE",
+                          "terminologyId" : {
+                            "value" : "openehr"
+                          },
+                          "constraint" : [ "382" ]
+                        } ]
+                      } ],
                       "attributeTuples" : [ {
                         "@type" : "C_ATTRIBUTE_TUPLE",
                         "members" : [ {
