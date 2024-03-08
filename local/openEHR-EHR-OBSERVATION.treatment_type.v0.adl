@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e6601f80e9c9c35cbedf3f66a31e7395">
+		["MD5-CAM-1.0.1"] = <"af5a0c0c25725ada334a164f19c0e1be">
 		["build_uid"] = <"a797172b-e414-3598-bb60-984a2889e9f3">
 	>
 
@@ -76,7 +76,8 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Treatment">
-					description = <"">
+					description = <"Please select the statement(s) most applicable to you (select all that apply):">
+					comment = <"Add phrases as applicable above to use in FB so the wording is consistent.">
 				>
 				["at0005"] = <
 					text = <"I am currently having radiotherapy or proton therapy">
