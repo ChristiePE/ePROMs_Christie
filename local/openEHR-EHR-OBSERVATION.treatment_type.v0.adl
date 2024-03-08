@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5e4a08579b48d961a317454d38c5ee6c">
+		["MD5-CAM-1.0.1"] = <"5bf67596802be45be42a75ba5e24cec7">
 		["build_uid"] = <"a797172b-e414-3598-bb60-984a2889e9f3">
 	>
 
@@ -52,6 +52,9 @@ definition
 				}
 			}
 		}
+		protocol matches {
+			ITEM_TREE[at0022] matches {*}    -- Item tree
+		}
 	}
 
 ontology
@@ -76,7 +79,8 @@ ontology
 				>
 				["at0016"] = <
 					text = <"Treatment">
-					description = <"">
+					description = <"Please select the statements most applicable to you (select all that apply):
+">
 				>
 				["at0017"] = <
 					text = <"I am currently having radiotherapy or proton therapy">
@@ -97,6 +101,10 @@ ontology
 				["at0021"] = <
 					text = <"I am currently on observation by my doctor and/or I have not had any treatment to date">
 					description = <"">
+				>
+				["at0022"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
 				>
 			>
 		>
