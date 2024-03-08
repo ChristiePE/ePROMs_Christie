@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "4df94f201724913ad26d145b7ef46cb0",
+      "MD5-CAM-1.0.1" : "4893a7dbd9e4affaa06fb638a0068698",
       "PARENT:MD5-CAM-1.0.1" : "be11949e0fd71380564ac24ce2a18f75"
     },
     "details" : {
@@ -92,6 +92,15 @@
         "unique" : false
       },
       "children" : [ {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "OBSERVATION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.46",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-treatment_type-001.v0",
+        "referenceType" : "archetypeOverlay"
+      }, {
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
@@ -198,15 +207,6 @@
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-eproms_eq_5d_5l-001.v0",
-        "referenceType" : "archetypeOverlay"
-      }, {
-        "@type" : "C_ARCHETYPE_ROOT",
-        "rmTypeName" : "OBSERVATION",
-        "occurrences" : "0..1",
-        "nodeId" : "at0.34",
-        "attributes" : [ ],
-        "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-treatment_type-001.v0",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -3598,9 +3598,22 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "4ec4c873dd29623335e00aa268788b3f"
+        "PARENT:MD5-CAM-1.0.1" : "e6601f80e9c9c35cbedf3f66a31e7395"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.treatment_type.v0",
     "differential" : true,
