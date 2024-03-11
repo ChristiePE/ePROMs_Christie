@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "6.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "3b74c0a23df9ef3a4cf86669ce317c3c",
+      "MD5-CAM-1.0.1" : "f589d68aa4f7145750e3bc79bbd47338",
       "PARENT:MD5-CAM-1.0.1" : "7855db7d4bd20e4953d57d40a0481630"
     },
     "details" : {
@@ -972,7 +972,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "ea091c12311393c8fa06bb9cb5bd4a64"
+        "PARENT:MD5-CAM-1.0.1" : "8bc92207f9d09553e346c003a77aa45d"
       },
       "details" : {
         "en" : {
@@ -1404,24 +1404,6 @@
                                     "@type" : "C_TERMINOLOGY_CODE",
                                     "rmTypeName" : "TERMINOLOGY_CODE",
                                     "constraint" : [ "at0084" ]
-                                  } ]
-                                }, {
-                                  "@type" : "C_PRIMITIVE_TUPLE",
-                                  "members" : [ {
-                                    "@type" : "C_INTEGER",
-                                    "rmTypeName" : "INTEGER",
-                                    "constraint" : [ {
-                                      "lower" : 0,
-                                      "upper" : 0,
-                                      "lowerIncluded" : true,
-                                      "upperIncluded" : true,
-                                      "lowerUnbounded" : false,
-                                      "upperUnbounded" : false
-                                    } ]
-                                  }, {
-                                    "@type" : "C_TERMINOLOGY_CODE",
-                                    "rmTypeName" : "TERMINOLOGY_CODE",
-                                    "constraint" : [ "at0156" ]
                                   } ]
                                 }, {
                                   "@type" : "C_PRIMITIVE_TUPLE",
@@ -3593,7 +3575,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "19bfff64e2ddb6b4c2beb15bc8f741c1"
+        "PARENT:MD5-CAM-1.0.1" : "06fd2fbd537db445121cb002d4dc80cf"
       },
       "details" : {
         "en" : {
