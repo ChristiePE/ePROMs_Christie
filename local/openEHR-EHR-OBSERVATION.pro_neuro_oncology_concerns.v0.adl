@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"19bfff64e2ddb6b4c2beb15bc8f741c1">
+		["MD5-CAM-1.0.1"] = <"06fd2fbd537db445121cb002d4dc80cf">
 		["build_uid"] = <"b229e34d-2f89-3e87-bf2b-312646407ac6">
 	>
 
@@ -72,6 +72,11 @@ definition
 											27|[local::at0055]
 										}
 									}
+									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Physical_health_score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
 									ELEMENT[at0006] occurrences matches {0..*} matches {    -- Practical_problems
 										value matches {
 											1|[local::at0036],
@@ -85,12 +90,22 @@ definition
 											9|[local::at0056]
 										}
 									}
+									ELEMENT[at0061] occurrences matches {0..1} matches {    -- Practical_health_score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
 									ELEMENT[at0007] occurrences matches {0..*} matches {    -- Family_problems
 										value matches {
 											1|[local::at0044],
 											2|[local::at0045],
 											3|[local::at0046],
 											4|[local::at0057]
+										}
+									}
+									ELEMENT[at0062] occurrences matches {0..1} matches {    -- Family_problems_score
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 									ELEMENT[at0008] occurrences matches {0..*} matches {    -- Emotional_problems
@@ -103,12 +118,22 @@ definition
 											6|[local::at0058]
 										}
 									}
+									ELEMENT[at0063] occurrences matches {0..1} matches {    -- Emotional_problem_score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
 									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Spiritual_religious_concerns
 										value matches {
 											1|[local::at0052],
 											2|[local::at0053],
 											3|[local::at0054],
 											4|[local::at0059]
+										}
+									}
+									ELEMENT[at0064] occurrences matches {0..1} matches {    -- Spiritual_religious_score
+										value matches {
+											DV_COUNT matches {*}
 										}
 									}
 								}
@@ -362,6 +387,26 @@ ontology
 				>
 				["at0059"] = <
 					text = <"I have no spiritual or religious concerns">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Physical_health_score">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Practical_health_score">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Family_problems_score">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Emotional_problem_score">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Spiritual_religious_score">
 					description = <"">
 				>
 			>
