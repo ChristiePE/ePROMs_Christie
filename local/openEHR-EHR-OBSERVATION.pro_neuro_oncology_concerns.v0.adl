@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"06fd2fbd537db445121cb002d4dc80cf">
+		["MD5-CAM-1.0.1"] = <"a391bc6f21008fba4b376b9797619d68">
 		["build_uid"] = <"b229e34d-2f89-3e87-bf2b-312646407ac6">
 	>
 
@@ -44,32 +44,32 @@ definition
 									ELEMENT[at0005] occurrences matches {0..*} matches {    -- Physical_health
 										value matches {
 											1|[local::at0010],
-											2|[local::at0011],
-											3|[local::at0012],
-											4|[local::at0013],
-											5|[local::at0014],
-											6|[local::at0015],
-											7|[local::at0016],
-											8|[local::at0017],
-											9|[local::at0018],
-											10|[local::at0019],
-											11|[local::at0020],
-											12|[local::at0021],
-											13|[local::at0022],
-											14|[local::at0023],
-											15|[local::at0024],
-											16|[local::at0025],
-											17|[local::at0026],
-											18|[local::at0027],
-											19|[local::at0028],
-											20|[local::at0029],
-											21|[local::at0030],
-											22|[local::at0031],
-											23|[local::at0032],
-											24|[local::at0033],
-											25|[local::at0034],
-											26|[local::at0035],
-											27|[local::at0055]
+											1|[local::at0011],
+											1|[local::at0012],
+											1|[local::at0013],
+											1|[local::at0014],
+											1|[local::at0015],
+											1|[local::at0016],
+											1|[local::at0017],
+											1|[local::at0018],
+											1|[local::at0019],
+											1|[local::at0020],
+											1|[local::at0021],
+											1|[local::at0022],
+											1|[local::at0023],
+											1|[local::at0024],
+											1|[local::at0025],
+											1|[local::at0026],
+											1|[local::at0027],
+											1|[local::at0028],
+											1|[local::at0029],
+											1|[local::at0030],
+											1|[local::at0031],
+											1|[local::at0032],
+											1|[local::at0033],
+											1|[local::at0034],
+											1|[local::at0035],
+											0|[local::at0055]
 										}
 									}
 									ELEMENT[at0060] occurrences matches {0..1} matches {    -- Physical_health_score
@@ -80,14 +80,14 @@ definition
 									ELEMENT[at0006] occurrences matches {0..*} matches {    -- Practical_problems
 										value matches {
 											1|[local::at0036],
-											2|[local::at0037],
-											3|[local::at0038],
-											4|[local::at0039],
-											5|[local::at0040],
-											6|[local::at0041],
-											7|[local::at0042],
-											8|[local::at0043],
-											9|[local::at0056]
+											1|[local::at0037],
+											1|[local::at0038],
+											1|[local::at0039],
+											1|[local::at0040],
+											1|[local::at0041],
+											1|[local::at0042],
+											1|[local::at0043],
+											0|[local::at0056]
 										}
 									}
 									ELEMENT[at0061] occurrences matches {0..1} matches {    -- Practical_health_score
@@ -98,9 +98,9 @@ definition
 									ELEMENT[at0007] occurrences matches {0..*} matches {    -- Family_problems
 										value matches {
 											1|[local::at0044],
-											2|[local::at0045],
-											3|[local::at0046],
-											4|[local::at0057]
+											1|[local::at0045],
+											1|[local::at0046],
+											0|[local::at0057]
 										}
 									}
 									ELEMENT[at0062] occurrences matches {0..1} matches {    -- Family_problems_score
@@ -111,11 +111,11 @@ definition
 									ELEMENT[at0008] occurrences matches {0..*} matches {    -- Emotional_problems
 										value matches {
 											1|[local::at0047],
-											2|[local::at0048],
-											3|[local::at0049],
-											4|[local::at0050],
-											5|[local::at0051],
-											6|[local::at0058]
+											1|[local::at0048],
+											1|[local::at0049],
+											1|[local::at0050],
+											1|[local::at0051],
+											0|[local::at0058]
 										}
 									}
 									ELEMENT[at0063] occurrences matches {0..1} matches {    -- Emotional_problem_score
@@ -126,9 +126,9 @@ definition
 									ELEMENT[at0009] occurrences matches {0..*} matches {    -- Spiritual_religious_concerns
 										value matches {
 											1|[local::at0052],
-											2|[local::at0053],
-											3|[local::at0054],
-											4|[local::at0059]
+											1|[local::at0053],
+											1|[local::at0054],
+											0|[local::at0059]
 										}
 									}
 									ELEMENT[at0064] occurrences matches {0..1} matches {    -- Spiritual_religious_score
