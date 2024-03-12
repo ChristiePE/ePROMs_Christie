@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"29108aa48e7405d9d6d669a8f0fa4704">
+		["MD5-CAM-1.0.1"] = <"7057360b08460306f4e815f99660e814">
 		["build_uid"] = <"3a25ec38-4bb4-363e-b2e7-46969063c865">
 	>
 
@@ -175,6 +175,11 @@ definition
 										}
 									}
 									ELEMENT[at0187] occurrences matches {0..1} matches {    -- Questions_about_diagnosis_treatment_or_effects
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0194] occurrences matches {0..1} matches {    -- Total_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -589,6 +594,10 @@ ontology
 				>
 				["at0193"] = <
 					text = <"I have no information or support concerns">
+					description = <"">
+				>
+				["at0194"] = <
+					text = <"Total_score">
 					description = <"">
 				>
 			>
