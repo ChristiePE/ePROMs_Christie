@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7057360b08460306f4e815f99660e814">
+		["MD5-CAM-1.0.1"] = <"03be99433be7bbb3316874b1e8c4a6c0">
 		["build_uid"] = <"3a25ec38-4bb4-363e-b2e7-46969063c865">
 	>
 
@@ -68,7 +68,7 @@ definition
 											0|[local::at0188]
 										}
 									}
-									ELEMENT[at0179] occurrences matches {0..1} matches {    -- Physical_concerns
+									ELEMENT[at0179] occurrences matches {0..1} matches {    -- Physical_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -94,7 +94,7 @@ definition
 											0|[local::at0189]
 										}
 									}
-									ELEMENT[at0180] occurrences matches {0..1} matches {    -- Practical_concerns
+									ELEMENT[at0180] occurrences matches {0..1} matches {    -- Practical_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -116,7 +116,7 @@ definition
 											0|[local::at0190]
 										}
 									}
-									ELEMENT[at0181] occurrences matches {0..1} matches {    -- Emotional_concerns
+									ELEMENT[at0181] occurrences matches {0..1} matches {    -- Emotional_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -131,7 +131,7 @@ definition
 											0|[local::at0191]
 										}
 									}
-									ELEMENT[at0182] occurrences matches {0..1} matches {    -- Family_or_relationship_concerns
+									ELEMENT[at0182] occurrences matches {0..1} matches {    -- Family_or_relationship_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -144,7 +144,7 @@ definition
 											0|[local::at0192]
 										}
 									}
-									ELEMENT[at0186] occurrences matches {0..1} matches {    -- Spiritual_concerns
+									ELEMENT[at0186] occurrences matches {0..1} matches {    -- Spiritual_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -163,7 +163,7 @@ definition
 											0|[local::at0193]
 										}
 									}
-									ELEMENT[at0185] occurrences matches {0..1} matches {    -- Information_or_support_concerns
+									ELEMENT[at0185] occurrences matches {0..1} matches {    -- Information_or_support_concerns_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -174,7 +174,7 @@ definition
 											0|[local::at0133]
 										}
 									}
-									ELEMENT[at0187] occurrences matches {0..1} matches {    -- Questions_about_diagnosis_treatment_or_effects
+									ELEMENT[at0187] occurrences matches {0..1} matches {    -- Questions_about_diagnosis_treatment_or_effects_score
 										value matches {
 											DV_COUNT matches {*}
 										}
@@ -545,31 +545,31 @@ ontology
 					description = <"">
 				>
 				["at0179"] = <
-					text = <"Physical_concerns">
+					text = <"Physical_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0180"] = <
-					text = <"Practical_concerns">
+					text = <"Practical_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0181"] = <
-					text = <"Emotional_concerns">
+					text = <"Emotional_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0182"] = <
-					text = <"Family_or_relationship_concerns">
+					text = <"Family_or_relationship_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0185"] = <
-					text = <"Information_or_support_concerns">
+					text = <"Information_or_support_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0186"] = <
-					text = <"Spiritual_concerns">
+					text = <"Spiritual_concerns_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0187"] = <
-					text = <"Questions_about_diagnosis_treatment_or_effects">
+					text = <"Questions_about_diagnosis_treatment_or_effects_score">
 					description = <"Count to be used for scoring">
 				>
 				["at0188"] = <
