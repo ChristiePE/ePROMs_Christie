@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"03be99433be7bbb3316874b1e8c4a6c0">
+		["MD5-CAM-1.0.1"] = <"7aad2c502f469355f9422e57545f0774">
 		["build_uid"] = <"3a25ec38-4bb4-363e-b2e7-46969063c865">
 	>
 
@@ -241,7 +241,7 @@ ontology
 					description = <"">
 				>
 				["at0103"] = <
-					text = <"Eating, appetite or taste">
+					text = <"Eating or appetite or taste">
 					description = <"">
 				>
 				["at0104"] = <
@@ -265,7 +265,7 @@ ontology
 					description = <"">
 				>
 				["at0109"] = <
-					text = <"Tired, exhausted or fatigued">
+					text = <"Tired or exhausted or fatigued">
 					description = <"">
 				>
 				["at0110"] = <
@@ -293,7 +293,7 @@ ontology
 					description = <"">
 				>
 				["at0116"] = <
-					text = <"Dry, itchy or sore skin">
+					text = <"Dry or itchy or sore skin">
 					description = <"">
 				>
 				["at0117"] = <
@@ -325,7 +325,7 @@ ontology
 					description = <"">
 				>
 				["at0124"] = <
-					text = <"Sex, intimacy or fertility">
+					text = <"Sex or intimacy or fertility">
 					description = <"">
 				>
 				["at0125"] = <
@@ -469,7 +469,7 @@ ontology
 					description = <"">
 				>
 				["at0160"] = <
-					text = <"Worry, fear or anxiety">
+					text = <"Worry or fear or anxiety">
 					description = <"">
 				>
 				["at0161"] = <
@@ -505,7 +505,7 @@ ontology
 					description = <"">
 				>
 				["at0169"] = <
-					text = <"Feeling at odds with my culture, beliefs or values">
+					text = <"Feeling at odds with my culture or beliefs or values">
 					description = <"">
 				>
 				["at0170"] = <
