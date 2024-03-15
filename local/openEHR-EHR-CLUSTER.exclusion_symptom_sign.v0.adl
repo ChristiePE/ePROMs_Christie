@@ -50,7 +50,7 @@ This archetype has been specifically designed to be used in the 'Structured deta
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4C7933C02F879864FC54A31737ABEBD3">
+		["MD5-CAM-1.0.1"] = <"72630d2d5f49ccc12f43bdf21eef2093">
 		["build_uid"] = <"e1d694db-a6eb-48c3-a4d1-f4fef9f65b75">
 		["revision"] = <"0.0.1-alpha">
 	>
