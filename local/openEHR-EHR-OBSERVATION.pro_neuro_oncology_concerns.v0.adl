@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a391bc6f21008fba4b376b9797619d68">
+		["MD5-CAM-1.0.1"] = <"0078fc00cb468b4e76a5d5054cd519b7">
 		["build_uid"] = <"b229e34d-2f89-3e87-bf2b-312646407ac6">
 	>
 
@@ -370,23 +370,23 @@ ontology
 					description = <"">
 				>
 				["at0055"] = <
-					text = <"I have no concerns with my physical health">
+					text = <"My physical health does not cause me distress">
 					description = <"">
 				>
 				["at0056"] = <
-					text = <"I have no practical problems">
+					text = <"Practical problems do not cause me distress">
 					description = <"">
 				>
 				["at0057"] = <
-					text = <"I have no family problems">
+					text = <"Family problems do not cause me distress">
 					description = <"">
 				>
 				["at0058"] = <
-					text = <"I have no emotional problems">
+					text = <"Emotional problems do not cause me distress">
 					description = <"">
 				>
 				["at0059"] = <
-					text = <"I have no spiritual or religious concerns">
+					text = <"Spiritual or religious concerns do not cause me distress">
 					description = <"">
 				>
 				["at0060"] = <
