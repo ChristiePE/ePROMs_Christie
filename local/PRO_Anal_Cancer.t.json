@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "0b4ffdae414623faf673a889a98f6c36",
+      "MD5-CAM-1.0.1" : "bec4793008921d50634d29b98b5a7136",
       "PARENT:MD5-CAM-1.0.1" : "be11949e0fd71380564ac24ce2a18f75"
     },
     "details" : {
@@ -1299,6 +1299,40 @@
                       "attributeTuples" : [ ]
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0134",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0135.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0091",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0063.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0072.1",
@@ -1418,6 +1452,7 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0009.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -1479,7 +1514,6 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
                       "nodeId" : "at0046.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
