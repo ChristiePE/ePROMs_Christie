@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4ab5ef29759acbf9b3fec94f5fffc876">
+		["MD5-CAM-1.0.1"] = <"f1886edb38ccb65c7d702a1550bc486c">
 		["build_uid"] = <"0c2d0b05-0b88-38a9-b45e-90ccb32b25bf">
 	>
 
@@ -41,7 +41,8 @@ definition
 											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Amenorrhea
 												value matches {
 													1|[local::at0005],
-													0|[local::at0006]
+													0|[local::at0006],
+													2|[local::at0145]
 												}
 											}
 											ELEMENT[at0124] occurrences matches {0..1} matches {    -- Amenorrhea_no
@@ -576,6 +577,10 @@ If you already have swelling in your genitals, has this got worse?
 				>
 				["at0144"] = <
 					text = <"Prefer not to answer / Not applicable">
+					description = <"">
+				>
+				["at0145"] = <
+					text = <"Not applicable">
 					description = <"">
 				>
 			>
