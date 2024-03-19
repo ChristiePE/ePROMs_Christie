@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "9.0.0",
+      "sem_ver" : "10.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "2ba395015bf31f0316ad411cfa8757be",
+      "MD5-CAM-1.0.1" : "450622cda328048c3b107bc55d457bda",
       "PARENT:MD5-CAM-1.0.1" : "be11949e0fd71380564ac24ce2a18f75"
     },
     "details" : {
@@ -2845,17 +2845,7 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "DV_QUANTITY",
-                      "attributes" : [ {
-                        "@type" : "C_ATTRIBUTE",
-                        "rmAttributeName" : "property",
-                        "children" : [ {
-                          "@type" : "C_TERMINOLOGY_CODE",
-                          "terminologyId" : {
-                            "value" : "openehr"
-                          },
-                          "constraint" : [ "382" ]
-                        } ]
-                      } ],
+                      "attributes" : [ ],
                       "attributeTuples" : [ {
                         "@type" : "C_ATTRIBUTE_TUPLE",
                         "members" : [ {
@@ -3200,6 +3190,24 @@
             "text" : "(Synthesized)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Day, Week or Month",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         },
         "nb" : {
@@ -3214,6 +3222,24 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "D",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         },
         "sv" : {
@@ -3228,6 +3254,24 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "D",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         },
         "de" : {
@@ -3242,6 +3286,24 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "D",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         },
         "fr" : {
@@ -3256,6 +3318,24 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "D",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         },
         "nl" : {
@@ -3270,6 +3350,24 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.2",
             "description" : ""
+          },
+          "1/d" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "D",
+            "description" : "@ units @",
+            "code" : "1/d"
+          },
+          "1/wk" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Week",
+            "description" : "@ units @",
+            "code" : "1/wk"
+          },
+          "1/mo" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "Month",
+            "description" : "@ units @",
+            "code" : "1/mo"
           }
         }
       },
