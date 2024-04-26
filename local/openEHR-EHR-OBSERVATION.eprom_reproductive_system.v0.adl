@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"f1886edb38ccb65c7d702a1550bc486c">
+		["MD5-CAM-1.0.1"] = <"de14b99380ac3183369a46bbe97baf3d">
 		["build_uid"] = <"0c2d0b05-0b88-38a9-b45e-90ccb32b25bf">
 	>
 
@@ -145,7 +145,8 @@ definition
 											1|[local::at0040],
 											2|[local::at0041],
 											3|[local::at0042],
-											4|[local::at0082]
+											4|[local::at0082],
+											5|[local::at0146]
 										}
 									}
 									ELEMENT[at0043] occurrences matches {0..1} matches {    -- Vaginal_pain
@@ -580,6 +581,10 @@ If you already have swelling in your genitals, has this got worse?
 					description = <"">
 				>
 				["at0145"] = <
+					text = <"Not applicable">
+					description = <"">
+				>
+				["at0146"] = <
 					text = <"Not applicable">
 					description = <"">
 				>
