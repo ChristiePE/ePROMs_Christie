@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"de14b99380ac3183369a46bbe97baf3d">
+		["MD5-CAM-1.0.1"] = <"38e6f52cc870622de709e6530dae5355">
 		["build_uid"] = <"0c2d0b05-0b88-38a9-b45e-90ccb32b25bf">
 	>
 
@@ -154,7 +154,8 @@ definition
 											0|[local::at0045],
 											1|[local::at0083],
 											2|[local::at0084],
-											3|[local::at0085]
+											3|[local::at0085],
+											4|[local::at0147]
 										}
 									}
 									CLUSTER[at0091] occurrences matches {0..1} matches {    -- Vaginal_dryness
@@ -581,11 +582,15 @@ If you already have swelling in your genitals, has this got worse?
 					description = <"">
 				>
 				["at0145"] = <
-					text = <"Not applicable">
+					text = <"Prefer not to answer / Not applicable">
 					description = <"">
 				>
 				["at0146"] = <
-					text = <"Not applicable">
+					text = <"Prefer not to answer / Not applicable">
+					description = <"">
+				>
+				["at0147"] = <
+					text = <"Prefer not to answer / Not applicable">
 					description = <"">
 				>
 			>
