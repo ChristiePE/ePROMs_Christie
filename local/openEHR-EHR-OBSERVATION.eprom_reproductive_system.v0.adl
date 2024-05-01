@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"38e6f52cc870622de709e6530dae5355">
+		["MD5-CAM-1.0.1"] = <"b3d3f440123f46e284d39e09056589f2">
 		["build_uid"] = <"0c2d0b05-0b88-38a9-b45e-90ccb32b25bf">
 	>
 
@@ -41,8 +41,7 @@ definition
 											ELEMENT[at0004] occurrences matches {0..1} matches {    -- Amenorrhea
 												value matches {
 													1|[local::at0005],
-													0|[local::at0006],
-													2|[local::at0145]
+													0|[local::at0006]
 												}
 											}
 											ELEMENT[at0124] occurrences matches {0..1} matches {    -- Amenorrhea_no
@@ -145,8 +144,7 @@ definition
 											1|[local::at0040],
 											2|[local::at0041],
 											3|[local::at0042],
-											4|[local::at0082],
-											5|[local::at0146]
+											4|[local::at0082]
 										}
 									}
 									ELEMENT[at0043] occurrences matches {0..1} matches {    -- Vaginal_pain
@@ -154,8 +152,7 @@ definition
 											0|[local::at0045],
 											1|[local::at0083],
 											2|[local::at0084],
-											3|[local::at0085],
-											4|[local::at0147]
+											3|[local::at0085]
 										}
 									}
 									CLUSTER[at0091] occurrences matches {0..1} matches {    -- Vaginal_dryness
@@ -578,18 +575,6 @@ If you already have swelling in your genitals, has this got worse?
 					description = <"">
 				>
 				["at0144"] = <
-					text = <"Prefer not to answer / Not applicable">
-					description = <"">
-				>
-				["at0145"] = <
-					text = <"Prefer not to answer / Not applicable">
-					description = <"">
-				>
-				["at0146"] = <
-					text = <"Prefer not to answer / Not applicable">
-					description = <"">
-				>
-				["at0147"] = <
 					text = <"Prefer not to answer / Not applicable">
 					description = <"">
 				>
