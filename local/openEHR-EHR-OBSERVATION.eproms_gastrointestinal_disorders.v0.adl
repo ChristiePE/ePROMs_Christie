@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"67fb42d6dafd22fc354e05bdc435aecd">
+		["MD5-CAM-1.0.1"] = <"ec50b8dd6d1217706b9b60cf0b63dc35">
 		["build_uid"] = <"880bc3b6-1d81-38af-b0e0-3d132cc20f83">
 	>
 
@@ -302,6 +302,15 @@ definition
 													0|[local::at0227],
 													0|[local::at0228],
 													0|[local::at0229]
+												}
+											}
+											ELEMENT[at0236] occurrences matches {0..1} matches {    -- Stoma_medical_help
+												value matches {
+													0|[local::at0237],
+													1|[local::at0238],
+													2|[local::at0239],
+													3|[local::at0240],
+													4|[local::at0241]
 												}
 											}
 										}
@@ -1020,6 +1029,30 @@ ontology
 				>
 				["at0235"] = <
 					text = <"Yes and as a result I was admitted to hospital for emergency medical care">
+					description = <"">
+				>
+				["at0236"] = <
+					text = <"Stoma_medical_help">
+					description = <"Do you have sore skin around your stoma?">
+				>
+				["at0237"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0238"] = <
+					text = <"Yes but I have not required medical help">
+					description = <"">
+				>
+				["at0239"] = <
+					text = <"Yes and I have required medical help">
+					description = <"">
+				>
+				["at0240"] = <
+					text = <"Yes and I had to be admitted to hospital since the last review appointment for my cancer">
+					description = <"">
+				>
+				["at0241"] = <
+					text = <"Yes and I had to be admitted to hospital and required an emergency procedure or operation">
 					description = <"">
 				>
 			>
