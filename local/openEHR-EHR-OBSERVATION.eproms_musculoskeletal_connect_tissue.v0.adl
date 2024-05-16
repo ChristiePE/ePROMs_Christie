@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"47b422029236100b2dcc2729debffbb5">
+		["MD5-CAM-1.0.1"] = <"405d45f70889869630e379b2052cc10c">
 		["build_uid"] = <"38272195-a96d-3b58-8458-764c2b7ee215">
 	>
 
@@ -76,7 +76,7 @@ definition
 											3|[local::at0029]
 										}
 									}
-									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Breast_lymphoedema
+									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Upper_limb_swelling
 										value matches {
 											0|[local::at0031],
 											1|[local::at0032],
@@ -222,7 +222,7 @@ If you already have leg swelling, has this got worse?
 					description = <"">
 				>
 				["at0030"] = <
-					text = <"Breast_lymphoedema">
+					text = <"Upper_limb_swelling">
 					description = <"">
 				>
 				["at0031"] = <
