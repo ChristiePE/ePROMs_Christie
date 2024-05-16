@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"405d45f70889869630e379b2052cc10c">
+		["MD5-CAM-1.0.1"] = <"5fecb740b70c284fb8a5b9d377b952d3">
 		["build_uid"] = <"38272195-a96d-3b58-8458-764c2b7ee215">
 	>
 
@@ -238,7 +238,7 @@ If you already have leg swelling, has this got worse?
 					description = <"">
 				>
 				["at0034"] = <
-					text = <"Yes, I have severe swelling in my arm or hand, ths may make it difficult to care for myself (for example wash or shower)">
+					text = <"Yes, I have severe swelling in my arm or hand, this may make it difficult to care for myself (for example wash or shower)">
 					description = <"">
 				>
 			>
