@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8bc92207f9d09553e346c003a77aa45d">
+		["MD5-CAM-1.0.1"] = <"48487662baa2554bd073386df3731203">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -244,6 +244,7 @@ definition
 													0|[local::at0190],
 													0|[local::at0191],
 													0|[local::at0192],
+													0|[local::at0219],
 													0|[local::at0085]
 												}
 											}
@@ -948,7 +949,7 @@ ontology
 				>
 				["at0193"] = <
 					text = <"Communication">
-					description = <"Have you noticed any changes in your communication e.g. your speech, understanding whay people say, joining in conversations, finding words, reading or spelling?">
+					description = <"Have you noticed any changes in your communication e.g. your speech, voice, understanding what people say, joining in conversations, finding words, reading or spelling?">
 				>
 				["at0194"] = <
 					text = <"Visual_problems">
@@ -959,19 +960,19 @@ ontology
 					description = <"Have you had hearing problems or changes to your hearing?">
 				>
 				["at0196"] = <
-					text = <"No">
+					text = <"I can communicate easily">
 					description = <"">
 				>
 				["at0197"] = <
-					text = <"Yes, I have mild difficulty but it doesn't affect my ability to communicate">
+					text = <"Strangers or new people can find it difficult to communicate with me">
 					description = <"">
 				>
 				["at0198"] = <
-					text = <"Yes, I have moderate difficulty which affects my ability to communicate spontaneously">
+					text = <"Friend and family find it difficult to communicate with me">
 					description = <"">
 				>
 				["at0199"] = <
-					text = <"Yes, I have severe difficulty which affects my ability to communicate">
+					text = <"I cannot communicate or be understood">
 					description = <"">
 				>
 				["at0200"] = <
@@ -1049,6 +1050,10 @@ ontology
 				>
 				["at0218"] = <
 					text = <"Face">
+					description = <"">
+				>
+				["at0219"] = <
+					text = <"Anus">
 					description = <"">
 				>
 			>
