@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"21dc91bf22e661a158f2959b46f423d5">
+		["MD5-CAM-1.0.1"] = <"12d3599dd3077c475613a3b1f38d1f9b">
 		["build_uid"] = <"b3709024-8fd5-30a7-adfd-a32f98a2cb8b">
 	>
 
@@ -324,7 +324,7 @@ ontology
 					description = <"">
 				>
 				["at0018"] = <
-					text = <"Yes and as a result I eat very little and/or I had to be admitted to hospital since the last review appointment for my cancer">
+					text = <"Yes and as a result I eat very little and/or I had to be admitted to hospital since the last review appointment">
 					description = <"">
 				>
 				["at0019"] = <
