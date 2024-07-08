@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"48487662baa2554bd073386df3731203">
+		["MD5-CAM-1.0.1"] = <"6e1f5b29d3a2d3646e408bd641d015cb">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -984,7 +984,7 @@ ontology
 					description = <"">
 				>
 				["at0202"] = <
-					text = <"It limits me doing my routine activities (for example light housework, deskwork or shopping)">
+					text = <"Yes and it limits me doing my routine activities (for example light housework, deskwork or shopping)">
 					description = <"">
 				>
 				["at0203"] = <
