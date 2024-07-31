@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "13.1.0",
+      "sem_ver" : "14.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "19bf4a55eed17227a06c0e71b0379af3",
+      "MD5-CAM-1.0.1" : "11df69ef9626ed6be689ab7ab86630b1",
       "PARENT:MD5-CAM-1.0.1" : "be11949e0fd71380564ac24ce2a18f75"
     },
     "details" : {
@@ -304,7 +304,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "8bc92207f9d09553e346c003a77aa45d"
+        "PARENT:MD5-CAM-1.0.1" : "d8d89f092826c36201c7a427c6351880"
       },
       "details" : {
         "en" : {
@@ -644,7 +644,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "ec50b8dd6d1217706b9b60cf0b63dc35"
+        "PARENT:MD5-CAM-1.0.1" : "561664d4be0630aab1314b63a61e2c69"
       },
       "details" : {
         "en" : {
@@ -1186,7 +1186,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "21dc91bf22e661a158f2959b46f423d5"
+        "PARENT:MD5-CAM-1.0.1" : "12d3599dd3077c475613a3b1f38d1f9b"
       },
       "details" : {
         "en" : {
@@ -1699,7 +1699,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "47b422029236100b2dcc2729debffbb5"
+        "PARENT:MD5-CAM-1.0.1" : "5fecb740b70c284fb8a5b9d377b952d3"
       },
       "details" : {
         "en" : {
@@ -1808,7 +1808,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0010.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0010",
+            "text" : "Leg_oedema",
+            "description" : "Have you noticed any new leg swelling? If you already have leg swelling, has this got worse?\n\n\n\n"
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3740,14 +3747,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "EPROMS_Standard_Questions (2)",
-            "description" : "EPROMS_Standard_Questions"
-          }
-        }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
