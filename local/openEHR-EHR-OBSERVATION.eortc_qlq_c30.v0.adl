@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"9349a2e237f36354e199c344a6f72e23">
+		["MD5-CAM-1.0.1"] = <"761125163e49b209f54e71c101d67222">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -434,7 +434,8 @@ definition
 											3|[local::at0156],
 											4|[local::at0157],
 											5|[local::at0158],
-											6|[local::at0159]
+											6|[local::at0159],
+											7|[local::at0199]
 										}
 									}
 									ELEMENT[at0162] occurrences matches {0..1} matches {    -- Global Health Overall Score
@@ -1249,6 +1250,10 @@ ontology
 				>
 				["at0198"] = <
 					text = <"Physical Function Raw Score">
+					description = <"">
+				>
+				["at0199"] = <
+					text = <"7">
 					description = <"">
 				>
 			>
