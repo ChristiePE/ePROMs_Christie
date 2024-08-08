@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"c7579610d724f320f38214ce36845563">
+		["MD5-CAM-1.0.1"] = <"869a7898191cb9217805dd96d87352b9">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -166,6 +166,14 @@ definition
 											1|[local::at0084],
 											2|[local::at0085],
 											3|[local::at0086]
+										}
+									}
+									ELEMENT[at0091] occurrences matches {0..1} matches {    -- Leg_ulcers
+										value matches {
+											0|[local::at0092],
+											1|[local::at0093],
+											2|[local::at0094],
+											3|[local::at0095]
 										}
 									}
 									ELEMENT[at0088] occurrences matches {0..1} matches {    -- Lymphadenopathy
@@ -538,6 +546,26 @@ New question: How would you describe the skin in the area you had radiotherapy t
 				>
 				["at0058"] = <
 					text = <"ITEM_TREE">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Leg_ulcers">
+					description = <"Do you have any sores (ulcers) to your legs?">
+				>
+				["at0092"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"Yes but I am managing this myself (for example, with creams or dressings)">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Yes and I have required support from health professionals (for example, district nurses or my GP)">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Yes and because of this I had to be admitted to hospital and/or required a procedure or operation">
 					description = <"">
 				>
 			>
