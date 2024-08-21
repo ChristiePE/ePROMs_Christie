@@ -1,0 +1,54 @@
+archetype (adl_version=1.4; uid=6cfc3867-64f7-4a21-9b11-a4e1e4c1b3c7)
+	openEHR-EHR-COMPOSITION.pro_slt.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-08-21">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"c8b8ab694b658adc0205b087fd187e8f">
+		["build_uid"] = <"a638e6b2-d0c5-320d-b999-26d1ba68adfd">
+	>
+
+definition
+	COMPOSITION[at0000] matches {    -- PRO_SLT
+		category matches {
+			DV_CODED_TEXT matches {
+				defining_code matches {
+					[openehr::433]
+				}
+			}
+		}
+		context matches {
+			EVENT_CONTEXT matches {*}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"PRO_SLT">
+					description = <"PRO_SLT">
+				>
+			>
+		>
+	>
