@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "7de2d3da65fe7436733c84c70117cf2a",
+      "MD5-CAM-1.0.1" : "858bb95bbc170d65c485e85404807e0b",
       "PARENT:MD5-CAM-1.0.1" : "39cb69dd0d82d2d7227c308b3e5e10d7"
     },
     "details" : {
@@ -156,7 +156,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "39422d33086d7982451c2b26427ef0f9"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.pro_mdadi.v0",
     "differential" : true,
@@ -207,7 +220,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "12d3599dd3077c475613a3b1f38d1f9b"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_general_symptoms.v0",
     "differential" : true,
@@ -471,7 +497,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "561664d4be0630aab1314b63a61e2c69"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_gastrointestinal_disorders.v0",
     "differential" : true,
@@ -531,6 +570,7 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0023.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
@@ -582,6 +622,7 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
+                      "occurrences" : "0..0",
                       "nodeId" : "at0055.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
@@ -634,7 +675,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0083",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0083.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -665,7 +707,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0134",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0134.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -689,7 +732,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0101",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0101.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -741,7 +785,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0202",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0202.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -853,7 +898,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "d8d89f092826c36201c7a427c6351880"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eprom_nervous_system.v0",
     "differential" : true,
@@ -965,7 +1023,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0020",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0020.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1002,7 +1061,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0034",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0034.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1047,7 +1107,6 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
-                      "occurrences" : "0..0",
                       "nodeId" : "at0058.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -1068,7 +1127,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0073",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0073.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1106,7 +1166,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0208",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0208.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1129,7 +1190,8 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0214",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0214.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1206,7 +1268,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "5fecb740b70c284fb8a5b9d377b952d3"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_musculoskeletal_connect_tissue.v0",
     "differential" : true,
@@ -1332,7 +1407,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "0d059c05701b519dfb386e703f3d64bb"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
