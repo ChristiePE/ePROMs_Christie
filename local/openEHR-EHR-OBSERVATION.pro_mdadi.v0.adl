@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2fc8355fde0f4b48cfc52a4d3dabaa79">
+		["MD5-CAM-1.0.1"] = <"1d0055c9e92928788718f026c725b0e5">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -284,7 +284,7 @@ Please read each statement and select a response which best reflects your experi
 				>
 				["at0010"] = <
 					text = <"2. I am embarrassed by my eating habits">
-					description = <"E2">
+					description = <"">
 				>
 				["at0011"] = <
 					text = <"Strongly agree">
