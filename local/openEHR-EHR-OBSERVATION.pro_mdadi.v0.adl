@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"9dffb94758ffb4bb37e5d1fb0a4d8c5e">
+		["MD5-CAM-1.0.1"] = <"2fc8355fde0f4b48cfc52a4d3dabaa79">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -36,6 +36,11 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0125] occurrences matches {0..1} matches {    -- The M.D. Anderson Dysphagia Inventory
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
 									ELEMENT[at0004] occurrences matches {0..1} matches {    -- 1. My swallowing ability limits my day-to-day activities
 										value matches {
 											1|[local::at0005],
@@ -247,7 +252,15 @@ ontology
 				>
 				["at0004"] = <
 					text = <"1. My swallowing ability limits my day-to-day activities">
-					description = <"">
+					description = <"The following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.
+
+
+
+The following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.
+
+
+
+Please read each statement and select a response which best reflects your experience in the past week.">
 				>
 				["at0005"] = <
 					text = <"Strongly agree">
@@ -724,6 +737,18 @@ ontology
 				["at0123"] = <
 					text = <"Strongly disagree">
 					description = <"">
+				>
+				["at0125"] = <
+					text = <"The M.D. Anderson Dysphagia Inventory">
+					description = <"The following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.
+
+
+
+The following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.
+
+
+
+Please read each statement and select a response which best reflects your experience in the past week.">
 				>
 			>
 		>
