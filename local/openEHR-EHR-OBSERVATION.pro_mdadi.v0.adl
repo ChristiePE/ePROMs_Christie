@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0a19ed6ac412dc91ab3b607a163c882b">
+		["MD5-CAM-1.0.1"] = <"9dffb94758ffb4bb37e5d1fb0a4d8c5e">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -36,11 +36,6 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0125] occurrences matches {0..1} matches {    -- The following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.    The following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.    Please read each statement and select a response which best reflects your experience in the past week.
-										value matches {
-											DV_TEXT matches {*}
-										}
-									}
 									ELEMENT[at0004] occurrences matches {0..1} matches {    -- 1. My swallowing ability limits my day-to-day activities
 										value matches {
 											1|[local::at0005],
@@ -729,13 +724,6 @@ ontology
 				["at0123"] = <
 					text = <"Strongly disagree">
 					description = <"">
-				>
-				["at0125"] = <
-					text = <"The following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.    The following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.    Please read each statement and select a response which best reflects your experience in the past week.">
-					description = <"The following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.
-The following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.
-Please read each statement and select a response which best reflects your experience in the past week.">
-					comment = <"The paragraph above should be added to each PROM to explain to the patient why they are being asked the questions. This paragraph is included on paper questionnaire. I have added 'the following 20 questions' so the patient knows how many questions they need to answer and where they are up to when answering them.">
 				>
 			>
 		>
