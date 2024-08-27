@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7e62d020618d36f0d6c984a72b2ee2b9">
+		["MD5-CAM-1.0.1"] = <"0a19ed6ac412dc91ab3b607a163c882b">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -276,7 +276,7 @@ ontology
 				>
 				["at0010"] = <
 					text = <"2. I am embarrassed by my eating habits">
-					description = <"">
+					description = <"E2">
 				>
 				["at0011"] = <
 					text = <"Strongly agree">
