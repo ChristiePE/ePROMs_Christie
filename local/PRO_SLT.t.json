@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.3.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "3d14a270f7a7aa7f35d62a3e4487f26c",
+      "MD5-CAM-1.0.1" : "d4f5bbc071d8a143b9b38886ffb581fb",
       "PARENT:MD5-CAM-1.0.1" : "eba5251714ebd3f4c28e67b47cd6c61c"
     },
     "details" : {
@@ -208,6 +208,13 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0125.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
                       "nodeId" : "at0010.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
@@ -228,14 +235,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0010.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0010.1",
-            "text" : "2. I am embarrassed by my eating habits",
-            "description" : ""
-          }
-        }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
