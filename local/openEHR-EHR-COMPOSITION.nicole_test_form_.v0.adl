@@ -32,6 +32,11 @@ language
 			author = <
 			>
 		>
+		["zh"] = <
+			language = <[ISO_639-1::zh]>
+			author = <
+			>
+		>
 	>
 
 description
@@ -59,6 +64,10 @@ description
 			language = <[ISO_639-1::fr]>
 			copyright = <"© openEHR Foundation">
 		>
+		["zh"] = <
+			language = <[ISO_639-1::zh]>
+			copyright = <"© openEHR Foundation">
+		>
 		["nl"] = <
 			language = <[ISO_639-1::nl]>
 			copyright = <"© openEHR Foundation">
@@ -70,7 +79,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"00040b115f6cbbb50375e1b2dc67aafa">
+		["MD5-CAM-1.0.1"] = <"880a359b8b7a5654b9270916937b7410">
 		["build_uid"] = <"6f72c874-0a87-348d-bd66-9566a1aa6ad0">
 	>
 
@@ -131,6 +140,14 @@ ontology
 			>
 		>
 		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Nicole Test Form (en)">
+					description = <"*Nicole Test Form  (en)">
+				>
+			>
+		>
+		["zh"] = <
 			items = <
 				["at0000"] = <
 					text = <"*Nicole Test Form (en)">
