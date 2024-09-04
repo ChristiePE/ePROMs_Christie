@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "4.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d4f5bbc071d8a143b9b38886ffb581fb",
+      "MD5-CAM-1.0.1" : "f3d5b06da669bd5fee107522c3ab3755",
       "PARENT:MD5-CAM-1.0.1" : "eba5251714ebd3f4c28e67b47cd6c61c"
     },
     "details" : {
@@ -235,7 +235,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : {
+          "at0125.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0125",
+            "text" : "The M.D. Anderson Dysphagia Inventory",
+            "description" : "MD Anderson Dysphagia Inventory (MDADI)\nThe following 20 questions ask for your views about your swallowing ability. This information will help us understand how you feel about swallowing.\n\n\n\nThe following statements have been made by people who have problems with their swallowing. Some of the statements may apply to you.\n\n\n\nPlease read each statement and select a response which best reflects your experience in the past week."
+          }
+        }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
