@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"bf2e80a55393b42600c5f388ed0b2c01">
+		["MD5-CAM-1.0.1"] = <"aab1ac50c2c36b385e85ff0634674185">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -221,8 +221,29 @@ definition
 											5|[local::at0123]
 										}
 									}
+									ELEMENT[at0126] occurrences matches {0..1} matches {    -- Global Score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0129] occurrences matches {0..1} matches {    -- Composite Score
+										value matches {
+											DV_COUNT matches {*}
+										}
+									}
 								}
 							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0128] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0127] occurrences matches {0..1} matches {    -- DV_COUNT
+						value matches {
+							DV_COUNT matches {*}
 						}
 					}
 				}
@@ -741,6 +762,22 @@ The following statements have been made by people who have problems with their s
 
 
 Please read each statement and select a response which best reflects your experience in the past week.">
+				>
+				["at0126"] = <
+					text = <"Global Score">
+					description = <"">
+				>
+				["at0127"] = <
+					text = <"DV_COUNT">
+					description = <"">
+				>
+				["at0128"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0129"] = <
+					text = <"Composite Score">
+					description = <"">
 				>
 			>
 		>
