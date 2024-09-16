@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "10.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "00df1bbc6be4b4e37336796c6b280cbb",
+      "MD5-CAM-1.0.1" : "12570fe74dd35d160e038352a1e420ed",
       "PARENT:MD5-CAM-1.0.1" : "6a727c73e81f0a603cae5b4d60c55873"
     },
     "details" : {
@@ -410,7 +410,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "7aa83016432bf48647859cf0a43f0b10"
+        "PARENT:MD5-CAM-1.0.1" : "051e98e20b480291e82c839871b99afe"
       },
       "details" : {
         "en" : {
@@ -437,176 +437,14 @@
       "@type" : "C_COMPLEX_OBJECT",
       "rmTypeName" : "OBSERVATION",
       "nodeId" : "at0000.1",
-      "attributes" : [ {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "protocol",
-        "children" : [ {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "ITEM_TREE",
-          "nodeId" : "at0004",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "items",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "nodeId" : "at0024.1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "value",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_ORDINAL",
-                  "attributes" : [ ],
-                  "attributeTuples" : [ {
-                    "@type" : "C_ATTRIBUTE_TUPLE",
-                    "members" : [ {
-                      "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "value",
-                      "children" : [ ]
-                    }, {
-                      "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "symbol",
-                      "children" : [ ]
-                    } ],
-                    "tuples" : [ {
-                      "@type" : "C_PRIMITIVE_TUPLE",
-                      "members" : [ {
-                        "@type" : "C_INTEGER",
-                        "rmTypeName" : "INTEGER",
-                        "constraint" : [ {
-                          "lower" : 1,
-                          "upper" : 1,
-                          "lowerIncluded" : true,
-                          "upperIncluded" : true,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : false
-                        } ]
-                      }, {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "constraint" : [ "at0.1" ]
-                      } ]
-                    }, {
-                      "@type" : "C_PRIMITIVE_TUPLE",
-                      "members" : [ {
-                        "@type" : "C_INTEGER",
-                        "rmTypeName" : "INTEGER",
-                        "constraint" : [ {
-                          "lower" : 2,
-                          "upper" : 2,
-                          "lowerIncluded" : true,
-                          "upperIncluded" : true,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : false
-                        } ]
-                      }, {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "constraint" : [ "at0.2" ]
-                      } ]
-                    }, {
-                      "@type" : "C_PRIMITIVE_TUPLE",
-                      "members" : [ {
-                        "@type" : "C_INTEGER",
-                        "rmTypeName" : "INTEGER",
-                        "constraint" : [ {
-                          "lower" : 3,
-                          "upper" : 3,
-                          "lowerIncluded" : true,
-                          "upperIncluded" : true,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : false
-                        } ]
-                      }, {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "constraint" : [ "at0.3" ]
-                      } ]
-                    }, {
-                      "@type" : "C_PRIMITIVE_TUPLE",
-                      "members" : [ {
-                        "@type" : "C_INTEGER",
-                        "rmTypeName" : "INTEGER",
-                        "constraint" : [ {
-                          "lower" : 4,
-                          "upper" : 4,
-                          "lowerIncluded" : true,
-                          "upperIncluded" : true,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : false
-                        } ]
-                      }, {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "constraint" : [ "at0.4" ]
-                      } ]
-                    }, {
-                      "@type" : "C_PRIMITIVE_TUPLE",
-                      "members" : [ {
-                        "@type" : "C_INTEGER",
-                        "rmTypeName" : "INTEGER",
-                        "constraint" : [ {
-                          "lower" : 5,
-                          "upper" : 5,
-                          "lowerIncluded" : true,
-                          "upperIncluded" : true,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : false
-                        } ]
-                      }, {
-                        "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
-                        "constraint" : [ "at0.5" ]
-                      } ]
-                    } ]
-                  } ]
-                } ]
-              } ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        } ]
-      } ],
+      "attributes" : [ ],
       "attributeTuples" : [ ]
     },
     "terminology" : {
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "Not at all",
-            "code" : "at0.1",
-            "description" : ""
-          },
-          "at0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "A little bit",
-            "code" : "at0.2",
-            "description" : ""
-          },
-          "at0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "Somewhat",
-            "code" : "at0.3",
-            "description" : ""
-          },
-          "at0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "Quite a bit",
-            "code" : "at0.4",
-            "description" : ""
-          },
-          "at0.5" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "Very much",
-            "code" : "at0.5",
-            "description" : ""
-          }
-        }
+        "en" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -830,7 +668,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "0d059c05701b519dfb386e703f3d64bb"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
