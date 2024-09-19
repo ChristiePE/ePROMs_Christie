@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"aab1ac50c2c36b385e85ff0634674185">
+		["MD5-CAM-1.0.1"] = <"bc3f6ebb734870cdd0fd5508dddea622">
 		["build_uid"] = <"ca73fca5-a1c3-3515-85a3-79796423e8d7">
 	>
 
@@ -239,15 +239,7 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE[at0128] matches {    -- Item tree
-				items cardinality matches {0..*; unordered} matches {
-					ELEMENT[at0127] occurrences matches {0..1} matches {    -- DV_COUNT
-						value matches {
-							DV_COUNT matches {*}
-						}
-					}
-				}
-			}
+			ITEM_TREE[at0128] matches {*}    -- Item tree
 		}
 	}
 
@@ -765,10 +757,6 @@ Please read each statement and select a response which best reflects your experi
 				>
 				["at0126"] = <
 					text = <"Global Score">
-					description = <"">
-				>
-				["at0127"] = <
-					text = <"DV_COUNT">
 					description = <"">
 				>
 				["at0128"] = <
