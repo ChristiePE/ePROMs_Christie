@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d8d89f092826c36201c7a427c6351880">
+		["MD5-CAM-1.0.1"] = <"0ced40e9bb0d665f3d7743f9c2b1c440">
 		["build_uid"] = <"515a1156-ed2e-3548-81ea-93f66a843d0e">
 	>
 
@@ -969,7 +969,7 @@ ontology
 					description = <"">
 				>
 				["at0198"] = <
-					text = <"Friend and family find it difficult to communicate with me">
+					text = <"Friends and family find it difficult to communicate with me">
 					description = <"">
 				>
 				["at0199"] = <
