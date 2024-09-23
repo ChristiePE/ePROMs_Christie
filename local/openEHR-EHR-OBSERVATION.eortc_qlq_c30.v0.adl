@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"761125163e49b209f54e71c101d67222">
+		["MD5-CAM-1.0.1"] = <"af1d0d183c22fdacd28d09b6ebc50b8d">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -124,12 +124,12 @@ definition
 											4|[local::at0044]
 										}
 									}
-									ELEMENT[at0174] occurrences matches {0..1} matches {    -- SoB Overall Score
+									ELEMENT[at0174] occurrences matches {0..1} matches {    -- Shortness of Breath Overall Score
 										value matches {
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0173] occurrences matches {0..1} matches {    -- SoB Raw Score
+									ELEMENT[at0173] occurrences matches {0..1} matches {    -- Shortness of Breath Raw Score
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
@@ -447,21 +447,6 @@ definition
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
-										}
-									}
-									ELEMENT[at0164] occurrences matches {0..1} matches {    -- Functional Scales
-										value matches {
-											DV_CODED_TEXT matches {*}
-										}
-									}
-									ELEMENT[at0163] occurrences matches {0..1} matches {    -- Symptoms Score
-										value matches {
-											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0166] occurrences matches {0..1} matches {    -- Symptom Scales
-										value matches {
-											DV_CODED_TEXT matches {*}
 										}
 									}
 								}
@@ -1128,18 +1113,6 @@ ontology
 					text = <"Global Health Overall Score">
 					description = <"">
 				>
-				["at0163"] = <
-					text = <"Symptoms Score">
-					description = <"">
-				>
-				["at0164"] = <
-					text = <"Functional Scales">
-					description = <"">
-				>
-				["at0166"] = <
-					text = <"Symptom Scales">
-					description = <"">
-				>
 				["at0168"] = <
 					text = <"Physical Function Overall Score">
 					description = <"">
@@ -1153,11 +1126,11 @@ ontology
 					description = <"">
 				>
 				["at0173"] = <
-					text = <"SoB Raw Score">
+					text = <"Shortness of Breath Raw Score">
 					description = <"">
 				>
 				["at0174"] = <
-					text = <"SoB Overall Score">
+					text = <"Shortness of Breath Overall Score">
 					description = <"">
 				>
 				["at0175"] = <
