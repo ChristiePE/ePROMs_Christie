@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"051e98e20b480291e82c839871b99afe">
+		["MD5-CAM-1.0.1"] = <"f5aedf451ac83071cf4815f4bd79c94f">
 		["build_uid"] = <"f9bda4b7-8f47-3978-9a0e-90477401377e">
 	>
 
@@ -113,50 +113,41 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0051] occurrences matches {0..1} matches {    -- Total T-Score
+									ELEMENT[at0137] occurrences matches {0..1} matches {    -- Total T-Score
 										value matches {
-											DV_COUNT matches {*}
-										}
-									}
-									CLUSTER[at0135] occurrences matches {0..1} matches {    -- CLUSTER
-										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0137] occurrences matches {0..1} matches {    -- DV_ORDINAL
-												value matches {
-													8|[local::at0171],
-													9|[local::at0172],
-													10|[local::at0173],
-													11|[local::at0174],
-													12|[local::at0175],
-													13|[local::at0176],
-													14|[local::at0177],
-													15|[local::at0178],
-													16|[local::at0179],
-													17|[local::at0180],
-													18|[local::at0181],
-													19|[local::at0182],
-													20|[local::at0183],
-													21|[local::at0184],
-													22|[local::at0185],
-													23|[local::at0186],
-													24|[local::at0187],
-													25|[local::at0188],
-													26|[local::at0189],
-													27|[local::at0190],
-													28|[local::at0191],
-													29|[local::at0192],
-													30|[local::at0193],
-													31|[local::at0194],
-													32|[local::at0195],
-													33|[local::at0196],
-													34|[local::at0197],
-													35|[local::at0198],
-													36|[local::at0199],
-													37|[local::at0200],
-													38|[local::at0201],
-													39|[local::at0202],
-													40|[local::at0203]
-												}
-											}
+											8|[local::at0171],
+											9|[local::at0172],
+											10|[local::at0173],
+											11|[local::at0174],
+											12|[local::at0175],
+											13|[local::at0176],
+											14|[local::at0177],
+											15|[local::at0178],
+											16|[local::at0179],
+											17|[local::at0180],
+											18|[local::at0181],
+											19|[local::at0182],
+											20|[local::at0183],
+											21|[local::at0184],
+											22|[local::at0185],
+											23|[local::at0186],
+											24|[local::at0187],
+											25|[local::at0188],
+											26|[local::at0189],
+											27|[local::at0190],
+											28|[local::at0191],
+											29|[local::at0192],
+											30|[local::at0193],
+											31|[local::at0194],
+											32|[local::at0195],
+											33|[local::at0196],
+											34|[local::at0197],
+											35|[local::at0198],
+											36|[local::at0199],
+											37|[local::at0200],
+											38|[local::at0201],
+											39|[local::at0202],
+											40|[local::at0203]
 										}
 									}
 								}
@@ -371,10 +362,6 @@ ontology
 					text = <"Total Raw Score">
 					description = <"">
 				>
-				["at0051"] = <
-					text = <"Total T-Score">
-					description = <"">
-				>
 				["at0052"] = <
 					text = <"Not at all">
 					description = <"">
@@ -395,12 +382,8 @@ ontology
 					text = <"Very much">
 					description = <"">
 				>
-				["at0135"] = <
-					text = <"CLUSTER">
-					description = <"">
-				>
 				["at0137"] = <
-					text = <"DV_ORDINAL">
+					text = <"Total T-Score">
 					description = <"">
 				>
 				["at0171"] = <
