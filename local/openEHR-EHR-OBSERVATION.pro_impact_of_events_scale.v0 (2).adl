@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"89ba311323fc2c2fb50b0eb37c5d26b9">
+		["MD5-CAM-1.0.1"] = <"49143a6ff1ea47bea4e8ea3bb0aec316">
 		["build_uid"] = <"af737a7f-d289-3a90-9898-284ed4dc2094">
 	>
 
@@ -240,37 +240,13 @@ definition
 											DV_PROPORTION matches {*}
 										}
 									}
-									ELEMENT[at0141] occurrences matches {0..1} matches {    -- Mean Intrusion Scale
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0139] occurrences matches {0..1} matches {    -- Avoidance Subscale
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
 										}
 									}
-									ELEMENT[at0144] occurrences matches {0..1} matches {    -- Mean Avoidance Scale
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Hyperarousal Subscale
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
-									ELEMENT[at0145] occurrences matches {0..1} matches {    -- Mean Hyperarousal Scale
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
-									ELEMENT[at0146] occurrences matches {0..1} matches {    -- Total MEAN Scores
 										value matches {
 											DV_COUNT matches {*}
 											DV_PROPORTION matches {*}
@@ -851,22 +827,6 @@ Patients are asked to read each question and then indicate how distressing each 
 				>
 				["at0140"] = <
 					text = <"Hyperarousal Subscale">
-					description = <"">
-				>
-				["at0141"] = <
-					text = <"Mean Intrusion Scale">
-					description = <"">
-				>
-				["at0144"] = <
-					text = <"Mean Avoidance Scale">
-					description = <"">
-				>
-				["at0145"] = <
-					text = <"Mean Hyperarousal Scale">
-					description = <"">
-				>
-				["at0146"] = <
-					text = <"Total MEAN Scores">
 					description = <"">
 				>
 				["at0148"] = <
