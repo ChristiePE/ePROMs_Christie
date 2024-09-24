@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"56851b04a7f453ef4846c317abc992b2">
+		["MD5-CAM-1.0.1"] = <"7af8aa483be430892448bee609f3a12a">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -81,24 +81,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0198] occurrences matches {0..1} matches {    -- Physical Function Raw Score
-										value matches {
-											DV_PROPORTION matches {
-												precision matches {|1|}
-											}
-											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0200] occurrences matches {0..1} matches {    -- Physical Function Overall Score
-										value matches {
-											DV_QUANTITY matches {*}
-										}
-									}
-									ELEMENT[at0201] occurrences matches {0..1} matches {    -- Physical Function Raw Score
-										value matches {
-											DV_QUANTITY matches {*}
-										}
-									}
 									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Were you limited in doing either your work or other daily activities
 										value matches {
 											1|[local::at0031],
@@ -120,12 +102,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0171] occurrences matches {0..1} matches {    -- Role Function Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0040] occurrences matches {0..1} matches {    -- Were you short of breath
 										value matches {
 											1|[local::at0041],
@@ -137,12 +113,6 @@ definition
 									ELEMENT[at0174] occurrences matches {0..1} matches {    -- Shortness of Breath Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0173] occurrences matches {0..1} matches {    -- Shortness of Breath Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0045] occurrences matches {0..1} matches {    -- Have you had pain
@@ -164,12 +134,6 @@ definition
 									ELEMENT[at0176] occurrences matches {0..1} matches {    -- Pain Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0175] occurrences matches {0..1} matches {    -- Pain Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0050] occurrences matches {0..1} matches {    -- Did you need to rest
@@ -201,12 +165,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0177] occurrences matches {0..1} matches {    -- Fatigue Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0055] occurrences matches {0..1} matches {    -- Have you had trouble sleeping
 										value matches {
 											1|[local::at0056],
@@ -220,12 +178,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0179] occurrences matches {0..1} matches {    -- Insomnia Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0065] occurrences matches {0..1} matches {    -- Have you lacked appetite
 										value matches {
 											1|[local::at0066],
@@ -237,12 +189,6 @@ definition
 									ELEMENT[at0183] occurrences matches {0..1} matches {    -- Appetite Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0182] occurrences matches {0..1} matches {    -- Appetite Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0070] occurrences matches {0..1} matches {    -- Have you felt nauseated
@@ -266,12 +212,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0184] occurrences matches {0..1} matches {    -- Nausea Vomiting Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0080] occurrences matches {0..1} matches {    -- Have you been constipated
 										value matches {
 											1|[local::at0081],
@@ -285,12 +225,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0186] occurrences matches {0..1} matches {    -- Constipated Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0085] occurrences matches {0..1} matches {    -- Have you had diarrhoea
 										value matches {
 											1|[local::at0086],
@@ -302,12 +236,6 @@ definition
 									ELEMENT[at0189] occurrences matches {0..1} matches {    -- Diarrhoea Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0188] occurrences matches {0..1} matches {    -- Diarrhoea Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0100] occurrences matches {0..1} matches {    -- Have you had difficulty in concentrating on things, like reading a newspaper or watching television
@@ -329,12 +257,6 @@ definition
 									ELEMENT[at0191] occurrences matches {0..1} matches {    -- Cognitive Function Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0190] occurrences matches {0..1} matches {    -- Cognitive Function Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0105] occurrences matches {0..1} matches {    -- Did you feel tense
@@ -374,12 +296,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0192] occurrences matches {0..1} matches {    -- Emotional Functioning Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0130] occurrences matches {0..1} matches {    -- Has your physical condition or medical treatment interfered with your family life
 										value matches {
 											1|[local::at0131],
@@ -401,12 +317,6 @@ definition
 											DV_COUNT matches {*}
 										}
 									}
-									ELEMENT[at0194] occurrences matches {0..1} matches {    -- Social Functioning Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
-										}
-									}
 									ELEMENT[at0140] occurrences matches {0..1} matches {    -- Has your physical condition or medical treatment caused you financial difficulties
 										value matches {
 											1|[local::at0141],
@@ -418,12 +328,6 @@ definition
 									ELEMENT[at0197] occurrences matches {0..1} matches {    -- Financial Difficulties Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0196] occurrences matches {0..1} matches {    -- Financial Difficulties Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 									ELEMENT[at0145] occurrences matches {0..1} matches {    -- How would you rate your overall health during the past week
@@ -451,12 +355,6 @@ definition
 									ELEMENT[at0162] occurrences matches {0..1} matches {    -- Global Health Overall Score
 										value matches {
 											DV_COUNT matches {*}
-										}
-									}
-									ELEMENT[at0161] occurrences matches {0..1} matches {    -- Global Health Status Raw Score
-										value matches {
-											DV_COUNT matches {*}
-											DV_PROPORTION matches {*}
 										}
 									}
 								}
@@ -1115,10 +1013,6 @@ ontology
 					text = <"6">
 					description = <"">
 				>
-				["at0161"] = <
-					text = <"Global Health Status Raw Score">
-					description = <"">
-				>
 				["at0162"] = <
 					text = <"Global Health Overall Score">
 					description = <"">
@@ -1127,124 +1021,60 @@ ontology
 					text = <"Physical Function Overall Score">
 					description = <"">
 				>
-				["at0171"] = <
-					text = <"Role Function Raw Score">
-					description = <"">
-				>
 				["at0172"] = <
 					text = <"Role Function Overall Score">
-					description = <"">
-				>
-				["at0173"] = <
-					text = <"Shortness of Breath Raw Score">
 					description = <"">
 				>
 				["at0174"] = <
 					text = <"Shortness of Breath Overall Score">
 					description = <"">
 				>
-				["at0175"] = <
-					text = <"Pain Raw Score">
-					description = <"">
-				>
 				["at0176"] = <
 					text = <"Pain Overall Score">
-					description = <"">
-				>
-				["at0177"] = <
-					text = <"Fatigue Raw Score">
 					description = <"">
 				>
 				["at0178"] = <
 					text = <"Fatigue Overall Score">
 					description = <"">
 				>
-				["at0179"] = <
-					text = <"Insomnia Raw Score">
-					description = <"">
-				>
 				["at0180"] = <
 					text = <"Insomnia Overall Score">
-					description = <"">
-				>
-				["at0182"] = <
-					text = <"Appetite Raw Score">
 					description = <"">
 				>
 				["at0183"] = <
 					text = <"Appetite Overall Score">
 					description = <"">
 				>
-				["at0184"] = <
-					text = <"Nausea Vomiting Raw Score">
-					description = <"">
-				>
 				["at0185"] = <
 					text = <"Nausea Vomiting Overall Score">
-					description = <"">
-				>
-				["at0186"] = <
-					text = <"Constipated Raw Score">
 					description = <"">
 				>
 				["at0187"] = <
 					text = <"Constipated Overall Score">
 					description = <"">
 				>
-				["at0188"] = <
-					text = <"Diarrhoea Raw Score">
-					description = <"">
-				>
 				["at0189"] = <
 					text = <"Diarrhoea Overall Score">
-					description = <"">
-				>
-				["at0190"] = <
-					text = <"Cognitive Function Raw Score">
 					description = <"">
 				>
 				["at0191"] = <
 					text = <"Cognitive Function Overall Score">
 					description = <"">
 				>
-				["at0192"] = <
-					text = <"Emotional Functioning Raw Score">
-					description = <"">
-				>
 				["at0193"] = <
 					text = <"Emotional Functioning Overall Score">
-					description = <"">
-				>
-				["at0194"] = <
-					text = <"Social Functioning Raw Score">
 					description = <"">
 				>
 				["at0195"] = <
 					text = <"Social Functioning Overall Score">
 					description = <"">
 				>
-				["at0196"] = <
-					text = <"Financial Difficulties Raw Score">
-					description = <"">
-				>
 				["at0197"] = <
 					text = <"Financial Difficulties Overall Score">
 					description = <"">
 				>
-				["at0198"] = <
-					text = <"Physical Function Raw Score">
-					description = <"">
-				>
 				["at0199"] = <
 					text = <"7">
-					description = <"">
-				>
-				["at0200"] = <
-					text = <"Physical Function Overall Score">
-					description = <"">
-				>
-				["at0201"] = <
-					text = <"Physical Function Raw Score">
 					description = <"">
 				>
 			>
