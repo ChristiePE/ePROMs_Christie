@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"af1d0d183c22fdacd28d09b6ebc50b8d">
+		["MD5-CAM-1.0.1"] = <"56851b04a7f453ef4846c317abc992b2">
 		["build_uid"] = <"d59c1748-8197-3d76-8e5a-82b35eac9baa">
 	>
 
@@ -87,6 +87,16 @@ definition
 												precision matches {|1|}
 											}
 											DV_COUNT matches {*}
+										}
+									}
+									ELEMENT[at0200] occurrences matches {0..1} matches {    -- Physical Function Overall Score
+										value matches {
+											DV_QUANTITY matches {*}
+										}
+									}
+									ELEMENT[at0201] occurrences matches {0..1} matches {    -- Physical Function Raw Score
+										value matches {
+											DV_QUANTITY matches {*}
 										}
 									}
 									ELEMENT[at0030] occurrences matches {0..1} matches {    -- Were you limited in doing either your work or other daily activities
@@ -1227,6 +1237,14 @@ ontology
 				>
 				["at0199"] = <
 					text = <"7">
+					description = <"">
+				>
+				["at0200"] = <
+					text = <"Physical Function Overall Score">
+					description = <"">
+				>
+				["at0201"] = <
+					text = <"Physical Function Raw Score">
 					description = <"">
 				>
 			>
