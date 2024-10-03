@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c915022f1e67dd59663e08134878053c",
+      "MD5-CAM-1.0.1" : "3cc55ba94ebf03bc133f48fb7ef04c1f",
       "PARENT:MD5-CAM-1.0.1" : "e2996d95155b102d2e83646f9ae26f42"
     },
     "details" : {
@@ -887,7 +887,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "869a7898191cb9217805dd96d87352b9"
+        "PARENT:MD5-CAM-1.0.1" : "5a2a3ca901001a9c6f5ff4962e0eb7c6"
       },
       "details" : {
         "en" : {
@@ -1077,6 +1077,13 @@
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0091.1",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0088.1",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
                     } ]
@@ -1563,7 +1570,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "0d059c05701b519dfb386e703f3d64bb"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
@@ -1614,7 +1634,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "0d059c05701b519dfb386e703f3d64bb"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.eproms_eq_5d_5l.v0",
     "differential" : true,
