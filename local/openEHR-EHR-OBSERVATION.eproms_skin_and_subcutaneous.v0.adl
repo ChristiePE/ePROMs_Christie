@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5a2a3ca901001a9c6f5ff4962e0eb7c6">
+		["MD5-CAM-1.0.1"] = <"33d8f9d8e4a45a3db80a511affac0e7f">
 		["build_uid"] = <"c77e96b9-3d1e-3996-8dd2-60e812dd1a4e">
 	>
 
@@ -184,6 +184,11 @@ definition
 									}
 									CLUSTER[at0100] occurrences matches {0..1} matches {    -- New_Lumps_Swollen_Glands
 										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0104] occurrences matches {0..1} matches {    -- Have you noticed any new lumps?
+												value matches {
+													DV_ORDINAL matches {*}
+												}
+											}
 											ELEMENT[at0101] occurrences matches {0..1} matches {    -- Existing_lumps
 												value matches {
 													0|[local::at0102],
@@ -594,6 +599,10 @@ New question: How would you describe the skin in the area you had radiotherapy t
 				["at0103"] = <
 					text = <"Yes">
 					description = <"">
+				>
+				["at0104"] = <
+					text = <"Have you noticed any new lumps?">
+					description = <"Have you noticed any new lumps?">
 				>
 			>
 		>
