@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1a3074ad0b75f54debe15ba458939e15">
+		["MD5-CAM-1.0.1"] = <"d98794331246e64a9ce611ad613457d9">
 		["build_uid"] = <"a80e794c-63f4-393a-9412-1d2c8679781f">
 	>
 
@@ -356,38 +356,74 @@ definition
 											4|[local::at0204]
 										}
 									}
-									CLUSTER[at0210] occurrences matches {0..1} matches {    -- Have you gained weight?
+									CLUSTER[at0229] occurrences matches {0..1} matches {    -- Weight Gain
 										items cardinality matches {1..*; unordered} matches {
-											ELEMENT[at0211] occurrences matches {0..1} matches {    -- Has it been a problem for you?
+											ELEMENT[at0230] occurrences matches {0..1} matches {    -- Have you gained weight?
 												value matches {
-													1|[local::at0212],
-													2|[local::at0213],
-													3|[local::at0214],
-													4|[local::at0215]
+													0|[local::at0231],
+													1|[local::at0232]
 												}
 											}
-											CLUSTER[at0216] occurrences matches {0..1} matches {    -- Have you lost weight?
-												items cardinality matches {1..*; unordered} matches {
-													ELEMENT[at0217] occurrences matches {0..1} matches {    -- Has it been a problem for you?
-														value matches {
-															1|[local::at0218],
-															2|[local::at0219],
-															3|[local::at0220],
-															4|[local::at0221]
-														}
-													}
-													CLUSTER[at0222] occurrences matches {0..1} matches {    -- Do you have caring responsibilities for others (e.g., children, parents)?
-														items cardinality matches {1..*; unordered} matches {
-															ELEMENT[at0223] occurrences matches {0..1} matches {    -- have you worried about your ability to care for others?
-																value matches {
-																	1|[local::at0224],
-																	2|[local::at0225],
-																	3|[local::at0226],
-																	4|[local::at0227]
-																}
-															}
-														}
-													}
+											ELEMENT[at0233] occurrences matches {0..1} matches {    -- Has it been a problem for you?
+												value matches {
+													1|[local::at0234],
+													2|[local::at0235],
+													3|[local::at0236],
+													4|[local::at0237]
+												}
+											}
+										}
+									}
+									CLUSTER[at0238] occurrences matches {0..1} matches {    -- Have you lost weight?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0239] occurrences matches {0..1} matches {    -- Have you lost weight?
+												value matches {
+													0|[local::at0240],
+													1|[local::at0241]
+												}
+											}
+											ELEMENT[at0242] occurrences matches {0..1} matches {    -- Has it been a problem for you?
+												value matches {
+													1|[local::at0243],
+													2|[local::at0244],
+													3|[local::at0245],
+													4|[local::at0246]
+												}
+											}
+										}
+									}
+									CLUSTER[at0247] occurrences matches {0..1} matches {    -- Do you have caring responsibilities for others (e.g., children, parents)?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0248] occurrences matches {0..1} matches {    -- Do you have caring responsibilities for others (e.g., children, parents)?
+												value matches {
+													0|[local::at0249],
+													1|[local::at0250]
+												}
+											}
+											ELEMENT[at0251] occurrences matches {0..1} matches {    -- have you worried about your ability to care for others?
+												value matches {
+													1|[local::at0252],
+													2|[local::at0253],
+													3|[local::at0254],
+													4|[local::at0255]
+												}
+											}
+										}
+									}
+									CLUSTER[at0257] occurrences matches {0..1} matches {    -- Have you had to change where you live?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0258] occurrences matches {0..1} matches {    -- Have you had to change where you live?
+												value matches {
+													0|[local::at0259],
+													1|[local::at0260]
+												}
+											}
+											ELEMENT[at0261] occurrences matches {0..1} matches {    -- has it been a problem for you?
+												value matches {
+													1|[local::at0262],
+													2|[local::at0263],
+													3|[local::at0264],
+													4|[local::at0265]
 												}
 											}
 										}
@@ -400,11 +436,7 @@ definition
 			}
 		}
 		protocol matches {
-			ITEM_TREE[at0004] matches {    -- Item tree
-				items cardinality matches {0..*; unordered} matches {
-					CLUSTER[at0209] occurrences matches {0..1} matches {*}    -- CLUSTER
-				}
-			}
+			ITEM_TREE[at0004] matches {*}    -- Item tree
 		}
 	}
 
@@ -436,7 +468,6 @@ ontology
 					text = <"Have you lacked energy">
 					description = <"During the past week, because of your disease or treatment:
 ">
-					comment = <"Quality of life + Functional ability + Fatigue">
 				>
 				["at0006"] = <
 					text = <"Not at all">
@@ -457,7 +488,6 @@ ontology
 				["at0010"] = <
 					text = <"Have you been watching yourself closely for any new symptoms of disease">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Functional ability + Fatigue">
 				>
 				["at0011"] = <
 					text = <"Not at all">
@@ -478,7 +508,6 @@ ontology
 				["at0015"] = <
 					text = <"Have you had problems with mobility">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Functional ability">
 				>
 				["at0016"] = <
 					text = <"Not at all">
@@ -499,7 +528,6 @@ ontology
 				["at0020"] = <
 					text = <"Have you had problems taking part in social activities (e.g., meeting friends or family)">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0021"] = <
 					text = <"Not at all">
@@ -520,7 +548,6 @@ ontology
 				["at0025"] = <
 					text = <"Have you felt isolated from your friends">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0026"] = <
 					text = <"Not at all">
@@ -541,7 +568,6 @@ ontology
 				["at0030"] = <
 					text = <"Have you worried that people are treating you differently">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0031"] = <
 					text = <"Not at all">
@@ -562,7 +588,6 @@ ontology
 				["at0035"] = <
 					text = <"Have you felt bored">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0036"] = <
 					text = <"Not at all">
@@ -583,7 +608,6 @@ ontology
 				["at0040"] = <
 					text = <"Have you felt stressed">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0041"] = <
 					text = <"Not at all">
@@ -604,7 +628,6 @@ ontology
 				["at0045"] = <
 					text = <"Have you spent long periods of time thinking about your disease?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0046"] = <
 					text = <"Not at all">
@@ -625,7 +648,6 @@ ontology
 				["at0050"] = <
 					text = <"Have you worried about your health in the future?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0051"] = <
 					text = <"Not at all">
@@ -646,7 +668,6 @@ ontology
 				["at0055"] = <
 					text = <"Have you worried about dying?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0056"] = <
 					text = <"Not at all">
@@ -667,7 +688,6 @@ ontology
 				["at0060"] = <
 					text = <"Have you worried about getting infections?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0061"] = <
 					text = <"Not at all">
@@ -688,7 +708,6 @@ ontology
 				["at0065"] = <
 					text = <"Have you felt restricted in the types of food and drink you can have?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0066"] = <
 					text = <"Not at all">
@@ -709,7 +728,6 @@ ontology
 				["at0070"] = <
 					text = <"Has your family been negatively affected?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0071"] = <
 					text = <"Not at all">
@@ -730,7 +748,6 @@ ontology
 				["at0075"] = <
 					text = <"Have your friends been negatively affected?">
 					description = <"During the past week, because of your disease or treatment:">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0076"] = <
 					text = <"Not at all">
@@ -752,7 +769,6 @@ ontology
 					text = <"Have you worried you might have to change your career plans?">
 					description = <"In general, because of your disease or treatment:
 ">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0081"] = <
 					text = <"Not at all">
@@ -774,7 +790,6 @@ ontology
 					text = <"Have you had problems making plans for the future?">
 					description = <"In general, because of your disease or treatment:
 ">
-					comment = <"Quality of life + Life threatening infections">
 				>
 				["at0086"] = <
 					text = <"Not at all">
@@ -795,102 +810,82 @@ ontology
 				["at0090"] = <
 					text = <"Have you been dependent on others?">
 					description = <"In general, because of your disease or treatment: ">
-					comment = <"Quality of life + Functional ability">
 				>
 				["at0091"] = <
 					text = <"Have you lost friendships?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0092"] = <
 					text = <"Has your romantic life been negatively affected?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0093"] = <
 					text = <"Has your sex life been negatively affected?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0094"] = <
 					text = <"Have you worried about changes to your appearance?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0095"] = <
 					text = <"Have you lacked self-confidence?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0096"] = <
 					text = <"Have you felt that you have lost control over your life?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0097"] = <
 					text = <"Have you become more negative about life?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0098"] = <
 					text = <"Have you worried about your disease or treatment causing your health problems in the future?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0099"] = <
 					text = <"Have you worried about your ability to have children?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + fertility / infertility">
 				>
 				["at0100"] = <
 					text = <"Have you worried about passing cancer on to the next generation?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + fertility / infertility">
 				>
 				["at0101"] = <
 					text = <"Have you felt that it is unfair that you became ill?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + fertility / infertility">
 				>
 				["at0102"] = <
 					text = <"Has your relationship with any of your family members improved?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0103"] = <
 					text = <"Has your relationship with any of your friends improved?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0104"] = <
 					text = <"Have you made new friends?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0105"] = <
 					text = <"Have you become more confident?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0106"] = <
 					text = <"Have you become mentally stronger?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0107"] = <
 					text = <"Have you felt more mature?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0108"] = <
 					text = <"Have you made positive lifestyle changes (e.g., healthy eating, exercise)?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0109"] = <
 					text = <"Have you become more positive about life?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Social activity / interaction">
 				>
 				["at0110"] = <
 					text = <"Not at all">
@@ -1215,12 +1210,10 @@ ontology
 				["at0190"] = <
 					text = <"Have you felt more motivated to live life to the full?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0191"] = <
 					text = <"Have you felt more motivated to achieve your personal goals?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0192"] = <
 					text = <"Not at all">
@@ -1257,7 +1250,6 @@ ontology
 				["at0200"] = <
 					text = <"Has your experience helped you to distinguish between important and non-important things in life?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Quality of life + Changes to life goals">
 				>
 				["at0201"] = <
 					text = <"Not at all">
@@ -1275,87 +1267,147 @@ ontology
 					text = <"Very much">
 					description = <"">
 				>
-				["at0209"] = <
-					text = <"CLUSTER">
+				["at0229"] = <
+					text = <"Weight Gain">
 					description = <"">
 				>
-				["at0210"] = <
+				["at0230"] = <
 					text = <"Have you gained weight?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Yes/No options only">
-					No = <"0">
-					Yes = <"1">
 				>
-				["at0211"] = <
+				["at0231"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0232"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0233"] = <
 					text = <"Has it been a problem for you?">
-					description = <"If Yes, show the question">
-					comment = <"Quality of life + Changes to life goals">
+					description = <"">
 				>
-				["at0212"] = <
+				["at0234"] = <
 					text = <"Not at all">
 					description = <"">
 				>
-				["at0213"] = <
+				["at0235"] = <
 					text = <"A little">
 					description = <"">
 				>
-				["at0214"] = <
+				["at0236"] = <
 					text = <"Quite a bit">
 					description = <"">
 				>
-				["at0215"] = <
+				["at0237"] = <
 					text = <"Very much">
 					description = <"">
 				>
-				["at0216"] = <
+				["at0238"] = <
+					text = <"Have you lost weight?">
+					description = <"">
+				>
+				["at0239"] = <
 					text = <"Have you lost weight?">
 					description = <"In general, because of your disease or treatment:">
-					comment = <"Yes/No options only">
 				>
-				["at0217"] = <
+				["at0240"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0241"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0242"] = <
 					text = <"Has it been a problem for you?">
-					description = <"If Yes, show the question">
-					comment = <"Quality of life + Changes to life goals">
+					description = <"">
 				>
-				["at0218"] = <
+				["at0243"] = <
 					text = <"Not at all">
 					description = <"">
 				>
-				["at0219"] = <
+				["at0244"] = <
 					text = <"A little">
 					description = <"">
 				>
-				["at0220"] = <
+				["at0245"] = <
 					text = <"Quite a bit">
 					description = <"">
 				>
-				["at0221"] = <
+				["at0246"] = <
 					text = <"Very much">
 					description = <"">
 				>
-				["at0222"] = <
+				["at0247"] = <
 					text = <"Do you have caring responsibilities for others (e.g., children, parents)?">
 					description = <"">
-					comment = <"Yes/No options only">
 				>
-				["at0223"] = <
+				["at0248"] = <
+					text = <"Do you have caring responsibilities for others (e.g., children, parents)?">
+					description = <"In general, because of your disease or treatment:">
+				>
+				["at0249"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0250"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0251"] = <
 					text = <"have you worried about your ability to care for others?">
-					description = <"If Yes, show the question">
-					comment = <"Quality of life + Changes to life goals">
+					description = <"">
 				>
-				["at0224"] = <
+				["at0252"] = <
 					text = <"Not at all">
 					description = <"">
 				>
-				["at0225"] = <
+				["at0253"] = <
 					text = <"A little">
 					description = <"">
 				>
-				["at0226"] = <
+				["at0254"] = <
 					text = <"Quite a bit">
 					description = <"">
 				>
-				["at0227"] = <
+				["at0255"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0257"] = <
+					text = <"Have you had to change where you live?">
+					description = <"">
+				>
+				["at0258"] = <
+					text = <"Have you had to change where you live?">
+					description = <"In general, because of your disease or treatment:">
+				>
+				["at0259"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0260"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0261"] = <
+					text = <"has it been a problem for you?">
+					description = <"">
+				>
+				["at0262"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0263"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0264"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0265"] = <
 					text = <"Very much">
 					description = <"">
 				>
