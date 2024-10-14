@@ -23,7 +23,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7ca32e14316cd3fe3a67254b068329e4">
+		["MD5-CAM-1.0.1"] = <"e4f02e6b1cee46699a56835dae0aba45">
 		["build_uid"] = <"a80e794c-63f4-393a-9412-1d2c8679781f">
 	>
 
@@ -354,6 +354,42 @@ definition
 											2|[local::at0202],
 											3|[local::at0203],
 											4|[local::at0204]
+										}
+									}
+									CLUSTER[at0210] occurrences matches {0..1} matches {    -- Have you gained weight?
+										items cardinality matches {1..*; unordered} matches {
+											ELEMENT[at0211] occurrences matches {0..1} matches {    -- Has it been a problem for you?
+												value matches {
+													1|[local::at0212],
+													2|[local::at0213],
+													3|[local::at0214],
+													4|[local::at0215]
+												}
+											}
+											CLUSTER[at0216] occurrences matches {0..1} matches {    -- Have you lost weight?
+												items cardinality matches {1..*; unordered} matches {
+													ELEMENT[at0217] occurrences matches {0..1} matches {    -- Has it been a problem for you?
+														value matches {
+															1|[local::at0218],
+															2|[local::at0219],
+															3|[local::at0220],
+															4|[local::at0221]
+														}
+													}
+													CLUSTER[at0222] occurrences matches {0..1} matches {    -- Do you have caring responsibilities for others (e.g., children, parents)?
+														items cardinality matches {1..*; unordered} matches {
+															ELEMENT[at0223] occurrences matches {0..1} matches {    -- have you worried about your ability to care for others?
+																value matches {
+																	1|[local::at0224],
+																	2|[local::at0225],
+																	3|[local::at0226],
+																	4|[local::at0227]
+																}
+															}
+														}
+													}
+												}
+											}
 										}
 									}
 								}
@@ -1241,6 +1277,84 @@ ontology
 				>
 				["at0209"] = <
 					text = <"CLUSTER">
+					description = <"">
+				>
+				["at0210"] = <
+					text = <"Have you gained weight?">
+					description = <"In general, because of your disease or treatment:">
+					comment = <"Yes/No options only">
+				>
+				["at0211"] = <
+					text = <"Has it been a problem for you?">
+					description = <"If Yes, show the question">
+					comment = <"Quality of life + Changes to life goals">
+				>
+				["at0212"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0213"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0214"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0215"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0216"] = <
+					text = <"Have you lost weight?">
+					description = <"In general, because of your disease or treatment:">
+					comment = <"Yes/No options only">
+				>
+				["at0217"] = <
+					text = <"Has it been a problem for you?">
+					description = <"If Yes, show the question">
+					comment = <"Quality of life + Changes to life goals">
+				>
+				["at0218"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0219"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0220"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0221"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0222"] = <
+					text = <"Do you have caring responsibilities for others (e.g., children, parents)?">
+					description = <"">
+					comment = <"Yes/No options only">
+				>
+				["at0223"] = <
+					text = <"have you worried about your ability to care for others?">
+					description = <"If Yes, show the question">
+					comment = <"Quality of life + Changes to life goals">
+				>
+				["at0224"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0225"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0226"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0227"] = <
+					text = <"Very much">
 					description = <"">
 				>
 			>
