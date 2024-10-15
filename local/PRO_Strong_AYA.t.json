@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "5d9388af002ab101f794c28832bfb752",
+      "MD5-CAM-1.0.1" : "52844d826b689c36e52d5ac0aa96afa9",
       "PARENT:MD5-CAM-1.0.1" : "d5d3f76a6640f90ff77c65d41bf9143c"
     },
     "details" : {
@@ -108,6 +108,15 @@
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-eortc_qlq_aya-001.v0",
+        "referenceType" : "archetypeOverlay"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "OBSERVATION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.6",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-hads_scale-001.v0",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -276,7 +285,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "1a3074ad0b75f54debe15ba458939e15"
+        "PARENT:MD5-CAM-1.0.1" : "8e4e08504e8f091d8d2e6e92761527bd"
       },
       "details" : {
         "en" : {
@@ -318,6 +327,57 @@
     },
     "adlVersion" : "1.4",
     "buildUid" : "a80e794c-63f4-393a-9412-1d2c8679781f",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "65e51e56-9042-4f69-aeac-73c63ff62ba1",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "82bf4cf73fbc6f7b19698ec3c14ff4e0"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.hads_scale.v0",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-OBSERVATION.ovl-hads_scale-001.v0"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "OBSERVATION",
+      "nodeId" : "at0000.1",
+      "attributes" : [ ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "cada50c6-39ba-49bd-82d2-4ff1cd8c7d36",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
