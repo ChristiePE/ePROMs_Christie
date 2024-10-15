@@ -28,7 +28,7 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"UK Clinical Models">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"81A319831DD4FA45A4216456CDE540CD">
+		["MD5-CAM-1.0.1"] = <"82bf4cf73fbc6f7b19698ec3c14ff4e0">
 		["build_uid"] = <"cada50c6-39ba-49bd-82d2-4ff1cd8c7d36">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -197,6 +197,78 @@ definition
 					allow_archetype CLUSTER[at0078] occurrences matches {0..*} matches {    -- Extension
 						include
 							archetype_id/value matches {/.*/}
+					}
+					ELEMENT[at0082] occurrences matches {0..1} matches {    -- I feel tense or 'wound up'
+						value matches {
+							3|[local::at0083],
+							2|[local::at0084],
+							1|[local::at0085],
+							0|[local::at0086]
+						}
+					}
+					ELEMENT[at0087] occurrences matches {0..1} matches {    -- I get a sort of frightened feeling as if something awful is about to happen
+						value matches {
+							3|[local::at0088],
+							2|[local::at0089],
+							1|[local::at0090],
+							0|[local::at0091]
+						}
+					}
+					ELEMENT[at0092] occurrences matches {0..1} matches {    -- I can laugh and see the funny side of things
+						value matches {
+							0|[local::at0093],
+							1|[local::at0094],
+							2|[local::at0095],
+							3|[local::at0096]
+						}
+					}
+					ELEMENT[at0097] occurrences matches {0..1} matches {    -- I feel cheerful
+						value matches {
+							3|[local::at0098],
+							2|[local::at0099],
+							1|[local::at0100],
+							0|[local::at0101]
+						}
+					}
+					ELEMENT[at0102] occurrences matches {0..1} matches {    -- I can sit at ease and feel relaxed
+						value matches {
+							0|[local::at0103],
+							1|[local::at0104],
+							2|[local::at0105],
+							3|[local::at0106]
+						}
+					}
+					ELEMENT[at0107] occurrences matches {0..1} matches {    -- I have lost interest in my appearance
+						value matches {
+							3|[local::at0108],
+							2|[local::at0109],
+							1|[local::at0110],
+							0|[local::at0111]
+						}
+					}
+					ELEMENT[at0112] occurrences matches {0..1} matches {    -- I look forward with enjoyment to things
+						value matches {
+							0|[local::at0113],
+							1|[local::at0114],
+							2|[local::at0115],
+							3|[local::at0116]
+						}
+					}
+					ELEMENT[at0117] occurrences matches {0..1} matches {    -- I get sudden feelings of panic
+						value matches {
+							3|[local::at0118],
+							2|[local::at0119],
+							1|[local::at0120],
+							0|[local::at0121]
+						}
+					}
+					ELEMENT[at0122] occurrences matches {0..1} matches {    -- I can enjoy a good book or radio or TV program
+						value matches {
+							3|[local::at0123],
+							2|[local::at0124],
+							1|[local::at0125],
+							0|[local::at0126]
+						}
 					}
 				}
 			}
@@ -531,6 +603,186 @@ ontology
 				["at0080"] = <
 					text = <"Confounding factors">
 					description = <"Narrative record of factors that may have contributed to the HADS score.">
+				>
+				["at0082"] = <
+					text = <"I feel tense or 'wound up'">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"A lot of the time">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"From time to time, occasionally">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0087"] = <
+					text = <"I get a sort of frightened feeling as if something awful is about to happen">
+					description = <"">
+				>
+				["at0088"] = <
+					text = <"Very definitely and quite badly">
+					description = <"">
+				>
+				["at0089"] = <
+					text = <"Yes, but not too badly">
+					description = <"">
+				>
+				["at0090"] = <
+					text = <"A little, but it doesn’t worry me">
+					description = <"">
+				>
+				["at0091"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0092"] = <
+					text = <"I can laugh and see the funny side of things">
+					description = <"">
+				>
+				["at0093"] = <
+					text = <"As much as I always could">
+					description = <"">
+				>
+				["at0094"] = <
+					text = <"Not quite so much now">
+					description = <"">
+				>
+				["at0095"] = <
+					text = <"Definitely not so much now">
+					description = <"">
+				>
+				["at0096"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0097"] = <
+					text = <"I feel cheerful">
+					description = <"">
+				>
+				["at0098"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0099"] = <
+					text = <"Not often">
+					description = <"">
+				>
+				["at0100"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0101"] = <
+					text = <"Most of the time">
+					description = <"">
+				>
+				["at0102"] = <
+					text = <"I can sit at ease and feel relaxed">
+					description = <"">
+				>
+				["at0103"] = <
+					text = <"Definitely">
+					description = <"">
+				>
+				["at0104"] = <
+					text = <"Usually">
+					description = <"">
+				>
+				["at0105"] = <
+					text = <"Not often">
+					description = <"">
+				>
+				["at0106"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0107"] = <
+					text = <"I have lost interest in my appearance">
+					description = <"">
+				>
+				["at0108"] = <
+					text = <"Definitely">
+					description = <"">
+				>
+				["at0109"] = <
+					text = <"I don’t take as much care as I should">
+					description = <"">
+				>
+				["at0110"] = <
+					text = <"I may not take quite as much care">
+					description = <"">
+				>
+				["at0111"] = <
+					text = <"I take as much care as ever">
+					description = <"">
+				>
+				["at0112"] = <
+					text = <"I look forward with enjoyment to things">
+					description = <"">
+				>
+				["at0113"] = <
+					text = <"As much as I ever did">
+					description = <"">
+				>
+				["at0114"] = <
+					text = <"Rather less than I used to">
+					description = <"">
+				>
+				["at0115"] = <
+					text = <"Definitely less than I used to">
+					description = <"">
+				>
+				["at0116"] = <
+					text = <"Hardly at all">
+					description = <"">
+				>
+				["at0117"] = <
+					text = <"I get sudden feelings of panic">
+					description = <"">
+				>
+				["at0118"] = <
+					text = <"Very often indeed">
+					description = <"">
+				>
+				["at0119"] = <
+					text = <"Quite often">
+					description = <"">
+				>
+				["at0120"] = <
+					text = <"Not very often">
+					description = <"">
+				>
+				["at0121"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0122"] = <
+					text = <"I can enjoy a good book or radio or TV program">
+					description = <"">
+				>
+				["at0123"] = <
+					text = <"Often">
+					description = <"">
+				>
+				["at0124"] = <
+					text = <"Sometimes">
+					description = <"">
+				>
+				["at0125"] = <
+					text = <"Not often">
+					description = <"">
+				>
+				["at0126"] = <
+					text = <"Very seldom">
+					description = <"">
 				>
 			>
 		>
