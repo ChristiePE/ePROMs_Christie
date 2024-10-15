@@ -1,0 +1,534 @@
+archetype (adl_version=1.4; uid=63b805ac-7143-4eec-9298-85afe9bdc3fe)
+	openEHR-EHR-OBSERVATION.comprehensive_score_for_financial_toxicity_cost.v0
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::en]>
+
+description
+	original_author = <
+		["date"] = <"2024-10-15">
+	>
+	lifecycle_state = <"unmanaged">
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+		>
+	>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"45d2a840e901d6354b20e311345e5159">
+		["build_uid"] = <"e117e6e2-0582-3cb7-b60e-c792566431fa">
+	>
+
+definition
+	OBSERVATION[at0000] matches {    -- Comprehensive Score for Financial Toxicity COST
+		data matches {
+			HISTORY[at0001] matches {    -- History
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {    -- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0010] occurrences matches {0..1} matches {    -- Instructions
+										value matches {
+											DV_CODED_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- I know that I have enough money in savings, retirement, or assets to cover the costs of my treatment
+										value matches {
+											0|[local::at0005],
+											1|[local::at0006],
+											2|[local::at0007],
+											3|[local::at0008],
+											4|[local::at0009]
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..1} matches {    -- My out-of-pocket medical expenses are more than I thought they would be
+										value matches {
+											0|[local::at0012],
+											1|[local::at0013],
+											2|[local::at0014],
+											3|[local::at0015],
+											4|[local::at0016]
+										}
+									}
+									ELEMENT[at0017] occurrences matches {0..1} matches {    -- I worry about the financial problems I will have in the future as a result of my illness or treatment
+										value matches {
+											0|[local::at0018],
+											1|[local::at0019],
+											2|[local::at0020],
+											3|[local::at0021],
+											4|[local::at0022]
+										}
+									}
+									ELEMENT[at0023] occurrences matches {0..1} matches {    -- I feel I have no choice about the amount of money I spend on care
+										value matches {
+											0|[local::at0024],
+											1|[local::at0025],
+											2|[local::at0026],
+											3|[local::at0027],
+											4|[local::at0028]
+										}
+									}
+									ELEMENT[at0029] occurrences matches {0..1} matches {    -- I am frustrated that I cannot work or contribute as much as I usually do
+										value matches {
+											0|[local::at0030],
+											1|[local::at0031],
+											2|[local::at0032],
+											3|[local::at0033],
+											4|[local::at0034]
+										}
+									}
+									ELEMENT[at0035] occurrences matches {0..1} matches {    -- I am satisfied with my current financial situation
+										value matches {
+											0|[local::at0036],
+											1|[local::at0037],
+											2|[local::at0038],
+											3|[local::at0039],
+											4|[local::at0040]
+										}
+									}
+									ELEMENT[at0041] occurrences matches {0..1} matches {    -- I am able to meet my monthly expenses
+										value matches {
+											0|[local::at0042],
+											1|[local::at0043],
+											2|[local::at0044],
+											3|[local::at0045],
+											4|[local::at0046]
+										}
+									}
+									ELEMENT[at0047] occurrences matches {0..1} matches {    -- I feel financially stressed
+										value matches {
+											0|[local::at0048],
+											1|[local::at0049],
+											2|[local::at0050],
+											3|[local::at0051],
+											4|[local::at0052]
+										}
+									}
+									ELEMENT[at0053] occurrences matches {0..1} matches {    -- I am concerned about keeping my job and income, including paid work at home
+										value matches {
+											0|[local::at0054],
+											1|[local::at0055],
+											2|[local::at0056],
+											3|[local::at0057],
+											4|[local::at0058]
+										}
+									}
+									ELEMENT[at0059] occurrences matches {0..1} matches {    -- My cancer or treatment has reduced my satisfaction with my present financial situation
+										value matches {
+											0|[local::at0060],
+											1|[local::at0061],
+											2|[local::at0062],
+											3|[local::at0063],
+											4|[local::at0064]
+										}
+									}
+									ELEMENT[at0065] occurrences matches {0..1} matches {    -- I feel in control of my financial situation
+										value matches {
+											0|[local::at0066],
+											1|[local::at0067],
+											2|[local::at0068],
+											3|[local::at0069],
+											4|[local::at0070]
+										}
+									}
+									ELEMENT[at0071] occurrences matches {0..1} matches {    -- My illness has been a financial hardship to my family and me
+										value matches {
+											0|[local::at0072],
+											1|[local::at0073],
+											2|[local::at0074],
+											3|[local::at0075],
+											4|[local::at0076]
+										}
+									}
+									ELEMENT[at0077] occurrences matches {0..1} matches {    -- Did you receive support tailored to what you perceive as important/specific to your age, e.g., education/work, social relationships, caring for family members etc)?
+										value matches {
+											0|[local::at0078],
+											1|[local::at0079],
+											2|[local::at0080]
+										}
+									}
+									ELEMENT[at0081] occurrences matches {0..1} matches {    -- Do you feel that your healthcare professionals understood your concerns regarding the impact of cancer and/or treatment?
+										value matches {
+											1|[local::at0082],
+											2|[local::at0083],
+											3|[local::at0084],
+											4|[local::at0085]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		protocol matches {
+			ITEM_TREE[at0086] matches {*}    -- Item tree
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Comprehensive Score for Financial Toxicity COST">
+					description = <"Comprehensive Score for Financial Toxicity COST">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"I know that I have enough money in savings, retirement, or assets to cover the costs of my treatment">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Instructions">
+					description = <"Below is a list of statements that other people with your illness have said are important. Please circle or mark one number per line to indicate your response as it applies to the past 7 days.">
+					comment = <"Please add the above in Form Builder as a header">
+				>
+				["at0011"] = <
+					text = <"My out-of-pocket medical expenses are more than I thought they would be">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Very muc">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"I worry about the financial problems I will have in the future as a result of my illness or treatment">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"I feel I have no choice about the amount of money I spend on care">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"I am frustrated that I cannot work or contribute as much as I usually do">
+					description = <"">
+				>
+				["at0030"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0031"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0032"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0033"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0034"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0035"] = <
+					text = <"I am satisfied with my current financial situation">
+					description = <"">
+				>
+				["at0036"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"I am able to meet my monthly expenses">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0045"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0046"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"I feel financially stressed">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"I am concerned about keeping my job and income, including paid work at home">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"My cancer or treatment has reduced my satisfaction with my present financial situation">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"I feel in control of my financial situation">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"My illness has been a financial hardship to my family and me">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"A little bit">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Somewhat">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Did you receive support tailored to what you perceive as important/specific to your age, e.g., education/work, social relationships, caring for family members etc)?">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"No">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Yes">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Unable to answer">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Do you feel that your healthcare professionals understood your concerns regarding the impact of cancer and/or treatment?">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Not at all">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"A little">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Quite a bit">
+					description = <"">
+				>
+				["at0085"] = <
+					text = <"Very much">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+			>
+		>
+	>
