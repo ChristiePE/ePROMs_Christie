@@ -21,8 +21,8 @@
       "custodian_namespace" : "",
       "sem_ver" : "0.1.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "f2bc92adab97d4980854518556a1b83a",
-      "PARENT:MD5-CAM-1.0.1" : "5c57f9521863bd91fe6f8ffb61f8da5a"
+      "MD5-CAM-1.0.1" : "dbd0a6e274aead056ec0040a7da83084",
+      "PARENT:MD5-CAM-1.0.1" : "f1596ca661f912e55aa7fb173d89b4df"
     },
     "details" : {
       "en" : {
@@ -50,6 +50,15 @@
     "rmTypeName" : "COMPOSITION",
     "nodeId" : "at0000.1",
     "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "context",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "EVENT_CONTEXT",
+        "attributes" : [ ],
+        "attributeTuples" : [ ]
+      } ]
+    }, {
       "@type" : "C_ATTRIBUTE",
       "rmAttributeName" : "content",
       "existence" : "0..1",
@@ -109,7 +118,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "554c05bfa52b178f3e1b49ccb57b22c0"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.pro_the_expanded_prostate_cancer_index_composite_epic_26.v1",
     "differential" : true,
